@@ -1,0 +1,402 @@
+[
+ {
+  "key": "01_philips_evnia",
+  "name": "Philips Evnia 27M2N3501PA/00",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1358592-monitor-led-27-265-284-philips-evnia-27m2n3501pa-00.html",
+  "last_price": 699
+ },
+ {
+  "key": "04_samsung_g6_350",
+  "name": "Samsung Odyssey G6 LS27FG602EUXEN",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-samsung-odyssey-g6-ls27fg602euxen-15540078/",
+  "last_price": 981
+ },
+ {
+  "key": "07_aoc_q27g4zr",
+  "name": "AOC Q27G4ZR",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1358598-monitor-led-27-265-284-aoc-q27g4zr.html",
+  "last_price": 789
+ },
+ {
+  "key": "08_lenovo_legion_27q10",
+  "name": "Lenovo Legion 27Q-10",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lenovo-legion-27q-10-68c6gac4eu-15400662/",
+  "last_price": 769
+ },
+ {
+  "key": "09_acer_nitro_xz273u",
+  "name": "Acer Nitro XZ273UX2bmiiprx",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1316076-monitor-led-27-265-284-acer-nitro-xz273ux2bmiiprx.html",
+  "last_price": 949
+ },
+ {
+  "key": "10_msi_mag274qf",
+  "name": "MSI MAG 274QF X24",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1356242-monitor-led-27-265-284-msi-mag-274qf-x24.html",
+  "last_price": 899
+ },
+ {
+  "key": "11_gigabyte_mo27q2a",
+  "name": "Gigabyte MO27Q2A",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1362011-monitor-led-27-265-284-gigabyte-mo27q2a.html",
+  "last_price": 1699
+ },
+ {
+  "key": "12_asus_tuf_vg27aqml5a",
+  "name": "Asus TUF Gaming VG27AQML5A",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-asus-tuf-gaming-vg27aqml5a-90lm0bg0-b02971-15399344/",
+  "last_price": 1145
+ },
+ {
+  "key": "13_asus_tuf_vg27aqm5a",
+  "name": "ASUS TUF Gaming VG27AQM5A",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-asus-tuf-gaming-vg27aqm5a-90lm0bg0-b01971-15346507/",
+  "last_price": 1184
+ },
+ {
+  "key": "16_gigabyte_gs27qx",
+  "name": "Gigabyte GS27Q X",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-gigabyte-gs27q-x-13224730/",
+  "last_price": 799
+ },
+ {
+  "key": "17_samsung_g6_ls27bg650",
+  "name": "Samsung Odyssey G6 LS27BG650EUXEN",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-samsung-odyssey-g6-ls27bg650euxen-12594610/",
+  "last_price": 1241
+ },
+ {
+  "key": "18_asus_rog_xg27acms",
+  "name": "ASUS ROG Strix XG27ACMS",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1348395-monitor-led-27-265-284-asus-rog-strix-xg27acms.html",
+  "last_price": 1599
+ },
+ {
+  "key": "21_asus_tuf_vg27aqml1aw",
+  "name": "ASUS TUF Gaming VG27AQML1A-W",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-asus-tuf-gaming-vg27aqml1a-w-90lm05z2-b01370-13848494/",
+  "last_price": 1409
+ },
+ {
+  "key": "23_gigabyte_go27q24",
+  "name": "Gigabyte GO27Q24",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1509854-monitor-led-27-265-284-gigabyte-go27q24.html",
+  "last_price": 1479
+ },
+ {
+  "key": "24_hp_omen_27qs",
+  "name": "HP OMEN 27qs",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1159598-monitor-led-27-265-284-hp-omen-27qs-qhd-ips-240hz-1ms-gaming.html",
+  "last_price": 1379
+ },
+ {
+  "key": "25_gigabyte_go27q24a",
+  "name": "Gigabyte GO27Q24A",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-gigabyte-go27q24a-600110538/",
+  "last_price": 1469
+ },
+ {
+  "key": "26_aoc_q27g41zdf",
+  "name": "AOC Q27G41ZDF",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1482520-monitor-led-27-265-284-aoc-q27g41zdf.html",
+  "last_price": 1499
+ },
+ {
+  "key": "27_aoc_q27g4zdr",
+  "name": "AOC Q27G4ZDR",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-aoc-q27g4zdr-qd-oled-15783022/",
+  "last_price": 1560
+ },
+ {
+  "key": "28_lg_ultragear_27gx704a",
+  "name": "LG UltraGear 27GX704A-B",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lg-ultragear-oled-27gx704a-b-15596908/",
+  "last_price": 1649
+ },
+ {
+  "key": "29_msi_mag271qp",
+  "name": "MSI MAG 271QP QD-OLED X24",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1344637-monitor-led-27-265-284-msi-mag-271qp-qd-oled-x24.html",
+  "last_price": 1699
+ },
+ {
+  "key": "30_msi_mag274qp",
+  "name": "MSI MAG 274QP QD-OLED X24",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1485760-monitor-led-27-265-284-msi-mag-274qp-qd-oled-x24.html",
+  "last_price": 1699
+ },
+ {
+  "key": "31_aoc_q27g4sru",
+  "name": "AOC Q27G4SRU",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-aoc-q27g4sru-15593071/",
+  "last_price": 1059
+ },
+ {
+  "key": "32_aoc_ag276qzd2",
+  "name": "AOC AGON PRO AG276QZD2",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1275674-monitor-led-27-265-284-aoc-agon-pro-ag276qzd2.html",
+  "last_price": 1799
+ },
+ {
+  "key": "33_aoc_q27g4zd",
+  "name": "AOC Q27G4ZD",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-aoc-q27g4zd-qd-oled-15762773/",
+  "last_price": 1569
+ },
+ {
+  "key": "34_gigabyte_go27q24g",
+  "name": "Gigabyte GO27Q24G",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1521854-monitor-led-27-265-284-gigabyte-go27q24g.html",
+  "last_price": 1549
+ },
+ {
+  "key": "35_lenovo_legionpro_27q10",
+  "name": "Lenovo Legion Pro 27Q-10",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lenovo-legion-pro-27q-10-qd-oled-68cfgacbeu-15493567/",
+  "last_price": 1663
+ },
+ {
+  "key": "36_samsung_g6_ls27hg612",
+  "name": "Samsung Odyssey G6 LS27HG612SUXEN",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-samsung-odyssey-g6-oled-ls27hg612suxen-15893464/",
+  "last_price": 1725
+ },
+ {
+  "key": "38_lenovo_legion_27qd10",
+  "name": "Lenovo Legion 27QD-10",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lenovo-legion-27qd-10-67d2uac1eu-15493565/",
+  "last_price": 830
+ },
+ {
+  "key": "39_lenovo_legion_27q10_oled",
+  "name": "Lenovo Legion 27Q-10 OLED",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lenovo-legion-27q-10-qd-oled-67e1gac1eu-15769090/",
+  "last_price": 1549
+ },
+ {
+  "key": "40_aoc_q27g4sdr",
+  "name": "AOC Q27G4SDR",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-aoc-q27g4sdr-qd-oled-15760902/",
+  "last_price": 1979
+ },
+ {
+  "key": "41_asus_rog_xg27wcms",
+  "name": "ASUS ROG Strix XG27WCMS",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1293193-monitor-led-27-26-5-28-4-asus-rog-strix-xg27wcms.html",
+  "last_price": 1549
+ },
+ {
+  "key": "42_philips_qdoled",
+  "name": "Philips Evnia 27M2N6501L/00",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1482518-monitor-led-27-26-5-28-4-philips-27m2n6501l-00.html",
+  "last_price": 1599
+ },
+ {
+  "key": "43_acer_ce270ux",
+  "name": "Acer CE270UXwmiipprx",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-acer-ce270uxwmiipprx-um-gcxee-x01-15815090/",
+  "last_price": 1597
+ },
+ {
+  "key": "44_acer_predator_x27uz1",
+  "name": "Acer Predator X27UZ1bmiiprx",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-acer-predator-x27uz1bmiiprx-qd-oled-um-gxxee-113-15549028/",
+  "last_price": 1798
+ },
+ {
+  "key": "45_dell_aw2723df",
+  "name": "Dell Alienware AW2723DF",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1160236-monitor-led-27-26-5-28-4-dell-alienware-aw2723df.html",
+  "last_price": 1689
+ },
+ {
+  "key": "46_hp_omen_27qs_g2",
+  "name": "HP OMEN 27qs G2 QHD 280Hz Gaming",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1471567-monitor-led-27-26-5-28-4-hp-omen-27qs-g2-qhd-280hz-gaming.html",
+  "last_price": 1689
+ },
+ {
+  "key": "47_acer_predator_x27uw3",
+  "name": "Acer Predator X27UW3bmiiprx",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1500331-monitor-led-27-265-284-acer-predator-x27uw3bmiiprx.html",
+  "last_price": 1499
+ },
+ {
+  "key": "48_alienware_aw2726dm",
+  "name": "Alienware AW2726DM",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1527567-monitor-led-27-265-284-dell-alienware-aw2726dm.html",
+  "last_price": 1449
+ },
+ {
+  "key": "49_msi_mag272qp",
+  "name": "MSI MAG 272QP QD-OLED X24",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1485759-monitor-led-27-265-284-msi-mag-272qp-qd-oled-x24.html",
+  "last_price": 1699
+ },
+ {
+  "key": "50_aoc_ag276qkd2",
+  "name": "AOC AGON PRO AG276QKD2",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1367824-monitor-led-27-265-284-aoc-agon-pro-ag276qkd2.html",
+  "last_price": 2549
+ },
+ {
+  "key": "52_samsung_g60sd",
+  "name": "Samsung Odyssey OLED G60SD",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-samsung-odyssey-g6-oled-ls27dg602suxen-13266324/",
+  "last_price": 2249
+ },
+ {
+  "key": "54_msi_mpg271qrx",
+  "name": "MSI MPG 271QRX QD-OLED",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-msi-mpg-271qrx-qd-oled-13177555/",
+  "last_price": 2397
+ },
+ {
+  "key": "55_msi_mag273qp",
+  "name": "MSI MAG 273QP QD-OLED X24",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1344844-monitor-led-27-265-284-msi-mag-273qp-qd-oled-x24.html",
+  "last_price": 2269
+ },
+ {
+  "key": "56_msi_mag271qpx28",
+  "name": "MSI MAG 271QP QD-OLED X28",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-msi-mag-271qp-qd-oled-x28-15753434/",
+  "last_price": 2149
+ },
+ {
+  "key": "57_gigabyte_mo27q28gr",
+  "name": "Gigabyte MO27Q28GR",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1521856-monitor-led-27-265-284-gigabyte-mo27q28gr.html",
+  "last_price": 2279
+ },
+ {
+  "key": "58_gigabyte_mo27q3",
+  "name": "Gigabyte MO27Q3",
+  "store_key": "xkom",
+  "store": "x-kom.pl",
+  "url": "https://www.x-kom.pl/p/1482079-monitor-led-27-265-284-gigabyte-mo27q3-oled.html",
+  "last_price": 1999
+ },
+ {
+  "key": "59_samsung_g60f",
+  "name": "Samsung Odyssey G6 S27FG602EUX (G60F)",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-samsung-odyssey-g6-ls27fg602euxen-15540078/",
+  "last_price": 981
+ },
+ {
+  "key": "60_lg_27gx700ab",
+  "name": "LG UltraGear 27GX700A-B",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lg-ultragear-tandem-oled-27gx700a-b-15672027/",
+  "last_price": 2149
+ },
+ {
+  "key": "61_lg_27gs95qeb",
+  "name": "LG UltraGear 27GS95QE-B",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-lg-ultragear-oled-27gs95qe-b-13166688/",
+  "last_price": 2565
+ },
+ {
+  "key": "62_philips_evnia8500",
+  "name": "Philips Evnia 27M2N8500/00",
+  "store_key": "morele",
+  "store": "Morele.net",
+  "url": "https://www.morele.net/monitor-philips-evnia-qd-oled-27m2n8500-00-13670711/",
+  "last_price": 1855
+ }
+]

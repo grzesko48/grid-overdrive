@@ -1,0 +1,58 @@
+[
+ {
+  "key": "02_aoc_q27g42ze",
+  "name": "AOC Q27G42ZE",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-aoc-q27g42ze-27-2560x1440px-ips-240hz-0-3-mprt",
+  "last_price": 748
+ },
+ {
+  "key": "05_iiyama_gb2791",
+  "name": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-iiyama-g-master-gb2791qsu-b1-27-2560x14400px-ips-320hz",
+  "last_price": 1169
+ },
+ {
+  "key": "06_gigabyte_m27q3",
+  "name": "Gigabyte M27Q3",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-gigabyte-m27q3-27-2560x1440px-ips-300hz-1-ms-gtg",
+  "last_price": 991
+ },
+ {
+  "key": "20_samsung_g7",
+  "name": "Samsung Odyssey G7 LC27G75TQSRXEN",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-led-samsung-27-lc27g75tqsrxen-odyssey",
+  "last_price": 1298
+ },
+ {
+  "key": "37_gigabyte_mo27q2a_ice",
+  "name": "Gigabyte MO27Q2A Ice",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-gigabyte-mo27q2a-ice-27-2560x1440px-qd-oled-280hz-0-03-ms-gtg",
+  "last_price": 1709
+ },
+ {
+  "key": "51_asus_xg27aqdmg",
+  "name": "ASUS ROG Strix XG27AQDMG",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-asus-rog-strix-xg27aqdmg-26-5-2560x1440px-240hz-0-03-ms-gtg",
+  "last_price": 1799
+ },
+ {
+  "key": "53_hyperx_omen27q",
+  "name": "HyperX OMEN OLED 27q",
+  "store_key": "mediaexpert",
+  "store": "Media Expert",
+  "url": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-hyperx-omen-27q-27-6-2560x1440px-oled-240hz-0-03-ms-gtg",
+  "last_price": 1899
+ }
+]
