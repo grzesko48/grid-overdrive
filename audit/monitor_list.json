@@ -1,0 +1,401 @@
+[
+ {
+  "key": "01_philips_evnia",
+  "name": "Philips Evnia 27M2N3501PA/00",
+  "panel": "IPS (260 Hz OC)",
+  "hz": 260,
+  "coverage": "silne"
+ },
+ {
+  "key": "02_aoc_q27g42ze",
+  "name": "AOC Q27G42ZE",
+  "panel": "Fast IPS",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "04_samsung_g6_350",
+  "name": "Samsung Odyssey G6 LS27FG602EUXEN",
+  "panel": "IPS, zakrzywiony",
+  "hz": 350,
+  "coverage": "silne"
+ },
+ {
+  "key": "05_iiyama_gb2791",
+  "name": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
+  "panel": "Fast IPS",
+  "hz": 320,
+  "coverage": "brak"
+ },
+ {
+  "key": "06_gigabyte_m27q3",
+  "name": "Gigabyte M27Q3",
+  "panel": "SS IPS (Super Speed)",
+  "hz": 300,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "07_aoc_q27g4zr",
+  "name": "AOC Q27G4ZR",
+  "panel": "Fast IPS",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "08_lenovo_legion_27q10",
+  "name": "Lenovo Legion 27Q-10",
+  "panel": "Fast IPS",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "09_acer_nitro_xz273u",
+  "name": "Acer Nitro XZ273UX2bmiiprx",
+  "panel": "VA, zakrzywiony 1000R",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "10_msi_mag274qf",
+  "name": "MSI MAG 274QF X24",
+  "panel": "Rapid IPS",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "11_gigabyte_mo27q2a",
+  "name": "Gigabyte MO27Q2A",
+  "panel": "QD-OLED, zakrzywiony",
+  "hz": 280,
+  "coverage": "brak"
+ },
+ {
+  "key": "12_asus_tuf_vg27aqml5a",
+  "name": "Asus TUF Gaming VG27AQML5A",
+  "panel": "Rapid IPS",
+  "hz": 300,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "13_asus_tuf_vg27aqm5a",
+  "name": "ASUS TUF Gaming VG27AQM5A",
+  "panel": "Fast IPS",
+  "hz": 300,
+  "coverage": "silne"
+ },
+ {
+  "key": "16_gigabyte_gs27qx",
+  "name": "Gigabyte GS27Q X",
+  "panel": "SS IPS (Super Speed)",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "17_samsung_g6_ls27bg650",
+  "name": "Samsung Odyssey G6 LS27BG650EUXEN",
+  "panel": "VA, zakrzywiony 1000R",
+  "hz": 240,
+  "coverage": "słabe"
+ },
+ {
+  "key": "18_asus_rog_xg27acms",
+  "name": "ASUS ROG Strix XG27ACMS",
+  "panel": "Fast IPS",
+  "hz": 320,
+  "coverage": "brak"
+ },
+ {
+  "key": "20_samsung_g7",
+  "name": "Samsung Odyssey G7 LC27G75TQSRXEN",
+  "panel": "VA, zakrzywiony 1000R (flagowa linia)",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "21_asus_tuf_vg27aqml1aw",
+  "name": "ASUS TUF Gaming VG27AQML1A-W",
+  "panel": "Fast IPS",
+  "hz": 260,
+  "coverage": "silne"
+ },
+ {
+  "key": "23_gigabyte_go27q24",
+  "name": "Gigabyte GO27Q24",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "24_hp_omen_27qs",
+  "name": "HP OMEN 27qs",
+  "panel": "IPS",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "25_gigabyte_go27q24a",
+  "name": "Gigabyte GO27Q24A",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "26_aoc_q27g41zdf",
+  "name": "AOC Q27G41ZDF",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "27_aoc_q27g4zdr",
+  "name": "AOC Q27G4ZDR",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "28_lg_ultragear_27gx704a",
+  "name": "LG UltraGear 27GX704A-B",
+  "panel": "OLED",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "29_msi_mag271qp",
+  "name": "MSI MAG 271QP QD-OLED X24",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "30_msi_mag274qp",
+  "name": "MSI MAG 274QP QD-OLED X24",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "31_aoc_q27g4sru",
+  "name": "AOC Q27G4SRU",
+  "panel": "Fast IPS",
+  "hz": 320,
+  "coverage": "silne"
+ },
+ {
+  "key": "32_aoc_ag276qzd2",
+  "name": "AOC AGON PRO AG276QZD2",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "33_aoc_q27g4zd",
+  "name": "AOC Q27G4ZD",
+  "panel": "QD-OLED",
+  "hz": 280,
+  "coverage": "silne"
+ },
+ {
+  "key": "34_gigabyte_go27q24g",
+  "name": "Gigabyte GO27Q24G",
+  "panel": "WOLED",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "35_lenovo_legionpro_27q10",
+  "name": "Lenovo Legion Pro 27Q-10",
+  "panel": "QD-OLED",
+  "hz": 280,
+  "coverage": "słabe"
+ },
+ {
+  "key": "36_samsung_g6_ls27hg612",
+  "name": "Samsung Odyssey G6 LS27HG612SUXEN",
+  "panel": "OLED",
+  "hz": 240,
+  "coverage": "słabe"
+ },
+ {
+  "key": "37_gigabyte_mo27q2a_ice",
+  "name": "Gigabyte MO27Q2A Ice",
+  "panel": "QD-OLED, zakrzywiony",
+  "hz": 280,
+  "coverage": "silne"
+ },
+ {
+  "key": "38_lenovo_legion_27qd10",
+  "name": "Lenovo Legion 27QD-10",
+  "panel": "IPS",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "39_lenovo_legion_27q10_oled",
+  "name": "Lenovo Legion 27Q-10 OLED",
+  "panel": "OLED",
+  "hz": 240,
+  "coverage": "słabe"
+ },
+ {
+  "key": "40_aoc_q27g4sdr",
+  "name": "AOC Q27G4SDR",
+  "panel": "QD-OLED",
+  "hz": 360,
+  "coverage": "silne"
+ },
+ {
+  "key": "41_asus_rog_xg27wcms",
+  "name": "ASUS ROG Strix XG27WCMS",
+  "panel": "VA (zakrzywiony 1500R, Fast VA)",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "42_philips_qdoled",
+  "name": "Philips Evnia 27M2N6501L/00",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "43_acer_ce270ux",
+  "name": "Acer CE270UXwmiipprx",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "44_acer_predator_x27uz1",
+  "name": "Acer Predator X27UZ1bmiiprx",
+  "panel": "QD-OLED",
+  "hz": 280,
+  "coverage": "słabe"
+ },
+ {
+  "key": "45_dell_aw2723df",
+  "name": "Dell Alienware AW2723DF",
+  "panel": "Fast IPS (Nano Color)",
+  "hz": 240,
+  "coverage": "silne"
+ },
+ {
+  "key": "46_hp_omen_27qs_g2",
+  "name": "HP OMEN 27qs G2 QHD 280Hz Gaming",
+  "panel": "IPS Black",
+  "hz": 280,
+  "coverage": "brak"
+ },
+ {
+  "key": "47_acer_predator_x27uw3",
+  "name": "Acer Predator X27UW3bmiiprx",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "48_alienware_aw2726dm",
+  "name": "Alienware AW2726DM",
+  "panel": "OLED",
+  "hz": 240,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "49_msi_mag272qp",
+  "name": "MSI MAG 272QP QD-OLED X24",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "50_aoc_ag276qkd2",
+  "name": "AOC AGON PRO AG276QKD2",
+  "panel": "QD-OLED",
+  "hz": 500,
+  "coverage": "słabe"
+ },
+ {
+  "key": "51_asus_xg27aqdmg",
+  "name": "ASUS ROG Strix XG27AQDMG",
+  "panel": "OLED (WOLED)",
+  "hz": 240,
+  "coverage": "słabe"
+ },
+ {
+  "key": "52_samsung_g60sd",
+  "name": "Samsung Odyssey OLED G60SD",
+  "panel": "QD-OLED",
+  "hz": 360,
+  "coverage": "słabe"
+ },
+ {
+  "key": "53_hyperx_omen27q",
+  "name": "HyperX OMEN OLED 27q",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "brak"
+ },
+ {
+  "key": "54_msi_mpg271qrx",
+  "name": "MSI MPG 271QRX QD-OLED",
+  "panel": "QD-OLED",
+  "hz": 360,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "55_msi_mag273qp",
+  "name": "MSI MAG 273QP QD-OLED X24",
+  "panel": "QD-OLED",
+  "hz": 240,
+  "coverage": "słabe"
+ },
+ {
+  "key": "56_msi_mag271qpx28",
+  "name": "MSI MAG 271QP QD-OLED X28",
+  "panel": "QD-OLED",
+  "hz": 280,
+  "coverage": "słabe"
+ },
+ {
+  "key": "57_gigabyte_mo27q28gr",
+  "name": "Gigabyte MO27Q28GR",
+  "panel": "OLED (Tandem WOLED)",
+  "hz": 280,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "58_gigabyte_mo27q3",
+  "name": "Gigabyte MO27Q3",
+  "panel": "QD-OLED",
+  "hz": 360,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "59_samsung_g60f",
+  "name": "Samsung Odyssey G6 S27FG602EUX (G60F)",
+  "panel": "Fast IPS",
+  "hz": 350,
+  "coverage": "słabe"
+ },
+ {
+  "key": "60_lg_27gx700ab",
+  "name": "LG UltraGear 27GX700A-B",
+  "panel": "OLED (Tandem, 4. generacji)",
+  "hz": 280,
+  "coverage": "umiarkowane"
+ },
+ {
+  "key": "61_lg_27gs95qeb",
+  "name": "LG UltraGear 27GS95QE-B",
+  "panel": "OLED",
+  "hz": 240,
+  "coverage": "słabe"
+ },
+ {
+  "key": "62_philips_evnia8500",
+  "name": "Philips Evnia 27M2N8500/00",
+  "panel": "QD-OLED",
+  "hz": 360,
+  "coverage": "słabe"
+ }
+]
