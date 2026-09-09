@@ -149,6 +149,8 @@ section.controls{padding:1.6rem 0 0;}
   font:inherit; font-size:.95rem; padding:0; margin:0; cursor:pointer; max-width:15rem;
 }
 .pc-select-wrap select:focus{outline:none;}
+.pc-sort-wrap{background:var(--panel); border-color:var(--line-strong);}
+.pc-sort-wrap select{max-width:19rem; font-weight:600;}
 /* Budget/tier pills stay a single scrollable strip instead of wrapping unpredictably */
 #pcFilterChips{flex-wrap:nowrap; overflow-x:auto; padding-bottom:.25rem; scrollbar-width:thin; -webkit-overflow-scrolling:touch;}
 #pcFilterChips::-webkit-scrollbar{height:5px;}
@@ -673,15 +675,18 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   <div class="control-row">
     <div class="filter-chips" id="pcFilterChips"></div>
     <div style="display:flex; gap:.7rem; align-items:center; flex-wrap:wrap;">
-      <select class="sort-select" id="pcSortSelect">
-        <option value="ultra-desc" selected>Ranking Ultra: jakość + długowieczność</option>
-        <option value="price-asc">Cena: rosnąco</option>
-        <option value="price-desc">Cena: malejąco</option>
-        <option value="overall-desc">Ocena ogólna: najwyższa</option>
-        <option value="longevity-desc">Długowieczność: najwyższa</option>
-        <option value="value-desc">Opłacalność: najlepsza</option>
-        <option value="name-asc">Nazwa: A–Z</option>
-      </select>
+      <span class="pc-select-wrap pc-sort-wrap">
+        <svg class="pc-select-icon" viewBox="0 0 24 24"><path d="M6 4v16M6 4l-3 3M6 4l3 3"></path><path d="M18 20V4M18 20l-3-3M18 20l3-3"></path></svg>
+        <select id="pcSortSelect">
+          <option value="ultra-desc" selected>Ranking Ultra: jakość + długowieczność</option>
+          <option value="price-asc">Cena: rosnąco</option>
+          <option value="price-desc">Cena: malejąco</option>
+          <option value="overall-desc">Ocena ogólna: najwyższa</option>
+          <option value="longevity-desc">Długowieczność: najwyższa</option>
+          <option value="value-desc">Opłacalność: najlepsza</option>
+          <option value="name-asc">Nazwa: A–Z</option>
+        </select>
+      </span>
       <div class="view-toggle">
         <button id="pcViewGridBtn" class="active" type="button">▦ Siatka</button>
         <button id="pcViewTableBtn" type="button">☰ Tabela</button>
