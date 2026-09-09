@@ -1,67 +1,45 @@
-# Audyt inżynieryjny monitorów — STAN PRAC (zapis awaryjny, 9.09.2026)
+# Audyt inżynieryjny monitorów — ZAKOŃCZONY (9.09.2026)
 
-Sesja zatrzymana przy ~90% limitu kontekstu na prośbę użytkownika. Nic nie jest zintegrowane
-ze stroną jeszcze — to jest surowy research + plan. Wszystko poniżej jest na dysku i w repo.
+Zadanie z persony TFTCentral/RTINGS/Monitors Unboxed (patrz PERSONA_PROTOKOL.md) jest
+w pełni zintegrowane ze stroną i opublikowane.
 
-## Cel (od użytkownika)
-Rozbudować porównanie 57 monitorów o surowy, fizyczny audyt w stylu TFTCentral / RTINGS /
-Monitors Unboxed — zero marketingu, tylko pomiary; filary A (czas reakcji, dark smearing,
-overshoot, najlepszy profil OD), B (VRR flicker, BFI), C (subpiksele, text fringing),
-D (HDR EOTF, ABL, peak nits), plus dE, input lag, powłoka, burn-in.
-Pełny tekst persony/protokołu: `PERSONA_PROTOKOL.md` (ten katalog).
-Dodatkowe polecenie użytkownika: szczegóły specyfikacji brać też ze stron PRODUCENTÓW
-(samsung.com, lg.com, aoc.com, gigabyte, msi, asus, acer, philips, iiyama, lenovo, hp, dell,
-hyperx) — jako OSOBNA warstwa "specyfikacja deklarowana", oddzielona od "pomiary laboratoryjne".
+## Co zrobiono
+- Research laboratoryjny (pomiary niezależne) dla wszystkich 57 monitorów: `lab_group1-6.json`.
+- Research specyfikacji deklarowanej przez producentów dla wszystkich 57 monitorów: `mfr_group1-6.json`.
+- Scalenie obu warstw w pole `audit:{lab:{...}, mfr:{...}}` każdego wpisu DATA[] w
+  `monitors_1700_template.html` (skrypt `merge_audit.py` — UWAGA: ten skrypt miał błąd
+  podwajania przecinka po insercji, powodujący 56 "dziur" w tablicy DATA i wywalającą się
+  interakcję na całej stronie; błąd naprawiony ręcznie w szablonie, skrypt NIE został
+  poprawiony w repo — nie uruchamiać go ponownie bez naprawy linii
+  `new_line = prefix + insertion + closing + (comma if comma else "") + "\n"` →
+  `closing` już zawiera przecinek, więc `(comma if comma else "")` trzeba usunąć).
+- Nowa sekcja UI w `buildMonitorDetailHTML`: "Audyt inżynieryjny — pomiary laboratoryjne"
+  (z plakietką pokrycia recenzjami) + "Specyfikacja deklarowana przez producenta" (z jawną
+  adnotacją, że to deklaracja, nie pomiar). Pola "BRAK" renderują się jako "brak danych".
+- Nowe wiersze w `buildCompareTable`: czas odpowiedzi (zmierzony), input lag (zmierzony),
+  Delta E, HDR peak (zmierzony), migotanie VRR, text fringing, certyfikat HDR (producent),
+  zakres VRR (producent), złącza (producent).
 
-## Co jest ZROBIONE (pliki w tym katalogu)
-- `lab_group1.json` … `lab_group4.json` — wyniki 4 z 6 agentów badawczych (monitory idx 0–39,
-  klucze 01_… do 45_…). Format: JSON, pola A_*/B_*/C_*/D_*/E_*/F_*, "BRAK" = brak pomiaru,
-  URL źródła inline. ZERO zmyślonych liczb.
-- `monitor_list.json` — lista 57 monitorów (key, name, panel, hz, coverage) w kolejności DATA[].
+## Dwa poboczne błędy naprawione przy okazji (były w szablonie już wcześniej)
+1. Brak `<meta charset="utf-8">` w pliku źródłowym — powodował mojibake dla polskich
+   znaków na GitHub Pages (Artifact ma własny wrapper z charset, więc tam nie było widać).
+   Dodano na początku pliku.
+2. `slugify()` miał w regexie DOSŁOWNE znaki diakrytyczne zamiast escape'ów `̀-ͯ`
+   — po poprawnym odczycie UTF-8 (patrz punkt 1) rzucało to `SyntaxError` i wywalało
+   CAŁĄ interaktywność strony (klik w kartę, porównywarka, widok szczegółów) na produkcji.
+   Naprawione na `̀-ͯ`.
 
-## Co jest W TOKU / NIEZAPISANE
-- Grupa 5 (idx 40–48: 46_hp_omen_27qs_g2 … 54_msi_mpg271qrx) i grupa 6 (idx 49–56:
-  55_msi_mag273qp … 62_philips_evnia8500) — agenci uruchomieni w tle, wyniki NIE zapisane.
-  Transkrypty JSONL (można z nich wyciągnąć końcowy JSON, ostatni wpis "result"):
-  - grupa 5: /private/tmp/claude-501/-Users-grzegorzrybak-Claude/82884799-1aba-4c29-9150-8a28fda9e42e/tasks/acd5d796c6d558aa3.output
-  - grupa 6: /private/tmp/claude-501/-Users-grzegorzrybak-Claude/82884799-1aba-4c29-9150-8a28fda9e42e/tasks/<id nieznany — uruchomiony jako ostatni z sześciu; szukać najnowszego pliku w tasks/>
-  Jeśli plików nie ma — po prostu powtórzyć research dla tych 17 monitorów tym samym promptem
-  (szablon promptu = ten użyty dla grup 1–4, patrz PERSONA_PROTOKOL.md sekcja "Prompt agenta").
+## Stan publikacji (9.09.2026)
+- Artifact: https://claude.ai/code/artifact/18421fe1-69f6-4fc6-bb69-5426785e8bea — zaktualizowany.
+- GitHub Pages: https://grzesko48.github.io/grid-overdrive/ — zaktualizowany (commit bc0a1ec).
+- Zweryfikowane w przeglądarce: 0 błędów w konsoli, sekcja audytu renderuje się poprawnie
+  z prawdziwymi danymi (sprawdzone na Philips Evnia 27M2N3501PA/00), tabela porównawcza
+  pokazuje nowe wiersze.
 
-## KLUCZOWE USTALENIA z researchu (ważne dla uczciwości strony)
-1. RTINGS od 2026 blokuje WSZYSTKIE liczby za paywallem ("Locked") — dostępne tylko werdykty
-   tekstowe. Nie da się z RTINGS wyciągnąć ms/nitów/dE.
-2. TFTCentral to jedyne źródło z otwartymi liczbami; pełne recenzje tylko dla: AOC AG276QZD2,
-   Gigabyte GO27Q24G, Samsung G7 C27G75T (+ TechSpot dla G7 i porównawczo M27Q3).
-3. ~40 z 57 monitorów NIE ma żadnej recenzji laboratoryjnej w RTINGS/TFTCentral/TechSpot
-   (regionalne SKU EU/PL). Dla nich uczciwy wynik = "brak niezależnych pomiarów" + spec producenta.
-4. Wiele "podobnych" modeli to INNE panele (np. GO27Q24 QD-OLED ≠ GO27Q24G WOLED; X27U ≠ X27U Z1;
-   27GX704A ≠ 27GX700A) — nie przenosić danych między nimi.
-
-## PLAN INTEGRACJI (do wykonania w nowej sesji)
-1. Dokończyć/odzyskać grupy 5–6 → `lab_group5.json`, `lab_group6.json`.
-2. Fala 2 (6 agentów): specyfikacja deklarowana ze stron producentów, per monitor:
-   panel/typ, Hz natywne/OC, deklarowany czas reakcji (oznaczyć "deklarowany"), jasność typ/peak,
-   kontrast, certyfikat VESA DisplayHDR, gamut % (sRGB/DCI-P3), zakres VRR + certyfikaty
-   (G-Sync Compatible / FreeSync tier), powłoka (matowa/glossy), krzywizna, porty (DP/HDMI wersje,
-   USB-C PD), KVM, głośniki, VESA, ergonomia, gwarancja (burn-in dla OLED), nazwa funkcji BFI.
-   Zapis: `mfr_group1..6.json`, pola z URL źródła; "BRAK" gdy brak.
-3. Scalić lab + mfr → pole `audit:{...}` w każdym wpisie DATA[] w
-   `scratchpad/monitors_1700_template.html` (dodać po `coverage:'…'`, przed `}`; NIE zmieniać
-   prefiksu `{img:'KEY', name:'…', price:N` — routine `apply_price_updates.py` kotwiczy na nim).
-4. UI: nowa sekcja w `buildMonitorDetailHTML` — "Audyt inżynieryjny": blok "Pomiary laboratoryjne"
-   (tabela A–F + plakietka pokrycia + linki źródeł) i blok "Specyfikacja deklarowana przez
-   producenta" (osobno, z adnotacją "deklaracja, nie pomiar"). Gdy brak pomiarów — jawny komunikat.
-   Do `buildCompareTable` dodać wiersze: czas reakcji (zmierzony), input lag, dE, HDR peak,
-   VRR flicker, text fringing, certyfikat HDR, zakres VRR, porty.
-5. Styl tekstów: twarde metryki, bez "zapierający dech"; kontekst gamedev/simracing tam, gdzie
-   dane to uzasadniają.
-6. `python3 build_merged.py` → test lokalny (serve_test.py:8793) → publikacja:
-   (a) Artifact: https://claude.ai/code/artifact/18421fe1-69f6-4fc6-bb69-5426785e8bea
-   (b) GitHub Pages: skopiować `monitors_1700.html` → `grid-overdrive-repo/index.html`, commit, push
-       (repo grzesko48/grid-overdrive; Routine `grid-overdrive-prices`
-       trig_019oSfiWFF19AeSnxS7ZiCbe aktualizuje tylko ceny, codziennie 6:00 UTC).
-
-## Stan strony przed tym zadaniem (nienaruszony)
-- Artifact + GitHub Pages działają, ceny odświeżone 9.09.2026, Routine przetestowana (1 przebieg OK,
-  poprawiony prompt: cena bazowa nie promocyjna, zaokrąglanie do najbliższej złotówki).
+## Znane ograniczenia (uczciwie, zgodnie z Konstytucją Prawdy)
+- RTINGS od 2026 blokuje niemal wszystkie liczby za paywallem — dla wielu modeli dostępny
+  jest tylko werdykt opisowy, nie liczba.
+- ~30-40% z 57 monitorów nie ma ŻADNEJ niezależnej recenzji laboratoryjnej (regionalne SKU
+  EU/PL) — dla nich pole audytu pokazuje uczciwie "brak danych", nie zmyśloną liczbę.
+- Część danych producenta pochodzi z regionalnych wariantów strony (np. AOC Islandia/Estonia
+  zamiast US) gdy globalna strona nie miała danego SKU — oznaczone w `notes` każdego wpisu.
