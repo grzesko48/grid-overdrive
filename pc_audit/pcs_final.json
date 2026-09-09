@@ -19880,5 +19880,1632 @@
   "cons": [
    "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
   ]
+ },
+ {
+  "img": "pcimg_pnp_e51c09d93c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/210"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO",
+  "priceBare": 7199,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1799.75,
+  "value": 79,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 77,
+  "overall": 82,
+  "ultra": 68,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_a0c96a7e70",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/196"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 6399,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 1987.2670807453417,
+  "value": 73,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 78,
+  "ultra": 62,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_706e5f58f2",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/219"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10",
+  "priceBare": 7199,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1799.75,
+  "value": 79,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 81,
+  "ultra": 68,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_c156b4926a",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB-BIALY/231"
+  },
+  "cooler": "KRUX HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI B850 GAMING PLUS WIFI6E",
+  "case": "KRUX EXO (biała)",
+  "priceBare": 7599,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 2359.937888198758,
+  "value": 61,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 74,
+  "ultra": 59,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_87855d7cc3",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/242"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB",
+  "priceBare": 7399,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 2297.826086956522,
+  "value": 63,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 75,
+  "ultra": 60,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_9f61fb663e",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/197"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 6299,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2581.5573770491806,
+  "value": 53,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 70,
+  "ultra": 53,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_abacb9290c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/198"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 8399,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 6,
+  "ctier": 4,
+  "power": 5.56,
+  "perf": 85,
+  "components": 95,
+  "zpp": 1510.611510791367,
+  "value": 89,
+  "longevity_years": 3.15,
+  "longevity": 70,
+  "features": 77,
+  "overall": 88,
+  "ultra": 82,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5070 12GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_706faafb0d",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6899,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6899
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/208"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO",
+  "priceBare": 6899,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 2142.5465838509317,
+  "value": 68,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 76,
+  "ultra": 61,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_882a05febc",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/209"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO",
+  "priceBare": 8099,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 7,
+  "ctier": 4,
+  "power": 6.34,
+  "perf": 90,
+  "components": 95,
+  "zpp": 1277.4447949526814,
+  "value": 97,
+  "longevity_years": 3.78,
+  "longevity": 90,
+  "features": 77,
+  "overall": 92,
+  "ultra": 91,
+  "n_stores": 1,
+  "pros": [
+   "Karta AMD Radeon RX 9070 XT 16GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Wysoka długowieczność (szac. ~3.8 roku komfortowej gry w 1440p) — dobry wybór na dłuższą metę.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_338a622e5d",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8899,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8899
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/218"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10",
+  "priceBare": 8899,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 6,
+  "ctier": 4,
+  "power": 5.56,
+  "perf": 85,
+  "components": 95,
+  "zpp": 1600.539568345324,
+  "value": 86,
+  "longevity_years": 3.15,
+  "longevity": 70,
+  "features": 77,
+  "overall": 87,
+  "ultra": 81,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5070 12GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_8205f807c4",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY/227"
+  },
+  "cooler": "MSI MAG Coreliquid A13 240mm (białe)",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB (biała)",
+  "priceBare": 7599,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1899.75,
+  "value": 76,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 80,
+  "ultra": 67,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_2bfe811b8b",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY/232"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB",
+  "priceBare": 7199,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2950.409836065574,
+  "value": 41,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 66,
+  "ultra": 51,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_1c41056edd",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7699,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7699
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/243"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB",
+  "priceBare": 7699,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1924.75,
+  "value": 75,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 80,
+  "ultra": 67,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_9f61fb663e",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/246"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 6299,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2581.5573770491806,
+  "value": 53,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 70,
+  "ultra": 53,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_d46d594437",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6799,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6799
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/248"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO",
+  "priceBare": 6799,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2786.4754098360654,
+  "value": 46,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 68,
+  "ultra": 52,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_abacb9290c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6799,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6799
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/249"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10",
+  "priceBare": 6799,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2786.4754098360654,
+  "value": 46,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 68,
+  "ultra": 52,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_882a05febc",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB/250"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO",
+  "priceBare": 8099,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 7,
+  "ctier": 4,
+  "power": 6.34,
+  "perf": 90,
+  "components": 95,
+  "zpp": 1277.4447949526814,
+  "value": 97,
+  "longevity_years": 3.78,
+  "longevity": 90,
+  "features": 77,
+  "overall": 92,
+  "ultra": 91,
+  "n_stores": 1,
+  "pros": [
+   "Karta AMD Radeon RX 9070 XT 16GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Wysoka długowieczność (szac. ~3.8 roku komfortowej gry w 1440p) — dobry wybór na dłuższą metę.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_bceb027bc2",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB/251"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10",
+  "priceBare": 8099,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 7,
+  "ctier": 4,
+  "power": 6.34,
+  "perf": 90,
+  "components": 95,
+  "zpp": 1277.4447949526814,
+  "value": 97,
+  "longevity_years": 3.78,
+  "longevity": 90,
+  "features": 77,
+  "overall": 92,
+  "ultra": 91,
+  "n_stores": 1,
+  "pros": [
+   "Karta AMD Radeon RX 9070 XT 16GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Wysoka długowieczność (szac. ~3.8 roku komfortowej gry w 1440p) — dobry wybór na dłuższą metę.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_d00e5a9d55",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/253"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB",
+  "priceBare": 7199,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2950.409836065574,
+  "value": 41,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 66,
+  "ultra": 51,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_dfacb5de26",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB/254"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB",
+  "priceBare": 8599,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 7,
+  "ctier": 4,
+  "power": 6.34,
+  "perf": 90,
+  "components": 95,
+  "zpp": 1356.3091482649843,
+  "value": 94,
+  "longevity_years": 3.78,
+  "longevity": 90,
+  "features": 77,
+  "overall": 91,
+  "ultra": 90,
+  "n_stores": 1,
+  "pros": [
+   "Karta AMD Radeon RX 9070 XT 16GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Wysoka długowieczność (szac. ~3.8 roku komfortowej gry w 1440p) — dobry wybór na dłuższą metę.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_763a1af37f",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8999,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8999
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/266"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North",
+  "priceBare": 8999,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 6,
+  "ctier": 4,
+  "power": 5.56,
+  "perf": 85,
+  "components": 95,
+  "zpp": 1618.5251798561153,
+  "value": 85,
+  "longevity_years": 3.15,
+  "longevity": 70,
+  "features": 77,
+  "overall": 87,
+  "ultra": 81,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5070 12GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_63acf52b21",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/267"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North",
+  "priceBare": 7299,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1824.75,
+  "value": 79,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 81,
+  "ultra": 68,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_0695c30ec1",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/307"
+  },
+  "cooler": "Krux HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Krux Tano + 3 wentylatory reverse",
+  "priceBare": 7399,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 2297.826086956522,
+  "value": 63,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 75,
+  "ultra": 60,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_bbb8301c9c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7699,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7699
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/308"
+  },
+  "cooler": "Krux HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Krux Tano + 3 wentylatory reverse",
+  "priceBare": 7699,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1924.75,
+  "value": 75,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 80,
+  "ultra": 67,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_1e5eee2deb",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY-/917"
+  },
+  "cooler": "be quiet! Light Loop 360mm ARGB (białe)",
+  "motherboard": "MSI B850 GAMING PLUS WIFI6E",
+  "case": "ENDORFY ARX 700 (biała)",
+  "priceBare": 8299,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 2074.75,
+  "value": 70,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 78,
+  "ultra": 66,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_197cc01d3c",
+  "name": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+  "cpu": "Core Ultra 5 245KF",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-Intel-Ultra-32GB-DDR5-1TB-/926"
+  },
+  "cooler": "Krux HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI PRO Z890-S WIFI",
+  "case": "Krux Tano + 3 wentylatory reverse",
+  "priceBare": 8399,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 5,
+  "power": 4.220000000000001,
+  "perf": 76,
+  "components": 99,
+  "zpp": 1990.2843601895731,
+  "value": 73,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 81,
+  "ultra": 67,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_4f79699541",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB-/944"
+  },
+  "cooler": "Deepcool LE240 V2 240mm ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 6599,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 2049.3788819875776,
+  "value": 71,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 77,
+  "ultra": 62,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_8205f807c4",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY-/952"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North",
+  "priceBare": 7299,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1824.75,
+  "value": 79,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 81,
+  "ultra": 68,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_2bfe811b8b",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8999,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8999
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB-BIALY-/953"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North",
+  "priceBare": 8999,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 6,
+  "ctier": 4,
+  "power": 5.56,
+  "perf": 85,
+  "components": 95,
+  "zpp": 1618.5251798561153,
+  "value": 85,
+  "longevity_years": 3.15,
+  "longevity": 70,
+  "features": 77,
+  "overall": 87,
+  "ultra": 81,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5070 12GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_6ed98e8496",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6899,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6899
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-/1004"
+  },
+  "cooler": "Deepcool LE240 V2 240mm ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 6899,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1724.75,
+  "value": 82,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 82,
+  "ultra": 68,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_14cb879f0c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB-/1005"
+  },
+  "cooler": "Deepcool LE240 V2 240mm ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB",
+  "priceBare": 8599,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 6,
+  "ctier": 4,
+  "power": 5.56,
+  "perf": 85,
+  "components": 95,
+  "zpp": 1546.5827338129498,
+  "value": 88,
+  "longevity_years": 3.15,
+  "longevity": 70,
+  "features": 77,
+  "overall": 88,
+  "ultra": 82,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5070 12GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_de7094469c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB-/1013"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Thermalright A70 ARGB FAN",
+  "priceBare": 7299,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 3,
+  "ctier": 4,
+  "power": 3.2199999999999998,
+  "perf": 70,
+  "components": 95,
+  "zpp": 2266.770186335404,
+  "value": 64,
+  "longevity_years": 1.85,
+  "longevity": 31,
+  "features": 71,
+  "overall": 75,
+  "ultra": 60,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_b3d7ef9713",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-/1015"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Thermalright A70 ARGB FAN",
+  "priceBare": 7599,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 4,
+  "ctier": 4,
+  "power": 4.0,
+  "perf": 75,
+  "components": 95,
+  "zpp": 1899.75,
+  "value": 76,
+  "longevity_years": 2.18,
+  "longevity": 41,
+  "features": 71,
+  "overall": 80,
+  "ultra": 67,
+  "n_stores": 1,
+  "pros": [
+   "Karta NVIDIA GeForce RTX 5060 Ti 8GB — solidna wydajność 1080p/1440p w większości gier.",
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_2c0cce104e",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB-/1024"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Thermalright A70 ARGB FAN",
+  "priceBare": 7099,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 2,
+  "ctier": 4,
+  "power": 2.44,
+  "perf": 65,
+  "components": 95,
+  "zpp": 2909.4262295081967,
+  "value": 42,
+  "longevity_years": 1.52,
+  "longevity": 21,
+  "features": 71,
+  "overall": 67,
+  "ultra": 51,
+  "n_stores": 1,
+  "pros": [
+   "32GB DDR5 6000MHz — komfortowy zapas na kolejne lata i multitasking.",
+   "Szybka pamięć DDR5-6000 — realny plus w grach z platformą AM5/nowszym Intelem.",
+   "Cena już zawiera Windows 11 — gotowy do pracy po rozpakowaniu, bez dodatkowych zakupów."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych.",
+   "Karta AMD Radeon RX 9060 XT 8GB — segment budżetowy, krótszy realny okres komfortowej gry w wysokich ustawieniach 1440p."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_680b223604",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB-/1025"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Thermalright A70 ARGB FAN",
+  "priceBare": 8399,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 7,
+  "ctier": 4,
+  "power": 6.34,
+  "perf": 90,
+  "components": 95,
+  "zpp": 1324.763406940063,
+  "value": 95,
+  "longevity_years": 3.78,
+  "longevity": 90,
+  "features": 77,
+  "overall": 91,
+  "ultra": 91,
+  "n_stores": 1,
+  "pros": [
+   "Karta AMD Radeon RX 9070 XT 16GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Wysoka długowieczność (szac. ~3.8 roku komfortowej gry w 1440p) — dobry wybór na dłuższą metę.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
+ },
+ {
+  "img": "pcimg_pnp_d4a9ff1d23",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 7499,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7499
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-AMD-AM5-32GB-DDR5-1TB-/1036"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO",
+  "priceBare": 7499,
+  "osPriceKind": "included",
+  "osPriceNote": "Windows 11 w cenie bazowej — sklep nie sprzedaje wersji bez systemu.",
+  "tier": 6,
+  "ctier": 4,
+  "power": 5.56,
+  "perf": 85,
+  "components": 95,
+  "zpp": 1348.7410071942447,
+  "value": 95,
+  "longevity_years": 3.45,
+  "longevity": 80,
+  "features": 77,
+  "overall": 90,
+  "ultra": 86,
+  "n_stores": 1,
+  "pros": [
+   "Karta AMD Radeon RX 9070 16GB — wydajność wystarczająca do gier w 1440p w wysokich ustawieniach.",
+   "Wysoka długowieczność (szac. ~3.5 roku komfortowej gry w 1440p) — dobry wybór na dłuższą metę.",
+   "Jeden z najlepszych stosunków ceny do wydajności całego zestawu (GPU + CPU) w zestawieniu."
+  ],
+  "cons": [
+   "Potwierdzona dostępność tylko w 1 sklepie z tych sprawdzonych."
+  ]
  }
 ]

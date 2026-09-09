@@ -1,0 +1,758 @@
+[
+ {
+  "img": "pcimg_pnp_e51c09d93c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/210"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO"
+ },
+ {
+  "img": "pcimg_pnp_a0c96a7e70",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/196"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_706e5f58f2",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/219"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10"
+ },
+ {
+  "img": "pcimg_pnp_c156b4926a",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB-BIALY/231"
+  },
+  "cooler": "KRUX HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI B850 GAMING PLUS WIFI6E",
+  "case": "KRUX EXO (biała)"
+ },
+ {
+  "img": "pcimg_pnp_87855d7cc3",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/242"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB"
+ },
+ {
+  "img": "pcimg_pnp_9f61fb663e",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/197"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_abacb9290c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/198"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_706faafb0d",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6899,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6899
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/208"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO"
+ },
+ {
+  "img": "pcimg_pnp_882a05febc",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/209"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO"
+ },
+ {
+  "img": "pcimg_pnp_338a622e5d",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8899,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8899
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/218"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10"
+ },
+ {
+  "img": "pcimg_pnp_8205f807c4",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY/227"
+  },
+  "cooler": "MSI MAG Coreliquid A13 240mm (białe)",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB (biała)"
+ },
+ {
+  "img": "pcimg_pnp_2bfe811b8b",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY/232"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB"
+ },
+ {
+  "img": "pcimg_pnp_1c41056edd",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7699,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7699
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/243"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB"
+ },
+ {
+  "img": "pcimg_pnp_9f61fb663e",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/246"
+  },
+  "cooler": "ENDORFY Spartan 5 ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_d46d594437",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6799,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6799
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/248"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO"
+ },
+ {
+  "img": "pcimg_pnp_abacb9290c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6799,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6799
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/249"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10"
+ },
+ {
+  "img": "pcimg_pnp_882a05febc",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB/250"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO"
+ },
+ {
+  "img": "pcimg_pnp_bceb027bc2",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB/251"
+  },
+  "cooler": "Arctic Liquid Freezer III Pro 360mm",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Zalman Z10"
+ },
+ {
+  "img": "pcimg_pnp_d00e5a9d55",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7199,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7199
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB/253"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB"
+ },
+ {
+  "img": "pcimg_pnp_dfacb5de26",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB/254"
+  },
+  "cooler": "Deepcool LQ360 ARGB",
+  "motherboard": "MSI PRO B850M-P WIFI",
+  "case": "MSI MAG Pano M100R PZ ARGB"
+ },
+ {
+  "img": "pcimg_pnp_763a1af37f",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8999,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8999
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB/266"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North"
+ },
+ {
+  "img": "pcimg_pnp_63acf52b21",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/267"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North"
+ },
+ {
+  "img": "pcimg_pnp_0695c30ec1",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB/307"
+  },
+  "cooler": "Krux HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Krux Tano + 3 wentylatory reverse"
+ },
+ {
+  "img": "pcimg_pnp_bbb8301c9c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7699,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7699
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/308"
+  },
+  "cooler": "Krux HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Krux Tano + 3 wentylatory reverse"
+ },
+ {
+  "img": "pcimg_pnp_1e5eee2deb",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY-/917"
+  },
+  "cooler": "be quiet! Light Loop 360mm ARGB (białe)",
+  "motherboard": "MSI B850 GAMING PLUS WIFI6E",
+  "case": "ENDORFY ARX 700 (biała)"
+ },
+ {
+  "img": "pcimg_pnp_197cc01d3c",
+  "name": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+  "cpu": "Core Ultra 5 245KF",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-Intel-Ultra-32GB-DDR5-1TB-/926"
+  },
+  "cooler": "Krux HydroGlance LCD ARGB 360mm",
+  "motherboard": "MSI PRO Z890-S WIFI",
+  "case": "Krux Tano + 3 wentylatory reverse"
+ },
+ {
+  "img": "pcimg_pnp_4f79699541",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB-/944"
+  },
+  "cooler": "Deepcool LE240 V2 240mm ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_8205f807c4",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-BIALY-/952"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North"
+ },
+ {
+  "img": "pcimg_pnp_2bfe811b8b",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8999,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8999
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB-BIALY-/953"
+  },
+  "cooler": "ENDORFY Navis F240",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Fractal Design North"
+ },
+ {
+  "img": "pcimg_pnp_6ed98e8496",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 6899,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 6899
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-/1004"
+  },
+  "cooler": "Deepcool LE240 V2 240mm ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_14cb879f0c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5070 12GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "750W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 8599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB-/1005"
+  },
+  "cooler": "Deepcool LE240 V2 240mm ARGB",
+  "motherboard": "B650M",
+  "case": "MSI M100R ARGB"
+ },
+ {
+  "img": "pcimg_pnp_de7094469c",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7299,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7299
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-AMD-AM5-32GB-DDR5-1TB-/1013"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Thermalright A70 ARGB FAN"
+ },
+ {
+  "img": "pcimg_pnp_b3d7ef9713",
+  "name": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7599,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7599
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB-/1015"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Thermalright A70 ARGB FAN"
+ },
+ {
+  "img": "pcimg_pnp_2c0cce104e",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9060 XT 8GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "650W 80 Plus Bronze",
+  "os": "Windows 11 Home",
+  "price": 7099,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7099
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9060-XT-AMD-AM5-32GB-DDR5-1TB-/1024"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "Thermalright A70 ARGB FAN"
+ },
+ {
+  "img": "pcimg_pnp_680b223604",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 XT 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 8399,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 8399
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-XT-AMD-AM5-32GB-DDR5-1TB-/1025"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "MSI PRO B850-P WIFI",
+  "case": "Thermalright A70 ARGB FAN"
+ },
+ {
+  "img": "pcimg_pnp_d4a9ff1d23",
+  "name": "PlugNPlay | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+  "cpu": "Ryzen 5 7500F",
+  "gpu": "AMD Radeon RX 9070 16GB",
+  "ram": "32GB DDR5 6000MHz",
+  "storage": "1TB SSD NVMe",
+  "psu": "850W 80 Plus Gold",
+  "os": "Windows 11 Home",
+  "price": 7499,
+  "store": "PlugNPlay.sklep.pl",
+  "prices": {
+   "plugnplay": 7499
+  },
+  "urls": {
+   "plugnplay": "https://plugnplay.sklep.pl/pl/p/Komputer-RX-9070-AMD-AM5-32GB-DDR5-1TB-/1036"
+  },
+  "cooler": "Deepcool LE360 V2 ARGB",
+  "motherboard": "Gigabyte B650 EAGLE AX",
+  "case": "KRUX EXO"
+ }
+]
