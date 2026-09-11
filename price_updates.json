@@ -1,9 +1,14 @@
 [
-  {"key": "04_samsung_g6_350", "new_price": 1099},
-  {"key": "17_samsung_g6_ls27bg650", "new_price": 1195},
-  {"key": "35_lenovo_legionpro_27q10", "new_price": 1650},
-  {"key": "36_samsung_g6_ls27hg612", "new_price": 1660},
-  {"key": "43_acer_ce270ux", "new_price": 1563},
-  {"key": "57_gigabyte_mo27q28gr", "new_price": 2429},
-  {"key": "59_samsung_g60f", "new_price": 1099}
+ {"key": "04_samsung_g6_350", "new_price": 1124},
+ {"key": "12_asus_tuf_vg27aqml5a", "new_price": 1151},
+ {"key": "17_samsung_g6_ls27bg650", "new_price": 1189},
+ {"key": "25_gigabyte_go27q24a", "new_price": 1530},
+ {"key": "28_lg_ultragear_27gx704a", "new_price": 1622},
+ {"key": "36_samsung_g6_ls27hg612", "new_price": 1660},
+ {"key": "40_aoc_q27g4sdr", "new_price": 1982},
+ {"key": "43_acer_ce270ux", "new_price": 1552},
+ {"key": "54_msi_mpg271qrx", "new_price": 2399},
+ {"key": "59_samsung_g60f", "new_price": 1124},
+ {"key": "61_lg_27gs95qeb", "new_price": 2567},
+ {"key": "62_philips_evnia8500", "new_price": 1949}
 ]
