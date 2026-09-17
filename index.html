@@ -789,6 +789,12 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 </div><!-- /viewPC -->
 
 <script>
+/* Data ostatniej weryfikacji cen. MUSI stać tutaj, w zasięgu globalnym: czytają ją dwa
+   osobne domknięcia — sekcja monitorów w tym bloku i sekcja zestawów PC w następnym
+   bloku <script>. Wepchnięta z powrotem do środka któregokolwiek z nich wywala każdą
+   kartę szczegółów PC przez ReferenceError (tak się stało w commicie 1c6c83e).
+   Datę podmienia automat jednym wzorcem na tę jedną linię — apply_price_updates.py. */
+var PRICE_CHECK_LABEL = '17 września 2026';
 (function(){
   var root = document.documentElement;
   var KEY = 'monitor-1700-theme-v2';
@@ -1128,7 +1134,7 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   var STORE_LABELS = {mediaexpert:'Media Expert', rtveuroagd:'RTV Euro AGD', xkom:'x-kom.pl', morele:'Morele.net', mediamarkt:'MediaMarkt'};
   var STORE_ORDER = ['xkom','morele','mediaexpert','mediamarkt','rtveuroagd'];
   var STORE_COLORS = {xkom:'#d31f3c', morele:'#0067b1', mediaexpert:'#f0592b', mediamarkt:'#e2001a', rtveuroagd:'#5aa022'};
-  var PRICE_CHECK_LABEL = '17 września 2026';
+  /* PRICE_CHECK_LABEL jest zadeklarowana globalnie na początku tego bloku <script> — patrz komentarz tam. */
   function buildPriceRows(d){
     var soldout = d.soldout || [];
     var entries = STORE_ORDER.map(function(k){ return {key:k, label:STORE_LABELS[k], val:(d.prices||{})[k], soldout: soldout.indexOf(k) > -1}; });
