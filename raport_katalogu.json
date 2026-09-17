@@ -1,0 +1,193 @@
+{
+ "katalog_pozycji": 632,
+ "nasze_identyfikatory": 219,
+ "zniknely": [],
+ "nowi_kandydaci": [
+  {
+   "id": "19424",
+   "nazwa": "Zestaw | Ryzen 9 7900, 32GB DDR5, 1TB SSD, Irid 505F, 850W",
+   "cena": 5619,
+   "url": "https://sklep.hard-pc.pl/p19424,zestaw-ryzen-9-7900-32gb-ddr5-1tb-ssd-irid-505f-850w.html"
+  },
+  {
+   "id": "20663",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 7579,
+   "url": "https://sklep.hard-pc.pl/p20663,zestaw-ryzen-5-8400f-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "20900",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, 32GB DDR5, 2TB SSD, 850W, PANO 130R PZ ARGB Black",
+   "cena": 7039,
+   "url": "https://sklep.hard-pc.pl/p20900,zestaw-ryzen-7-9800x3d-32gb-ddr5-2tb-ssd-850w-pano-130r-pz-argb-black.html"
+  },
+  {
+   "id": "21231",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, 1TB SSD, 32GB DDR5, 850W, Depcool CC560",
+   "cena": 5549,
+   "url": "https://sklep.hard-pc.pl/p21231,zestaw-ryzen-7-7800x3d-1tb-ssd-32gb-ddr5-850w-depcool-cc560.html"
+  },
+  {
+   "id": "22714",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, 32GB DDR5, 2TB SSD, 850W, Pano 130R ARGB",
+   "cena": 7099,
+   "url": "https://sklep.hard-pc.pl/p22714,zestaw-ryzen-7-9800x3d-32gb-ddr5-2tb-ssd-850w-pano-130r-argb.html"
+  },
+  {
+   "id": "22722",
+   "nazwa": "Asus Crosshair X870E Hero BTF + Zasilacz Seasonic PRIME ATX 3.1 TX-1600 Titanium",
+   "cena": 5198,
+   "url": "https://sklep.hard-pc.pl/p22722,asus-crosshair-x870e-hero-btf-zasilacz-seasonic-prime-atx-3-1-tx-1600-titanium.html"
+  },
+  {
+   "id": "22756",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 7449,
+   "url": "https://sklep.hard-pc.pl/p22756,zestaw-ryzen-7-7800x3d-rx-9060-xt-16gb-32gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "22789",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 5239,
+   "url": "https://sklep.hard-pc.pl/p22789,zestaw-ryzen-5-7500f-rx-9060-xt-8gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "22792",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 5199,
+   "url": "https://sklep.hard-pc.pl/p22792,zestaw-ryzen-5-9500f-rx-9060-xt-8gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "25205",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron",
+   "cena": 5049,
+   "url": "https://sklep.hard-pc.pl/p25205,zestaw-ryzen-5-8400f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-atron.html"
+  },
+  {
+   "id": "25275",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Hunter 2",
+   "cena": 7459,
+   "url": "https://sklep.hard-pc.pl/p25275,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "25528",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
+   "cena": 7599,
+   "url": "https://sklep.hard-pc.pl/p25528,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-aquarius-8000.html"
+  },
+  {
+   "id": "25590",
+   "nazwa": "Zestaw | Ryzen 7 9850X3D, 2TB SSD, Silent Base 802, 1200W",
+   "cena": 8188,
+   "url": "https://sklep.hard-pc.pl/p25590,zestaw-ryzen-7-9850x3d-2tb-ssd-silent-base-802-1200w.html"
+  },
+  {
+   "id": "26035",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona",
+   "cena": 7849,
+   "url": "https://sklep.hard-pc.pl/p26035,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-fishtank-6000-corona.html"
+  },
+  {
+   "id": "26093",
+   "nazwa": "Zestaw | Ryzen 7 9850X3D, 32GB DDR5, 1TB SSD, 750W, Pano 130R ARGB",
+   "cena": 6299,
+   "url": "https://sklep.hard-pc.pl/p26093,zestaw-ryzen-7-9850x3d-32gb-ddr5-1tb-ssd-750w-pano-130r-argb.html"
+  },
+  {
+   "id": "26135",
+   "nazwa": "Zestaw | Intel Ultra 7 270K, 32GB DDR5, 850W, Pano 130 ARGB",
+   "cena": 5249,
+   "url": "https://sklep.hard-pc.pl/p26135,zestaw-intel-ultra-7-270k-32gb-ddr5-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26316",
+   "nazwa": "Laptop Dream Machines i7-14650HX/18” FHD 1920x1200/144Hz/RTX5060/TGP 115W/3rd Fan/2TB M.2 SSD/32 GB",
+   "cena": 8799,
+   "url": "https://sklep.hard-pc.pl/p26316,laptop-dream-machines-i7-14650hx-18-fhd-1920x1200-144hz-rtx5060-tgp-115w-3rd-fan-2tb-m-2-ssd-32-gb.html"
+  },
+  {
+   "id": "26330",
+   "nazwa": "Zestaw | Ryzen 7 7700, 64GB DDR5, 750W, Night Hunter",
+   "cena": 6099,
+   "url": "https://sklep.hard-pc.pl/p26330,zestaw-ryzen-7-7700-64gb-ddr5-750w-night-hunter.html"
+  },
+  {
+   "id": "26337",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, 32GB DDR5, 1TB SSD, 850W, Lancool 217",
+   "cena": 5679,
+   "url": "https://sklep.hard-pc.pl/p26337,zestaw-ryzen-7-7800x3d-32gb-ddr5-1tb-ssd-850w-lancool-217.html"
+  },
+  {
+   "id": "26348",
+   "nazwa": "Zestaw | Ryzen 9 7900, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "cena": 5929,
+   "url": "https://sklep.hard-pc.pl/p26348,zestaw-ryzen-9-7900-32gb-ddr5-1tb-ssd-850w-night-hunter.html"
+  },
+  {
+   "id": "26382",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, 32GB DDR5, 2TB SSD, 850W, XT M3 RGB",
+   "cena": 6959,
+   "url": "https://sklep.hard-pc.pl/p26382,zestaw-ryzen-7-9800x3d-32gb-ddr5-2tb-ssd-850w-xt-m3-rgb.html"
+  },
+  {
+   "id": "26447",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, 32GB DDR5, 2TB SSD, 850W, Xt M3 ARGB",
+   "cena": 7358,
+   "url": "https://sklep.hard-pc.pl/p26447,zestaw-ryzen-7-9800x3d-32gb-ddr5-2tb-ssd-850w-xt-m3-argb.html"
+  },
+  {
+   "id": "26461",
+   "nazwa": "Zestaw | Intel Ultra 7 270K Plus, RTX 5060 8GB, 2TB SSD, 32GB DDR5, 850W, Night Hunter",
+   "cena": 8129,
+   "url": "https://sklep.hard-pc.pl/p26461,zestaw-intel-ultra-7-270k-plus-rtx-5060-8gb-2tb-ssd-32gb-ddr5-850w-night-hunter.html"
+  },
+  {
+   "id": "26462",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 1TB SSD, 650W, Exo ARGB",
+   "cena": 6099,
+   "url": "https://sklep.hard-pc.pl/p26462,zestaw-ryzen-5-7500f-rtx-5060-8gb-16gb-ddr5-1tb-ssd-650w-exo-argb.html"
+  },
+  {
+   "id": "26468",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 6499,
+   "url": "https://sklep.hard-pc.pl/p26468,zestaw-ryzen-7-7800x3d-rx-9060-xt-16gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "26477",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 850W, CG530U 4F",
+   "cena": 8199,
+   "url": "https://sklep.hard-pc.pl/p26477,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-16gb-ddr5-1tb-ssd-850w-cg530u-4f.html"
+  },
+  {
+   "id": "26481",
+   "nazwa": "Zestaw | Intel Ultra 7 270K Plus, RTX 5060 8GB, 2TB SSD, 32GB DDR5, 850W, Night Hunter",
+   "cena": 8529,
+   "url": "https://sklep.hard-pc.pl/p26481,zestaw-intel-ultra-7-270k-plus-rtx-5060-8gb-2tb-ssd-32gb-ddr5-850w-night-hunter.html"
+  },
+  {
+   "id": "26483",
+   "nazwa": "Zestaw | Ryzen 9 9950X3D, 16GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "cena": 5929,
+   "url": "https://sklep.hard-pc.pl/p26483,zestaw-ryzen-9-9950x3d-16gb-ddr5-1tb-ssd-750w-night-hunter.html"
+  },
+  {
+   "id": "26485",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 6895,
+   "url": "https://sklep.hard-pc.pl/p26485,zestaw-ryzen-5-9600x-rtx-5060-ti-8gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26497",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, MSI 130R",
+   "cena": 8019,
+   "url": "https://sklep.hard-pc.pl/p26497,zestaw-ryzen-5-7500x3d-rtx-5060-ti-16gb-32gb-ddr5-500gb-ssd-650w-msi-130r.html"
+  },
+  {
+   "id": "26502",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, 32GB DDR5, 2TB SSD, 850W, V100 ARGB",
+   "cena": 6499,
+   "url": "https://sklep.hard-pc.pl/p26502,zestaw-ryzen-7-9800x3d-32gb-ddr5-2tb-ssd-850w-v100-argb.html"
+  }
+ ]
+}
