@@ -11,7 +11,7 @@ i zgłaszany jako błąd (exit 1), żeby routine nie commitował cichej pomyłki
 Użycie:
   python3 apply_price_updates.py price_updates.json [--date "DD miesiąca RRRR"]
 """
-import json, os, re, sys, argparse
+import datetime, json, os, re, sys, argparse
 
 def main():
     ap = argparse.ArgumentParser()
@@ -73,6 +73,32 @@ def main():
             html = html[:entry_start] + new_segment + html[entry_end:]
 
         changed.append({"key": key, "name": entry["name"], "old": old_price, "new": new_price})
+
+    # Dziennik pokrycia — jeden wpis na przebieg. Automat commitował codziennie i wyglądał
+    # na sprawny, ale realnie zbierał 14-44% listy zamiast 100% (7-22 z 50 pozycji), a commit
+    # wygląda identycznie przy 7 i przy 49 zebranych cenach. Ten dziennik czyni spadek widocznym.
+    oczekiwanych = len(auto_list)
+    zebranych = len(updates)
+    pokrycie_proc = round(zebranych / oczekiwanych * 100) if oczekiwanych else 0
+    zebrane_klucze = {u.get("key") for u in updates}
+    brakujace_klucze = [k for k in by_key if k not in zebrane_klucze]
+    wpis_pokrycia = {
+        "data": args.date if args.date else datetime.date.today().isoformat(),
+        "zebranych": zebranych,
+        "oczekiwanych": oczekiwanych,
+        "pokrycie_proc": pokrycie_proc,
+        "zmienionych": len(changed),
+        "brakujace_klucze": brakujace_klucze,
+    }
+    log_plik = os.path.join(os.path.dirname(os.path.abspath(__file__)), "coverage_log.json")
+    dziennik = []
+    if os.path.exists(log_plik):
+        with open(log_plik, encoding="utf-8") as f:
+            dziennik = json.load(f)
+    dziennik.append(wpis_pokrycia)
+    with open(log_plik, "w", encoding="utf-8") as f:
+        json.dump(dziennik, f, ensure_ascii=False, indent=1)
+    print(f"POKRYCIE: {zebranych}/{oczekiwanych} ({pokrycie_proc}%)")
 
     if args.date:
         # Datę trzyma JEDNA zmienna. Wcześniej podmieniał ją regex szukający frazy „Ostatnia weryfikacja cen:"
