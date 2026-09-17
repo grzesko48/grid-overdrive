@@ -11,7 +11,7 @@ i zgłaszany jako błąd (exit 1), żeby routine nie commitował cichej pomyłki
 Użycie:
   python3 apply_price_updates.py price_updates.json [--date "DD miesiąca RRRR"]
 """
-import json, re, sys, argparse
+import json, os, re, sys, argparse
 
 def main():
     ap = argparse.ArgumentParser()
@@ -81,9 +81,37 @@ def main():
     with open(args.html, "w", encoding="utf-8") as f:
         f.write(html)
 
+    # Te same ceny nanosimy na szablon — źródło, z którego buduje się stronę.
+    # Wcześniej ceny szły wyłącznie do index.html, więc szablon zostawał w tyle (AOC Q27G4ZR:
+    # 789 zł w szablonie wobec 899 zł na stronie) i każda przebudowa cofała tydzień pracy
+    # Routine. Kotwica regexowa jest ta sama, bo dane siedzą w szablonie — poza szablonem
+    # są tylko obrazy. Robimy to tutaj, a nie w konfiguracji Routine, bo Routine woła ten
+    # skrypt bez zmian i nie da się jej edytować z sesji.
+    szablon_plik = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                "monitors_1700_template.html")
+    szablon_zmian = 0
+    if os.path.exists(szablon_plik) and os.path.abspath(szablon_plik) != os.path.abspath(args.html):
+        with open(szablon_plik, encoding="utf-8") as f:
+            szablon = f.read()
+        for c in changed:
+            wzor = re.compile(r"(\{img:'" + re.escape(c["key"]) + r"', name:'[^']*', price:)(\d+)")
+            szablon, n = wzor.subn(lambda mm: mm.group(1) + str(c["new"]), szablon, count=1)
+            szablon_zmian += n
+        if args.date:
+            szablon = re.sub(r"Ostatnia weryfikacja cen: [^—]+—",
+                             f"Ostatnia weryfikacja cen: {args.date} —", szablon)
+            szablon = re.sub(r"var PRICE_CHECK_LABEL = '[^']*';",
+                             f"var PRICE_CHECK_LABEL = '{args.date}';", szablon)
+        with open(szablon_plik, "w", encoding="utf-8") as f:
+            f.write(szablon)
+        if changed and szablon_zmian != len(changed):
+            errors.append(f"szablon: naniesiono {szablon_zmian} z {len(changed)} zmian "
+                          f"— szablon rozjechał się z index.html")
+
     print(json.dumps({
         "changed": changed,
         "unchanged_count": len(unchanged),
+        "template_synced": szablon_zmian,
         "errors": errors
     }, ensure_ascii=False, indent=1))
 

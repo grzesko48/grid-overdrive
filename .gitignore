@@ -1,0 +1,6 @@
+# Plik wynikowy do publikacji artefaktu — powstaje przy każdym build_merged.py.
+# Nie trzymamy go w repozytorium, bo to 11 MB duplikatu treści index.html.
+artifact.html
+
+# Katalog roboczy porównań katalogów sklepowych (dane tymczasowe)
+recheck/
