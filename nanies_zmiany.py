@@ -97,8 +97,20 @@ def main():
     ap.add_argument("--zebrane", default=os.path.join(BAZA, "zebrane_ceny.json"))
     ap.add_argument("--na-sucho", action="store_true", help="pokaż zmiany, nie zapisuj")
     ap.add_argument("--data", default=None, help='np. "18 września 2026"')
+    ap.add_argument("--dzis", action="store_true",
+                    help="policz dzisiejszą datę po polsku. Robi to skrypt, a nie prompt "
+                         "Routine — poprzednia wersja generowała nazwy miesięcy bez "
+                         "polskich znaków i na stronę trafiało „18 wrzesnia 2026”.")
     ap.add_argument("--prog", type=float, default=PROG_ZMIANY)
     a = ap.parse_args()
+
+    if a.dzis and not a.data:
+        MIESIACE = ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca",
+                    "lipca", "sierpnia", "września", "października", "listopada",
+                    "grudnia"]
+        d = datetime.date.today()
+        a.data = f"{d.day} {MIESIACE[d.month - 1]} {d.year}"
+        print(f"data: {a.data}")
 
     zeb = json.load(open(a.zebrane, encoding="utf-8"))
     adresy = zeb["adresy"]
