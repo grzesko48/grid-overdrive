@@ -75,7 +75,9 @@ def main():
         changed.append({"key": key, "name": entry["name"], "old": old_price, "new": new_price})
 
     if args.date:
-        html = re.sub(r"Ostatnia weryfikacja cen: [^—]+—", f"Ostatnia weryfikacja cen: {args.date} —", html)
+        # Datę trzyma JEDNA zmienna. Wcześniej podmieniał ją regex szukający frazy „Ostatnia weryfikacja cen:"
+        # w całym dokumencie — trafiał też w akapit metodyki i przy każdym przebiegu ucinał tam fragment zdania
+        # (od 9.09.2026, commit e215aa2). Wzorzec kotwiczony na deklaracji zmiennej nie ma jak trafić w prozę.
         html = re.sub(r"var PRICE_CHECK_LABEL = '[^']*';", f"var PRICE_CHECK_LABEL = '{args.date}';", html)
 
     with open(args.html, "w", encoding="utf-8") as f:
@@ -98,8 +100,7 @@ def main():
             szablon, n = wzor.subn(lambda mm: mm.group(1) + str(c["new"]), szablon, count=1)
             szablon_zmian += n
         if args.date:
-            szablon = re.sub(r"Ostatnia weryfikacja cen: [^—]+—",
-                             f"Ostatnia weryfikacja cen: {args.date} —", szablon)
+            # Datę trzyma JEDNA zmienna — patrz komentarz przy pierwszej podmianie wyżej.
             szablon = re.sub(r"var PRICE_CHECK_LABEL = '[^']*';",
                              f"var PRICE_CHECK_LABEL = '{args.date}';", szablon)
         with open(szablon_plik, "w", encoding="utf-8") as f:
