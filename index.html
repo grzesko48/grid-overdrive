@@ -241,6 +241,7 @@ section.grid-view{padding:1.4rem 0 2.6rem;}
 .pc-chips{display:flex; flex-wrap:wrap; gap:.4rem; margin:.2rem 0 .1rem;}
 .pc-chip{display:inline-flex; align-items:center; gap:.32rem; background:var(--panel-2); border:1px solid var(--line); border-radius:6px; padding:.18rem .55rem .18rem .45rem; font-size:.78rem; font-family:"JetBrains Mono",monospace; color:var(--ink-dim); white-space:nowrap;}
 .pc-chip svg{width:12px; height:12px; flex:none; stroke:var(--ink-dim); fill:none; stroke-width:1.6;}
+.pc-chip-vram8{background:color-mix(in srgb, var(--bad) 14%, transparent); border-color:var(--bad); color:var(--bad); font-weight:700;}
 .pc-chip-highlight{border-color:var(--accent-2); color:var(--accent-2); font-weight:700;}
 .pc-chip-highlight svg{stroke:var(--accent-2);}
 .pc-custom-ribbon{position:absolute; top:.6rem; right:.6rem; z-index:2; background:var(--accent-2); color:#04141a; font-size:.7rem; font-weight:800; letter-spacing:.02em; padding:.22rem .6rem; border-radius:999px; box-shadow:var(--shadow);}
@@ -661,6 +662,35 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
       <p><strong>Ograniczenia dostępu (5-sklepowy przegląd cen):</strong> RTV EURO AGD blokuje automatyczne pobieranie stron produktowych (HTTP 403) w całości — ceny tego sklepu potwierdzono pośrednio przez wpis „RTV EURO AGD” na liście aktywnych sprzedawców danej oferty na Ceneo.pl, dlatego część linków „RTV Euro AGD” w kartach prowadzi do Ceneo, nie bezpośrednio do euro.com.pl. Media Expert w tej turze zablokował dostęp jeszcze twardziej — cała domena zwracała błąd 403, a wyszukiwarka DuckDuckGo była zablokowana CAPTCHĄ. Dla 13 modeli, gdzie Media Expert był sklepem „domowym”, użyto cen zweryfikowanych bezpośrednio wcześniej w tej sesji; dla 4 kolejnych cenę potwierdzono przez aktywną ofertę na Ceneo.pl; dla pozostałych ok. 17 modeli Media Expert jest oznaczony jako „niedostępny” w panelu cen — nie dlatego, że tam nie sprzedają, tylko dlatego, że nie udało się tego w tej turze potwierdzić automatycznie.</p>
       <p><strong>Skorygowany błąd:</strong> wstępne dane sugerowały, że Philips Evnia 27M2N3501PA/00 ma tylko 144 Hz — sprzeczne z inną, wcześniejszą weryfikacją tego samego modelu. Sprawdzone bezpośrednio na karcie produktu x-kom.pl: monitor ma 260 Hz (OC), zgodnie z pierwotnym ustaleniem. W tabeli użyto zweryfikowanej wartości 260 Hz.</p>
       <p><strong>Pominięte:</strong> ASUS ROG Strix XG27AQMR (Fast IPS 300 Hz) i ASUS ROG Strix XG27ACMG (Fast IPS 270 Hz) — niedostępne w żadnym z pięciu sklepów w tej turze, prawdopodobnie wycofane z oferty PL. AOC AGON PRO AG276QZD2 i Samsung Odyssey OLED G6 S27DG610SU sprawdzone, ale odrzucone jako wciąż powyżej 1700 zł (odpowiednio 1799 zł i 2299 zł). Odrzucono też jedyny znaleziony model poniżej 240 Hz (ASUS TUF Gaming VG27AQL5A, 210 Hz) po doprecyzowaniu progu odświeżania na 240–360 Hz — zastąpiony przez Gigabyte MO27Q2A (QD-OLED, 280 Hz, 1699 zł).</p>
+      <p><strong>Pamięć karty, DLSS i FSR — dlaczego nie punktujemy oprogramowania:</strong>
+      wszystkie karty w tym zestawieniu (GeForce RTX 5050, 5060, 5060 Ti, 5070 oraz Radeon RX 9060 XT,
+      9070, 9070 XT) obsługują komplet technologii swojego producenta — DLSS 4.5 po jednej stronie,
+      FSR Upscaling 4.1 po drugiej. <strong>Kolumna „obsługuje DLSS/FSR" miałaby tę samą wartość
+      przy każdym z 348 zestawów</strong>, więc nie mówiłaby nic i nie ma jej tutaj. To, co realnie
+      dzieli te komputery, to pamięć karty i wydajność bazowa.</p>
+      <p><strong>Osiem gigabajtów pamięci karty to w 1440p granica twarda, nie stopniowy minus.</strong>
+      Redakcja Tom's Hardware zmierzyła we wrześniu 2026 w NBA 2K27 na maksymalnych ustawieniach
+      z ray tracingiem, że w tej rozdzielczości karty 8 GB dostają ostrzeżenie o braku pamięci —
+      nie da się mieć naraz ray tracingu, najnowszego DLSS i generowania klatek; coś trzeba wyłączyć.
+      Nasza ocena długowieczności odzwierciedla to od początku: <strong>żaden zestaw z kartą 8 GB nie przekracza
+      38 punktów na 100</strong>, podczas gdy ta sama karta w wersji 16 GB sięga 61. Różnica jest
+      stała i wynosi <strong>dokładnie 23 punkty</strong> — sprawdziliśmy to na wszystkich zestawach
+      z kartami RX 9060 XT i RTX 5060 Ti, gdzie oceny układają się w dwie pary: 27 wobec 50 przy
+      16 GB pamięci systemowej i 38 wobec 61 przy 32 GB.
+      Nowa jest tylko czerwona plakietka na karcie, żeby było widać, skąd ta różnica się bierze.</p>
+      <p><strong>Uwaga o DLSS 5, bo łatwo wziąć go za przewagę:</strong> to nie jest upscaler ani
+      generator klatek, tylko warstwa dokładająca wygląd, którego silnik gry nigdy nie policzył —
+      i <strong>kosztuje ona klatki zamiast je dodawać</strong>. Niezależne pomiary z września 2026
+      dają spadki od 38 do 73 procent, zależnie od karty i rozdzielczości. Działa na razie w jednej
+      grze i wyłącznie na kartach serii RTX 50. Sama NVIDIA nie podaje żadnej liczby dla 1440p
+      poniżej RTX 5070, a Tom's Hardware stawia RTX 5060 Ti jako absolutne minimum tej rozdzielczości.
+      Z tego powodu <strong>nie dopisujemy DLSS 5 do żadnej oceny jako zalety</strong> — dla kart
+      z dolnej połowy tego zestawienia jest to funkcja 1080p.</p>
+      <p><strong>O mnożnikach w reklamach — obu producentów tak samo:</strong> „do 370 klatek
+      w 4K" u NVIDII oznacza sześciokrotne generowanie klatek, czyli realnie około 62 klatki
+      narysowane. „Wydajność wyższa średnio 3,5 raza" u AMD to, zgodnie z przypisem w ich własnym
+      materiale, porównanie 4K natywnie z trybem wydajnościowym plus generowaniem klatek. To jest
+      ta sama figura po obu stronach i w tym zestawieniu nie używamy żadnej z nich.</p>
       <p><strong>Jak pobieramy ceny:</strong> automat czyta wyłącznie publiczne strony produktowe, te same, które widzi każdy klient — nie omija logowania, nie korzysta z żadnych API wewnętrznych i nie podszywa się pod cudze konto. Przed pobraniem sprawdza plik <code>robots.txt</code> danego sklepu i stosuje się do niego: pomija adresy objęte zakazem i respektuje żądane tempo (PlugNPlay prosi o sekundę przerwy między zapytaniami — dostaje sekundę). Gdy sklep odmawia obsługi automatu (x-kom, Media Expert i RTV Euro AGD odpowiadają kodem 403), <strong>uznajemy tę odmowę</strong> i nie próbujemy jej obchodzić — ich ceny weryfikujemy ręcznie, rzadziej, co jest widoczne przy każdej cenie. Tempo jest dławione osobno dla każdego sklepu, a gdy sklep zasygnalizuje, że pytamy za szybko, automat sam zwalnia do końca przebiegu.</p>
       <p><strong>Ceny wielosklepowe:</strong> gdy model jest dostępny w kilku sklepach, w karcie podano cenę jednego, wskazanego sklepu — pełną listę wraz z najtańszą ofertą oznaczoną fioletem i plakietką EPIC zobaczysz po rozwinięciu karty. Uwaga: ten wskazany sklep nie zawsze ma najtańszą ofertę i nie zawsze jest tym, który automat odświeża, więc po rozwinięciu karty może stać niższa cena. Nie przepinamy nagłówka samoczynnie, bo zmieniałoby to ranking między przebiegami.</p>
       <p><strong>Runda 5 (oceny 1–10, zalety/wady, ranking, porównanie):</strong> pięć wskaźników na kartę to <em>wyliczone</em> wyniki, nie niezależne testy laboratoryjne — Wydajność z częstotliwości odświeżania, Jakość obrazu z kategorii matrycy (QD-OLED/OLED wysoko, VA/IPS niżej), Opłacalność z relacji zł/Hz w tym zestawieniu, Złącza i funkcje z treści opisu produktu (HDMI 2.1, USB-C, zakrzywienie), a Ocena ogólna to suma ważona (Jakość obrazu 30% + Opłacalność 30% + Wydajność 25% + Złącza 15%). Zalety i wady są wygenerowane z tych samych, realnie zweryfikowanych danych (cena, Hz, typ matrycy, liczba potwierdzonych sklepów) — nie są to cytaty z recenzji redakcyjnych. Ranking sortuje wszystkie modele po Ocenie ogólnej, więc premiuje stosunek ceny do jakości, a nie samą jakość matrycy — drogi QD-OLED/OLED bez rewelacyjnego Hz może wypaść niżej niż tańszy, szybki IPS. Funkcja „Porównaj” pozwala zestawić do 4 wybranych modeli obok siebie.</p>
@@ -2053,6 +2083,19 @@ wstaw('monCount', DATA.length);
   /* ---------- price rows (dynamic store list, no fixed slots) ---------- */
   var PSTORE_LABELS = {xkom:'x-kom.pl', morele:'Morele.net', mediaexpert:'Media Expert', mediamarkt:'MediaMarkt', rtveuroagd:'RTV Euro AGD', goblinpc:'GoblinPC.pl', hardpc:'Hard-PC.pl', plugnplay:'PlugNPlay.pl'};
   var PSTORE_COLORS = {xkom:'#d31f3c', morele:'#0067b1', mediaexpert:'#f0592b', mediamarkt:'#e2001a', rtveuroagd:'#5aa022', goblinpc:'#6c3fc9', hardpc:'#c97a00', plugnplay:'#0aa06e'};
+  /* Osiem gigabajtów pamięci karty jest w 1440p granicą twardą, nie stopniowym minusem.
+     Tom's Hardware zmierzyło w NBA 2K27 na maksymalnych ustawieniach z ray tracingiem, że
+     w tej rozdzielczości karty 8 GB dostają ostrzeżenie o braku pamięci przy włączonym
+     DLSS 5 — nie da się mieć naraz ray tracingu, DLSS 5 i generowania klatek. Ocena
+     długowieczności już to odzwierciedla (karta 8 GB nie przekracza 38 punktów na 100,
+     wersja 16 GB tej samej karty dostaje 61), ale czytelnik nie miał skąd wiedzieć,
+     dlaczego. Ta plakietka to mówi. */
+  function vram8Chip(d){
+    var m = /(\d{1,2})\s*GB/.exec(d.gpu || '');
+    if(!m || parseInt(m[1],10) > 8) return '';
+    return '<span class="pc-chip pc-chip-vram8" title="W 1440p z ray tracingiem 8 GB pamięci karty bywa za mało — zmierzone przez Toms Hardware w NBA 2K27 z DLSS 5">8 GB VRAM — mało na 1440p</span>';
+  }
+
   function buildPcPriceRows(d){
     // Oferta wyprzedana nie może wygrać porównania ani udawać najtańszej — inaczej karta
     // reklamuje cenę, której nikt nie zapłaci. Ten sam układ co w sekcji monitorów.
@@ -2216,6 +2259,7 @@ wstaw('monCount', DATA.length);
           '<h3>'+d.name+'</h3>'+
           '<div class="pc-gpu-cpu-row"><span class="gpu-dot"></span><span class="gpu-name">'+d.gpu+'</span><span>·</span><span>'+d.cpu+'</span></div>'+
           '<div class="pc-chips">'+
+            vram8Chip(d)+
             '<span class="pc-chip pc-chip-ram'+(d.isCustom?' pc-chip-highlight':'')+'">'+ICON_RAM+d.ram+'</span>'+
             '<span class="pc-chip">'+ICON_SSD+d.storage+'</span>'+
             '<span class="pc-chip">'+ICON_PSU+d.psu+'</span>'+
