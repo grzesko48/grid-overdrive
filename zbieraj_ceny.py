@@ -73,20 +73,38 @@ def wczytaj(sz):
 # ---------------------------------------------------------------- pobieranie
 
 class Tempo:
-    """Minimalny odstęp między zapytaniami do tego samego hosta. Hard-PC przy sześciu
-    równoległych wątkach odrzucał 52 z 219 zapytań kodem 429 — sklep nie jest wolniejszy,
-    tylko pilnuje tempa. Dławimy per host, żeby nie spowalniać pozostałych sklepów."""
-    def __init__(self, odstep=0.6):
-        self.odstep, self.ostatnie, self.zamek = odstep, {}, threading.Lock()
+    """Minimalny odstęp między zapytaniami do tego samego hosta, dobierany w biegu.
+
+    Stały odstęp nie wystarcza: te same 0,6 s daje komplet 219/219 z tego komputera,
+    a z maszyny w chmurze Hard-PC odrzucił 57 zapytań kodem 429 (pokrycie 88% → 75%).
+    Limit zależy od tego, skąd pytamy, więc nie da się go zgadnąć z góry — zamiast
+    zgadywać, po każdym 429 podwajamy odstęp DLA TEGO HOSTA i zostawiamy go już
+    spowolnionego do końca przebiegu. Pozostałe sklepy chodzą pełnym tempem."""
+    # Sufit 2 s, nie wiecej: Hard-PC ma 219 adresow, wiec 3 s dawaloby 11 minut zbierania,
+    # a Bash w Routine ma twardy limit 10 minut. Lepiej stracic kilka adresow niz caly przebieg.
+    def __init__(self, odstep=0.6, sufit=2.0):
+        self.bazowy, self.sufit = odstep, sufit
+        self.odstepy, self.ostatnie = {}, {}
+        self.zamek = threading.Lock()
 
     def czekaj(self, host):
         with self.zamek:
+            odstep = self.odstepy.get(host, self.bazowy)
             t = time.time()
-            nast = self.ostatnie.get(host, 0) + self.odstep
+            nast = self.ostatnie.get(host, 0) + odstep
             self.ostatnie[host] = max(t, nast)
             spij = nast - t
         if spij > 0:
             time.sleep(spij)
+
+    def spowolnij(self, host):
+        """Sklep powiedział „za szybko". Zwalniamy trwale, zamiast tylko ponawiać —
+        samo ponowienie trafia w ten sam limit, bo reszta wątków dalej wali pełnym tempem."""
+        with self.zamek:
+            stary = self.odstepy.get(host, self.bazowy)
+            nowy = min(stary * 2, self.sufit)
+            self.odstepy[host] = nowy
+            return stary, nowy
 
 
 TEMPO = Tempo()
@@ -104,7 +122,11 @@ def pobierz(url, prob=4):
                 return o.status, o.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
             if e.code in (429, 503) and n < prob - 1:
-                time.sleep(3 * (n + 1))          # ograniczenie tempa — czekamy i wracamy
+                stary, nowy = TEMPO.spowolnij(host)
+                if nowy != stary:
+                    print(f"  {host}: limit tempa — zwalniam {stary:.1f}s → {nowy:.1f}s",
+                          file=sys.stderr)
+                time.sleep(2 * (n + 1))
                 continue
             return e.code, ""
         except Exception as e:                      # timeout, DNS, reset
@@ -299,6 +321,16 @@ def main():
     json.dump({"pobrano": licz, "adresy": wyniki,
                "adres_do_pozycji": {f"{k[0]}|{k[1]}": v for k, v in adresy.items()}},
               open(a.wyjscie, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+    wg_sklepu = {}
+    for klucz, w in wyniki.items():
+        wg_sklepu.setdefault(klucz.split("|")[0], {}).setdefault(w["stan"], 0)
+        wg_sklepu[klucz.split("|")[0]][w["stan"]] += 1
+    print("\nwedług sklepu:", file=sys.stderr)
+    for s in sorted(wg_sklepu, key=lambda x: -wg_sklepu[x].get("ok", 0)):
+        d = wg_sklepu[s]
+        print(f"   {s:12s} ok={d.get('ok',0):4d} wycofane={d.get('wycofany',0):3d} "
+              f"brak_ceny={d.get('brak_ceny',0):3d} blad={d.get('blad',0):3d}", file=sys.stderr)
 
     razem = sum(licz.values())
     print(f"\nPOKRYCIE: {licz['ok']}/{razem} adresów "
