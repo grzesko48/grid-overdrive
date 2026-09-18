@@ -1,75 +1,17 @@
 {
  "data": "18 września 2026",
  "pobrano": {
-  "ok": 373,
+  "ok": 316,
   "brak_ceny": 16,
   "wycofany": 10,
   "zablokowane": 0,
-  "blad": 25
+  "blad": 82
  },
- "pokrycie_proc": 88,
- "zmian_cen": 0,
+ "pokrycie_proc": 75,
+ "zmian_cen": 13,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [],
- "ukryte": [
-  {
-   "nazwa": "Gigabyte GS27Q X",
-   "rodzaj": "monitor",
-   "sklepy": [
-    "mediamarkt",
-    "morele"
-   ]
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ryzen 7 7800X3D, RTX 5060)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "BLEU JOUR Sprite (Ultra 5-225F, RTX 5060)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "BLEU JOUR Byte AI Ready (Ultra 5-225F, RTX 5060 Ti, 16GB)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "BLEU JOUR Byte AI Desktop (Ultra 5-225F, RTX 5060 Ti, 32GB)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "BLEU JOUR Sprite (Ultra 7-265KF, RTX 5060, 16GB)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ultra 7-265KF, RTX 5060 Ti)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ultra 5-245KF, RTX 5060)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  }
- ],
+ "ukryte": [],
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
@@ -84,5 +26,117 @@
    "na_stronie": "Monitor Samsung Odyssey G6 OLED (LS27DG602SUXEN)"
   }
  ],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "AOC Q27G42ZE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 817,
+   "nowa": 813,
+   "roznica": -4
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27FG602EUXEN",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1176,
+   "nowa": 1146,
+   "roznica": -30,
+   "naglowek": 1146
+  },
+  {
+   "nazwa": "AOC Q27G4ZR",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 839,
+   "nowa": 899,
+   "roznica": 60
+  },
+  {
+   "nazwa": "Acer Nitro XZ273UX2bmiiprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1061,
+   "nowa": 966,
+   "roznica": -95
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1280,
+   "nowa": 1276,
+   "roznica": -4,
+   "naglowek": 1276
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1412,
+   "nowa": 1419,
+   "roznica": 7,
+   "naglowek": 1419
+  },
+  {
+   "nazwa": "Gigabyte GO27Q24G",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1887,
+   "nowa": 1549,
+   "roznica": -338
+  },
+  {
+   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1609,
+   "nowa": 1663,
+   "roznica": 54,
+   "naglowek": 1663
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1599,
+   "nowa": 1607,
+   "roznica": 8,
+   "naglowek": 1607
+  },
+  {
+   "nazwa": "Gigabyte MO27Q2A Ice",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2019,
+   "nowa": 1970,
+   "roznica": -49
+  },
+  {
+   "nazwa": "Acer CE270UXwmiipprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1678,
+   "nowa": 1680,
+   "roznica": 2,
+   "naglowek": 1680
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27AQDMG",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2179,
+   "nowa": 2169,
+   "roznica": -10
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 S27FG602EUX (G60F)",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1176,
+   "nowa": 1146,
+   "roznica": -30,
+   "naglowek": 1146
+  }
+ ]
 }
