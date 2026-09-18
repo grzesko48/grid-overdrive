@@ -308,7 +308,15 @@ def main():
     dziennik.append({k: raport[k] for k in ("data", "pobrano", "pokrycie_proc",
                                             "zmian_cen")})
     json.dump(dziennik, open(plik, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("\nszablon zapisany; przebudowuję stronę")
+    # Oceny MUSZA isc za cenami. Dotad automat zmienial ceny i nie ruszal ocen, wiec
+    # skladnik „oplacalnosc" (zalezny od ceny) rozjezdzal sie z kazdym przebiegiem:
+    # przeliczenie na cenach sprzed dziewieciu dni przesuwalo 298 z 324 zestawow, srednio
+    # o 6 miejsc. Skrypt konczy sie bledem, gdy test par sprzecznych nie przejdzie —
+    # check=True przerywa wtedy caly przebieg i strona NIE zostaje opublikowana.
+    print("\nszablon zapisany; przeliczam oceny")
+    subprocess.run([sys.executable, os.path.join(BAZA, "przelicz_oceny.py"),
+                    "--bez-przebudowy"], check=True)
+    print("\nprzebudowuję stronę")
     subprocess.run([sys.executable, os.path.join(BAZA, "build_merged.py")], check=True)
 
 

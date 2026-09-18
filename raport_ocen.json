@@ -1,0 +1,37 @@
+{
+ "progi": {
+  "monitor": {
+   "podstawa": "zł/Hz",
+   "najlepszy": 3.0,
+   "najgorszy": 12.0
+  },
+  "pc": {
+   "podstawa": "zł/pkt wydajności",
+   "najlepszy": 70.0,
+   "najgorszy": 140.0
+  }
+ },
+ "przeliczonych": 1,
+ "par_sprzecznych": {
+  "monitor": 0,
+  "pc": 0
+ },
+ "bez_podstawy": [],
+ "zmiany": [
+  {
+   "nazwa": "AOC AGON PRO AG276QZD2",
+   "rodzaj": "monitor",
+   "podstawa": 7.33,
+   "zmiany": {
+    "value": [
+     50,
+     52
+    ],
+    "overall": [
+     67,
+     68
+    ]
+   }
+  }
+ ]
+}

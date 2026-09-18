@@ -50,12 +50,33 @@ def normalize_gpu(raw):
     series = 'RX' if is_amd else 'RTX'
     return f"{brand} {series} {num}{suffix}{(' '+vram) if vram else ''}".strip()
 
+class BrakDanych(Exception):
+    """Podnoszona zamiast wstawienia domyslnej wartosci. Zasada wlasciciela brzmi
+    „BRAK zamiast zgadywania", a cichy fallback lamal ja w najgorszy mozliwy sposob:
+    karta spoza slownika dostawala klase 3 (srodek skali), zestaw trafial do rankingu
+    z ocena wziete z powietrza i nikt tego nie widzial. Build ma sie zatrzymac i pokazac,
+    czego brakuje, zeby czlowiek dopisal to do slownika."""
+
+
 def gpu_tier(gpu):
-    return GPU_TIER.get(normalize_gpu(gpu), 3)
+    klucz = normalize_gpu(gpu)
+    if klucz not in GPU_TIER:
+        raise BrakDanych(
+            f"karta spoza slownika GPU_TIER: {gpu!r} (po normalizacji: {klucz!r}). "
+            f"Dopisz ja do GPU_TIER z klasa ustalona na podstawie testow, albo usun "
+            f"zestaw z zestawienia. NIE wstawiaj wartosci domyslnej."
+        )
+    return GPU_TIER[klucz]
+
 
 def gpu_vram_gb(gpu):
     m = re.search(r'(\d{1,2})\s*GB\b', gpu or "", re.I)
-    return int(m.group(1)) if m else 8
+    if not m:
+        raise BrakDanych(
+            f"brak pojemnosci pamieci karty w opisie: {gpu!r}. Uzupelnij opis w danych "
+            f"zrodlowych. NIE zakladaj 8 GB."
+        )
+    return int(m.group(1))
 
 def cpu_tier(cpu):
     c = (cpu or "").lower()
@@ -76,7 +97,12 @@ def clamp(v, lo=1, hi=100):
 
 def ram_cap_gb(ram):
     m = re.search(r'(\d{1,3})\s*GB', ram or "")
-    return int(m.group(1)) if m else 16
+    if not m:
+        raise BrakDanych(
+            f"brak pojemnosci pamieci RAM w opisie: {ram!r}. Uzupelnij dane zrodlowe. "
+            f"NIE zakladaj 16 GB."
+        )
+    return int(m.group(1))
 
 def ram_quality(ram):
     cap = ram_cap_gb(ram)

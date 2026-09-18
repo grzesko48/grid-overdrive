@@ -1,23 +1,22 @@
 {
  "data": "18 września 2026",
  "pobrano": {
-  "ok": 316,
-  "brak_ceny": 15,
-  "wycofany": 11,
+  "ok": 373,
+  "brak_ceny": 16,
+  "wycofany": 10,
   "zablokowane": 0,
-  "robots": 0,
-  "blad": 82
+  "blad": 25
  },
- "pokrycie_proc": 75,
- "zmian_cen": 0,
+ "pokrycie_proc": 88,
+ "zmian_cen": 1,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [
   {
    "nazwa": "Gigabyte GO27Q24G",
-   "bylo": [],
-   "jest": [
+   "bylo": [
     "mediamarkt"
-   ]
+   ],
+   "jest": []
   }
  ],
  "ukryte": [],
@@ -35,5 +34,15 @@
    "na_stronie": "Monitor Samsung Odyssey G6 OLED (LS27DG602SUXEN)"
   }
  ],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "AOC AGON PRO AG276QZD2",
+   "rodzaj": "monitor",
+   "sklep": "xkom",
+   "stara": 1799,
+   "nowa": 1759,
+   "roznica": -40,
+   "naglowek": 1759
+  }
+ ]
 }

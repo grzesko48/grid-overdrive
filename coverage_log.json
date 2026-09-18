@@ -71,5 +71,17 @@
   },
   "pokrycie_proc": 75,
   "zmian_cen": 0
+ },
+ {
+  "data": "18 września 2026",
+  "pobrano": {
+   "ok": 373,
+   "brak_ceny": 16,
+   "wycofany": 10,
+   "zablokowane": 0,
+   "blad": 25
+  },
+  "pokrycie_proc": 88,
+  "zmian_cen": 1
  }
 ]
