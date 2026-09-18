@@ -11,6 +11,7 @@ Czyta pozycje wprost z szablonu (jedyne źródło prawdy), niczego nie zapisuje.
 Wynik idzie do JSON-a, który dopiero drugi skrypt nanosi na dane.
 """
 import argparse, json, os, re, sys, threading, time, urllib.error, urllib.parse, urllib.request
+import urllib.robotparser
 from concurrent.futures import ThreadPoolExecutor
 
 BAZA = os.path.dirname(os.path.abspath(__file__))
@@ -114,6 +115,11 @@ class Tempo:
         if spij > 0:
             time.sleep(spij)
 
+    def ustaw_minimum(self, host, sekundy):
+        """Tempo wymuszone przez robots.txt sklepu — nigdy nie schodzimy poniżej."""
+        with self.zamek:
+            self.odstepy[host] = max(self.odstepy.get(host, self.bazowy), sekundy)
+
     def spowolnij(self, host):
         """Sklep powiedział „za szybko". Zwalniamy trwale, zamiast tylko ponawiać —
         samo ponowienie trafia w ten sam limit, bo reszta wątków dalej wali pełnym tempem."""
@@ -125,6 +131,56 @@ class Tempo:
 
 
 TEMPO = Tempo()
+
+
+class Regulamin:
+    """robots.txt każdego sklepu — czytamy go i stosujemy, zamiast zakładać, że wolno nam
+    wszystko.
+
+    Dwie rzeczy z niego bierzemy. Disallow: sklepy zamykają koszyki, konta i panele
+    administracyjne; stron produktowych żaden z nich nie zamyka, ale sprawdzamy to przy
+    każdym adresie, zamiast ufać jednorazowemu przeglądowi. Crawl-delay: PlugNPlay prosi
+    o sekundę przerwy, a my pytaliśmy co 0,6 s — czyli szybciej, niż sklep sobie życzy.
+    Prośba o wolniejsze tempo jest wiążąca tak samo jak zakaz.
+
+    Gdy robots.txt jest niedostępny, zakładamy zgodę na strony produktowe — to jest
+    zachowanie zgodne ze standardem, bo brak pliku oznacza brak ograniczeń."""
+
+    def __init__(self):
+        self.reguly, self.zamek = {}, threading.Lock()
+
+    def _wczytaj(self, host):
+        rp = urllib.robotparser.RobotFileParser()
+        try:
+            r = urllib.request.Request(f"https://{host}/robots.txt", headers=NAGLOWKI)
+            with urllib.request.urlopen(r, timeout=20) as o:
+                rp.parse(o.read().decode("utf-8", "replace").splitlines())
+        except Exception:
+            rp.parse([])                     # brak pliku = brak ograniczen
+        opoznienie = None
+        try:
+            opoznienie = rp.crawl_delay(UA)
+        except Exception:
+            pass
+        if opoznienie:
+            TEMPO.ustaw_minimum(host, float(opoznienie))
+            print(f"  {host}: robots.txt prosi o {opoznienie}s przerwy — stosuję",
+                  file=sys.stderr)
+        return rp
+
+    def wolno(self, url):
+        host = urllib.parse.urlparse(url).netloc
+        with self.zamek:
+            if host not in self.reguly:
+                self.reguly[host] = self._wczytaj(host)
+            rp = self.reguly[host]
+        try:
+            return rp.can_fetch(UA, url)
+        except Exception:
+            return True
+
+
+REGULAMIN = Regulamin()
 
 
 def pobierz(url, prob=4):
@@ -306,10 +362,12 @@ def main():
           f"{f' (pobieram {len(lista)})' if a.limit else ''}", file=sys.stderr)
 
     wyniki, licz = {}, {"ok": 0, "brak_ceny": 0, "wycofany": 0,
-                       "zablokowane": 0, "blad": 0}
+                       "zablokowane": 0, "robots": 0, "blad": 0}
 
     def zadanie(klucz):
         sklep, u = klucz
+        if not REGULAMIN.wolno(u):
+            return klucz, {"stan": "robots", "kod": None}
         kod, s = pobierz(u)
         if kod != 200 or not s:
             return klucz, {"stan": "blad", "kod": kod, "szczegol": s or ""}
@@ -331,7 +389,8 @@ def main():
             licz[w["stan"]] = licz.get(w["stan"], 0) + 1
             if i % 50 == 0 or i == len(lista):
                 print(f"  {i}/{len(lista)}  ok={licz['ok']} wycofane={licz['wycofany']} "
-                      f"brak_ceny={licz['brak_ceny']} blad={licz['blad']} "
+                      f"brak_ceny={licz['brak_ceny']} robots={licz['robots']} "
+                      f"blad={licz['blad']} "
                       f"({time.time()-t0:.0f}s)", file=sys.stderr)
 
     json.dump({"pobrano": licz, "adresy": wyniki,
