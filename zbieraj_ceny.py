@@ -18,6 +18,23 @@ SZABLON = os.path.join(BAZA, "monitors_1700_template.html")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
 
+# Sam User-Agent nie wystarcza: z tego komputera x-kom oddaje komplet 57/57, a z maszyny
+# w chmurze odrzucil wszystkie 57 zapytan. Roznica jest w adresie IP, ale zanim uznamy
+# sklep za niedostepny, warto wygladac jak zwykla przegladarka — brak naglowkow Accept
+# i Sec-Fetch-* to najtansza do usuniecia przyczyna takiego odsiewu.
+NAGLOWKI = {
+    "User-Agent": UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,"
+              "image/webp,*/*;q=0.8",
+    "Accept-Language": "pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+    "Connection": "keep-alive",
+}
+
 # ---------------------------------------------------------------- czytanie danych
 
 def _pole(seg, nazwa, cudz):
@@ -116,8 +133,7 @@ def pobierz(url, prob=4):
     for n in range(prob):
         TEMPO.czekaj(host)
         try:
-            r = urllib.request.Request(url, headers={"User-Agent": UA,
-                                                     "Accept-Language": "pl-PL,pl;q=0.9"})
+            r = urllib.request.Request(url, headers=NAGLOWKI)
             with urllib.request.urlopen(r, timeout=30) as o:
                 return o.status, o.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
@@ -326,11 +342,18 @@ def main():
     for klucz, w in wyniki.items():
         wg_sklepu.setdefault(klucz.split("|")[0], {}).setdefault(w["stan"], 0)
         wg_sklepu[klucz.split("|")[0]][w["stan"]] += 1
+    kody = {}
+    for klucz, w in wyniki.items():
+        if w["stan"] == "blad":
+            s = klucz.split("|")[0]
+            kody.setdefault(s, {}).setdefault(str(w.get("kod")), 0)
+            kody[s][str(w.get("kod"))] += 1
     print("\nwedług sklepu:", file=sys.stderr)
     for s in sorted(wg_sklepu, key=lambda x: -wg_sklepu[x].get("ok", 0)):
         d = wg_sklepu[s]
         print(f"   {s:12s} ok={d.get('ok',0):4d} wycofane={d.get('wycofany',0):3d} "
-              f"brak_ceny={d.get('brak_ceny',0):3d} blad={d.get('blad',0):3d}", file=sys.stderr)
+              f"brak_ceny={d.get('brak_ceny',0):3d} blad={d.get('blad',0):3d}"
+              f"   {kody.get(s, '') or ''}", file=sys.stderr)
 
     razem = sum(licz.values())
     print(f"\nPOKRYCIE: {licz['ok']}/{razem} adresów "
