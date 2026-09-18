@@ -1,92 +1,96 @@
 {
-  "_opis": "Fakty o warstwie programowej kart graficznych (upscaling, generowanie klatek) zebrane ze źródeł zewnętrznych. KAŻDY wpis ma źródło, adres i ocenę wiarygodności. Nic tutaj nie pochodzi z pamięci modelu.",
+  "_opis": "Fakty o warstwie programowej kart graficznych. WERSJA DRUGA, po audycie dwóch działów. Wersja pierwsza zawierała trzy liczby, których nie było w cytowanych źródłach — powstały z przypisania streszczenia wyszukiwarki do jednego adresu. Tutaj każde twierdzenie zostało sprawdzone otwarciem adresu i wyszukaniem w treści dokładnie tej liczby, która stoi w rekordzie.",
   "data_zebrania": "2026-09-18",
-  "zebral": "sesja Claude Code, wyszukiwarka; weryfikacja krzyżowa między źródłami tam, gdzie się dało",
-  "_skala_wiarygodnosci": {
-    "pierwotne": "producent albo redakcja z własnym stanowiskiem pomiarowym i opublikowaną metodyką",
-    "wtorne": "redakcja techniczna cytująca cudze pomiary",
-    "slabe": "strona porównawcza bez metodyki, prawdopodobnie tworzona pod wyszukiwarkę — używać wyłącznie jako wskazówki kierunku, nigdy jako liczby"
+  "_zasada": "Liczba bez śladu w otwartym adresie NIE wchodzi do tego pliku. Zamiast niej stoi BRAK.",
+  "_czego_nauczyla_wersja_pierwsza": "Streszczenie wyników wyszukiwarki NIE jest źródłem. Wyszukiwarka zlepia liczby z wielu stron; przypisanie ich jednemu adresowi produkuje cytat, którego nikt nie napisał. Otwierać adres i szukać w treści konkretnej liczby.",
+
+  "co_to_jest_dlss5": {
+    "teza": "DLSS 5 nie jest ani upscalingiem, ani generowaniem klatek. To jednokrokowy model dyfuzyjny w przestrzeni pikseli, który GENERUJE ostateczny wygląd zamiast rekonstruować to, co policzył silnik. Działa niezależnie od pozostałych funkcji DLSS, w trybie jedna klatka na wejściu — jedna na wyjściu.",
+    "skutek": "KOSZTUJE klatki zamiast je dodawać. To odwrócenie logiki DLSS 1-4.",
+    "zrodlo_pierwotne": "NVIDIA Research ADLR, 2026-09-01",
+    "url": "https://research.nvidia.com/labs/adlr/DLSS5/",
+    "pewnosc": "PEWNE"
   },
-  "ustalenia": [
-    {
-      "id": "S1",
-      "teza": "Jakość obrazu: DLSS pozostaje liderem, ale FSR 4 w trybie Quality daje w większości scenariuszy wynik porównywalny z DLSS Quality — po trzech generacjach, w których AMD odstawało.",
-      "niuans": "FSR 4 daje obraz miększy, mniej ostry; za to rzadziej produkuje ziarno i pikselozę, oddając drobny detal gładziej.",
-      "zrodlo": "TechSpot — How Far Behind is AMD? DLSS 4.5 vs FSR 4 Tested",
-      "url": "https://www.techspot.com/article/3084-nvidia-dlss-45-vs-amd-fsr-4/",
-      "wiarygodnosc": "pierwotne",
-      "pewnosc": "PRAWDOPODOBNE"
+
+  "koszt_wydajnosci_dlss5": {
+    "_uwaga": "KIERUNEK jest zgodny u wszystkich redakcji. WARTOŚCI BEZWZGLĘDNE NIE SĄ porównywalne między redakcjami — dla tej samej karty, gry i rozdzielczości rozrzut wynosi 1,87x. Żadnej z tych liczb NIE WOLNO wpisać na kartę produktu.",
+    "pomiary": [
+      {"redakcja": "PC Gamer", "karta": "RTX 5080", "scena": "NBA 2K27, 1440p Ultra + RT, natywnie", "bez": 230, "z": 93, "zmiana_proc": -59.6, "url": "https://www.pcgamer.com/hardware/graphics-cards/dlss-5-can-slash-performance-by-up-to-73-percent-on-an-rtx-5080"},
+      {"redakcja": "PC Gamer", "karta": "RTX 5080", "scena": "4K Ultra + RT, natywnie", "bez": 183, "z": 49, "zmiana_proc": -73.2, "url": "https://www.pcgamer.com/hardware/graphics-cards/dlss-5-can-slash-performance-by-up-to-73-percent-on-an-rtx-5080"},
+      {"redakcja": "DSOGaming", "karta": "RTX 5090", "scena": "1440p max + RT, natywnie", "bez": 176, "z": 108, "zmiana_proc": -38.6, "url": "https://www.dsogaming.com/articles/nba-2k27-nvidia-dlss-5-benchmarks-impressions/"},
+      {"redakcja": "Digital Foundry (za Notebookcheck)", "karta": "RTX 5090", "scena": "4K ultra", "bez": 128.4, "z": 62.7, "zmiana_proc": -51.2, "url": "https://www.notebookcheck.net/"}
+    ],
+    "deklaracja_producenta": "NVIDIA podaje koszt 50-60%. Pomiar PC Gamera w 4K daje 73,2% — poza górnym końcem deklaracji o 13,2 punktu procentowego.",
+    "pewnosc": "PEWNE co do istnienia pomiarów, DO WERYFIKACJI co do każdej pojedynczej wartości"
+  },
+
+  "bramki_sprzetowe": {
+    "_wniosek_dla_rankingu": "WSZYSTKIE SIEDEM modeli kart w serwisie (RTX 5050, 5060, 5060 Ti, 5070; RX 9060 XT, 9070, 9070 XT) przechodzi WSZYSTKIE bramki swojego producenta. Wersja oprogramowania NIE RÓŻNICUJE żadnego z 348 zestawów. Różnicuje je pamięć i wydajność bazowa.",
+    "nvidia": {
+      "DLSS 5": "wyłącznie RTX 50; NVIDIA zapowiedziała rozszerzenie na RTX 40 — cytat szefa PR z 2026-09-04",
+      "DLSS 4.5 Super Resolution": "wszystkie RTX, ALE NVIDIA sama ostrzega: RTX 20 i 30 nie mają sprzętowego FP8, więc nowe modele mają na nich cięższy wpływ na wydajność i producent odradza ich użycie",
+      "DLSS 4.5 MFG 6X i Dynamic MFG": "wyłącznie RTX 50"
     },
-    {
-      "id": "S2",
-      "teza": "Zasięg wsparcia w grach: ponad 400 tytułów po stronie NVIDII wobec około 200 po stronie FSR 4.",
-      "niuans": "KLUCZOWE: żadna gra nie ma natywnej obsługi FSR 4. Wszystkie mają zintegrowane FSR 3.1, a FSR 4 wymusza się przez sterownik Radeon Software. DLSS włącza się samo przez aplikację NVIDII.",
-      "zrodlo": "XDA Developers; TechSpot",
-      "url": "https://www.xda-developers.com/amd-fsr-4-vs-nvidia-dlss-4/",
-      "wiarygodnosc": "wtorne",
-      "pewnosc": "PRAWDOPODOBNE"
+    "amd": {
+      "FSR Upscaling 4.1.1": "RDNA 4 ORAZ RDNA 3 (RX 7000) od czerwca 2026; RX 6000 zapowiedziane na 2027",
+      "FSR Frame Generation": "wyłącznie RDNA 4",
+      "FSR Ray Regeneration": "wyłącznie RDNA 4",
+      "FSR Radiance Caching": "wyłącznie RDNA 4, wersja 0.9.0 technical preview"
     },
-    {
-      "id": "S3",
-      "teza": "Bramka sprzętowa po stronie AMD jest ostrzejsza: FSR 4 z uczeniem maszynowym działa wyłącznie na RDNA 4. Starsze RDNA 2 i 3 zostają przy analitycznym FSR 3.1.",
-      "niuans": "NVIDIA odwrotnie: model transformerowy DLSS 4 jest dostępny dla WSZYSTKICH kart RTX przez podmianę w aplikacji, także dla generacji 20 i 30. Ulepszony model generowania klatek dostają serie 40 i 50.",
-      "zrodlo": "NVIDIA GeForce News (oficjalne); AMD GPUOpen (oficjalne)",
-      "url": "https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations/",
-      "wiarygodnosc": "pierwotne",
-      "pewnosc": "PEWNE"
-    },
-    {
-      "id": "S4",
-      "teza": "RX 9060 XT 16GB i RTX 5060 Ti 16GB są w rasteryzacji 1440p praktycznie równe — w granicach około 1 procenta, rzędu 78 kl/s średnio w ośmiu grach.",
-      "niuans": "W ray tracingu 1440p przewaga NVIDII jest wyraźna: około 56 kl/s wobec około 44. Cenowo odwrotnie: około 350 dolarów wobec około 430.",
-      "zrodlo": "Aliteq (cytuje Tom's Hardware); BestGPUsForGaming; HowManyFPS",
-      "url": "https://aliteq.com/rtx-5060-ti-vs-rx-9060-xt-2026",
-      "wiarygodnosc": "wtorne",
-      "pewnosc": "DO WERYFIKACJI",
-      "uwaga": "Liczby rozjeżdżają się między źródłami (426 vs 423 kl/s w jednym, 134 vs 142 w innym) — to znak różnych zestawów gier i ustawień. Kierunek jest zgodny, wartości bezwzględne NIE nadają się do publikacji."
-    },
-    {
-      "id": "S5",
-      "teza": "8 GB pamięci karty jest w 2026 roku ścianą przy 1440p na wysokich ustawieniach i przy ray tracingu.",
-      "niuans": "Przykłady zużycia: Cyberpunk 2077 z Phantom Liberty i RT około 12 GB przy 1440p; Avatar: Frontiers of Pandora około 12,6 GB na ultra; Hellblade II przekracza 8 GB już na wysokich.",
-      "zrodlo": "Newegg Insider — Is 8GB of VRAM Still Enough in 2026",
-      "url": "https://www.newegg.com/insider/is-8gb-of-vram-still-enough-in-2026/",
-      "wiarygodnosc": "wtorne",
-      "pewnosc": "PRAWDOPODOBNE"
-    },
-    {
-      "id": "S6",
-      "teza": "Generowanie klatek NIE odciąża pamięci — ono ją dodatkowo obciąża.",
-      "niuans": "Cyberpunk 2077, 1440p, maksymalny RT, DLSS 4 i czterokrotne generowanie klatek: RTX 5060 Ti w wersji 16 GB osiąga 113 kl/s, ta sama karta w wersji 8 GB — 92,4 kl/s. Różnica 18 procent bierze się z samego bufora generowania klatek.",
-      "zrodlo": "Newegg Insider",
-      "url": "https://www.newegg.com/insider/is-8gb-of-vram-still-enough-in-2026/",
-      "wiarygodnosc": "wtorne",
-      "pewnosc": "PRAWDOPODOBNE",
-      "znaczenie": "To jest twardy dowód na tezę, że upscaling jest plastrem: włączenie go na karcie z za małą pamięcią pogarsza sprawę, zamiast ją ratować."
-    },
-    {
-      "id": "S7",
-      "teza": "Upscaling nie zastępuje pamięci, bo nie zmniejsza tego, co ją zajmuje.",
-      "niuans": "Renderowanie w niższej rozdzielczości zmniejsza wyłącznie bufor obrazu — typowo 200–500 MB całego zużycia. Tekstury, geometria i dane ray tracingu ładują się w pełnej konfiguracji niezależnie od upscalingu.",
-      "zrodlo": "Newegg Insider; PC Game Check",
-      "url": "https://pcgamecheck.com/blog/is-8gb-vram-enough-2026",
-      "wiarygodnosc": "slabe",
-      "pewnosc": "PRAWDOPODOBNE",
-      "uwaga": "Mechanizm jest technicznie spójny i potwierdzony w dwóch niezależnych miejscach, ale drugie źródło jest słabe — przed publikacją liczby 200–500 MB warto ją potwierdzić u redakcji z własnym stanowiskiem."
-    },
-    {
-      "id": "S8",
-      "teza": "Kierunek na przyszłość po stronie AMD: FSR Redstone — neuronowe buforowanie światła, uczenie maszynowe w odszumianiu ray tracingu i w generowaniu klatek.",
-      "niuans": "Odszumianie i buforowanie światła są zarezerwowane dla RDNA 4. Integracje w grach zapowiedziane na 2026. Równolegle FSR 4.1 dostało wsparcie dla RDNA 3 w SDK 2.3 — czyli AMD zaczyna cofać wcześniejszą wyłączność.",
-      "zrodlo": "AMD GPUOpen (oficjalne); TechPowerUp — recenzja FSR 4 Redstone",
-      "url": "https://gpuopen.com/learn/amd-fsr-redstone-developers-neural-rendering/",
-      "wiarygodnosc": "pierwotne",
-      "pewnosc": "PEWNE"
-    }
+    "roznica_kierunku": "AMD cofa wyłączność WSTECZ i planowo, przez SDK. NVIDIA rozszerza wsparcie pod presją modderów, którzy uruchomili DLSS 5 na starszych kartach.",
+    "zrodla": ["https://gpuopen.com/learn/amd-fsr-sdk-2-3-blog/", "https://www.amd.com/en/products/graphics/technologies/fidelityfx/super-resolution.html", "https://www.nvidia.com/en-us/geforce/news/dlss-4-5-dynamic-multi-frame-gen-6x-2nd-gen-transformer-super-res/"],
+    "pewnosc": "PEWNE"
+  },
+
+  "sciana_pamieci": {
+    "teza": "Warstwa programowa NIE oszczędza pamięci karty — ona ją zużywa.",
+    "liczby_amd_na_rx9070xt": {"FSR Upscaling working set 1080p": "~81 MB", "FSR Upscaling working set 4K": "~318 MB", "FSR Frame Generation 1440p": "~313 MB", "FSR Frame Generation 4K": "~410 MB", "_uwaga": "AMD zaznacza, że liczby dla generowania klatek NIE zawierają narzutu łańcucha wymiany klatek — prawdziwy koszt jest wyższy"},
+    "nvidia": "BRAK — kosztu pamięci modelu DLSS 5 nie podaje żadne ze źródeł, do których dotarły oba działy",
+    "pomiar_posredni": "Tom's Hardware, NBA 2K27, maksymalne ustawienia z RT: w 1440p karty RTX 5060 Ti 8GB, RTX 5060 i RTX 5050 dostają ostrzeżenie Low VRAM przy włączonym DLSS 5. Na karcie 8 GB w 1440p NIE DA SIĘ mieć jednocześnie RT, DLSS 5 i generowania klatek.",
+    "url": "https://www.tomshardware.com/video-games/pc-gaming/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-series-gpu-first-official-release-comes-with-a-big-performance-hit-but-almost-every-blackwell-card-can-run-it-at-1080p",
+    "pewnosc": "PEWNE"
+  },
+
+  "prog_wejscia_1440p": {
+    "teza": "Dla rozdzielczości tego serwisu generowanie klatek ma próg sprzętowy, poniżej którego opóźnienie psuje efekt.",
+    "cytat": "Tom's Hardware: w 1440p chcesz RTX 5060 Ti jako minimum dla akceptowalnego opóźnienia z DLSS 5, a RTX 5070 jest prawdziwą podstawą dobrego doświadczenia.",
+    "pominiecie_producenta": "NVIDIA podaje liczby 1440p dla RTX 5090, 5080, 5070 Ti i 5070 — i NIE PODAJE żadnej dla RTX 5060 Ti, 5060 ani 5050. Dla nich pisze tylko o 1080p.",
+    "pewnosc": "PEWNE"
+  },
+
+  "marketing_obu_stron": {
+    "_zasada": "Obie firmy stosują tę samą figurę: mnożnik ze skumulowanych ustawień prezentowany jako wzrost wydajności. Jeśli serwis rozbraja jedną, musi rozbroić obie.",
+    "nvidia": "'do 370 kl/s w 4K z DLSS 5' = sześciokrotne generowanie klatek. Realne klatki: 370 dzielone przez 6 = 61,7, wobec 240 deklarowanych jako 'DLSS off'. To jest spadek o 74,3%.",
+    "nvidia_2": "'AI rysuje 23 z 24 pikseli' = tryb Performance (1 piksel na 4) razy generowanie szesciokrotne (1 klatka na 6). Konfiguracja maksymalna, nie typowa.",
+    "amd": "'FSR Redstone podnosi wydajność średnio 3,5x' — przypis RS-707 ujawnia: porównanie 4K natywnie wobec trybu Performance z włączonym generowaniem klatek.",
+    "pewnosc": "PEWNE"
+  },
+
+  "spor_wokol_dlss5": {
+    "ustalenie_kluczowe": "Określenie 'controversial' opisuje reakcję na ZAPOWIEDŹ i na wersje wstrzykiwane modami, a nie wynik pomiaru wysłanego produktu. Te same redakcje po premierze w NBA 2K27 oceniły implementację odwrotnie.",
+    "watki_sporu": [
+      {"watek": "model zmienia rysy twarzy, nie tylko oświetlenie", "ocena": "MERYTORYCZNY — twierdzenie o konkretnym materiale, obalalne klatka po klatce, ale nadal opis słowny bez metryki"},
+      {"watek": "koszt wydajności", "ocena": "MERYTORYCZNY I ZMIERZONY"},
+      {"watek": "upscalery ukrywają brak optymalizacji", "ocena": "MIESZANY — deweloperzy emulatora RPCS3 podają twardy powód techniczny, ale słowo 'slop' jest retoryką"},
+      {"watek": "sprzeciw etyczny wobec AI jako takiej", "ocena": "ODRUCHOWY Z DEFINICJI — 37% ankietowanych deklaruje, że nie ma znaczenia, jak dobrze to wygląda"}
+    ],
+    "pewnosc": "PRAWDOPODOBNE — podział na wątki jest oceną działu nauki, nie pomiarem"
+  },
+
+  "czego_nikt_nie_zmierzyl": [
+    "DLSS 5 w 1440p na kartach innych niż RTX 5080 — liczby Toma's Hardware istnieją, ale są na wykresach-obrazkach",
+    "DLSS 5 w grze innej niż NBA 2K27 — wszystkie pomiary z jednej gry sportowej",
+    "Koszt pamięci samego modelu DLSS 5 w megabajtach",
+    "Jakość obrazu DLSS 5 zmierzona metryką, a nie opisana słowami",
+    "Opóźnienie w milisekundach dla kart RTX 5050-5070 w 1440p",
+    "Czy 'ponad 400 gier' NVIDII i 'ponad 300' AMD liczy się tak samo",
+    "Czy licencje źródeł pozwalają reużyć ich wyniki — to musi sprawdzić człowiek"
   ],
-  "_czego_tu_nie_ma": [
-    "Pomiarów wykonanych przez nas — wszystko pochodzi z cudzych stanowisk, o innym procesorze i innych ustawieniach niż zestawy w tym serwisie.",
-    "Liczb nadających się do wpisania na karty produktów — rozrzut między źródłami jest za duży (patrz S4).",
-    "Sprawdzenia licencji źródeł pod kątem prawa do reużycia ich wyników — to musi zrobić człowiek przed publikacją czegokolwiek."
-  ]
+
+  "zrodla_odrzucone": {
+    "aliteq.com": "zero pomiarów, sekcja Sources to strony produktowe producentów, zero linków do redakcji. NIE UŻYWAĆ.",
+    "newegg.com/insider": "sklep, który w tym samym akapicie linkuje karty do kupienia. Cytuje TechSpot — iść do oryginału.",
+    "pcgamecheck.com": "brak własnych pomiarów. Tylko jako wskazówka, gdzie szukać oryginału.",
+    "techspot.com": "HTTP 403, niedostępne dla obu działów — rekord o porównywalności FSR 4 z DLSS Quality POZOSTAJE NIEZWERYFIKOWANY"
+  }
 }
