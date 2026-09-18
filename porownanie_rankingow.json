@@ -1,0 +1,166 @@
+{
+ "przed": "1c77dfe",
+ "po_naprawie": "7ca3127",
+ "sekcje": {
+  "zestawy": {
+   "porownanych": 348,
+   "zmienilo_ocene": 322,
+   "zmienilo_o_3_lub_wiecej": 122,
+   "kubelki": [
+    {
+     "prog": 0,
+     "etykieta": "bez zmiany",
+     "ile": 26
+    },
+    {
+     "prog": 1,
+     "etykieta": "1 punkt",
+     "ile": 90
+    },
+    {
+     "prog": 2,
+     "etykieta": "2 punkty",
+     "ile": 110
+    },
+    {
+     "prog": 3,
+     "etykieta": "3 punkty",
+     "ile": 53
+    },
+    {
+     "prog": 4,
+     "etykieta": "4 punkty",
+     "ile": 30
+    },
+    {
+     "prog": 5,
+     "etykieta": "5 punktów",
+     "ile": 28
+    },
+    {
+     "prog": 6,
+     "etykieta": "6 punktów i więcej",
+     "ile": 11
+    }
+   ],
+   "skrajne": {
+    "w_dol": -7,
+    "w_gore": 8
+   },
+   "z_samej_naprawy": 327,
+   "z_reszty_dnia": 18,
+   "maks_z_reszty_dnia": 1,
+   "duze_zmiany": [
+    {
+     "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+     "delta": 8
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 5 7500F, RX 7600 8GB, 32GB DDR5, 500GB SSD, 600W, Nadir (2)",
+     "delta": 8
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
+     "delta": 7
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+     "delta": -7
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, H7 Flow (custom: 32GB RAM)",
+     "delta": -6
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+     "delta": -6
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+     "delta": -6
+    },
+    {
+     "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
+     "delta": -6
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+     "delta": -6
+    },
+    {
+     "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+     "delta": -6
+    },
+    {
+     "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W",
+     "delta": -6
+    }
+   ],
+   "progi_budzetu": 11,
+   "progi_ze_zmiana": [
+    {
+     "prog": 6000,
+     "przed": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
+     "po": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2"
+    },
+    {
+     "prog": 7000,
+     "przed": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+     "po": "Zestaw | Ryzen 5 9500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2"
+    }
+   ]
+  },
+  "monitory": {
+   "porownanych": 56,
+   "zmienilo_ocene": 51,
+   "zmienilo_o_3_lub_wiecej": 4,
+   "kubelki": [
+    {
+     "prog": 0,
+     "etykieta": "bez zmiany",
+     "ile": 5
+    },
+    {
+     "prog": 1,
+     "etykieta": "1 punkt",
+     "ile": 34
+    },
+    {
+     "prog": 2,
+     "etykieta": "2 punkty",
+     "ile": 13
+    },
+    {
+     "prog": 3,
+     "etykieta": "3 punkty",
+     "ile": 2
+    },
+    {
+     "prog": 4,
+     "etykieta": "4 punkty",
+     "ile": 1
+    },
+    {
+     "prog": 5,
+     "etykieta": "5 punktów",
+     "ile": 1
+    },
+    {
+     "prog": 6,
+     "etykieta": "6 punktów i więcej",
+     "ile": 0
+    }
+   ],
+   "skrajne": {
+    "w_dol": -3,
+    "w_gore": 5
+   },
+   "z_samej_naprawy": 51,
+   "z_reszty_dnia": 0,
+   "maks_z_reszty_dnia": 0,
+   "duze_zmiany": [],
+   "progi_budzetu": 0,
+   "progi_ze_zmiana": []
+  }
+ }
+}

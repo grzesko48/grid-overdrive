@@ -236,7 +236,11 @@ section.grid-view{padding:1.4rem 0 2.6rem;}
 .pc-chips{display:flex; flex-wrap:wrap; gap:.4rem; margin:.2rem 0 .1rem;}
 .pc-chip{display:inline-flex; align-items:center; gap:.32rem; background:var(--panel-2); border:1px solid var(--line); border-radius:6px; padding:.18rem .55rem .18rem .45rem; font-size:.78rem; font-family:"JetBrains Mono",monospace; color:var(--ink-dim); white-space:nowrap;}
 .pc-chip svg{width:12px; height:12px; flex:none; stroke:var(--ink-dim); fill:none; stroke-width:1.6;}
-.pc-chip-vram8{background:color-mix(in srgb, var(--bad) 14%, transparent); border-color:var(--bad); color:var(--bad); font-weight:700;}
+/* Tekst w --ink, kolor wyłącznie na ramce i znaku. Wariant kolorowego tekstu na własnym
+   tincie dawał w motywie jasnym 3,75:1 — poniżej progu 4,5:1 dla tekstu. --ink na tym
+   samym tle daje 13,7:1, a ramka jako element interfejsu 4,6:1 przy progu 3:1. */
+.pc-chip-vram8{background:color-mix(in srgb, var(--bad) 14%, transparent); border-color:var(--bad); color:var(--ink); font-weight:700;}
+.pc-chip-vram8 .ostrzeznak{color:var(--bad); font-weight:800;}
 .pc-chip-highlight{border-color:var(--accent-2); color:var(--accent-2); font-weight:700;}
 .pc-chip-highlight svg{stroke:var(--accent-2);}
 .pc-custom-ribbon{position:absolute; top:.6rem; right:.6rem; z-index:2; background:var(--accent-2); color:#04141a; font-size:.7rem; font-weight:800; letter-spacing:.02em; padding:.22rem .6rem; border-radius:999px; box-shadow:var(--shadow);}
@@ -501,6 +505,36 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 .eyebrow-link{color:inherit; text-decoration:underline; text-underline-offset:.2em;
   text-decoration-thickness:1px; transition:color .15s ease;}
 .eyebrow-link:hover,.eyebrow-link:focus-visible{color:var(--epic);}
+
+/* Sekcja „co się zmieniło" — wyłącznie istniejące tokeny. Kolor nie jest jedynym nośnikiem
+   kierunku: obok niego stoi glif, znak liczby i etykieta dla czytnika ekranu. Bez animacji,
+   bo jedyna animacja, której wyłączenie coś ukrywa, byłaby wadą. */
+.zmiany{margin:2.4rem 0 1rem; padding-top:1.4rem; border-top:1px solid var(--line);}
+.zm-tytul{font-size:1.45rem; margin:.3rem 0 .6rem;}
+.zm-lede,.zm-opis{color:var(--ink-dim); max-width:72ch; margin:.3rem 0 1rem; font-size:1.02rem;}
+.zm-podtytul{font-size:1.1rem; margin:1.6rem 0 .4rem;}
+.stat-grid-zm .stat-card::before{background:var(--line);}
+.zm-histogram{display:flex; flex-direction:column; gap:.35rem; margin:.6rem 0 1rem;}
+.zm-wiersz{display:grid; grid-template-columns:8.5rem 1fr 3rem; align-items:center; gap:.6rem;}
+.zm-etyk{font-size:.86rem; color:var(--ink-dim);}
+.zm-slup{background:var(--panel-2); border:1px solid var(--line); border-radius:5px; height:1.1rem; overflow:hidden;}
+.zm-wypelnienie{display:block; height:100%; background:var(--accent);}
+.zm-szum .zm-wypelnienie{background:var(--ink-dim); opacity:.5;}
+.zm-szum .zm-etyk{font-style:italic;}
+.zm-ile{text-align:right; font-size:.9rem; color:var(--ink);}
+.zm-tabela-obudowa{overflow-x:auto;}
+.zm-tabela{border-collapse:collapse; width:100%; font-size:.92rem; margin:.4rem 0 1rem;}
+.zm-tabela th,.zm-tabela td{text-align:left; padding:.45rem .6rem; border-bottom:1px solid var(--line);}
+.zm-tabela th{color:var(--ink-dim); font-weight:600; font-size:.84rem; text-transform:uppercase; letter-spacing:.06em;}
+.zm-lista{list-style:none; padding:0; margin:.4rem 0 1rem; display:flex; flex-direction:column; gap:.45rem;}
+.zm-lista li{display:flex; align-items:center; gap:.6rem; font-size:.95rem; flex-wrap:wrap;}
+.pc-chip-delta{color:var(--ink); font-weight:700; gap:.3rem;}
+.pc-chip-delta .dglif{font-weight:800; line-height:1;}
+.pc-chip-delta-up{background:var(--good-bg); border-color:var(--good);}
+.pc-chip-delta-up .dglif{color:var(--good);}
+.pc-chip-delta-down{background:var(--bad-bg); border-color:var(--bad);}
+.pc-chip-delta-down .dglif{color:var(--bad);}
+@media (max-width:520px){ .zm-wiersz{grid-template-columns:7rem 1fr 2.4rem;} }
 </style>
 
 <a class="skip-link" href="#browser">Przejdź do listy monitorów</a>
@@ -551,7 +585,7 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 <div id="viewMonitors">
 <section class="stats wrap" id="monitorStatsSec">
   <div class="stat-grid">
-    <div class="stat-card"><div class="big grad">57</div><div class="lbl">zweryfikowanych modeli 26"–28"</div></div>
+    <div class="stat-card"><div class="big grad" id="statMon">57</div><div class="lbl">zweryfikowanych modeli 26"–28"</div></div>
     <div class="stat-card"><div class="big">699 zł</div><div class="lbl">najtańszy — Philips Evnia 27M2N3501PA</div></div>
     <div class="stat-card"><div class="big">500 Hz</div><div class="lbl">najwyższe odświeżanie — AOC AGON PRO AG276QKD2 (QD-OLED)</div></div>
     <div class="stat-card"><div class="big grad">34</div><div class="lbl">matryc QD-OLED / OLED w zestawieniu</div></div>
@@ -621,6 +655,30 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   <h2 style="font-size:1.65rem; margin-bottom:.3rem;">Ranking ogólny</h2>
   <p class="lede" style="color:var(--ink-dim); max-width:70ch; margin:.3rem 0 1.2rem; font-size:1.05rem;">Wynik ważony: Jakość obrazu 30% + Opłacalność (zł/Hz) 30% + Wydajność (Hz) 25% + Złącza i funkcje 15%, każde w skali 1–100 i skorygowane o realne wady/zalety znalezione w recenzjach i opiniach użytkowników (RTINGS, TFTCentral, Tom's Hardware, Amazon i inne — zobacz kartę modelu). To ranking pod kątem stosunku ceny do jakości, nie „najlepszy bez względu na cenę” — drogie matryce QD-OLED/OLED tracą punkty na opłacalności. Kliknij wiersz, żeby zobaczyć pełną kartę modelu.</p>
   <div class="ranking-list" id="rankingList"></div>
+
+  <section class="zmiany" aria-labelledby="zm-mon">
+    <div class="eyebrow"><span class="dot"></span>zmiana metody // 18 września 2026</div>
+    <h2 id="zm-mon" class="zm-tytul">Co się zmieniło w ocenach monitorów</h2>
+    <p class="zm-lede">Do 18 września 2026 składnik „opłacalność" nie wynikał z żadnego wzoru —
+    oceny były przypisywane ręcznie. Tego dnia policzyliśmy go po raz pierwszy jawną formułą
+    i przeliczyliśmy wszystkie pozycje. Poniżej dokładnie to, co się przez to zmieniło.
+    <strong>Mierzymy w punktach, nie w miejscach w rankingu</strong>: miejsce zależy od tego,
+    kto stoi obok, a nie od samej pozycji — w pomiarze
+    26 zestawów nie zmieniło ani jednego punktu, a mimo to zmieniło miejsce.</p>
+    <div class="stat-grid stat-grid-zm"><div class="stat-card"><div class="big">56</div><div class="lbl">pozycji porównanych z wersją sprzed naprawy</div></div><div class="stat-card"><div class="big">4</div><div class="lbl">zmieniło ocenę o 3 punkty lub więcej</div></div><div class="stat-card"><div class="big">52</div><div class="lbl">zmieniło się o 2 punkty lub mniej, czyli w granicach szumu skali</div></div><div class="stat-card"><div class="big">-3 … +5</div><div class="lbl">skrajne zmiany, w punktach na sto</div></div></div>
+    <h3 class="zm-podtytul">Jak duże były te zmiany</h3>
+    <p class="zm-opis">Każdy słupek to liczba pozycji, których ocena zmieniła się o tyle punktów.
+    Trzy pierwsze są wyszarzone celowo: <strong>przy 56 pozycjach mieszczących się
+    w kilkudziesięciu wartościach różnica jednego czy dwóch punktów nie znaczy nic</strong> —
+    to szum skali, nie zmiana oceny.</p>
+    <div class="zm-histogram"><div class="zm-wiersz zm-szum"><span class="zm-etyk">bez zmiany</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:15%"></span></span><span class="zm-ile mono">5</span></div><div class="zm-wiersz zm-szum"><span class="zm-etyk">1 punkt</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:100%"></span></span><span class="zm-ile mono">34</span></div><div class="zm-wiersz zm-szum"><span class="zm-etyk">2 punkty</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:38%"></span></span><span class="zm-ile mono">13</span></div><div class="zm-wiersz"><span class="zm-etyk">3 punkty</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:6%"></span></span><span class="zm-ile mono">2</span></div><div class="zm-wiersz"><span class="zm-etyk">4 punkty</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:3%"></span></span><span class="zm-ile mono">1</span></div><div class="zm-wiersz"><span class="zm-etyk">5 punktów</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:3%"></span></span><span class="zm-ile mono">1</span></div><div class="zm-wiersz"><span class="zm-etyk">6 punktów i więcej</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:0%"></span></span><span class="zm-ile mono">0</span></div></div>
+    <p class="zm-opis zm-przyczyny">Rozdzielamy przyczyny, żeby nie przypisać naprawie cudzego ruchu:
+    <strong>51 pozycji zmieniło ocenę przez samo przeliczenie opłacalności</strong>,
+    a 0 przez pozostałe zmiany tego dnia (usunięcie duplikatów, korekta ceny
+    systemu z 519 na 539 zł) — te drugie maksymalnie o 0 punkt.</p>
+    
+    
+  </section>
 </section>
 
 <section class="picks wrap">
@@ -704,7 +762,7 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 <div id="viewPC" hidden>
 <section class="stats wrap" id="pcStatsSec">
   <div class="stat-grid">
-    <div class="stat-card"><div class="big grad">360</div><div class="lbl">zestawów gamingowych (DDR5, cena z Windows), w tym 68 wariantów custom (32GB RAM)</div></div>
+    <div class="stat-card"><div class="big grad" id="statPc">360</div><div class="lbl">zestawów gamingowych (DDR5, cena z Windows), w tym 68 wariantów custom (32GB RAM)</div></div>
     <div class="stat-card"><div class="big">5399 zł</div><div class="lbl">najtańszy z Windows — BLEU JOUR Byte AI Ready, RTX 5060 Ti</div></div>
     <div class="stat-card"><div class="big">RTX 5070 Ti</div><div class="lbl">najmocniejsza karta — Hard-PC.pl, od 9718 zł z Windows</div></div>
     <div class="stat-card"><div class="big grad">7</div><div class="lbl">sklepów i marek uwzględnionych</div></div>
@@ -809,6 +867,30 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   <h2 style="font-size:1.65rem; margin-bottom:.3rem;">Ranking ogólny — PC</h2>
   <p class="lede" style="color:var(--ink-dim); max-width:70ch; margin:.3rem 0 1.2rem; font-size:1.05rem;">Wynik ważony „Ultra": Wydajność (indeks mocy: 78% poziom GPU + 22% poziom CPU) 28% + Długowieczność (klasa karty, pamięć karty, ilość RAM) 30% + Opłacalność (cena z Windows za indeks mocy) 22% + Podzespoły (CPU, RAM DDR5, dysk) 12% + Kompletność (zasilacz, system, liczba sklepów) 8%, w skali 1–100. Ranking celowo stawia jakość grania i długowieczność ponad samą opłacalność.</p>
   <div id="pcRankingList" class="ranking-list"></div>
+
+  <section class="zmiany" aria-labelledby="zm-pc">
+    <div class="eyebrow"><span class="dot"></span>zmiana metody // 18 września 2026</div>
+    <h2 id="zm-pc" class="zm-tytul">Co się zmieniło w ocenach zestawów</h2>
+    <p class="zm-lede">Do 18 września 2026 składnik „opłacalność" nie wynikał z żadnego wzoru —
+    oceny były przypisywane ręcznie. Tego dnia policzyliśmy go po raz pierwszy jawną formułą
+    i przeliczyliśmy wszystkie pozycje. Poniżej dokładnie to, co się przez to zmieniło.
+    <strong>Mierzymy w punktach, nie w miejscach w rankingu</strong>: miejsce zależy od tego,
+    kto stoi obok, a nie od samej pozycji — w pomiarze
+    26 zestawów nie zmieniło ani jednego punktu, a mimo to zmieniło miejsce.</p>
+    <div class="stat-grid stat-grid-zm"><div class="stat-card"><div class="big">348</div><div class="lbl">pozycji porównanych z wersją sprzed naprawy</div></div><div class="stat-card"><div class="big">122</div><div class="lbl">zmieniło ocenę o 3 punkty lub więcej</div></div><div class="stat-card"><div class="big">226</div><div class="lbl">zmieniło się o 2 punkty lub mniej, czyli w granicach szumu skali</div></div><div class="stat-card"><div class="big">-7 … +8</div><div class="lbl">skrajne zmiany, w punktach na sto</div></div></div>
+    <h3 class="zm-podtytul">Jak duże były te zmiany</h3>
+    <p class="zm-opis">Każdy słupek to liczba pozycji, których ocena zmieniła się o tyle punktów.
+    Trzy pierwsze są wyszarzone celowo: <strong>przy 348 pozycjach mieszczących się
+    w kilkudziesięciu wartościach różnica jednego czy dwóch punktów nie znaczy nic</strong> —
+    to szum skali, nie zmiana oceny.</p>
+    <div class="zm-histogram"><div class="zm-wiersz zm-szum"><span class="zm-etyk">bez zmiany</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:24%"></span></span><span class="zm-ile mono">26</span></div><div class="zm-wiersz zm-szum"><span class="zm-etyk">1 punkt</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:82%"></span></span><span class="zm-ile mono">90</span></div><div class="zm-wiersz zm-szum"><span class="zm-etyk">2 punkty</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:100%"></span></span><span class="zm-ile mono">110</span></div><div class="zm-wiersz"><span class="zm-etyk">3 punkty</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:48%"></span></span><span class="zm-ile mono">53</span></div><div class="zm-wiersz"><span class="zm-etyk">4 punkty</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:27%"></span></span><span class="zm-ile mono">30</span></div><div class="zm-wiersz"><span class="zm-etyk">5 punktów</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:25%"></span></span><span class="zm-ile mono">28</span></div><div class="zm-wiersz"><span class="zm-etyk">6 punktów i więcej</span><span class="zm-slup"><span class="zm-wypelnienie" style="width:10%"></span></span><span class="zm-ile mono">11</span></div></div>
+    <p class="zm-opis zm-przyczyny">Rozdzielamy przyczyny, żeby nie przypisać naprawie cudzego ruchu:
+    <strong>327 pozycji zmieniło ocenę przez samo przeliczenie opłacalności</strong>,
+    a 18 przez pozostałe zmiany tego dnia (usunięcie duplikatów, korekta ceny
+    systemu z 519 na 539 zł) — te drugie maksymalnie o 1 punkt.</p>
+    <h3 class="zm-podtytul">Co to zmienia przy konkretnym budżecie</h3><p class="zm-opis">Sprawdziliśmy, który zestaw serwis poleca jako najlepiej oceniony mieszczący się w danej kwocie. Na <strong>11 sprawdzonych progów co 500 zł rekomendacja zmieniła się w 2</strong> — oba poniżej 7500 zł. W pozostałych przeliczenie nie zmieniło odpowiedzi na pytanie „co kupić za tyle".</p><div class="zm-tabela-obudowa"><table class="zm-tabela"><thead><tr><th>budżet</th><th>polecany przed</th><th>polecany teraz</th></tr></thead><tbody><tr><td class="mono">6000 zł</td><td>Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB</td><td>Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2</td></tr><tr><td class="mono">7000 zł</td><td>Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB</td><td>Zestaw | Ryzen 5 9500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2</td></tr></tbody></table></div>
+    <h3 class="zm-podtytul">Jedenaście pozycji, które ruszyły się naprawdę</h3><p class="zm-opis">Tylko te zmieniły ocenę o 6 punktów lub więcej. Nazwy padają wyłącznie tutaj — przy zmianach mniejszych niż 3 punkty wymienianie modeli sugerowałoby różnicę, której nie ma.</p><ul class="zm-lista"><li><span class="pc-chip pc-chip-delta pc-chip-delta-up" aria-label="zmiana o 8 punktów w górę"><span class="dglif" aria-hidden="true">▲</span><span class="mono">+8</span></span> Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2 (custom: 32GB RAM)</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-up" aria-label="zmiana o 8 punktów w górę"><span class="dglif" aria-hidden="true">▲</span><span class="mono">+8</span></span> Zestaw | Ryzen 5 7500F, RX 7600 8GB, 32GB DDR5, 500GB SSD, 600W, Nadir (2)</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-up" aria-label="zmiana o 7 punktów w górę"><span class="dglif" aria-hidden="true">▲</span><span class="mono">+7</span></span> Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 7 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-7</span></span> Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, H7 Flow (custom: 32GB RAM)</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB</li><li><span class="pc-chip pc-chip-delta pc-chip-delta-down" aria-label="zmiana o 6 punktów w dół"><span class="dglif" aria-hidden="true">▼</span><span class="mono">-6</span></span> Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W</li></ul>
+  </section>
 </section>
 
 <section class="detail-view wrap" id="pcDetailView" hidden>
@@ -939,6 +1021,7 @@ var PRICE_CHECK_LABEL = '18 września 2026';
     // Liczby w naglowku licza sie z danych, a nie stoja wpisane w tresci — inaczej po
     // ukryciu pozycji strona podawalaby nieprawdziwy licznik.
 wstaw('monCount', DATA.length);
+    wstaw('statMon', DATA.length);
     // Data w naglowku brala sie dotad z recznie wpisanego „09.09.2026" i po kazdym
     // automatycznym odswiezeniu byla nieprawdziwa. Teraz czyta te sama zmienna, ktora
     // podmienia automat, wiec nie da sie jej rozjechac z rzeczywistoscia.
@@ -1909,6 +1992,7 @@ wstaw('monCount', DATA.length);
     wstaw('zakresBare', widelki(bare));
     wstaw('zakresOs', widelki(ceny));
     wstaw('pcCount', PDATA.length);
+    wstaw('statPc', PDATA.length);
     wstaw('pcMin', Math.min.apply(null, ceny).toLocaleString('pl-PL'));
     wstaw('pcMax', Math.max.apply(null, ceny).toLocaleString('pl-PL'));
   })();
@@ -2088,7 +2172,7 @@ wstaw('monCount', DATA.length);
   function vram8Chip(d){
     var m = /(\d{1,2})\s*GB/.exec(d.gpu || '');
     if(!m || parseInt(m[1],10) > 8) return '';
-    return '<span class="pc-chip pc-chip-vram8" title="W 1440p z ray tracingiem 8 GB pamięci karty bywa za mało — zmierzone przez Toms Hardware w NBA 2K27 z DLSS 5">8 GB VRAM — mało na 1440p</span>';
+    return '<span class="pc-chip pc-chip-vram8" title="W 1440p z ray tracingiem 8 GB pamięci karty bywa za mało — zmierzone przez Toms Hardware w NBA 2K27 z DLSS 5" aria-label="Ostrzeżenie: 8 gigabajtów pamięci karty, mało na rozdzielczość 1440p"><span class="ostrzeznak" aria-hidden="true">!</span>8 GB VRAM — mało na 1440p</span>';
   }
 
   function buildPcPriceRows(d){
@@ -2314,7 +2398,16 @@ wstaw('monCount', DATA.length);
   /* ---------- ranking ---------- */
   var pcRankingList = document.getElementById('pcRankingList');
   function renderPcRanking(rows){
-    var ranked = rows.slice().sort(function(a,b){ return b.scores.ultra - a.scores.ultra; });
+    /* Reguła remisu jest tu konieczna, nie kosmetyczna. Bez niej miejsce w rankingu
+       zależy od kolejności wpisów w pliku, a nie od oceny: pomiar z 18 września pokazał,
+       że ten sam, NIEZMIENIONY ranking przy innej regule daje inne miejsce 281 z 355
+       zestawów, średnio o 2,7, maksymalnie o 30. Przy 348 zestawach na 39 wartościach
+       remisy są regułą, nie wyjątkiem. Dokładamy: taniej wyżej, potem alfabetycznie. */
+    var ranked = rows.slice().sort(function(a,b){
+      return (b.scores.ultra - a.scores.ultra)
+          || (a.price - b.price)
+          || a.name.localeCompare(b.name, 'pl');
+    });
     pcRankingList.innerHTML = '';
     ranked.forEach(function(d, i){
       var row = document.createElement('div');
@@ -2478,11 +2571,16 @@ wstaw('monCount', DATA.length);
       rows = rows.slice().sort(function(a,b){
         if(sortMode==='price-asc') return a.price - b.price;
         if(sortMode==='price-desc') return b.price - a.price;
-        if(sortMode==='overall-desc') return b.scores.overall - a.scores.overall;
-        if(sortMode==='ultra-desc') return b.scores.ultra - a.scores.ultra;
-        if(sortMode==='longevity-desc') return b.scores.longevity - a.scores.longevity;
-        if(sortMode==='value-desc') return b.scores.value - a.scores.value;
-        if(sortMode==='name-asc') return a.name.localeCompare(b.name);
+        // Każde sortowanie po ocenie kończy się tą samą regułą remisu, co ranking —
+        // inaczej ta sama lista ustawia się inaczej w zależności od widoku.
+        function remis(){ return (a.price - b.price) || a.name.localeCompare(b.name, 'pl'); }
+        if(sortMode==='overall-desc') return (b.scores.overall - a.scores.overall) || remis();
+        if(sortMode==='ultra-desc') return (b.scores.ultra - a.scores.ultra) || remis();
+        if(sortMode==='longevity-desc') return (b.scores.longevity - a.scores.longevity) || remis();
+        if(sortMode==='value-desc') return (b.scores.value - a.scores.value) || remis();
+        if(sortMode==='price-asc') return (a.price - b.price) || a.name.localeCompare(b.name, 'pl');
+        if(sortMode==='price-desc') return (b.price - a.price) || a.name.localeCompare(b.name, 'pl');
+        if(sortMode==='name-asc') return a.name.localeCompare(b.name, 'pl');
         return 0;
       });
     }
