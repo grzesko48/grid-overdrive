@@ -15,7 +15,12 @@ BAZA = os.path.dirname(os.path.abspath(__file__))
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
 SZABLON_URL = "https://sklep.hard-pc.pl/k530,zestawy-komputery-hard-pc{}.html"
-ZAKRES = (5000, 9000)          # widełki cenowe zestawienia (cena bez systemu)
+# Widełki NABORU nowych kandydatów, nie zakres istniejącego zestawienia. To rozróżnienie
+# jest istotne: zestawy wybrano kiedyś przy 5000-9000 zł bez systemu, ale ceny poszły w górę
+# (181 podwyżek i zero obniżek we wrześniowym przeglądzie) i dziś zbiór sięga 10 098 zł bez
+# systemu. Nabór zostaje przy pierwotnym kryterium — inaczej podwyżki same poszerzałyby
+# zestawienie w nieskończoność. Zmiana tych liczb to decyzja właściciela, nie skutek uboczny.
+ZAKRES = (5000, 9000)
 
 KARTA = re.compile(
     r'<h2><a href="(p(\d+),[^"]+\.html)"[^>]*>([^<]+)</a></h2>.*?'
