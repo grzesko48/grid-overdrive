@@ -314,6 +314,24 @@ def nazwa_ze_strony(s):
     return ""
 
 
+# `32GB (+899,00 zl)` w <option> konfiguratora sklepu. Czytamy to przy okazji, bo strona
+# produktu i tak jest pobierana dla ceny — dodatkowe zapytanie kosztowaloby tyle samo, co
+# zadne. Bierzemy TYLKO opcje z jawna kwota: „32GB" bez ceny znaczy, ze sklep jej nie podal,
+# a nie ze rozszerzenie jest za darmo.
+OPCJA_KONF = re.compile(
+    r"<option[^>]*>\s*([^<(]{1,40}?)\s*\(\+\s*([\d\s \u00a0,.]+)\s*z[\u0142l]\s*\)", re.I)
+
+
+def opcje_konfiguratora(s):
+    """Co jeszcze sklep pozwala dolozyc do tego zestawu i za ile."""
+    out = {}
+    for nazwa, kwota in OPCJA_KONF.findall(s):
+        w = _liczba(kwota)
+        if w:
+            out[re.sub(r"\s+", " ", nazwa).strip()] = w
+    return out
+
+
 NIEDOSTEPNE = ("OutOfStock", "SoldOut", "Discontinued", "BackOrder")
 SLOWA_BRAKU = ("niedostępny", "Niedostępny", "wycofan", "Produkt niedostępny",
                "chwilowo niedostępny", "brak w magazynie")
@@ -391,9 +409,13 @@ def main():
             if bez_oferty(s):
                 return klucz, {"stan": "wycofany", "kod": kod, "niedostepny": True}
             return klucz, {"stan": "brak_ceny", "kod": kod}
-        return klucz, {"stan": "ok", "cena": cena, "nazwa": nazwa_ze_strony(s),
-                       "niedostepny": any(x in dost for x in NIEDOSTEPNE),
-                       "dostepnosc": dost.split("/")[-1]}
+        wynik = {"stan": "ok", "cena": cena, "nazwa": nazwa_ze_strony(s),
+                 "niedostepny": any(x in dost for x in NIEDOSTEPNE),
+                 "dostepnosc": dost.split("/")[-1]}
+        opcje = opcje_konfiguratora(s)
+        if opcje:
+            wynik["opcje"] = opcje
+        return klucz, wynik
 
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=a.watki) as ex:

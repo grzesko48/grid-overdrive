@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 1,
+ "przeliczonych": 106,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0
@@ -19,17 +19,1408 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "AOC AGON PRO AG276QZD2",
-   "rodzaj": "monitor",
-   "podstawa": 7.33,
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 82.43,
+   "zmiany": {
+    "value": [
+     83,
+     82
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 108.95,
+   "zmiany": {
+    "value": [
+     45,
+     44
+    ],
+    "overall": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 750W, Signum M30 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 99.81,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 97.93,
+   "zmiany": {
+    "value": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 90.77,
+   "zmiany": {
+    "value": [
+     71,
+     70
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 81.59,
+   "zmiany": {
+    "value": [
+     84,
+     83
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 90.88,
+   "zmiany": {
+    "value": [
+     71,
+     70
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 88.69,
+   "zmiany": {
+    "value": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 87.15,
+   "zmiany": {
+    "value": [
+     76,
+     75
+    ],
+    "overall": [
+     79,
+     78
+    ],
+    "ultra": [
+     58,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 99.82,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ],
+    "overall": [
+     75,
+     74
+    ],
+    "ultra": [
+     58,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 85.24,
+   "zmiany": {
+    "value": [
+     79,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 89.33,
+   "zmiany": {
+    "value": [
+     73,
+     72
+    ],
+    "overall": [
+     80,
+     79
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 225F, RTX 5060 Ti 8GB, 16GB DDR5, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 85.25,
+   "zmiany": {
+    "value": [
+     79,
+     78
+    ],
+    "overall": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (3) (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 97.8,
+   "zmiany": {
+    "value": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 88.56,
+   "zmiany": {
+    "value": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 101.23,
+   "zmiany": {
+    "value": [
+     56,
+     55
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 86.59,
+   "zmiany": {
+    "value": [
+     77,
+     76
+    ],
+    "overall": [
+     78,
+     77
+    ],
+    "ultra": [
+     69,
+     68
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 100.5,
+   "zmiany": {
+    "value": [
+     57,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 97.2,
+   "zmiany": {
+    "value": [
+     62,
+     61
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 84.46,
+   "zmiany": {
+    "value": [
+     80,
+     79
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 80.87,
+   "zmiany": {
+    "value": [
+     85,
+     84
+    ],
+    "overall": [
+     84,
+     83
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 87.34,
+   "zmiany": {
+    "value": [
+     76,
+     75
+    ],
+    "overall": [
+     80,
+     79
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 99.17,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, PANO 130R",
+   "rodzaj": "pc",
+   "podstawa": 85.1,
+   "zmiany": {
+    "value": [
+     79,
+     78
+    ],
+    "overall": [
+     82,
+     81
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 7600 8GB, 32GB DDR5, 500GB SSD, 600W, Nadir (2)",
+   "rodzaj": "pc",
+   "podstawa": 106.8,
+   "zmiany": {
+    "value": [
+     48,
+     47
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Stellar 8F ARGB Black",
+   "rodzaj": "pc",
+   "podstawa": 84.45,
+   "zmiany": {
+    "value": [
+     80,
+     79
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Stellar 8F ARGB Black (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 96.28,
+   "zmiany": {
+    "value": [
+     63,
+     62
+    ],
+    "overall": [
+     79,
+     78
+    ],
+    "ultra": [
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron (2)",
+   "rodzaj": "pc",
+   "podstawa": 90.11,
+   "zmiany": {
+    "value": [
+     72,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Exo ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 102.8,
+   "zmiany": {
+    "value": [
+     54,
+     53
+    ],
+    "ultra": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 84.46,
+   "zmiany": {
+    "value": [
+     80,
+     79
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 100.57,
+   "zmiany": {
+    "value": [
+     57,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 99.19,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ],
+    "ultra": [
+     71,
+     70
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 97.65,
+   "zmiany": {
+    "value": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, PANO 130R",
+   "rodzaj": "pc",
+   "podstawa": 85.1,
+   "zmiany": {
+    "value": [
+     79,
+     78
+    ],
+    "overall": [
+     82,
+     81
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 98.38,
+   "zmiany": {
+    "value": [
+     60,
+     59
+    ],
+    "overall": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R",
+   "rodzaj": "pc",
+   "podstawa": 95.75,
+   "zmiany": {
+    "value": [
+     64,
+     63
+    ],
+    "overall": [
+     76,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 108.41,
+   "zmiany": {
+    "value": [
+     46,
+     45
+    ],
+    "overall": [
+     72,
+     71
+    ],
+    "ultra": [
+     56,
+     55
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
+   "rodzaj": "pc",
+   "podstawa": 102.06,
+   "zmiany": {
+    "value": [
+     55,
+     54
+    ],
+    "overall": [
+     72,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (2)",
+   "rodzaj": "pc",
+   "podstawa": 102.06,
+   "zmiany": {
+    "value": [
+     55,
+     54
+    ],
+    "overall": [
+     73,
+     72
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 650W, Ventum",
+   "rodzaj": "pc",
+   "podstawa": 102.06,
+   "zmiany": {
+    "value": [
+     55,
+     54
+    ],
+    "overall": [
+     73,
+     72
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 TI 16GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 92.87,
+   "zmiany": {
+    "value": [
+     68,
+     67
+    ],
+    "overall": [
+     78,
+     77
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 TI 16GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 104.7,
+   "zmiany": {
+    "value": [
+     51,
+     50
+    ],
+    "overall": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 92.21,
+   "zmiany": {
+    "value": [
+     69,
+     68
+    ],
+    "overall": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 104.04,
+   "zmiany": {
+    "value": [
+     52,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 96.46,
+   "zmiany": {
+    "value": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 90.87,
+   "zmiany": {
+    "value": [
+     71,
+     70
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 650W, PANO 130R (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 99.96,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ],
+    "ultra": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R",
+   "rodzaj": "pc",
+   "podstawa": 88.69,
+   "zmiany": {
+    "value": [
+     74,
+     73
+    ],
+    "overall": [
+     81,
+     80
+    ],
+    "ultra": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3",
+   "rodzaj": "pc",
+   "podstawa": 105.64,
    "zmiany": {
     "value": [
      50,
-     52
+     49
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
+   "rodzaj": "pc",
+   "podstawa": 106.84,
+   "zmiany": {
+    "value": [
+     48,
+     47
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 101.24,
+   "zmiany": {
+    "value": [
+     56,
+     55
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 99.16,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ],
+    "overall": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 102.65,
+   "zmiany": {
+    "value": [
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5050 8GB, 32GB DDR5, 1TB SSD, 600W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 112.47,
+   "zmiany": {
+    "value": [
+     40,
+     39
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 96.38,
+   "zmiany": {
+    "value": [
+     63,
+     62
+    ],
+    "ultra": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 95.74,
+   "zmiany": {
+    "value": [
+     64,
+     63
+    ],
+    "overall": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 32GB DDR5, 1000GB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 98.49,
+   "zmiany": {
+    "value": [
+     60,
+     59
+    ],
+    "overall": [
+     76,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Fornax 4000 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 109.06,
+   "zmiany": {
+    "value": [
+     45,
+     44
+    ],
+    "ultra": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 97.67,
+   "zmiany": {
+    "value": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 99.84,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 99.97,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 85.93,
+   "zmiany": {
+    "value": [
+     78,
+     77
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 99.85,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (2)",
+   "rodzaj": "pc",
+   "podstawa": 99.18,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (2) (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 111.01,
+   "zmiany": {
+    "value": [
+     42,
+     41
+    ],
+    "overall": [
+     71,
+     70
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 100.49,
+   "zmiany": {
+    "value": [
+     57,
+     56
+    ],
+    "overall": [
+     75,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 100.49,
+   "zmiany": {
+    "value": [
+     57,
+     56
+    ],
+    "overall": [
+     75,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3 RGB",
+   "rodzaj": "pc",
+   "podstawa": 97.79,
+   "zmiany": {
+    "value": [
+     61,
+     60
+    ],
+    "overall": [
+     79,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (3)",
+   "rodzaj": "pc",
+   "podstawa": 106.05,
+   "zmiany": {
+    "value": [
+     49,
+     48
+    ],
+    "overall": [
+     73,
+     72
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 89.3,
+   "zmiany": {
+    "value": [
+     73,
+     72
+    ],
+    "overall": [
+     83,
+     82
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 850W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 99.85,
+   "zmiany": {
+    "value": [
+     58,
+     57
+    ],
+    "ultra": [
+     79,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "podstawa": 108.89,
+   "zmiany": {
+    "value": [
+     45,
+     44
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 108.39,
+   "zmiany": {
+    "value": [
+     46,
+     45
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
+   "rodzaj": "pc",
+   "podstawa": 113.21,
+   "zmiany": {
+    "value": [
+     39,
+     38
+    ],
+    "overall": [
+     70,
+     69
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 111.73,
+   "zmiany": {
+    "value": [
+     41,
+     40
+    ],
+    "ultra": [
+     66,
+     65
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 1TB SSD, 32GB DDR5, 850W, Depcool CC560",
+   "rodzaj": "pc",
+   "podstawa": 113.92,
+   "zmiany": {
+    "value": [
+     38,
+     37
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "podstawa": 88.58,
+   "zmiany": {
+    "value": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7500f, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Exo ARGB",
+   "rodzaj": "pc",
+   "podstawa": 108.39,
+   "zmiany": {
+    "value": [
+     46,
+     45
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB (2)",
+   "rodzaj": "pc",
+   "podstawa": 113.08,
+   "zmiany": {
+    "value": [
+     39,
+     38
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "podstawa": 113.08,
+   "zmiany": {
+    "value": [
+     39,
+     38
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 113.08,
+   "zmiany": {
+    "value": [
+     39,
+     38
+    ],
+    "overall": [
+     70,
+     69
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 550W, Exo ARGB",
+   "rodzaj": "pc",
+   "podstawa": 113.22,
+   "zmiany": {
+    "value": [
+     39,
+     38
+    ],
+    "overall": [
+     69,
+     68
+    ],
+    "ultra": [
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 106.26,
+   "zmiany": {
+    "value": [
+     49,
+     48
+    ],
+    "overall": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 89.33,
+   "zmiany": {
+    "value": [
+     73,
+     72
+    ],
+    "overall": [
+     84,
+     83
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 92.07,
+   "zmiany": {
+    "value": [
+     69,
+     68
+    ],
+    "overall": [
+     82,
+     81
+    ],
+    "ultra": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB (3)",
+   "rodzaj": "pc",
+   "podstawa": 114.7,
+   "zmiany": {
+    "value": [
+     37,
+     36
+    ],
+    "overall": [
+     69,
+     68
+    ],
+    "ultra": [
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "podstawa": 110.37,
+   "zmiany": {
+    "value": [
+     43,
+     42
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel I5-14400F, RTX 5060 TI 16GB, 32GB DDR5, 1TB SSD, 750W, Nadir",
+   "rodzaj": "pc",
+   "podstawa": 115.38,
+   "zmiany": {
+    "value": [
+     36,
+     35
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
+   "rodzaj": "pc",
+   "podstawa": 117.44,
+   "zmiany": {
+    "value": [
+     33,
+     32
+    ],
+    "overall": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 109.72,
+   "zmiany": {
+    "value": [
+     44,
+     43
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Lian Li V100",
+   "rodzaj": "pc",
+   "podstawa": 116.59,
+   "zmiany": {
+    "value": [
+     34,
+     33
+    ],
+    "overall": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Stellar 5F",
+   "rodzaj": "pc",
+   "podstawa": 117.41,
+   "zmiany": {
+    "value": [
+     33,
+     32
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 116.05,
+   "zmiany": {
+    "value": [
+     35,
+     34
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO Argb",
+   "rodzaj": "pc",
+   "podstawa": 118.08,
+   "zmiany": {
+    "value": [
+     32,
+     31
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 112.41,
+   "zmiany": {
+    "value": [
+     40,
+     39
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, XT Pro Ultra ARGB",
+   "rodzaj": "pc",
+   "podstawa": 114.59,
+   "zmiany": {
+    "value": [
+     37,
+     36
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, G400 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 115.87,
+   "zmiany": {
+    "value": [
+     35,
+     34
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 115.87,
+   "zmiany": {
+    "value": [
+     35,
+     34
+    ],
+    "ultra": [
+     66,
+     65
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, Pano 130R PZ, 850W",
+   "rodzaj": "pc",
+   "podstawa": 115.87,
+   "zmiany": {
+    "value": [
+     35,
+     34
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 121.51,
+   "zmiany": {
+    "value": [
+     27,
+     26
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 121.0,
+   "zmiany": {
+    "value": [
+     28,
+     27
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 Ti 8GB. 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "rodzaj": "pc",
+   "podstawa": 119.59,
+   "zmiany": {
+    "value": [
+     30,
+     29
+    ],
+    "overall": [
+     69,
+     68
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 122.28,
+   "zmiany": {
+    "value": [
+     26,
+     25
     ],
     "overall": [
      67,
-     68
+     66
+    ],
+    "ultra": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB , 32GB DDR5, 1TB SSD, 850W, Fishtank 6000",
+   "rodzaj": "pc",
+   "podstawa": 108.29,
+   "zmiany": {
+    "value": [
+     46,
+     45
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel I5 14600KF, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
+   "rodzaj": "pc",
+   "podstawa": 99.15,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ],
+    "overall": [
+     83,
+     82
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 104.71,
+   "zmiany": {
+    "value": [
+     51,
+     50
     ]
    }
   }

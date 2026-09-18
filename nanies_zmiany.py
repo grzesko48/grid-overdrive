@@ -147,7 +147,19 @@ def main():
                     baza_dla[x["img"]] = bazy[0]
 
     zmiany, do_przejrzenia, dostepnosc, bez_bazy, inny_produkt = [], [], [], [], []
-    ukryte, przywrocone = [], []
+    ukryte, przywrocone, doplaty_os = [], [], []
+
+    # Cena systemu przestaje byc zamrozona stala. Byla nia i sie zestarzala: sklep podniosl
+    # Windows 11 Home z 519 na 539 zl, a my przy 286 zestawach doliczalismy staria kwote,
+    # wiec cena z systemem byla zanizona o 20 zl przy kazdym z nich. Konfigurator podaje te
+    # kwote wprost, a strone produktu i tak pobieramy dla ceny — wiec bierzemy ja stamtad.
+    def cena_systemu(p):
+        for sklep, u in p["urls"].items():
+            w = adresy.get(f"{sklep}|{u}") or {}
+            for nazwa, kwota in (w.get("opcje") or {}).items():
+                if "Windows 11 Home" in nazwa:
+                    return kwota
+        return None
 
     for p in poz:
         nowe_ceny, niedostepne = {}, set()
@@ -237,6 +249,18 @@ def main():
             if n:
                 dostepnosc.append({"nazwa": p["name"], "bylo": sorted(stare_sold),
                                    "jest": sorted(p["_niedostepne"])})
+        # dopłata za system — tylko tam, gdzie zestaw jest sprzedawany bez niego
+        if p["rodzaj"] == "pc" and p["priceBare"] is not None:
+            nowa_os = cena_systemu(p)
+            stara_os = p["price"] - p["priceBare"]
+            if nowa_os and stara_os > 0 and nowa_os != stara_os:
+                mb = re.search(r"(?<![A-Za-z])priceBare:(\d+)", seg)
+                bare = int(mb.group(1)) if mb else p["priceBare"]
+                seg, n = podmien(seg, "price", bare + nowa_os)
+                if n:
+                    doplaty_os.append({"nazwa": p["name"], "stara": stara_os,
+                                       "nowa": nowa_os, "cena": bare + nowa_os})
+
         bylo_ukryte = bool(re.search(r",\s*ukryty:1", seg))
         if p.get("_ukryty") != bylo_ukryte:
             seg, n = ustaw_flage(seg, "ukryty", p.get("_ukryty"))
@@ -260,6 +284,7 @@ def main():
         "zmian_cen": len(zmiany),
         "do_przejrzenia": do_przejrzenia,
         "zmiany_dostepnosci": dostepnosc,
+        "doplaty_systemu": doplaty_os,
         "ukryte": ukryte,
         "przywrocone": przywrocone,
         "warianty_bez_bazy": bez_bazy,
@@ -272,6 +297,12 @@ def main():
           f"{sum(1 for z in zmiany if z['rodzaj']=='monitor')}, PC "
           f"{sum(1 for z in zmiany if z['rodzaj']=='pc')})")
     print(f"dostępność : {len(dostepnosc)} zmian")
+    if doplaty_os:
+        k = {}
+        for d in doplaty_os:
+            k[(d["stara"], d["nowa"])] = k.get((d["stara"], d["nowa"]), 0) + 1
+        print(f"dopłata za system: {len(doplaty_os)} zmian  " +
+              "  ".join(f"{a}→{b} zł ×{n}" for (a, b), n in k.items()))
     print(f"ukryte     : {len(ukryte)} (brak jakiejkolwiek kupowalnej oferty)")
     for u in ukryte:
         print(f"   − [{u['rodzaj']}] {u['nazwa'][:62]}  sklepy: {', '.join(u['sklepy'])}")
