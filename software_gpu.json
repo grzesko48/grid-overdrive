@@ -1,0 +1,92 @@
+{
+  "_opis": "Fakty o warstwie programowej kart graficznych (upscaling, generowanie klatek) zebrane ze źródeł zewnętrznych. KAŻDY wpis ma źródło, adres i ocenę wiarygodności. Nic tutaj nie pochodzi z pamięci modelu.",
+  "data_zebrania": "2026-09-18",
+  "zebral": "sesja Claude Code, wyszukiwarka; weryfikacja krzyżowa między źródłami tam, gdzie się dało",
+  "_skala_wiarygodnosci": {
+    "pierwotne": "producent albo redakcja z własnym stanowiskiem pomiarowym i opublikowaną metodyką",
+    "wtorne": "redakcja techniczna cytująca cudze pomiary",
+    "slabe": "strona porównawcza bez metodyki, prawdopodobnie tworzona pod wyszukiwarkę — używać wyłącznie jako wskazówki kierunku, nigdy jako liczby"
+  },
+  "ustalenia": [
+    {
+      "id": "S1",
+      "teza": "Jakość obrazu: DLSS pozostaje liderem, ale FSR 4 w trybie Quality daje w większości scenariuszy wynik porównywalny z DLSS Quality — po trzech generacjach, w których AMD odstawało.",
+      "niuans": "FSR 4 daje obraz miększy, mniej ostry; za to rzadziej produkuje ziarno i pikselozę, oddając drobny detal gładziej.",
+      "zrodlo": "TechSpot — How Far Behind is AMD? DLSS 4.5 vs FSR 4 Tested",
+      "url": "https://www.techspot.com/article/3084-nvidia-dlss-45-vs-amd-fsr-4/",
+      "wiarygodnosc": "pierwotne",
+      "pewnosc": "PRAWDOPODOBNE"
+    },
+    {
+      "id": "S2",
+      "teza": "Zasięg wsparcia w grach: ponad 400 tytułów po stronie NVIDII wobec około 200 po stronie FSR 4.",
+      "niuans": "KLUCZOWE: żadna gra nie ma natywnej obsługi FSR 4. Wszystkie mają zintegrowane FSR 3.1, a FSR 4 wymusza się przez sterownik Radeon Software. DLSS włącza się samo przez aplikację NVIDII.",
+      "zrodlo": "XDA Developers; TechSpot",
+      "url": "https://www.xda-developers.com/amd-fsr-4-vs-nvidia-dlss-4/",
+      "wiarygodnosc": "wtorne",
+      "pewnosc": "PRAWDOPODOBNE"
+    },
+    {
+      "id": "S3",
+      "teza": "Bramka sprzętowa po stronie AMD jest ostrzejsza: FSR 4 z uczeniem maszynowym działa wyłącznie na RDNA 4. Starsze RDNA 2 i 3 zostają przy analitycznym FSR 3.1.",
+      "niuans": "NVIDIA odwrotnie: model transformerowy DLSS 4 jest dostępny dla WSZYSTKICH kart RTX przez podmianę w aplikacji, także dla generacji 20 i 30. Ulepszony model generowania klatek dostają serie 40 i 50.",
+      "zrodlo": "NVIDIA GeForce News (oficjalne); AMD GPUOpen (oficjalne)",
+      "url": "https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations/",
+      "wiarygodnosc": "pierwotne",
+      "pewnosc": "PEWNE"
+    },
+    {
+      "id": "S4",
+      "teza": "RX 9060 XT 16GB i RTX 5060 Ti 16GB są w rasteryzacji 1440p praktycznie równe — w granicach około 1 procenta, rzędu 78 kl/s średnio w ośmiu grach.",
+      "niuans": "W ray tracingu 1440p przewaga NVIDII jest wyraźna: około 56 kl/s wobec około 44. Cenowo odwrotnie: około 350 dolarów wobec około 430.",
+      "zrodlo": "Aliteq (cytuje Tom's Hardware); BestGPUsForGaming; HowManyFPS",
+      "url": "https://aliteq.com/rtx-5060-ti-vs-rx-9060-xt-2026",
+      "wiarygodnosc": "wtorne",
+      "pewnosc": "DO WERYFIKACJI",
+      "uwaga": "Liczby rozjeżdżają się między źródłami (426 vs 423 kl/s w jednym, 134 vs 142 w innym) — to znak różnych zestawów gier i ustawień. Kierunek jest zgodny, wartości bezwzględne NIE nadają się do publikacji."
+    },
+    {
+      "id": "S5",
+      "teza": "8 GB pamięci karty jest w 2026 roku ścianą przy 1440p na wysokich ustawieniach i przy ray tracingu.",
+      "niuans": "Przykłady zużycia: Cyberpunk 2077 z Phantom Liberty i RT około 12 GB przy 1440p; Avatar: Frontiers of Pandora około 12,6 GB na ultra; Hellblade II przekracza 8 GB już na wysokich.",
+      "zrodlo": "Newegg Insider — Is 8GB of VRAM Still Enough in 2026",
+      "url": "https://www.newegg.com/insider/is-8gb-of-vram-still-enough-in-2026/",
+      "wiarygodnosc": "wtorne",
+      "pewnosc": "PRAWDOPODOBNE"
+    },
+    {
+      "id": "S6",
+      "teza": "Generowanie klatek NIE odciąża pamięci — ono ją dodatkowo obciąża.",
+      "niuans": "Cyberpunk 2077, 1440p, maksymalny RT, DLSS 4 i czterokrotne generowanie klatek: RTX 5060 Ti w wersji 16 GB osiąga 113 kl/s, ta sama karta w wersji 8 GB — 92,4 kl/s. Różnica 18 procent bierze się z samego bufora generowania klatek.",
+      "zrodlo": "Newegg Insider",
+      "url": "https://www.newegg.com/insider/is-8gb-of-vram-still-enough-in-2026/",
+      "wiarygodnosc": "wtorne",
+      "pewnosc": "PRAWDOPODOBNE",
+      "znaczenie": "To jest twardy dowód na tezę, że upscaling jest plastrem: włączenie go na karcie z za małą pamięcią pogarsza sprawę, zamiast ją ratować."
+    },
+    {
+      "id": "S7",
+      "teza": "Upscaling nie zastępuje pamięci, bo nie zmniejsza tego, co ją zajmuje.",
+      "niuans": "Renderowanie w niższej rozdzielczości zmniejsza wyłącznie bufor obrazu — typowo 200–500 MB całego zużycia. Tekstury, geometria i dane ray tracingu ładują się w pełnej konfiguracji niezależnie od upscalingu.",
+      "zrodlo": "Newegg Insider; PC Game Check",
+      "url": "https://pcgamecheck.com/blog/is-8gb-vram-enough-2026",
+      "wiarygodnosc": "slabe",
+      "pewnosc": "PRAWDOPODOBNE",
+      "uwaga": "Mechanizm jest technicznie spójny i potwierdzony w dwóch niezależnych miejscach, ale drugie źródło jest słabe — przed publikacją liczby 200–500 MB warto ją potwierdzić u redakcji z własnym stanowiskiem."
+    },
+    {
+      "id": "S8",
+      "teza": "Kierunek na przyszłość po stronie AMD: FSR Redstone — neuronowe buforowanie światła, uczenie maszynowe w odszumianiu ray tracingu i w generowaniu klatek.",
+      "niuans": "Odszumianie i buforowanie światła są zarezerwowane dla RDNA 4. Integracje w grach zapowiedziane na 2026. Równolegle FSR 4.1 dostało wsparcie dla RDNA 3 w SDK 2.3 — czyli AMD zaczyna cofać wcześniejszą wyłączność.",
+      "zrodlo": "AMD GPUOpen (oficjalne); TechPowerUp — recenzja FSR 4 Redstone",
+      "url": "https://gpuopen.com/learn/amd-fsr-redstone-developers-neural-rendering/",
+      "wiarygodnosc": "pierwotne",
+      "pewnosc": "PEWNE"
+    }
+  ],
+  "_czego_tu_nie_ma": [
+    "Pomiarów wykonanych przez nas — wszystko pochodzi z cudzych stanowisk, o innym procesorze i innych ustawieniach niż zestawy w tym serwisie.",
+    "Liczb nadających się do wpisania na karty produktów — rozrzut między źródłami jest za duży (patrz S4).",
+    "Sprawdzenia licencji źródeł pod kątem prawa do reużycia ich wyników — to musi zrobić człowiek przed publikacją czegokolwiek."
+  ]
+}
