@@ -33,32 +33,42 @@ def _pole(seg, nazwa, cudz):
 
 
 def wczytaj(sz):
-    """Zwraca listę pozycji. Monitory mają pola w apostrofach, PC w cudzysłowach."""
-    poz = []
-    # U monitorów price stoi zaraz po name, u zestawów PC dopiero po specyfikacji —
-    # dlatego wzorzec łapie tylko nagłówek wpisu, a cenę szukamy w jego obrębie.
+    """Zwraca liste pozycji. Monitory maja pola w apostrofach, PC w cudzyslowach.
+
+    Wpis konczy sie tam, gdzie zaczyna sie nastepny. Wczesniej czytalismy stale okno
+    3000 znakow i krotki wpis „pozyczal" pola od sasiada — zestaw bez zadnej oferty
+    MediaMarkt dostawal w ten sposob cudze soldout:["mediamarkt"]. Sciezka zapisu byla
+    bezpieczna (granice() liczy ja poprawnie), ale odczyt klamal.
+    """
     wzory = [("monitor", r"\{img:'(\d\d_[^']+)', name:'([^']+)'", "'"),
-             ("pc",      r'\{img:"(p[^"]*)", name:"([^"]*)"', '"')]
+             ("pc", r'\{img:"(p[^"]*)", name:"([^"]*)"', '"')]
+    trafienia = []
     for rodzaj, wzor, cudz in wzory:
         for m in re.finditer(wzor, sz):
-            seg = sz[m.start():m.start() + 3000]
-            mc = re.search(r"(?<![A-Za-z])price:(\d+)", seg)
-            if not mc:
-                continue
-            ceny = {k: int(v) for k, v in re.findall(r"(\w+):(\d+)",
-                    (re.search(r"prices:\{([^}]*)\}", seg) or re.match("", "")).group(1)
-                    if re.search(r"prices:\{([^}]*)\}", seg) else "")}
-            adresy = _pole(seg, "urls", cudz)
-            sold = re.search(r"soldout:\[([^\]]*)\]", seg)
-            pb = re.search(r"priceBare:(\d+)", seg)
-            poz.append({
-                "rodzaj": rodzaj, "img": m.group(1), "name": m.group(2),
-                "price": int(mc.group(1)),
-                "priceBare": int(pb.group(1)) if pb else None,
-                "prices": ceny, "urls": adresy,
-                "soldout": re.findall(r"['\"](\w+)['\"]", sold.group(1)) if sold else [],
-            })
+            trafienia.append((m.start(), rodzaj, m.group(1), m.group(2), cudz))
+    trafienia.sort()
+
+    poz = []
+    for i, (start, rodzaj, img, nazwa, cudz) in enumerate(trafienia):
+        stop = trafienia[i + 1][0] if i + 1 < len(trafienia) else len(sz)
+        seg = sz[start:stop]
+        mc = re.search(r"(?<![A-Za-z])price:(\d+)", seg)
+        if not mc:
+            continue
+        mp = re.search(r"prices:\{([^}]*)\}", seg)
+        ceny = {k: int(v) for k, v in re.findall(r"(\w+):(\d+)", mp.group(1))} if mp else {}
+        sold = re.search(r"soldout:\[([^\]]*)\]", seg)
+        pb = re.search(r"priceBare:(\d+)", seg)
+        poz.append({
+            "rodzaj": rodzaj, "img": img, "name": nazwa,
+            "price": int(mc.group(1)),
+            "priceBare": int(pb.group(1)) if pb else None,
+            "prices": ceny, "urls": _pole(seg, "urls", cudz),
+            "soldout": re.findall(r"['\"](\w+)['\"]", sold.group(1)) if sold else [],
+            "ukryty": bool(re.search(r"(?<![A-Za-z])ukryty:1", seg)),
+        })
     return poz
+
 
 # ---------------------------------------------------------------- pobieranie
 

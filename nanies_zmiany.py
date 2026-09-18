@@ -75,6 +75,20 @@ def podmien_cene_sklepu(seg, sklep, wartosc):
     return seg[:m.start(1)] + tresc + seg[m.end(1):], 1
 
 
+def ustaw_flage(seg, pole, wlacz):
+    """Dopisuje albo zdejmuje flage typu `ukryty:1`. Zdejmowanie jest tak samo wazne jak
+    dopisywanie: pozycja ma wrocic na strone sama, gdy towar wroci do sprzedazy."""
+    m = re.search(r",\s*" + pole + r":1", seg)
+    if not wlacz:
+        return (seg[:m.start()] + seg[m.end():], 1) if m else (seg, 0)
+    if m:
+        return seg, 0
+    k = re.search(r"(?<![A-Za-z])price:\d+", seg)
+    if not k:
+        return seg, 0
+    return seg[:k.end()] + f", {pole}:1" + seg[k.end():], 1
+
+
 def ustaw_soldout(seg, sklepy, cudz):
     """Dopisuje/zdejmuje soldout:[...]. Zdjęcie jest równie ważne jak dopisanie —
     inaczej plakietka „chwilowo niedostępne" wisiałaby po powrocie towaru."""
@@ -133,6 +147,7 @@ def main():
                     baza_dla[x["img"]] = bazy[0]
 
     zmiany, do_przejrzenia, dostepnosc, bez_bazy, inny_produkt = [], [], [], [], []
+    ukryte, przywrocone = [], []
 
     for p in poz:
         nowe_ceny, niedostepne = {}, set()
@@ -140,15 +155,24 @@ def main():
             w = adresy.get(f"{sklep}|{u}")
             if not w:
                 continue
+            # Flagujemy wylacznie sklepy, ktore maja u nas cene. Adres bez ceny nie tworzy
+            # wiersza na karcie, wiec flaga dla niego to smiec w danych.
+            ma_cene = sklep in p["prices"]
             if w["stan"] == "wycofany":
-                niedostepne.add(sklep)
+                if ma_cene:
+                    niedostepne.add(sklep)
                 continue
             if w["stan"] != "ok":
                 continue
-            if w.get("niedostepny"):
+            if w.get("niedostepny") and ma_cene:
                 niedostepne.add(sklep)
             nowe_ceny[sklep] = w["cena"]
         p["_nowe"], p["_niedostepne"] = nowe_ceny, niedostepne
+        # Ukrywamy dopiero wtedy, gdy KAZDY sklep z cena jest potwierdzenie martwy.
+        # Sklep, ktorego nie udalo sie sprawdzic (403, blokada), nie trafia do
+        # `niedostepne`, wiec sam z siebie nigdy nie skasuje pozycji ze strony —
+        # niewiedza nie moze udawac wiedzy.
+        p["_ukryty"] = bool(p["prices"]) and all(s in niedostepne for s in p["prices"])
 
     nowy_dok, koniec_poprz = [], 0
     punkty = granice(sz)
@@ -213,6 +237,13 @@ def main():
             if n:
                 dostepnosc.append({"nazwa": p["name"], "bylo": sorted(stare_sold),
                                    "jest": sorted(p["_niedostepne"])})
+        bylo_ukryte = bool(re.search(r",\s*ukryty:1", seg))
+        if p.get("_ukryty") != bylo_ukryte:
+            seg, n = ustaw_flage(seg, "ukryty", p.get("_ukryty"))
+            if n:
+                (ukryte if p["_ukryty"] else przywrocone).append(
+                    {"nazwa": p["name"], "rodzaj": p["rodzaj"],
+                     "sklepy": sorted(p["prices"])})
         nowy_dok.append(seg)
     nowy_dok.append(sz[koniec_poprz:])
     wynik = "".join(nowy_dok)
@@ -229,6 +260,8 @@ def main():
         "zmian_cen": len(zmiany),
         "do_przejrzenia": do_przejrzenia,
         "zmiany_dostepnosci": dostepnosc,
+        "ukryte": ukryte,
+        "przywrocone": przywrocone,
         "warianty_bez_bazy": bez_bazy,
         "inny_produkt_pod_adresem": inny_produkt,
         "zmiany": zmiany,
@@ -239,6 +272,12 @@ def main():
           f"{sum(1 for z in zmiany if z['rodzaj']=='monitor')}, PC "
           f"{sum(1 for z in zmiany if z['rodzaj']=='pc')})")
     print(f"dostępność : {len(dostepnosc)} zmian")
+    print(f"ukryte     : {len(ukryte)} (brak jakiejkolwiek kupowalnej oferty)")
+    for u in ukryte:
+        print(f"   − [{u['rodzaj']}] {u['nazwa'][:62]}  sklepy: {', '.join(u['sklepy'])}")
+    print(f"przywrócone: {len(przywrocone)}")
+    for u in przywrocone:
+        print(f"   + [{u['rodzaj']}] {u['nazwa'][:62]}")
     print(f"do przejrzenia (powyżej {int(a.prog*100)}%): {len(do_przejrzenia)}")
     if bez_bazy:
         print(f"warianty bez zestawu bazowego (pominięte): {len(bez_bazy)}")
