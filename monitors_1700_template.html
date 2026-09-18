@@ -570,7 +570,7 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
       </div>
     </div>
     <div id="heroPc" hidden>
-      <p class="hero-sub"><span id="pcCount">360</span> zestawów gamingowych <strong>wyłącznie z pamięcią DDR5</strong> (DDR4 świadomie wykluczone), w cenach <strong>od <span id="pcMin">5399</span> do <span id="pcMax">10 617</span> zł liczonych razem z Windows 11</strong> — od RTX 5050 po RTX 5070 Ti / RX 9070 XT, z realnymi konfiguracjami CPU/GPU/RAM ze x-kom.pl, Morele.net, MediaMarkt, RTV Euro AGD, GoblinPC.pl, całego katalogu Hard-PC.pl w tym przedziale cenowym i PlugNPlay.pl (36 zestawów, wszystkie z Windows 11 wliczonym w cenę bazową). <strong>Ranking liczony jest zawsze z doliczonym systemem</strong> — tam, gdzie sklep sprzedaje zestaw bez OS, do ceny dolicza się potwierdzoną (lub, gdy sklep jej nie podaje, szacowaną) cenę Windows 11 Home, żeby porównanie nie faworyzowało pozornie tańszych "gołych" zestawów. Dla każdego zestawu z bazowym 16GB RAM sprawdziliśmy realną cenę podniesienia do 32GB w konfiguratorze sklepu i dodaliśmy taki wariant jako osobną pozycję rankingu. <strong>Ranking Ultra</strong> (domyślny widok) waży wydajność i szacowaną długowieczność karty graficznej (VRAM, generacja) oraz RAM. <strong>Jedna rzecz o tej skali, żeby nie sugerowała precyzji, której nie ma:</strong> 348 zestawów mieści się w 40 różnych wartościach, a w promieniu jednego punktu od dowolnego zestawu leży średnio 52 inne. Trzydzieści cztery zestawy mają dokładnie 68 punktów przy cenach od 6458 do 8518 zł. Różnica jednego czy dwóch punktów nie znaczy więc nic — traktuj tę liczbę jako półkę, nie jako miejsce na podium, i rozstrzygaj w obrębie półki ceną albo rozbiciem na składniki. Wybierz <strong>budżet co 500 zł</strong> (od 4000 zł) żeby zobaczyć najlepszy zestaw do konkretnej kwoty — z Windowsem w cenie. Filtruj po modelu karty graficznej, producencie CPU, ilości RAM, budżecie i sklepie; kliknij kartę, żeby zobaczyć oceny, zalety/wady i ceny we wszystkich sprawdzonych sklepach naraz.</p>
+      <p class="hero-sub"><span id="pcCount">360</span> zestawów gamingowych <strong>wyłącznie z pamięcią DDR5</strong> (DDR4 świadomie wykluczone), w cenach <strong>od <span id="pcMin">5399</span> do <span id="pcMax">10 617</span> zł liczonych razem z Windows 11</strong> — od RTX 5050 po RTX 5070 Ti / RX 9070 XT, z realnymi konfiguracjami CPU/GPU/RAM ze x-kom.pl, Morele.net, MediaMarkt, RTV Euro AGD, GoblinPC.pl, całego katalogu Hard-PC.pl w tym przedziale cenowym i PlugNPlay.pl (36 zestawów, wszystkie z Windows 11 wliczonym w cenę bazową). <strong>Ranking liczony jest zawsze z doliczonym systemem</strong> — tam, gdzie sklep sprzedaje zestaw bez OS, do ceny dolicza się potwierdzoną (lub, gdy sklep jej nie podaje, szacowaną) cenę Windows 11 Home, żeby porównanie nie faworyzowało pozornie tańszych "gołych" zestawów. Dla każdego zestawu z bazowym 16GB RAM sprawdziliśmy realną cenę podniesienia do 32GB w konfiguratorze sklepu i dodaliśmy taki wariant jako osobną pozycję rankingu. <strong>Ranking Ultra</strong> (domyślny widok) waży wydajność i szacowaną długowieczność karty graficznej (VRAM, generacja) oraz RAM. <strong>Jedna rzecz o tej skali, żeby nie sugerowała precyzji, której nie ma:</strong> <span id="skalaZdan">—</span> Różnica jednego czy dwóch punktów nie znaczy więc nic — traktuj tę liczbę jako półkę, nie jako miejsce na podium, i rozstrzygaj w obrębie półki ceną albo rozbiciem na składniki. Wybierz <strong>budżet co 500 zł</strong> (od 4000 zł) żeby zobaczyć najlepszy zestaw do konkretnej kwoty — z Windowsem w cenie. Filtruj po modelu karty graficznej, producencie CPU, ilości RAM, budżecie i sklepie; kliknij kartę, żeby zobaczyć oceny, zalety/wady i ceny we wszystkich sprawdzonych sklepach naraz.</p>
       <div class="scope-row">
         <div class="scope-chip">Zestawów <b>360</b></div>
         <div class="scope-chip">w tym wariantów custom (32GB RAM) <b>68</b></div>
@@ -1993,6 +1993,28 @@ wstaw('monCount', DATA.length);
     wstaw('zakresOs', widelki(ceny));
     wstaw('pcCount', PDATA.length);
     wstaw('statPc', PDATA.length);
+    /* Zdanie o rozdzielczości skali liczymy z danych. Wpisane ręcznie zestarzało się
+       w ciągu godziny — po usunięciu pięciu duplikatów było „40 wartości, 34 zestawy
+       po 68 punktów", a jest 39 i 33 po 64. To trzeci raz tego samego wzoru w tym pliku,
+       więc ta liczba już nigdy nie jest przepisywana. */
+    (function(){
+      var w = PDATA.map(function(d){ return d.scores.ultra; });
+      var roznych = {}, i;
+      for(i=0;i<w.length;i++) roznych[w[i]] = (roznych[w[i]]||0) + 1;
+      var ileRoznych = Object.keys(roznych).length;
+      var wPromieniu = Math.round(w.reduce(function(s,x){
+        return s + w.filter(function(y){ return Math.abs(y-x) <= 1; }).length - 1; }, 0) / w.length);
+      var najW = null, najN = 0;
+      for(var k in roznych){ if(roznych[k] > najN){ najN = roznych[k]; najW = +k; } }
+      var ceny = PDATA.filter(function(d){ return d.scores.ultra === najW; })
+                      .map(function(d){ return d.price; });
+      wstaw('skalaZdan',
+        PDATA.length + ' zestawów mieści się w ' + ileRoznych + ' różnych wartościach, '
+        + 'a w promieniu jednego punktu od dowolnego zestawu leży średnio ' + wPromieniu
+        + ' innych. Najliczniejsza grupa to ' + najN + ' zestawów z identycznym wynikiem '
+        + najW + ' punktów, przy cenach od ' + Math.min.apply(null, ceny).toLocaleString('pl-PL')
+        + ' do ' + Math.max.apply(null, ceny).toLocaleString('pl-PL') + ' zł.');
+    })();
     wstaw('pcMin', Math.min.apply(null, ceny).toLocaleString('pl-PL'));
     wstaw('pcMax', Math.max.apply(null, ceny).toLocaleString('pl-PL'));
   })();
