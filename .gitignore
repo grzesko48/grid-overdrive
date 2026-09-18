@@ -8,3 +8,4 @@ recheck/
 # Surowy zrzut z pobierania (173 KB na przebieg — 60 MB rocznie, gdyby go trzymać).
 # Wnioski z niego trafiają do raport_rano.json i coverage_log.json, i te commitujemy.
 zebrane_ceny.json
+__pycache__/
