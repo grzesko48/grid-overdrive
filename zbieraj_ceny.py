@@ -50,6 +50,14 @@ def _pole(seg, nazwa, cudz):
     return dict(pary)
 
 
+class _Pusty:
+    @staticmethod
+    def group(_): return ""
+
+
+_P = _Pusty()
+
+
 def wczytaj(sz):
     """Zwraca liste pozycji. Monitory maja pola w apostrofach, PC w cudzyslowach.
 
@@ -83,6 +91,11 @@ def wczytaj(sz):
             "priceBare": int(pb.group(1)) if pb else None,
             "prices": ceny, "urls": _pole(seg, "urls", cudz),
             "soldout": re.findall(r"['\"](\w+)['\"]", sold.group(1)) if sold else [],
+            # Pola specyfikacji czytamy z segmentu TEGO wpisu. Szukanie ich po kluczu
+            # zdjecia jest pulapka: 290 z 360 zestawow dzieli klucz z innym wpisem
+            # (jeden obsluguje 62 pozycje), wiec find() po img zwraca cudze dane.
+            "ram": (re.search(r'ram:"([^"]*)"', seg) or re.search(r"ram:'([^']*)'", seg) or _P).group(1) if re.search(r"ram:['\"]", seg) else "",
+            "gpu": (re.search(r'gpu:"([^"]*)"', seg) or _P).group(1) if re.search(r'gpu:"', seg) else "",
             "ukryty": bool(re.search(r"(?<![A-Za-z])ukryty:1", seg)),
         })
     return poz

@@ -1,0 +1,56 @@
+{
+ "kandydatow": 9,
+ "z_doplata": 1,
+ "wyniki": [
+  {
+   "name": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "img": "pcimg_hpc_4727b63b02",
+   "stan": "ok",
+   "priceBare": 5799,
+   "doplata_32gb": 899,
+   "priceBare_32gb": 6698,
+   "doplata_os": 519,
+   "url": "https://sklep.hard-pc.pl/p25257,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "name": "Zestaw | Intel Ultra 225F, RTX 5060 Ti 8GB, 16GB DDR5, 650W, Signum 300 ARGB",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Night hunter",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 750w, Night Hunter",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 850W, Vako",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Ryzen 5 7500X3D, RX 9070 16GB, 16GB DDR5, 1TB SSD, 850W, V100R",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Ryzen 5 7600X, RTX 5060 Ti 16GB, 1TB SSD, 16GB DDR5, 750W, Signum 300 ARGB",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  },
+  {
+   "name": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "stan": "brak_opcji_32",
+   "widziane": []
+  }
+ ]
+}
