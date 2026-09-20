@@ -1,3 +1,8 @@
+# UWAGA: skrypt HISTORYCZNY z audytu 17-18.09.2026. Nie uruchamia sie (brak pc_data)
+# i nie jest wolany przez nic w repozytorium. Wagi ponizej sa ZAMROZONE na dzien
+# audytu (.28/.30/.22/.12/.08) i NIE SA juz wagami serwisu — 20.09.2026 zmieniono je
+# na .35/.28/.20/.10/.07 przy okazji wprowadzenia kategorii "Najwieksza moc".
+# Zrodlem prawdy sa WZORY w przelicz_oceny.py, nie ten plik.
 import re, json
 from pc_data import PCS as OLD_PCS
 
