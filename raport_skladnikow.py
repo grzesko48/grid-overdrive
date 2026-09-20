@@ -70,6 +70,13 @@ def bramki(w):
         wzor = sum(1 for e in w if e["lata"] is not None
                    and e["longevity"] == round(1 + (e["lata"] - lo) / (hi - lo) * 99))
         r["min_max_na_zywej_bazie"] = f"{wzor}/{len(lata)}"
+        # Druga hipoteza: progi BEZWZGLEDNE. Roznica miedzy tymi dwoma wierszami jest
+        # calym sensem etapu 3 — przy min-maxie kotwice wyznacza dzisiejsza baza,
+        # przy progach sa stale i dodanie produktu nie rusza nikogo innego.
+        PROG_LO, PROG_HI = 1.2, 3.8
+        bez = sum(1 for e in w if e["lata"] is not None and e["longevity"] ==
+                  round(1 + max(0.0, min(1.0, (e["lata"] - PROG_LO) / (PROG_HI - PROG_LO))) * 99))
+        r["progi_bezwzgledne"] = f"{bez}/{len(lata)}"
         r["kotwica_dolna"] = {"lata": lo, "trzyma_pozycji": sum(1 for x in lata if x == lo)}
         reszta = [e for e in w if e["lata"] != lo]
         lo2 = min(e["lata"] for e in reszta)

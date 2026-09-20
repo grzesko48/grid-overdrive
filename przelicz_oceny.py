@@ -28,6 +28,19 @@ PROGI = {
     "pc":      {"podstawa": "zł/pkt wydajności", "najlepszy": 70.0, "najgorszy": 140.0},
 }
 
+# PROGI DŁUGOWIECZNOŚCI SĄ BEZWZGLĘDNE, NIE MIN-MAX — to jest CAŁA ISTOTA naprawy w
+# tym etapie i dokładnie ta sama usterka, którą wyżej usunięto z „value". Do dziś
+# `longevity` w szablonie liczono (ręcznie, poza tym skryptem) wzorem
+# round(1 + (longevityYears − min) / (max − min) × 99), gdzie min i max to NAJMNIEJSZA
+# i NAJWIĘKSZA wartość longevityYears w DZISIEJSZEJ bazie (1,22 i 3,78) — nie stałe.
+# Skutek: dolną kotwicę trzymała JEDNA pozycja (Ryzen 5 7500F, RTX 5050 8GB), a jej
+# zniknięcie ze sklepu przeliczałoby longevity u 337 z 347 pozostałych zestawów i
+# ultra u 332 z 347 — bez żadnej zmiany w sprzęcie ani cenie. Progi poniżej są STAŁE
+# (wybór, nie pomiar z bazy, patrz PAKIET-NAPRAWCZY-2.md/ETAP 3): dodanie albo
+# usunięcie dowolnego produktu nie rusza już oceny NIKOGO innego.
+DLUGOWIECZNOSC_MIN_LAT = 1.2
+DLUGOWIECZNOSC_MAX_LAT = 3.8
+
 # Wzory zbiorcze — sprawdzone, odtwarzają dzisiejsze wartości co do wpisu.
 WZORY = {
     "monitor": {"overall": (("image", .30), ("value", .30), ("perf", .25), ("features", .15))},
@@ -42,6 +55,21 @@ def ocena_wartosci(x, rodzaj):
     p = PROGI[rodzaj]
     u = (p["najgorszy"] - x) / (p["najgorszy"] - p["najlepszy"])
     return int(round(max(0.0, min(1.0, u)) * 100))
+
+
+def ocena_dlugowiecznosci(lata_tekst):
+    """Im więcej lat, tym wyżej. Liniowo między progami BEZWZGLĘDNYMI (patrz stałe
+    DLUGOWIECZNOSC_*), przycięcie do [0, 1] OBOWIĄZKOWE — automat dokłada nowe zestawy
+    co kilka dni i wartość spoza dzisiejszych widełek nie może wyjść poza skalę 1–100.
+    Skala wynikowa to 1–100 (nie 0–100 jak `value`) — zgodnie z dotychczasowym wzorem
+    w szablonie. `lata_tekst` to surowy tekst z regeksa (np. "1.55"): liczymy na
+    ułamkach dokładnych (Fraction) tą samą regułą „połowa do parzystej" co sumy ważone
+    niżej, więc konwersja przez string→float nigdy nie wnosi błędu reprezentacji."""
+    lata = Fraction(lata_tekst)
+    dol, gora = Fraction(str(DLUGOWIECZNOSC_MIN_LAT)), Fraction(str(DLUGOWIECZNOSC_MAX_LAT))
+    u = (lata - dol) / (gora - dol)
+    u = max(Fraction(0), min(Fraction(1), u))
+    return int(round(1 + u * 99))
 
 
 def granice(sz):
@@ -61,6 +89,7 @@ def main():
     punkty = granice(sz)
     nowy, koniec, zmiany, bledy = [], 0, [], []
     kontrola = {"monitor": [], "pc": []}
+    kontrola_dlugowiecznosc = []
 
     for i, (start, rodzaj) in enumerate(punkty):
         stop = punkty[i + 1][0] if i + 1 < len(punkty) else len(sz)
@@ -91,6 +120,19 @@ def main():
 
         nowe = dict(s)
         nowe["value"] = ocena_wartosci(podstawa, rodzaj)
+
+        # `longevity` MUSI się policzyć PRZED sumami ważonymi niżej — inaczej `ultra`
+        # sumowałby jeszcze starą (min-maxową) wartość ze scores szablonu, a cały etap
+        # 3 sprowadzałby się do przeliczenia samego pola bez wpływu na resztę.
+        lata_tekst = None
+        if rodzaj == "pc":
+            ly = re.search(r"longevityYears:([\d.]+)", seg)
+            if not ly:
+                bledy.append(f"{nazwa}: brak pola longevityYears — nie liczę longevity")
+            else:
+                lata_tekst = ly.group(1)
+                nowe["longevity"] = ocena_dlugowiecznosci(lata_tekst)
+
         for pole, skl in WZORY[rodzaj].items():
             if all(k in nowe for k, _ in skl):
                 # Zaokrąglenie „połowa do parzystej" (round-half-to-even) liczone na
@@ -116,6 +158,8 @@ def main():
         ukryty = bool(re.search(r"(?<![A-Za-z])ukryty:1", seg))
         if not ukryty:
             kontrola[rodzaj].append((podstawa, nowe["value"], nazwa))
+            if lata_tekst is not None:
+                kontrola_dlugowiecznosc.append((Fraction(lata_tekst), nowe["longevity"], nazwa))
         nowy.append(seg)
 
     nowy.append(sz[koniec:])
@@ -133,10 +177,24 @@ def main():
                     n += 1
         inwersje[rodzaj] = n
 
+    # TEST BLOKUJĄCY (etap 3, wzorowany na powyższym): zestaw o WIĘKSZEJ liczbie lat
+    # longevityYears nie może mieć NIŻSZEJ oceny longevity. Formuła jest liniowa więc
+    # inwersja matematycznie nie powinna wystąpić — to siatka bezpieczeństwa na wypadek
+    # błędu w kodzie (zły znak, zamieniona kolejność progów), nie na wynik pomiaru.
+    n = 0
+    for i in range(len(kontrola_dlugowiecznosc)):
+        for j in range(len(kontrola_dlugowiecznosc)):
+            if (kontrola_dlugowiecznosc[i][0] > kontrola_dlugowiecznosc[j][0]
+                    and kontrola_dlugowiecznosc[i][1] < kontrola_dlugowiecznosc[j][1]):
+                n += 1
+    inwersje["longevity"] = n
+
     print(f"pozycji przeliczonych : {len(zmiany)}")
     for r in ("monitor", "pc"):
         z = [x for x in zmiany if x["rodzaj"] == r]
         print(f"   {r:8s}: {len(z)} zmian  |  par sprzecznych po przeliczeniu: {inwersje[r]}")
+    print(f"   {'longevity':8s}: par sprzecznych po przeliczeniu: {inwersje['longevity']} "
+          f"(na {len(kontrola_dlugowiecznosc)} pozycjach)")
     if bledy:
         print(f"pozycje bez podstawy (pominięte): {len(bledy)}")
         for b in bledy[:5]:
