@@ -45,8 +45,8 @@ DLUGOWIECZNOSC_MAX_LAT = 3.8
 WZORY = {
     "monitor": {"overall": (("image", .30), ("value", .30), ("perf", .25), ("features", .15))},
     "pc": {"overall": (("components", .28), ("value", .32), ("perf", .27), ("features", .13)),
-           "ultra":   (("perf", .28), ("longevity", .30), ("value", .22),
-                       ("components", .12), ("features", .08))},
+           "ultra":   (("perf", .35), ("longevity", .28), ("value", .20),
+                       ("components", .10), ("features", .07))},
 }
 
 

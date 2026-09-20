@@ -11,8 +11,8 @@ import json, os, re, sys
 from fractions import Fraction as F
 
 PLIK = "monitors_1700_template.html"
-WAGI = (("perf", F(28, 100)), ("longevity", F(30, 100)), ("value", F(22, 100)),
-        ("components", F(12, 100)), ("features", F(8, 100)))
+WAGI = (("perf", F(35, 100)), ("longevity", F(28, 100)), ("value", F(20, 100)),
+        ("components", F(10, 100)), ("features", F(7, 100)))
 
 
 def wczytaj(plik=PLIK):
