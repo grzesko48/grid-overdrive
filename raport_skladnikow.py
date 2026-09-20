@@ -78,11 +78,25 @@ def bramki(w):
                   round(1 + max(0.0, min(1.0, (e["lata"] - PROG_LO) / (PROG_HI - PROG_LO))) * 99))
         r["progi_bezwzgledne"] = f"{bez}/{len(lata)}"
         r["kotwica_dolna"] = {"lata": lo, "trzyma_pozycji": sum(1 for x in lata if x == lo)}
+        # G3 liczymy REGULA, KTORA DANE FAKTYCZNIE SPELNIAJA — nie zalozona z gory.
+        # Wersja poprzednia zakladala min-max i po naprawie pokazywalaby 337/347 na
+        # bazie, ktora jest juz stabilna. Bramka, ktora klamie o stanie po naprawie,
+        # jest tą samą klasą usterki, którą ten pakiet usuwa.
         reszta = [e for e in w if e["lata"] != lo]
         lo2 = min(e["lata"] for e in reszta)
-        ruch = sum(1 for e in reszta
-                   if round(1 + (e["lata"] - lo2) / (hi - lo2) * 99) != e["longevity"])
-        r["G3_rusza_longevity"] = f"{ruch}/{len(reszta)}"
+        if bez == len(lata):
+            regula, opis = (lambda x, a2, b2: round(
+                1 + max(0.0, min(1.0, (x - PROG_LO) / (PROG_HI - PROG_LO))) * 99)), "progi bezwzgledne"
+        elif wzor == len(lata):
+            regula, opis = (lambda x, a2, b2: round(1 + (x - a2) / (b2 - a2) * 99)), "min-max na zywej bazie"
+        else:
+            regula, opis = None, "nierozpoznana"
+        if regula:
+            ruch = sum(1 for e in reszta if regula(e["lata"], lo2, hi) != e["longevity"])
+            r["G3_rusza_longevity"] = f"{ruch}/{len(reszta)}"
+        else:
+            r["G3_rusza_longevity"] = "nie do policzenia — reguła nierozpoznana"
+        r["G3_regula"] = opis
 
     # G5 — efektywna liczba skladnikow
     sd = {k: odch([e[k] for e in w if k in e]) for k, _ in WAGI}
