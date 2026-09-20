@@ -2179,7 +2179,16 @@ wstaw('monCount', DATA.length);
     'AMD Radeon RX 9070 XT 16GB': 7,
     'NVIDIA GeForce RTX 5070 Ti 16GB': 8
   };
-  function gpuTier(gpu){ return GPU_TIER[normalizeGpu(gpu)] || 3; }
+  function gpuTier(gpu){
+    var n = normalizeGpu(gpu);
+    if(GPU_TIER[n] != null) return GPU_TIER[n];
+    /* Karta bez podanej pamięci (np. „RTX 5060 Ti" tam, gdzie istnieje wersja 8 GB i 16 GB).
+       Ryczałtowe 3 wpychało ją poniżej RTX 5060, czyli słabszej karty. Bierzemy poziom
+       NAJSŁABSZEJ znanej wersji tego modelu — założenie ostrożne, nie zgadywanie w górę. */
+    var naj = null;
+    for(var k in GPU_TIER){ if(k.indexOf(n + ' ') === 0 && (naj === null || GPU_TIER[k] < naj)) naj = GPU_TIER[k]; }
+    return naj === null ? 3 : naj;
+  }
   function gpuBrand(gpu){ return /radeon|amd/i.test(gpu) ? 'amd' : 'nvidia'; }
   var BRAND_COLOR = {nvidia:'#76b900', amd:'#ed1c24'};
   var TIER_BUCKETS = [
@@ -2606,6 +2615,10 @@ wstaw('monCount', DATA.length);
     // wyżej), sortowane po gpuTier malejąco — najmocniejsza karta u góry.
     var byGpu = pcGroupStats(rows, function(d){ return normalizeGpu(d.gpu); });
     byGpu.sort(function(a,b){ return (gpuTier(b.key) - gpuTier(a.key)) || a.key.localeCompare(b.key, 'pl'); });
+    /* Po posortowaniu, więc podmiana etykiety nie wpływa na porządek. Kartę bez podanej
+       pamięci oznaczamy wprost — czytelnik ma wiedzieć, że tej danej NIE MAMY, zamiast
+       domyślać się jej z pozycji w tabeli. */
+    byGpu.forEach(function(g){ if(!/\d+\s*GB/i.test(g.key)) g.key += ' (pamięć niepodana)'; });
     pcRenderGroupTable('pcGpuGroupBody', byGpu);
 
     // Tabela 2: procesory, grupowane po dokładnej wartości pola cpu (bez normalizacji —
