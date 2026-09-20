@@ -17,6 +17,7 @@ Dobrane tak, żeby dzisiejszy rynek mieścił się z zapasem po obu stronach:
   zestawy  78,4–129,2 zł/pkt  (mediana 101,3) → widełki 70,0–140,0
 """
 import argparse, json, os, re, subprocess, sys
+from fractions import Fraction
 
 BAZA = os.path.dirname(os.path.abspath(__file__))
 SZABLON = os.path.join(BAZA, "monitors_1700_template.html")
@@ -92,7 +93,16 @@ def main():
         nowe["value"] = ocena_wartosci(podstawa, rodzaj)
         for pole, skl in WZORY[rodzaj].items():
             if all(k in nowe for k, _ in skl):
-                nowe[pole] = int(round(sum(nowe[k] * w for k, w in skl)))
+                # Zaokrąglenie „połowa do parzystej" (round-half-to-even) liczone na
+                # ułamkach dokładnych (Fraction), nie na floatach. Suma ważona, która
+                # matematycznie wynosi dokładnie X,5, na floatach bywa X,4999999... i
+                # round() ucina ją w dół SAM Z SIEBIE — przypadkiem błędu reprezentacji,
+                # a nie jawną regułą. Fraction(str(w)) bierze dokładną wartość dziesiętną
+                # wagi (0.30 -> 3/10, nie jej binarne przybliżenie), więc suma jest
+                # dokładna i round(suma) rozstrzyga remis „,5" zawsze tą samą, jawną
+                # regułą parzystości.
+                suma = sum(Fraction(nowe[k]) * Fraction(str(w)) for k, w in skl)
+                nowe[pole] = int(round(suma))
 
         roznice = {k: (s[k], nowe[k]) for k in nowe if s.get(k) != nowe[k]}
         if roznice:
