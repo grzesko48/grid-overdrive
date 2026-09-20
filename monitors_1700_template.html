@@ -537,7 +537,11 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 @media (max-width:520px){ .zm-wiersz{grid-template-columns:7rem 1fr 2.4rem;} }
 /* Wpływ składników oceny „Ultra" — zwinięty domyślnie, reużywa .zm-tabela i .zm-opis. */
 .wplyw-skladnikow{margin:.2rem 0 1.4rem; max-width:70ch;}
-.wplyw-skladnikow summary{cursor:pointer; color:var(--accent); font-weight:600; font-size:.98rem; transition:color .15s ease;}
+.wplyw-skladnikow summary{cursor:pointer; color:var(--ink); font-weight:600; font-size:.98rem; transition:color .15s ease;
+  /* Tekst bierze kolor pisma, nie akcentu. Akcent na --accent dawał w motywie jasnym
+     kontrast 3,37:1 przy wymaganych 4,5:1 dla tego stopnia pisma (15,7 px). Barwę
+     niesie teraz podkreślenie, które jest jednocześnie sygnałem, że to element klikalny. */
+  text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:3px; text-decoration-thickness:2px;}
 .wplyw-skladnikow summary:hover,.wplyw-skladnikow summary:focus-visible{color:var(--epic);}
 .wplyw-skladnikow[open] summary{margin-bottom:.8rem;}
 </style>
