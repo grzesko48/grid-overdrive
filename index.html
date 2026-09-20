@@ -540,6 +540,11 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 .pc-chip-delta-down{background:var(--bad-bg); border-color:var(--bad);}
 .pc-chip-delta-down .dglif{color:var(--bad);}
 @media (max-width:520px){ .zm-wiersz{grid-template-columns:7rem 1fr 2.4rem;} }
+/* Wpływ składników oceny „Ultra" — zwinięty domyślnie, reużywa .zm-tabela i .zm-opis. */
+.wplyw-skladnikow{margin:.2rem 0 1.4rem; max-width:70ch;}
+.wplyw-skladnikow summary{cursor:pointer; color:var(--accent); font-weight:600; font-size:.98rem; transition:color .15s ease;}
+.wplyw-skladnikow summary:hover,.wplyw-skladnikow summary:focus-visible{color:var(--epic);}
+.wplyw-skladnikow[open] summary{margin-bottom:.8rem;}
 </style>
 
 <a class="skip-link" href="#browser">Przejdź do listy monitorów</a>
@@ -871,6 +876,29 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
 <section class="spec wrap" id="pcRankingView" hidden>
   <h2 style="font-size:1.65rem; margin-bottom:.3rem;">Ranking ogólny — PC</h2>
   <p class="lede" style="color:var(--ink-dim); max-width:70ch; margin:.3rem 0 1.2rem; font-size:1.05rem;">Wynik ważony „Ultra": Wydajność (indeks mocy: 78% poziom GPU + 22% poziom CPU) 28% + Długowieczność (klasa karty, pamięć karty, ilość RAM) 30% + Opłacalność (cena z Windows za indeks mocy) 22% + Podzespoły (CPU, RAM DDR5, dysk) 12% + Kompletność (zasilacz, system, liczba sklepów) 8%, w skali 1–100. Ranking celowo stawia jakość grania i długowieczność ponad samą opłacalność. Podane procenty są współczynnikami wzoru, a nie udziałami w tym, co faktycznie różnicuje oceny między zestawami — te dwie wielkości nie są sobie równe, bo poszczególne składniki mają różny rozrzut wartości. Karta graficzna wchodzi do oceny dwoma kanałami: Wydajność jest funkcją pary (karta, procesor), a Długowieczność — funkcją pary (karta, RAM), więc na te dwa składniki przypada łącznie 58% wagi; to konstrukcja wzoru, a nie przypadek.</p>
+
+  <details class="wplyw-skladnikow">
+    <summary>Ile poszczególne składniki naprawdę ważą w ocenie (pomiar z 20 września 2026)</summary>
+    <p class="zm-opis">Waga nominalna to współczynnik wzoru. Obok niej pokazujemy, ile dany składnik faktycznie różnicuje oceny zestawów — licząc to na dwa sposoby, bo dają różny obraz. Udział „sd × waga" mówi, jak bardzo składnik rozrzuca oceny; udział w wariancji uwzględnia dodatkowo to, że składniki są ze sobą skorelowane, i jako jedyny sumuje się do 100% przy skorelowanych składnikach.</p>
+    <div class="zm-tabela-obudowa">
+      <table class="zm-tabela">
+        <thead>
+          <tr><th>Składnik</th><th>Waga nominalna</th><th>Udział „sd × waga"</th><th>Udział w wariancji</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Wydajność</td><td class="mono">28%</td><td class="mono">17,7%</td><td class="mono">24,1%</td></tr>
+          <tr><td>Długowieczność</td><td class="mono">30%</td><td class="mono">49,1%</td><td class="mono">63,9%</td></tr>
+          <tr><td>Opłacalność</td><td class="mono">22%</td><td class="mono">26,3%</td><td class="mono">11,2%</td></tr>
+          <tr><td>Podzespoły</td><td class="mono">12%</td><td class="mono">4,2%</td><td class="mono">−0,1%</td></tr>
+          <tr><td>Kompletność</td><td class="mono">8%</td><td class="mono">2,8%</td><td class="mono">0,8%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="zm-opis">Podzespoły wychodzą na minus w udziale w wariancji: składnik ma swój rozrzut ocen, ale jego wpływ znosi korelacja z opłacalnością, więc kierunkowo nie robi nic.</p>
+    <p class="zm-opis">Deklarowanych składników jest pięć, ale efektywnie działa 2,91 na podstawie udziałów „sd × waga" albo 2,08 na podstawie udziału w wariancji — w obu przypadkach wyraźnie mniej niż pięć.</p>
+    <p class="zm-opis">Pomiar z 20 września 2026, skrypt <code>raport_skladnikow.py</code> z repozytorium serwisu — liczy wyłącznie to, co już obliczone, i nie zmienia żadnej oceny.</p>
+  </details>
+
   <div id="pcRankingList" class="ranking-list"></div>
 
   <section class="zmiany" aria-labelledby="zm-pc">
