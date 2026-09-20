@@ -7,7 +7,7 @@ Nie zmienia niczego. Uruchamiany przed i po kazdym etapie.
 Sumy wazone liczymy na ULAMKACH DOKLADNYCH. Na floatach 61.5 wychodzi jako
 61.4999... i round() zaokragla w dol sam z siebie, maskujac niezgodnosc.
 """
-import json, re, sys
+import json, os, re, sys
 from fractions import Fraction as F
 
 PLIK = "monitors_1700_template.html"
@@ -114,9 +114,16 @@ def bramki(w):
 
 
 if __name__ == "__main__":
-    w = wczytaj(sys.argv[1] if len(sys.argv) > 1 else PLIK)
+    # raport-bazowy.json jest baza odniesienia i NIE WOLNO go nadpisac przypadkiem —
+    # inaczej kazdy kolejny pomiar porownuje sie sam ze soba i zawsze wychodzi "bez zmian".
+    zrodlo = sys.argv[1] if len(sys.argv) > 1 else PLIK
+    cel = sys.argv[2] if len(sys.argv) > 2 else "raport-biezacy.json"
+    if cel == "raport-bazowy.json" and os.path.exists(cel):
+        sys.exit("raport-bazowy.json juz istnieje — nie nadpisuje bazy odniesienia. "
+                 "Podaj inna nazwe celu albo usun plik swiadomie.")
+    w = wczytaj(zrodlo)
     b = bramki(w)
-    json.dump({"bramki": b, "pozycje": w}, open("raport-bazowy.json", "w", encoding="utf-8"),
+    json.dump({"bramki": b, "pozycje": w}, open(cel, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     print(json.dumps(b, ensure_ascii=False, indent=1))
-    print(f"\nzapisano raport-bazowy.json ({len(w)} pozycji)")
+    print(f"\nzapisano {cel} ({len(w)} pozycji)")
