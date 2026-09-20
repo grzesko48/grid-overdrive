@@ -148,11 +148,15 @@ def main():
 
     if a.na_sucho:
         print("\n--na-sucho: nic nie zapisano. Największe zmiany:")
-        naj = sorted(zmiany, key=lambda z: -abs(z["zmiany"].get("value", (0, 0))[1]
-                                                - z["zmiany"].get("value", (0, 0))[0]))
-        for z in naj[:12]:
-            v = z["zmiany"].get("value")
-            print(f"   {z['podstawa']:7.2f}  value {v[0]:3d}→{v[1]:3d}  {z['nazwa'][:52]}")
+        # Podgląd pokazuje KAŻDE zmienione pole, nie tylko „value". Zmiana reguły
+        # zaokrąglenia rusza sumy ważone (ultra, overall), a wtedy wpis nie ma wcale
+        # pola „value" — wcześniejsza wersja wywracała się tu na None.
+        def rozpietosc(z):
+            return max((abs(n - s) for s, n in z["zmiany"].values()), default=0)
+
+        for z in sorted(zmiany, key=lambda z: -rozpietosc(z))[:12]:
+            opis = "  ".join(f"{k} {s}→{n}" for k, (s, n) in sorted(z["zmiany"].items()))
+            print(f"   {z['podstawa']:7.2f}  {opis}  {z['nazwa'][:52]}")
         return
 
     open(SZABLON, "w", encoding="utf-8").write(wynik)
