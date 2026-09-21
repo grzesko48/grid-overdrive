@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "grid-overdrive",
+      "name": "grid-static",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8731"],
-      "port": 8731
+      "runtimeArgs": ["-m", "http.server", "8791"],
+      "port": 8791
     }
   ]
 }
