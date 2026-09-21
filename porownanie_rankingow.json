@@ -1,21 +1,21 @@
 {
- "przed": "baza-2026-09-20",
- "po_naprawie": "2574fd0",
+ "przed": "baza-2026-09-21-audyt2",
+ "po_naprawie": "HEAD",
  "sekcje": {
   "zestawy": {
    "porownanych": 348,
-   "zmienilo_ocene": 25,
+   "zmienilo_ocene": 6,
    "zmienilo_o_3_lub_wiecej": 0,
    "kubelki": [
     {
      "prog": 0,
      "etykieta": "bez zmiany",
-     "ile": 323
+     "ile": 342
     },
     {
      "prog": 1,
      "etykieta": "1 punkt",
-     "ile": 25
+     "ile": 6
     },
     {
      "prog": 2,
@@ -44,11 +44,11 @@
     }
    ],
    "skrajne": {
-    "w_dol": -1,
+    "w_dol": 0,
     "w_gore": 1
    },
-   "z_samej_naprawy": 1,
-   "z_reszty_dnia": 24,
+   "z_samej_naprawy": 0,
+   "z_reszty_dnia": 6,
    "maks_z_reszty_dnia": 1,
    "duze_zmiany": [],
    "progi_budzetu": 11,
