@@ -1,5 +1,5 @@
 {
- "data": "19 września 2026",
+ "data": "21 września 2026",
  "pobrano": {
   "ok": 316,
   "brak_ceny": 16,
@@ -9,15 +9,15 @@
   "blad": 82
  },
  "pokrycie_proc": 75,
- "zmian_cen": 39,
+ "zmian_cen": 7,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [
   {
-   "nazwa": "Gigabyte GO27Q24G",
-   "bylo": [
-    "mediamarkt"
-   ],
-   "jest": []
+   "nazwa": "Acer Nitro XZ273UX2bmiiprx",
+   "bylo": [],
+   "jest": [
+    "morele"
+   ]
   }
  ],
  "doplaty_systemu": [],
@@ -38,350 +38,64 @@
  ],
  "zmiany": [
   {
-   "nazwa": "AOC Q27G42ZE",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 813,
-   "nowa": 854,
-   "roznica": 41
-  },
-  {
-   "nazwa": "Acer Nitro XZ273UX2bmiiprx",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 966,
-   "nowa": 1055,
-   "roznica": 89
-  },
-  {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1276,
-   "nowa": 1203,
-   "roznica": -73,
-   "naglowek": 1203
+   "stara": 1203,
+   "nowa": 1276,
+   "roznica": 73,
+   "naglowek": 1276
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1419,
-   "nowa": 1417,
-   "roznica": -2,
-   "naglowek": 1417
+   "stara": 1417,
+   "nowa": 1418,
+   "roznica": 1,
+   "naglowek": 1418
   },
   {
-   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
+   "nazwa": "Gigabyte GO27Q24A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1607,
-   "nowa": 1610,
-   "roznica": 3,
-   "naglowek": 1610
+   "stara": 1469,
+   "nowa": 1607,
+   "roznica": 138,
+   "naglowek": 1607
   },
   {
    "nazwa": "Gigabyte MO27Q2A Ice",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1970,
-   "nowa": 1990,
-   "roznica": 20
-  },
-  {
-   "nazwa": "Lenovo Legion 27QD-10",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 830,
-   "nowa": 866,
-   "roznica": 36,
-   "naglowek": 866
-  },
-  {
-   "nazwa": "AOC Q27G4SDR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1982,
-   "nowa": 1999,
-   "roznica": 17,
-   "naglowek": 1999
+   "stara": 1990,
+   "nowa": 1961,
+   "roznica": -29
   },
   {
    "nazwa": "ASUS ROG Strix XG27WCMS",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1579,
-   "nowa": 1649,
-   "roznica": 70
+   "stara": 1649,
+   "nowa": 1579,
+   "roznica": -70
   },
   {
-   "nazwa": "Acer CE270UXwmiipprx",
+   "nazwa": "ASUS ROG Strix XG27AQDMG",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1680,
-   "nowa": 1823,
-   "roznica": 143,
-   "naglowek": 1823
-  },
-  {
-   "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1818,
-   "nowa": 1826,
-   "roznica": 8
+   "stara": 2169,
+   "nowa": 2179,
+   "roznica": 10
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2566,
-   "nowa": 2564,
-   "roznica": -2,
-   "naglowek": 2564
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7499,
-   "nowa": 7799,
-   "roznica": 300,
-   "naglowek": 7799
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 6699,
-   "nowa": 6999,
-   "roznica": 300,
-   "naglowek": 6999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7499,
-   "nowa": 7799,
-   "roznica": 300,
-   "naglowek": 7799
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 8199,
-   "roznica": 300,
-   "naglowek": 8199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7699,
-   "nowa": 7999,
-   "roznica": 300,
-   "naglowek": 7999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 6599,
-   "nowa": 6899,
-   "roznica": 300,
-   "naglowek": 6899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7099,
-   "nowa": 7399,
-   "roznica": 300,
-   "naglowek": 7399
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7199,
-   "nowa": 7499,
-   "roznica": 300,
-   "naglowek": 7499
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8399,
-   "nowa": 8699,
-   "roznica": 300,
-   "naglowek": 8699
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9199,
-   "nowa": 9499,
-   "roznica": 300,
-   "naglowek": 9499
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7999,
-   "nowa": 8299,
-   "roznica": 300,
-   "naglowek": 8299
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 6599,
-   "nowa": 6899,
-   "roznica": 300,
-   "naglowek": 6899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7099,
-   "nowa": 7399,
-   "roznica": 300,
-   "naglowek": 7399
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7099,
-   "nowa": 7399,
-   "roznica": 300,
-   "naglowek": 7399
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8399,
-   "nowa": 8699,
-   "roznica": 300,
-   "naglowek": 8699
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8399,
-   "nowa": 8699,
-   "roznica": 300,
-   "naglowek": 8699
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7499,
-   "nowa": 7799,
-   "roznica": 300,
-   "naglowek": 7799
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8899,
-   "nowa": 9199,
-   "roznica": 300,
-   "naglowek": 9199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9299,
-   "nowa": 9599,
-   "roznica": 300,
-   "naglowek": 9599
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7599,
-   "nowa": 7899,
-   "roznica": 300,
-   "naglowek": 7899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7699,
-   "nowa": 7999,
-   "roznica": 300,
-   "naglowek": 7999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7999,
-   "nowa": 8299,
-   "roznica": 300,
-   "naglowek": 8299
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8699,
-   "nowa": 8999,
-   "roznica": 300,
-   "naglowek": 8999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 6899,
-   "nowa": 7199,
-   "roznica": 300,
-   "naglowek": 7199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8899,
-   "nowa": 9199,
-   "roznica": 300,
-   "naglowek": 9199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7599,
-   "nowa": 7899,
-   "roznica": 300,
-   "naglowek": 7899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7799,
-   "nowa": 8099,
-   "roznica": 300,
-   "naglowek": 8099
+   "stara": 2564,
+   "nowa": 2544,
+   "roznica": -20,
+   "naglowek": 2544
   }
  ]
 }
