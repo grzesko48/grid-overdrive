@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 11,
+ "przeliczonych": 1,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,147 +20,13 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Signum 300 ARGB",
+   "nazwa": "Zestaw | Ryzen 7 7700X, RTX 5060 Ti 16GB, 32GB DDR5, Stellar 5F ARGB, 650W",
    "rodzaj": "pc",
-   "podstawa": 100.87,
+   "podstawa": 117.61,
    "zmiany": {
     "overall": [
-     72,
-     73
-    ],
-    "ultra": [
-     56,
-     57
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 101.61,
-   "zmiany": {
-    "overall": [
-     72,
-     73
-    ],
-    "ultra": [
-     56,
-     57
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
-   "rodzaj": "pc",
-   "podstawa": 102.06,
-   "zmiany": {
-    "overall": [
-     71,
-     72
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Signum 300 ARGB (2)",
-   "rodzaj": "pc",
-   "podstawa": 104.6,
-   "zmiany": {
-    "overall": [
-     70,
-     71
-    ],
-    "ultra": [
-     55,
-     56
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (2)",
-   "rodzaj": "pc",
-   "podstawa": 106.75,
-   "zmiany": {
-    "overall": [
-     69,
-     70
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 32GB DDR5, 1000GB SSD, 850W, Pano 130 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 98.49,
-   "zmiany": {
-    "overall": [
-     75,
-     77
-    ],
-    "ultra": [
-     63,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
-   "rodzaj": "pc",
-   "podstawa": 112.27,
-   "zmiany": {
-    "overall": [
-     69,
-     70
-    ],
-    "ultra": [
-     65,
-     66
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (2)",
-   "rodzaj": "pc",
-   "podstawa": 112.95,
-   "zmiany": {
-    "overall": [
-     68,
-     69
-    ],
-    "ultra": [
-     65,
-     66
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 TI 16GB, 32GB DDR5, 1000GB SSD, 650W, PANO 130R PZ ARGB Black",
-   "rodzaj": "pc",
-   "podstawa": 114.03,
-   "zmiany": {
-    "overall": [
-     68,
-     69
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 TI 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
-   "rodzaj": "pc",
-   "podstawa": 114.03,
-   "zmiany": {
-    "overall": [
-     68,
-     69
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
-   "rodzaj": "pc",
-   "podstawa": 114.43,
-   "zmiany": {
-    "overall": [
-     68,
-     69
+     67,
+     68
     ]
    }
   }

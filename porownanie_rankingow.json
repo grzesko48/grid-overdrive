@@ -47,9 +47,9 @@
     "w_dol": 0,
     "w_gore": 1
    },
-   "z_samej_naprawy": 0,
-   "z_reszty_dnia": 6,
-   "maks_z_reszty_dnia": 1,
+   "z_samej_naprawy": 6,
+   "z_reszty_dnia": 0,
+   "maks_z_reszty_dnia": 0,
    "duze_zmiany": [],
    "progi_budzetu": 11,
    "progi_ze_zmiana": []
