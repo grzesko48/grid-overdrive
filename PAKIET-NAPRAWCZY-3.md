@@ -313,3 +313,15 @@ zestaw (te same cpu/gpu/ram/psu); żadna z pięciu kart nie twierdzi już niepra
 | W6 | Etap 3A: par (dawne 1000GB, jego bliźniak 1TB) z różnym `components` | 0 |
 | W7 | Etap 3A: przestawionych progów budżetowych z 11 | ≤ 2, inaczej stop |
 | W8 | Etap 3B: wpisów z jawnym zastrzeżeniem o pojemności dysku | dokładnie 5, i tylko tych 5 |
+
+---
+
+## Korekta po weryfikacji (Opus, 21.09.2026)
+
+Etap 3 zaliczony w pełni — zero zmian ≥3 pkt, zero przestawionych progów budżetowych, zero pozostałych
+„1000GB". Jedna rzecz do sprostowania: **moje własne zalecenie dla idx 292 (Hunter 3) było błędne.**
+Twierdziłem, że `urls.hardpc` wskazuje na `p20880` (inny produkt, Ryzen 5 7500F). To był artefakt mojej
+własnej ad-hoc weryfikacji — użyłem `t.index('Hunter 3"')`, które w pliku z trzema wpisami zawierającymi
+ten sam człon nazwy złapało pierwszy z brzegu, nie właściwy. Prawdziwy URL (`p26222`) zawsze był poprawny
+i zgodny ze specyfikacją; jedyną realną usterką była — jak u idx 194/275 — konfiguracja bez dysku.
+Wykonawca prawidłowo nie zaufał mojemu zaleceniu i sam to sprawdził, zgodnie z instrukcją pakietu.
