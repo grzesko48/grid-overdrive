@@ -231,23 +231,59 @@ dokładną liczbę zmienionych ocen (oczekiwana: dokładnie tyle, ile wpisów fa
 uwzględnieniem propagacji do `overall`/`ultra`) i dokładną liczbę przestawionych progów budżetowych z 11.
 **Jeśli przestawi się więcej niż 2 z 11 progów — zatrzymaj się i zgłoś, nie publikuj.**
 
-### 3B. Pięć wpisów z „brak danych" o dysku ma wynik identyczny jak 500 GB
+### 3B. Pięć wpisów z „brak danych" o dysku — GOTOWE, sprawdzone wartości (nie zgaduj, potwierdź i wpisz)
 
-Tu **nie znamy** prawdziwej pojemności — inaczej niż w 3A, to nie jest kwestia zapisu tej samej liczby,
-tylko realny brak danych. Naprawa NIE polega na poprawieniu wyniku (nie mamy podstawy, żeby wiedzieć, o
-ile go poprawić) — polega na przestaniu udawać precyzję, której nie ma.
+**Zmiana względem pierwszej wersji tego pakietu:** sprawdziłem osobiście wszystkich 5 adresów URL w
+danych. Okazało się, że to NIE jest przypadek „sklep nie podaje pojemności" — cztery z pięciu stron mają
+dysk wprost w tabeli specyfikacji, piąta ma URL wskazujący na **zupełnie inny produkt**. To nie jest
+niewiedza, tylko luka w tym, co kiedyś przechwycono ze strony. Poniższe wartości pochodzą z WebFetch
+(streszczenie modelu pomocniczego) — **przed wpisaniem do danych musisz je potwierdzić sam**, pobierając
+surowy HTML i wyciągając pole „Dysk SSD:" regexem, dokładnie tak jak `zbieraj_ceny.py` robi to dla innych
+pól. Nie ufaj mojemu streszczeniu bez własnej kontroli — to jest dokładnie ta dyscyplina, której ten
+projekt wymaga.
 
-1. **NIE zgaduj i nie zmieniaj `scores.components`** dla tych 5 wpisów w tym pakiecie.
-2. W panelu szczegółów, tuż przy wierszu „Podzespoły: X/100" dla tych 5 wpisów, dodaj jedno zdanie
-   (podobnie jak przy plakietkach `isBrak`): „Ocena obejmuje założenie o pojemności dysku, której sklep
-   nie podaje — traktuj ten wynik jako przybliżony." Znajdź te 5 wpisów po `storage === "SSD (pojemność
-   brak w danych producenta)"`.
-3. Zgłoś (nie wykonuj) osobne zadanie: ustalenie realnej pojemności tych 5 dysków ze stron sklepów —
-   dokładnie tym samym trybem, co zlecone wcześniej zadanie dla karty graficznej SMX Battlestation M6A.
-   Wypisz w raporcie kierownika listę tych 5 zestawów z ich `urls`, żeby dało się to zlecić.
+| idx | Zestaw | URL | Co znalazłem (do potwierdzenia) |
+|---|---|---|---|
+| 60 | Intel Ultra 225F, RTX 5060 Ti 8GB, 16GB DDR5, 650W, Signum 300 | `sklep.hard-pc.pl/p26430,...` | „Sandisk Green SN3000 **1 TB** M.2 PCIe Gen4 NVMe" — URL zgodny ze specyfikacją |
+| 194 | Ryzen 5 9500F, RTX 5060 Ti 16GB, 32GB DDR5, 750W, Signum 300 | `sklep.hard-pc.pl/p26383,...` | Strona wprost: **„Dysk SSD: BRAK"** — ten zestaw NAPRAWDĘ nie ma dysku. URL zgodny ze specyfikacją |
+| 275 | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB | `sklep.hard-pc.pl/p26399,...` | Strona wprost: **„Dysk SSD: BRAK"** — jak wyżej. URL zgodny ze specyfikacją |
+| 280 | Ryzen 7 7700X, RTX 5060 Ti 16GB, 32GB DDR5, 650W, Stellar 5F ARGB | `sklep.hard-pc.pl/p22421,...` | „Patriot **1TB** Viper P400 Lite" (NVMe) — URL zgodny ze specyfikacją |
+| 292 | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 750W, Hunter 3 | **ZŁY w danych**: `p20880,...ryzen-5-7500f-rtx-5060-8gb...850w...` (to Ryzen 5 7500F + RTX 5060 8GB + 850W — INNY produkt!) | Prawdziwa strona: `sklep.hard-pc.pl/p20836,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-2tb-ssd-750w-hunter-3.html` — „Patriot **2TB** P410 PCIe M.2 Gen4" |
 
-**Odbiór 3B:** `scores` się nie zmienia; na stronie pojawia się jawne zastrzeżenie przy dokładnie tych 5
-kartach; żadna inna karta go nie ma.
+**Co zrobić, po Twoim własnym potwierdzeniu każdej wartości:**
+
+1. **idx 60, 280:** ustaw `storage` na realną wartość („1TB SSD NVMe" — użyj formy spójnej z resztą
+   katalogu, sprawdź `grep -o 'storage:"[^"]*"' | sort -u` żeby dobrać istniejący wzorzec zapisu, nie
+   wymyślaj nowego). `scores.components` NIE zmieniaj automatycznie z formuły (nie masz jej — patrz Pakiet
+   2, Etap 5) — zamiast tego przypisz wartość **równą realnemu bliźniakowi** (ten sam cpu+gpu+ram+psu, tej
+   samej klasy dysku „1TB"), jeśli taki istnieje w bazie; jeśli nie istnieje, zostaw `components` bez
+   zmian i napisz to wprost w raporcie.
+2. **idx 194, 275:** ustaw `storage` na **„SSD: brak (potwierdzone przez sklep)"** — to NIE jest to samo
+   zdanie co dotychczasowe „pojemność brak w danych producenta" (tamto sugerowało niewiedzę; tu wiemy na
+   pewno, że dysku nie ma). Skoro to zestawy realnie bez nośnika, sprawdź w opisie `cons[]` tych dwóch
+   wpisów, czy jest o tym uczciwa wzmianka („dysk trzeba dokupić") — jeśli nie ma, dopisz ją. `components`
+   zostaw bez zmian (nie masz podstawy do przeliczenia formuły), ale to jest jeden z niewielu przypadków,
+   gdzie zostawienie tej samej oceny co przy „500GB" jest MNIEJ uczciwe niż w oryginalnym zgłoszeniu —
+   opisz to zastrzeżenie w raporcie kierownika wprost, decyzja o ewentualnej korekcie punktowej należy do
+   właściciela serwisu, nie do Ciebie.
+3. **idx 292:** to jest osobny, poważniejszy błąd — **cały wpis wskazuje URL i cenę niewłaściwego
+   produktu**. Zamień `urls.hardpc` na prawidłowy adres (`p20836`, wariant 750W). Prawdziwa cena na tej
+   stronie to **9849 zł** — to NIE zgadza się z `price=9268`/`priceBare=8729` w naszych danych (różnica
+   nie wynika z dopłaty za Windows, to inna kwota niż cokolwiek policzone w tym pakiecie). **Nie zmieniaj
+   ceny w Etapie 3** — to wykracza poza jego zakres. Popraw tylko `urls.hardpc` i `storage` („2TB SSD"),
+   a rozbieżność ceny zgłoś w raporcie kierownika jako osobne znalezisko dla kolejnego pakietu.
+
+**ZNALEZISKO DODATKOWE, poza zakresem tego etapu — tylko zgłoś, nie wykonuj:** strona `p20836` (i idx 60
+sprawdzone wcześniej) mówi wprost: *„Windows 11 Home (nieaktywowany) — możliwość zakupu licencji poprzez
+zmianę atrybutów"*. Czyli bazowa cena Hard-PC zawiera Windows **bez aktywacji/licencji**, nie w pełni
+legalny egzemplarz. Jeśli to dotyczy całego katalogu Hard-PC (286 wpisów z `osPriceKind=='confirmed'`),
+to jest błąd dużo poważniejszy niż cokolwiek w tym pakiecie — cała kategoria „Windows w cenie" mogłaby być
+myląca. NIE badaj tego teraz — dopisz to jednym akapitem do raportu kierownika jako priorytetowe
+zalecenie na kolejny pakiet naprawczy, z dokładnym cytatem powyżej.
+
+**Odbiór 3B:** wszystkie 5 wartości potwierdzone Twoim własnym poleceniem (pokaż komendę i jej wynik, nie
+tylko wklej to, co ja znalazłem); `urls.hardpc` dla idx 292 wskazuje na stronę opisującą DOKŁADNIE ten
+zestaw (te same cpu/gpu/ram/psu); żadna z pięciu kart nie twierdzi już nieprawdy o swoim dysku.
 
 ---
 
