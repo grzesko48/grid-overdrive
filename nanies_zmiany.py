@@ -147,7 +147,7 @@ def main():
                     baza_dla[x["img"]] = bazy[0]
 
     zmiany, do_przejrzenia, dostepnosc, bez_bazy, inny_produkt = [], [], [], [], []
-    ukryte, przywrocone, doplaty_os = [], [], []
+    ukryte, przywrocone, doplaty_os, pros_cen_zsynchronizowane = [], [], [], []
 
     # Cena systemu przestaje byc zamrozona stala. Byla nia i sie zestarzala: sklep podniosl
     # Windows 11 Home z 519 na 539 zl, a my przy 286 zestawach doliczalismy staria kwote,
@@ -268,6 +268,22 @@ def main():
                 (ukryte if p["_ukryty"] else przywrocone).append(
                     {"nazwa": p["name"], "rodzaj": p["rodzaj"],
                      "sklepy": sorted(p["prices"])})
+
+        # Pakiet naprawczy 3, 2.2: cena w price/priceBare zmienia się wyżej, ale
+        # pros[] cytuje ją osobno w zdaniu "Spełnia kryteria zestawienia: ...,
+        # w cenie X zł" — bez tego kroku X zamarza na starej dopłacie za Windows
+        # (519 zł) na zawsze, bo nic innego tego tekstu nie dotyka (błąd znaleziony
+        # 21.09 na 5 wpisach Hard-PC). Odtwarzamy X z AKTUALNEGO price w segmencie
+        # (po wszystkich podmianach wyżej), więc naprawa działa też wtedy, gdy
+        # cena w ogóle się dziś nie zmieniła — a wcześniej po prostu się rozjechała.
+        if p["rodzaj"] == "pc":
+            mprice = re.search(r"(?<![A-Za-z])price:(\d+)", seg)
+            if mprice:
+                stara_fraza = re.search(r"w cenie (\d+) zł", seg)
+                seg, n = re.subn(r"w cenie \d+ zł", f"w cenie {mprice.group(1)} zł", seg)
+                if n and stara_fraza and stara_fraza.group(1) != mprice.group(1):
+                    pros_cen_zsynchronizowane.append({"nazwa": p["name"],
+                        "bylo": stara_fraza.group(1), "jest": mprice.group(1)})
         nowy_dok.append(seg)
     nowy_dok.append(sz[koniec_poprz:])
     wynik = "".join(nowy_dok)
@@ -290,6 +306,7 @@ def main():
         "warianty_bez_bazy": bez_bazy,
         "inny_produkt_pod_adresem": inny_produkt,
         "zmiany": zmiany,
+        "pros_cen_zsynchronizowane": pros_cen_zsynchronizowane,
     }
 
     print(f"pokrycie   : {licz.get('ok',0)}/{sum(licz.values())} ({raport['pokrycie_proc']}%)")
@@ -297,6 +314,11 @@ def main():
           f"{sum(1 for z in zmiany if z['rodzaj']=='monitor')}, PC "
           f"{sum(1 for z in zmiany if z['rodzaj']=='pc')})")
     print(f"dostępność : {len(dostepnosc)} zmian")
+    if pros_cen_zsynchronizowane:
+        print(f"pros[] 'w cenie X zł' zsynchronizowane z price: {len(pros_cen_zsynchronizowane)}"
+              f" (Pakiet 3, 2.2 — inaczej ten tekst zamarza na starej dopłacie za system)")
+        for s in pros_cen_zsynchronizowane[:10]:
+            print(f"   {s['bylo']} zł → {s['jest']} zł  {s['nazwa'][:58]}")
     if doplaty_os:
         k = {}
         for d in doplaty_os:
