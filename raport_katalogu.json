@@ -1,13 +1,31 @@
 {
- "katalog_pozycji": 623,
+ "katalog_pozycji": 633,
  "nasze_identyfikatory": 219,
- "zniknely": [],
+ "zniknely": [
+  {
+   "id": "25239",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
+   "wpisow": 2
+  }
+ ],
  "nowi_kandydaci": [
   {
    "id": "20663",
    "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
    "cena": 7579,
    "url": "https://sklep.hard-pc.pl/p20663,zestaw-ryzen-5-8400f-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "21153",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5050 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 5609,
+   "url": "https://sklep.hard-pc.pl/p21153,zestaw-ryzen-5-8400f-rtx-5050-8gb-32gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "21154",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 5749,
+   "url": "https://sklep.hard-pc.pl/p21154,zestaw-ryzen-5-7500f-rtx-5050-8gb-32gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
   },
   {
    "id": "22616",
@@ -32,6 +50,18 @@
    "nazwa": "Zestaw | Ryzen 5 9500F, RX 9060 XT 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
    "cena": 5199,
    "url": "https://sklep.hard-pc.pl/p22792,zestaw-ryzen-5-9500f-rx-9060-xt-8gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "22823",
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5050 8GB , 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "cena": 5469,
+   "url": "https://sklep.hard-pc.pl/p22823,zestaw-intel-ultra-5-245kf-rtx-5050-8gb-16gb-ddr5-512gb-ssd-650w-hunter-2-argb.html"
+  },
+  {
+   "id": "22824",
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5050 8GB , 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "cena": 5049,
+   "url": "https://sklep.hard-pc.pl/p22824,zestaw-intel-ultra-5-225f-rtx-5050-8gb-16gb-ddr5-512gb-ssd-650w-hunter-2-argb.html"
   },
   {
    "id": "22825",
@@ -104,6 +134,24 @@
    "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, MSI 130R",
    "cena": 8019,
    "url": "https://sklep.hard-pc.pl/p26497,zestaw-ryzen-5-7500x3d-rtx-5060-ti-16gb-32gb-ddr5-500gb-ssd-650w-msi-130r.html"
+  },
+  {
+   "id": "26556",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "cena": 8249,
+   "url": "https://sklep.hard-pc.pl/p26556,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-16gb-ddr5-1tb-ssd-750w-night-hunter.html"
+  },
+  {
+   "id": "26557",
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 1TB SSD, 650W, CH160 Plus",
+   "cena": 5999,
+   "url": "https://sklep.hard-pc.pl/p26557,zestaw-ryzen-7-7700-rtx-5060-8gb-16gb-ddr5-1tb-ssd-650w-ch160-plus.html"
+  },
+  {
+   "id": "26576",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 6999,
+   "url": "https://sklep.hard-pc.pl/p26576,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   }
  ]
 }
