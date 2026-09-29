@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 633,
+ "katalog_pozycji": 635,
  "nasze_identyfikatory": 219,
  "zniknely": [
   {
@@ -152,6 +152,18 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
    "cena": 6999,
    "url": "https://sklep.hard-pc.pl/p26576,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26582",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R",
+   "cena": 6679,
+   "url": "https://sklep.hard-pc.pl/p26582,zestaw-ryzen-7-9800x3d-rtx-5060-ti-8gb-16gb-ddr5-500gb-ssd-850w-pano-pz130r.html"
+  },
+  {
+   "id": "26583",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 1TB SSD, 32GB DDR5, 650W, Signum 300 ARGB",
+   "cena": 7629,
+   "url": "https://sklep.hard-pc.pl/p26583,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-1tb-ssd-32gb-ddr5-650w-signum-300-argb.html"
   }
  ]
 }

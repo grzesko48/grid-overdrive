@@ -1,21 +1,35 @@
 {
- "data": "27 września 2026",
+ "data": "29 września 2026",
  "pobrano": {
   "ok": 314,
-  "brak_ceny": 14,
-  "wycofany": 14,
+  "brak_ceny": 17,
+  "wycofany": 11,
   "zablokowane": 0,
   "robots": 0,
   "blad": 82
  },
  "pokrycie_proc": 74,
- "zmian_cen": 41,
+ "zmian_cen": 36,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [
   {
-   "nazwa": "Acer Nitro XZ273UX2bmiiprx",
+   "nazwa": "AOC Q27G4ZR",
    "bylo": [
-    "morele"
+    "mediamarkt"
+   ],
+   "jest": []
+  },
+  {
+   "nazwa": "Gigabyte MO27Q2A",
+   "bylo": [
+    "mediamarkt"
+   ],
+   "jest": []
+  },
+  {
+   "nazwa": "Gigabyte GO27Q24G",
+   "bylo": [
+    "mediamarkt"
    ],
    "jest": []
   }
@@ -38,365 +52,325 @@
  ],
  "zmiany": [
   {
-   "nazwa": "AOC Q27G42ZE",
+   "nazwa": "Samsung Odyssey G6 LS27FG602EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 914,
-   "nowa": 819,
-   "roznica": -95
-  },
-  {
-   "nazwa": "Acer Nitro XZ273UX2bmiiprx",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1055,
-   "nowa": 918,
-   "roznica": -137
-  },
-  {
-   "nazwa": "Gigabyte MO27Q2A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1960,
-   "nowa": 1984,
-   "roznica": 24
-  },
-  {
-   "nazwa": "Asus TUF Gaming VG27AQML5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1220,
-   "nowa": 1091,
-   "roznica": -129,
-   "naglowek": 1091
+   "stara": 1178,
+   "nowa": 1258,
+   "roznica": 80,
+   "naglowek": 1258
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1271,
-   "nowa": 1264,
-   "roznica": -7,
-   "naglowek": 1264
+   "stara": 1264,
+   "nowa": 1332,
+   "roznica": 68,
+   "naglowek": 1332
   },
   {
    "nazwa": "ASUS ROG Strix XG27ACMS",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1769,
-   "nowa": 1691,
-   "roznica": -78,
-   "naglowek": 1691
+   "stara": 1691,
+   "nowa": 1685,
+   "roznica": -6,
+   "naglowek": 1685
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1416,
-   "nowa": 1428,
-   "roznica": 12,
-   "naglowek": 1428
+   "stara": 1428,
+   "nowa": 1427,
+   "roznica": -1,
+   "naglowek": 1427
   },
   {
    "nazwa": "Gigabyte GO27Q24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1544,
-   "nowa": 1760,
-   "roznica": 216,
-   "naglowek": 1760
+   "stara": 1760,
+   "nowa": 1761,
+   "roznica": 1,
+   "naglowek": 1761
   },
   {
-   "nazwa": "LG UltraGear 27GX704A-B",
+   "nazwa": "HP OMEN 27qs",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1654,
-   "nowa": 1649,
-   "roznica": -5,
-   "naglowek": 1649
+   "stara": 1701,
+   "nowa": 1713,
+   "roznica": 12
   },
   {
-   "nazwa": "Gigabyte GO27Q24G",
+   "nazwa": "Gigabyte GO27Q24A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1833,
-   "nowa": 1831,
-   "roznica": -2,
-   "naglowek": 1831
+   "stara": 1626,
+   "nowa": 1469,
+   "roznica": -157,
+   "naglowek": 1469
   },
   {
-   "nazwa": "Gigabyte MO27Q2A Ice",
+   "nazwa": "AOC Q27G4ZDR",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1869,
-   "nowa": 1954,
-   "roznica": 85
+   "stara": 1560,
+   "nowa": 1426,
+   "roznica": -134,
+   "naglowek": 1426
+  },
+  {
+   "nazwa": "AOC Q27G4SRU",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 937,
+   "nowa": 1059,
+   "roznica": 122,
+   "naglowek": 1059
   },
   {
    "nazwa": "Lenovo Legion 27QD-10",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 898,
-   "nowa": 879,
-   "roznica": -19,
-   "naglowek": 879
+   "stara": 879,
+   "nowa": 898,
+   "roznica": 19,
+   "naglowek": 898
   },
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1649,
-   "nowa": 1579,
-   "roznica": -70
+   "sklep": "morele",
+   "stara": 1467,
+   "nowa": 1566,
+   "roznica": 99,
+   "naglowek": 1566
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1823,
-   "nowa": 1701,
-   "roznica": -122,
-   "naglowek": 1701
-  },
-  {
-   "nazwa": "Acer Predator X27UZ1bmiiprx",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1798,
-   "nowa": 1878,
-   "roznica": 80,
-   "naglowek": 1878
-  },
-  {
-   "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1819,
-   "nowa": 1830,
-   "roznica": 11
+   "stara": 1701,
+   "nowa": 1688,
+   "roznica": -13,
+   "naglowek": 1688
   },
   {
    "nazwa": "Acer Predator X27UW3bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1573,
-   "nowa": 1581,
-   "roznica": 8
+   "stara": 1581,
+   "nowa": 1582,
+   "roznica": 1
   },
   {
-   "nazwa": "Alienware AW2726DM",
+   "nazwa": "ASUS ROG Strix XG27AQDMG",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1642,
-   "nowa": 1630,
-   "roznica": -12
+   "stara": 2233,
+   "nowa": 2259,
+   "roznica": 26
   },
   {
-   "nazwa": "MSI MPG 271QRX QD-OLED",
+   "nazwa": "Samsung Odyssey G6 S27FG602EUX (G60F)",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2407,
-   "nowa": 2399,
-   "roznica": -8,
-   "naglowek": 2399
+   "stara": 1178,
+   "nowa": 1258,
+   "roznica": 80,
+   "naglowek": 1258
   },
   {
    "nazwa": "LG UltraGear 27GX700A-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2080,
-   "nowa": 2136,
-   "roznica": 56,
-   "naglowek": 2136
+   "stara": 2136,
+   "nowa": 1898,
+   "roznica": -238,
+   "naglowek": 1898
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2538,
-   "nowa": 2534,
-   "roznica": -4,
-   "naglowek": 2534
+   "stara": 2534,
+   "nowa": 2532,
+   "roznica": -2,
+   "naglowek": 2532
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Exo ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "sklep": "hardpc",
-   "stara": 7268,
-   "nowa": 6369,
-   "roznica": -899,
-   "naglowek": 6908
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Exo ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "sklep": "hardpc",
-   "stara": 7268,
-   "nowa": 6369,
-   "roznica": -899,
-   "naglowek": 6908
+   "nazwa": "Philips Evnia 27M2N8500/00",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1999,
+   "nowa": 1855,
+   "roznica": -144,
+   "naglowek": 1855
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7799,
-   "nowa": 7299,
-   "roznica": -500,
-   "naglowek": 7299
+   "stara": 7299,
+   "nowa": 7799,
+   "roznica": 500,
+   "naglowek": 7799
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 6999,
-   "nowa": 6499,
-   "roznica": -500,
-   "naglowek": 6499
+   "stara": 6499,
+   "nowa": 6999,
+   "roznica": 500,
+   "naglowek": 6999
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7799,
-   "nowa": 7299,
-   "roznica": -500,
-   "naglowek": 7299
+   "stara": 7299,
+   "nowa": 7799,
+   "roznica": 500,
+   "naglowek": 7799
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 8199,
-   "nowa": 7699,
-   "roznica": -500,
-   "naglowek": 7699
+   "stara": 7699,
+   "nowa": 8199,
+   "roznica": 500,
+   "naglowek": 8199
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7999,
-   "nowa": 7499,
-   "roznica": -500,
-   "naglowek": 7499
+   "stara": 7499,
+   "nowa": 7999,
+   "roznica": 500,
+   "naglowek": 7999
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7499,
-   "nowa": 6999,
-   "roznica": -500,
-   "naglowek": 6999
+   "stara": 6999,
+   "nowa": 7499,
+   "roznica": 500,
+   "naglowek": 7499
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7599,
-   "nowa": 7099,
-   "roznica": -500,
-   "naglowek": 7099
+   "stara": 7099,
+   "nowa": 7599,
+   "roznica": 500,
+   "naglowek": 7599
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 8299,
-   "nowa": 7799,
-   "roznica": -500,
-   "naglowek": 7799
+   "stara": 7799,
+   "nowa": 8299,
+   "roznica": 500,
+   "naglowek": 8299
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 7399,
-   "roznica": -500,
-   "naglowek": 7399
+   "stara": 7399,
+   "nowa": 7899,
+   "roznica": 500,
+   "naglowek": 7899
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7999,
-   "nowa": 7499,
-   "roznica": -500,
-   "naglowek": 7499
+   "stara": 7499,
+   "nowa": 7999,
+   "roznica": 500,
+   "naglowek": 7999
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 8299,
-   "nowa": 7799,
-   "roznica": -500,
-   "naglowek": 7799
+   "stara": 7799,
+   "nowa": 8299,
+   "roznica": 500,
+   "naglowek": 8299
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 8599,
-   "nowa": 8099,
-   "roznica": -500,
-   "naglowek": 8099
+   "stara": 8099,
+   "nowa": 8599,
+   "roznica": 500,
+   "naglowek": 8599
   },
   {
    "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 8999,
-   "nowa": 8499,
-   "roznica": -500,
-   "naglowek": 8499
+   "stara": 8499,
+   "nowa": 8999,
+   "roznica": 500,
+   "naglowek": 8999
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7199,
-   "nowa": 6699,
-   "roznica": -500,
-   "naglowek": 6699
+   "stara": 6699,
+   "nowa": 7199,
+   "roznica": 500,
+   "naglowek": 7199
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7599,
-   "nowa": 7099,
-   "roznica": -500,
-   "naglowek": 7099
+   "stara": 7099,
+   "nowa": 7599,
+   "roznica": 500,
+   "naglowek": 7599
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7199,
-   "nowa": 6999,
-   "roznica": -200,
-   "naglowek": 6999
+   "stara": 6999,
+   "nowa": 7499,
+   "roznica": 500,
+   "naglowek": 7499
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 7399,
-   "roznica": -500,
-   "naglowek": 7399
+   "stara": 7399,
+   "nowa": 7899,
+   "roznica": 500,
+   "naglowek": 7899
   },
   {
    "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
    "rodzaj": "pc",
    "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 7399,
-   "roznica": -500,
-   "naglowek": 7399
+   "stara": 7399,
+   "nowa": 7899,
+   "roznica": 500,
+   "naglowek": 7899
   }
  ]
 }
