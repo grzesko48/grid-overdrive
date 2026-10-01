@@ -161,5 +161,18 @@
   },
   "pokrycie_proc": 74,
   "zmian_cen": 36
+ },
+ {
+  "data": "1 października 2026",
+  "pobrano": {
+   "ok": 313,
+   "brak_ceny": 17,
+   "wycofany": 12,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 21
  }
 ]

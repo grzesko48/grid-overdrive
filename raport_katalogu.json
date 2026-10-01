@@ -1,7 +1,12 @@
 {
- "katalog_pozycji": 635,
+ "katalog_pozycji": 633,
  "nasze_identyfikatory": 219,
  "zniknely": [
+  {
+   "id": "19716",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 7700 XT 12GB, 32GB DDR5, 2TB SSD, 850W, Ventum 200 Solid",
+   "wpisow": 1
+  },
   {
    "id": "25239",
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
