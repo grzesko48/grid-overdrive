@@ -1,49 +1,87 @@
 {
- "data": "1 października 2026",
+ "data": "3 października 2026",
  "pobrano": {
   "ok": 313,
-  "brak_ceny": 17,
-  "wycofany": 12,
+  "brak_ceny": 15,
+  "wycofany": 14,
   "zablokowane": 0,
   "robots": 0,
   "blad": 82
  },
  "pokrycie_proc": 74,
- "zmian_cen": 21,
+ "zmian_cen": 94,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [
   {
-   "nazwa": "Gigabyte GO27Q24A",
-   "bylo": [],
-   "jest": [
-    "morele"
-   ]
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QZD2",
+   "nazwa": "AOC Q27G4ZR",
    "bylo": [],
    "jest": [
     "mediamarkt"
    ]
   },
   {
-   "nazwa": "Gigabyte MO27Q2A Ice",
+   "nazwa": "Gigabyte MO27Q2A",
+   "bylo": [],
+   "jest": [
+    "mediamarkt"
+   ]
+  },
+  {
+   "nazwa": "Gigabyte GO27Q24A",
+   "bylo": [
+    "morele"
+   ],
+   "jest": []
+  },
+  {
+   "nazwa": "AOC AGON PRO AG276QZD2",
    "bylo": [
     "mediamarkt"
    ],
    "jest": []
+  },
+  {
+   "nazwa": "Gigabyte GO27Q24G",
+   "bylo": [],
+   "jest": [
+    "mediamarkt"
+   ]
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
+   "bylo": [],
+   "jest": [
+    "mediamarkt"
+   ]
+  },
+  {
+   "nazwa": "Samsung Odyssey OLED G60SD",
+   "bylo": [
+    "mediamarkt"
+   ],
+   "jest": []
+  },
+  {
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
+   "bylo": [],
+   "jest": [
+    "morele"
+   ]
   }
  ],
  "doplaty_systemu": [],
- "ukryte": [],
+ "ukryte": [
+  {
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
+   "rodzaj": "pc",
+   "sklepy": [
+    "morele"
+   ]
+  }
+ ],
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
-  {
-   "nazwa": "Samsung Odyssey OLED G60SD",
-   "sklep": "mediamarkt",
-   "na_stronie": "Monitor SAMSUNG Odyssey OLED G6 LS27DG600SUXEN 27 QHD OLED 0.03ms 360Hz FreeSync Premium Pro"
-  },
   {
    "nazwa": "Samsung Odyssey OLED G60SD",
    "sklep": "morele",
@@ -52,187 +90,844 @@
  ],
  "zmiany": [
   {
-   "nazwa": "Acer Nitro XZ273UX2bmiiprx",
+   "nazwa": "Samsung Odyssey G6 LS27FG602EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 918,
-   "nowa": 869,
-   "roznica": -49
+   "stara": 1258,
+   "nowa": 1127,
+   "roznica": -131,
+   "naglowek": 1127
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-10",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 769,
+   "nowa": 750,
+   "roznica": -19,
+   "naglowek": 750
   },
   {
    "nazwa": "Gigabyte MO27Q2A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1984,
-   "nowa": 1800,
-   "roznica": -184
+   "stara": 1800,
+   "nowa": 1839,
+   "roznica": 39
   },
   {
    "nazwa": "Asus TUF Gaming VG27AQML5A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1091,
-   "nowa": 1058,
-   "roznica": -33,
-   "naglowek": 1058
+   "stara": 1058,
+   "nowa": 1118,
+   "roznica": 60,
+   "naglowek": 1118
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1332,
-   "nowa": 1282,
-   "roznica": -50,
-   "naglowek": 1282
+   "stara": 1282,
+   "nowa": 1269,
+   "roznica": -13,
+   "naglowek": 1269
   },
   {
    "nazwa": "ASUS ROG Strix XG27ACMS",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1685,
-   "nowa": 1656,
-   "roznica": -29,
-   "naglowek": 1656
+   "stara": 1656,
+   "nowa": 1776,
+   "roznica": 120,
+   "naglowek": 1776
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1427,
-   "nowa": 1423,
-   "roznica": -4,
-   "naglowek": 1423
+   "stara": 1423,
+   "nowa": 1425,
+   "roznica": 2,
+   "naglowek": 1425
   },
   {
    "nazwa": "Gigabyte GO27Q24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1761,
-   "nowa": 1757,
-   "roznica": -4,
-   "naglowek": 1757
-  },
-  {
-   "nazwa": "AOC Q27G4ZDR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1426,
-   "nowa": 1559,
-   "roznica": 133,
-   "naglowek": 1559
+   "stara": 1757,
+   "nowa": 1575,
+   "roznica": -182,
+   "naglowek": 1575
   },
   {
    "nazwa": "MSI MAG 271QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1699,
-   "nowa": 1946,
-   "roznica": 247,
-   "naglowek": 1946
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QZD2",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1759,
-   "nowa": 1708,
-   "roznica": -51,
-   "naglowek": 1708
+   "stara": 1946,
+   "nowa": 1933,
+   "roznica": -13,
+   "naglowek": 1933
   },
   {
    "nazwa": "Gigabyte GO27Q24G",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1831,
-   "nowa": 1828,
-   "roznica": -3,
-   "naglowek": 1828
+   "stara": 1828,
+   "nowa": 2014,
+   "roznica": 186,
+   "naglowek": 2014
   },
   {
    "nazwa": "Gigabyte MO27Q2A Ice",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1954,
-   "nowa": 1895,
-   "roznica": -59
+   "stara": 1895,
+   "nowa": 1881,
+   "roznica": -14
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1566,
+   "nowa": 1490,
+   "roznica": -76,
+   "naglowek": 1490
   },
   {
    "nazwa": "ASUS ROG Strix XG27WCMS",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1579,
-   "nowa": 1649,
-   "roznica": 70
+   "stara": 1649,
+   "nowa": 1579,
+   "roznica": -70
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1688,
-   "nowa": 1685,
-   "roznica": -3,
-   "naglowek": 1685
+   "stara": 1685,
+   "nowa": 1657,
+   "roznica": -28,
+   "naglowek": 1657
+  },
+  {
+   "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1830,
+   "nowa": 1831,
+   "roznica": 1
   },
   {
    "nazwa": "Acer Predator X27UW3bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1582,
-   "nowa": 1587,
-   "roznica": 5
+   "stara": 1587,
+   "nowa": 1590,
+   "roznica": 3
   },
   {
-   "nazwa": "ASUS ROG Strix XG27AQDMG",
+   "nazwa": "Alienware AW2726DM",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2259,
-   "nowa": 2257,
+   "stara": 1630,
+   "nowa": 1628,
    "roznica": -2
   },
   {
    "nazwa": "Gigabyte MO27Q28GR",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2199,
-   "nowa": 2335,
-   "roznica": 136,
-   "naglowek": 2335
+   "stara": 2335,
+   "nowa": 2334,
+   "roznica": -1,
+   "naglowek": 2334
   },
   {
-   "nazwa": "Gigabyte MO27Q3",
+   "nazwa": "Samsung Odyssey G6 S27FG602EUX (G60F)",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1899,
-   "nowa": 1999,
-   "roznica": 100,
-   "naglowek": 1999
+   "stara": 1258,
+   "nowa": 1127,
+   "roznica": -131,
+   "naglowek": 1127
   },
   {
    "nazwa": "LG UltraGear 27GX700A-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1898,
-   "nowa": 2509,
-   "roznica": 611,
-   "naglowek": 2509
+   "stara": 2509,
+   "nowa": 2136,
+   "roznica": -373,
+   "naglowek": 2136
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2532,
-   "nowa": 2530,
+   "stara": 2530,
+   "nowa": 2528,
    "roznica": -2,
-   "naglowek": 2530
+   "naglowek": 2528
   },
   {
-   "nazwa": "Philips Evnia 27M2N8500/00",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1855,
-   "nowa": 1999,
-   "roznica": 144,
-   "naglowek": 1999
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8099,
+   "nowa": 8299,
+   "roznica": 200,
+   "naglowek": 8838
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8099,
+   "nowa": 8299,
+   "roznica": 200,
+   "naglowek": 8838
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8099,
+   "nowa": 8299,
+   "roznica": 200,
+   "naglowek": 8838
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9219,
+   "nowa": 9419,
+   "roznica": 200,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 10098,
+   "nowa": 10398,
+   "roznica": 300,
+   "naglowek": 10937
+  },
+  {
+   "nazwa": "Utopiec (custom: 32GB RAM) (GoblinPC)",
+   "rodzaj": "pc",
+   "sklep": "goblinpc",
+   "stara": 7397,
+   "nowa": 7057,
+   "roznica": -340,
+   "naglowek": 7057
+  },
+  {
+   "nazwa": "Utopiec (custom: 32GB RAM) (GoblinPC)",
+   "rodzaj": "pc",
+   "sklep": "goblinpc",
+   "stara": 7397,
+   "nowa": 7057,
+   "roznica": -340,
+   "naglowek": 7057
+  },
+  {
+   "nazwa": "Goblin (GoblinPC)",
+   "rodzaj": "pc",
+   "sklep": "goblinpc",
+   "stara": 8290,
+   "nowa": 8440,
+   "roznica": 150,
+   "naglowek": 8440
+  },
+  {
+   "nazwa": "Kobold (GoblinPC)",
+   "rodzaj": "pc",
+   "sklep": "goblinpc",
+   "stara": 9200,
+   "nowa": 9270,
+   "roznica": 70,
+   "naglowek": 9270
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7799,
+   "nowa": 7399,
+   "roznica": -400,
+   "naglowek": 7399
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 6999,
+   "nowa": 6599,
+   "roznica": -400,
+   "naglowek": 6599
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7799,
+   "nowa": 7399,
+   "roznica": -400,
+   "naglowek": 7399
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 8199,
+   "nowa": 7799,
+   "roznica": -400,
+   "naglowek": 7799
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7999,
+   "nowa": 7599,
+   "roznica": -400,
+   "naglowek": 7599
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7499,
+   "nowa": 7099,
+   "roznica": -400,
+   "naglowek": 7099
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7599,
+   "nowa": 7199,
+   "roznica": -400,
+   "naglowek": 7199
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 8299,
+   "nowa": 7899,
+   "roznica": -400,
+   "naglowek": 7899
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7899,
+   "nowa": 7499,
+   "roznica": -400,
+   "naglowek": 7499
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7999,
+   "nowa": 7599,
+   "roznica": -400,
+   "naglowek": 7599
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 8299,
+   "nowa": 7899,
+   "roznica": -400,
+   "naglowek": 7899
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 8599,
+   "nowa": 8199,
+   "roznica": -400,
+   "naglowek": 8199
+  },
+  {
+   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 8999,
+   "nowa": 8599,
+   "roznica": -400,
+   "naglowek": 8599
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7199,
+   "nowa": 6799,
+   "roznica": -400,
+   "naglowek": 6799
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7599,
+   "nowa": 7199,
+   "roznica": -400,
+   "naglowek": 7199
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7499,
+   "nowa": 7099,
+   "roznica": -400,
+   "naglowek": 7099
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7899,
+   "nowa": 7499,
+   "roznica": -400,
+   "naglowek": 7499
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+   "rodzaj": "pc",
+   "sklep": "plugnplay",
+   "stara": 7899,
+   "nowa": 7499,
+   "roznica": -400,
+   "naglowek": 7499
   }
  ]
 }

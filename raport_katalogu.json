@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 633,
+ "katalog_pozycji": 641,
  "nasze_identyfikatory": 219,
  "zniknely": [
   {
@@ -119,7 +119,7 @@
   {
    "id": "26477",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 850W, CG530U 4F",
-   "cena": 8299,
+   "cena": 8499,
    "url": "https://sklep.hard-pc.pl/p26477,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-16gb-ddr5-1tb-ssd-850w-cg530u-4f.html"
   },
   {
@@ -143,7 +143,7 @@
   {
    "id": "26556",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Night Hunter",
-   "cena": 8249,
+   "cena": 8449,
    "url": "https://sklep.hard-pc.pl/p26556,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-16gb-ddr5-1tb-ssd-750w-night-hunter.html"
   },
   {
@@ -155,7 +155,7 @@
   {
    "id": "26576",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "cena": 6999,
+   "cena": 7199,
    "url": "https://sklep.hard-pc.pl/p26576,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   },
   {
@@ -169,6 +169,18 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 1TB SSD, 32GB DDR5, 650W, Signum 300 ARGB",
    "cena": 7629,
    "url": "https://sklep.hard-pc.pl/p26583,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-1tb-ssd-32gb-ddr5-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26620",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Ventum 200 AIR",
+   "cena": 7859,
+   "url": "https://sklep.hard-pc.pl/p26620,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-ventum-200-air.html"
+  },
+  {
+   "id": "26621",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Flux Pro",
+   "cena": 8169,
+   "url": "https://sklep.hard-pc.pl/p26621,zestaw-ryzen-5-7500f-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-flux-pro.html"
   }
  ]
 }
