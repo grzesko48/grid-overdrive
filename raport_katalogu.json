@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 641,
+ "katalog_pozycji": 645,
  "nasze_identyfikatory": 219,
  "zniknely": [
   {
@@ -181,6 +181,12 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Flux Pro",
    "cena": 8169,
    "url": "https://sklep.hard-pc.pl/p26621,zestaw-ryzen-5-7500f-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-flux-pro.html"
+  },
+  {
+   "id": "26623",
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 8299,
+   "url": "https://sklep.hard-pc.pl/p26623,zestaw-ryzen-7-7700-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   }
  ]
 }
