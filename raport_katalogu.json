@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 645,
+ "katalog_pozycji": 638,
  "nasze_identyfikatory": 219,
  "zniknely": [
   {
@@ -14,6 +14,84 @@
   }
  ],
  "nowi_kandydaci": [
+  {
+   "id": "19237",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8079,
+   "url": "https://sklep.hard-pc.pl/p19237,zestaw-ryzen-5-7500f-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "19238",
+   "nazwa": "Zestaw | Ryzen 5 7600, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8259,
+   "url": "https://sklep.hard-pc.pl/p19238,zestaw-ryzen-5-7600-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "19239",
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8299,
+   "url": "https://sklep.hard-pc.pl/p19239,zestaw-ryzen-5-7600x-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "19240",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8329,
+   "url": "https://sklep.hard-pc.pl/p19240,zestaw-ryzen-7-7700-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "19243",
+   "nazwa": "Zestaw | Intel I5-14600KF, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8759,
+   "url": "https://sklep.hard-pc.pl/p19243,zestaw-intel-i5-14600kf-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "19245",
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8819,
+   "url": "https://sklep.hard-pc.pl/p19245,zestaw-intel-ultra-5-245kf-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "19260",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8909,
+   "url": "https://sklep.hard-pc.pl/p19260,zestaw-ryzen-7-7800x3d-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "19262",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8229,
+   "url": "https://sklep.hard-pc.pl/p19262,zestaw-ryzen-5-7500f-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "19263",
+   "nazwa": "Zestaw | Ryzen 5 7600, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8409,
+   "url": "https://sklep.hard-pc.pl/p19263,zestaw-ryzen-5-7600-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "19264",
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8459,
+   "url": "https://sklep.hard-pc.pl/p19264,zestaw-ryzen-5-7600x-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "19265",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8489,
+   "url": "https://sklep.hard-pc.pl/p19265,zestaw-ryzen-7-7700-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "19268",
+   "nazwa": "Zestaw | Intel I5-14600KF, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8899,
+   "url": "https://sklep.hard-pc.pl/p19268,zestaw-intel-i5-14600kf-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "19270",
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena": 8989,
+   "url": "https://sklep.hard-pc.pl/p19270,zestaw-intel-ultra-5-245kf-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-arx-700-argb.html"
+  },
   {
    "id": "20663",
    "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
@@ -37,6 +115,12 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
    "cena": 5029,
    "url": "https://sklep.hard-pc.pl/p22616,zestaw-ryzen-5-7500f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "22743",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
+   "cena": 8499,
+   "url": "https://sklep.hard-pc.pl/p22743,zestaw-ryzen-5-7500x3d-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-pano-130r-pz.html"
   },
   {
    "id": "22756",
@@ -187,6 +271,18 @@
    "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
    "cena": 8299,
    "url": "https://sklep.hard-pc.pl/p26623,zestaw-ryzen-7-7700-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26639",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 7529,
+   "url": "https://sklep.hard-pc.pl/p26639,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26640",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 8399,
+   "url": "https://sklep.hard-pc.pl/p26640,zestaw-ryzen-5-7500x3d-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
   }
  ]
 }
