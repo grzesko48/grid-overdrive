@@ -1,5 +1,5 @@
 {
- "data": "11 października 2026",
+ "data": "13 października 2026",
  "pobrano": {
   "ok": 314,
   "brak_ceny": 21,
@@ -9,34 +9,13 @@
   "blad": 82
  },
  "pokrycie_proc": 74,
- "zmian_cen": 13,
+ "zmian_cen": 305,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [
   {
-   "nazwa": "AOC AGON PRO AG276QZD2",
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
    "bylo": [
-    "mediamarkt"
-   ],
-   "jest": []
-  },
-  {
-   "nazwa": "Gigabyte MO27Q2A Ice",
-   "bylo": [
-    "mediamarkt"
-   ],
-   "jest": []
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ryzen 7 7800X3D, RTX 5060)",
-   "bylo": [
-    "mediamarkt"
-   ],
-   "jest": []
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ultra 5-245KF, RTX 5060)",
-   "bylo": [
-    "mediamarkt"
+    "morele"
    ],
    "jest": []
   }
@@ -45,38 +24,10 @@
  "ukryte": [],
  "przywrocone": [
   {
-   "nazwa": "KUBB QUANTUM (Ryzen 7 7800X3D, RTX 5060)",
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
    "rodzaj": "pc",
    "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "BLEU JOUR Byte AI Ready (Ultra 5-225F, RTX 5060 Ti, 16GB)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "BLEU JOUR Byte AI Desktop (Ultra 5-225F, RTX 5060 Ti, 32GB)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ultra 7-265KF, RTX 5060 Ti)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  },
-  {
-   "nazwa": "KUBB QUANTUM (Ultra 5-245KF, RTX 5060)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "mediamarkt"
+    "morele"
    ]
   }
  ],
@@ -90,119 +41,2743 @@
  ],
  "zmiany": [
   {
-   "nazwa": "Asus TUF Gaming VG27AQML5A",
+   "nazwa": "AOC Q27G42ZE",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1130,
-   "nowa": 1178,
-   "roznica": 48,
-   "naglowek": 1178
+   "stara": 819,
+   "nowa": 799,
+   "roznica": -20
   },
   {
-   "nazwa": "ASUS ROG Strix XG27ACMS",
+   "nazwa": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1599,
-   "nowa": 1499,
-   "roznica": -100,
-   "naglowek": 1499
+   "stara": 1099,
+   "nowa": 999,
+   "roznica": -100
   },
   {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
+   "nazwa": "Lenovo Legion 27Q-10",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1426,
-   "nowa": 1429,
-   "roznica": 3,
-   "naglowek": 1429
+   "stara": 769,
+   "nowa": 749,
+   "roznica": -20,
+   "naglowek": 749
+  },
+  {
+   "nazwa": "HP OMEN 27qs",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1693,
+   "nowa": 1723,
+   "roznica": 30
   },
   {
    "nazwa": "MSI MAG 271QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1911,
-   "nowa": 1995,
-   "roznica": 84,
-   "naglowek": 1995
+   "stara": 1995,
+   "nowa": 1975,
+   "roznica": -20,
+   "naglowek": 1975
+  },
+  {
+   "nazwa": "AOC Q27G4SRU",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 999,
+   "nowa": 1005,
+   "roznica": 6,
+   "naglowek": 1005
+  },
+  {
+   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1649,
+   "nowa": 1599,
+   "roznica": -50,
+   "naglowek": 1599
   },
   {
    "nazwa": "Gigabyte MO27Q2A Ice",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1737,
-   "nowa": 1922,
-   "roznica": 185
+   "stara": 1922,
+   "nowa": 1908,
+   "roznica": -14
   },
   {
-   "nazwa": "AOC Q27G4SDR",
+   "nazwa": "Lenovo Legion 27QD-10",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1879,
-   "nowa": 1799,
-   "roznica": -80,
-   "naglowek": 1799
+   "stara": 898,
+   "nowa": 877,
+   "roznica": -21,
+   "naglowek": 877
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1499,
+   "nowa": 1490,
+   "roznica": -9,
+   "naglowek": 1490
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 1579,
+   "nowa": 1649,
+   "roznica": 70
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1578,
+   "nowa": 1577,
+   "roznica": -1,
+   "naglowek": 1577
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1645,
-   "nowa": 1649,
-   "roznica": 4,
-   "naglowek": 1649
+   "stara": 1649,
+   "nowa": 1648,
+   "roznica": -1,
+   "naglowek": 1648
   },
   {
-   "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
+   "nazwa": "Acer Predator X27UZ1bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1824,
-   "nowa": 1823,
-   "roznica": -1
+   "stara": 1878,
+   "nowa": 1875,
+   "roznica": -3,
+   "naglowek": 1875
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27AQDMG",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2255,
+   "nowa": 2262,
+   "roznica": 7
   },
   {
    "nazwa": "Gigabyte MO27Q28GR",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2392,
-   "nowa": 2199,
-   "roznica": -193,
-   "naglowek": 2199
+   "stara": 2199,
+   "nowa": 2446,
+   "roznica": 247,
+   "naglowek": 2446
   },
   {
    "nazwa": "LG UltraGear 27GX700A-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2300,
-   "nowa": 2330,
-   "roznica": 30,
-   "naglowek": 2330
+   "stara": 2330,
+   "nowa": 2299,
+   "roznica": -31,
+   "naglowek": 2299
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2524,
-   "nowa": 2523,
+   "stara": 2523,
+   "nowa": 2522,
    "roznica": -1,
-   "naglowek": 2523
+   "naglowek": 2522
   },
   {
-   "nazwa": "KUBB QUANTUM (Ryzen 7 7800X3D, RTX 5060)",
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
    "rodzaj": "pc",
-   "sklep": "mediamarkt",
-   "stara": 6839,
-   "nowa": 6939,
-   "roznica": 100,
-   "naglowek": 6939
+   "sklep": "morele",
+   "stara": 6749,
+   "nowa": 6983,
+   "roznica": 234,
+   "naglowek": 6983
   },
   {
-   "nazwa": "KUBB QUANTUM (Ultra 5-245KF, RTX 5060)",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
    "rodzaj": "pc",
-   "sklep": "mediamarkt",
-   "stara": 6199,
-   "nowa": 6299,
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8299,
+   "nowa": 8499,
+   "roznica": 200,
+   "naglowek": 9038
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8299,
+   "nowa": 8499,
+   "roznica": 200,
+   "naglowek": 9038
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
    "roznica": 100,
-   "naglowek": 6299
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Intel I7-14700KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8929,
+   "nowa": 9329,
+   "roznica": 400,
+   "naglowek": 9868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9059,
+   "nowa": 9259,
+   "roznica": 200,
+   "naglowek": 9798
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9059,
+   "nowa": 9259,
+   "roznica": 200,
+   "naglowek": 9798
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Exo ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6369,
+   "nowa": 6469,
+   "roznica": 100,
+   "naglowek": 7008
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Exo ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6369,
+   "nowa": 6469,
+   "roznica": 100,
+   "naglowek": 7008
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7929,
+   "nowa": 8329,
+   "roznica": 400,
+   "naglowek": 8868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Ventum 200 Solid",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8349,
+   "nowa": 8749,
+   "roznica": 400,
+   "naglowek": 9288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 650W, PANO 130R (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7258,
+   "nowa": 7358,
+   "roznica": 100,
+   "naglowek": 7897
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 650W, PANO 130R (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7258,
+   "nowa": 7358,
+   "roznica": 100,
+   "naglowek": 7897
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 750W, Hunter 3",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8729,
+   "nowa": 8929,
+   "roznica": 200,
+   "naglowek": 9468
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7929,
+   "nowa": 8329,
+   "roznica": 400,
+   "naglowek": 8868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 850W, Vako",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6979,
+   "nowa": 7079,
+   "roznica": 100,
+   "naglowek": 7618
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6729,
+   "nowa": 6929,
+   "roznica": 200,
+   "naglowek": 7468
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9600X, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 750W, Breeze ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7059,
+   "nowa": 7259,
+   "roznica": 200,
+   "naglowek": 7798
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Fornax 4000 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7968,
+   "nowa": 8268,
+   "roznica": 300,
+   "naglowek": 8807
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 650W, Fornax 4000 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7968,
+   "nowa": 8268,
+   "roznica": 300,
+   "naglowek": 8807
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9149,
+   "nowa": 9349,
+   "roznica": 200,
+   "naglowek": 9888
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO Argb",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8599,
+   "roznica": 200,
+   "naglowek": 9138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8008,
+   "nowa": 8108,
+   "roznica": 100,
+   "naglowek": 8647
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8008,
+   "nowa": 8108,
+   "roznica": 100,
+   "naglowek": 8647
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9149,
+   "nowa": 9349,
+   "roznica": 200,
+   "naglowek": 9888
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, CC560 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7649,
+   "nowa": 8049,
+   "roznica": 400,
+   "naglowek": 8588
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 750W, Hunter 3",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8729,
+   "nowa": 8929,
+   "roznica": 200,
+   "naglowek": 9468
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 1TB SSD, 32GB DDR5, 850W, Depcool CC560",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7749,
+   "nowa": 7949,
+   "roznica": 200,
+   "naglowek": 8488
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7589,
+   "nowa": 7789,
+   "roznica": 200,
+   "naglowek": 8328
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Ventum 200 Solid",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8349,
+   "nowa": 8749,
+   "roznica": 400,
+   "naglowek": 9288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO Argb",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8599,
+   "roznica": 200,
+   "naglowek": 9138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Lian Li V100",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8089,
+   "nowa": 8489,
+   "roznica": 400,
+   "naglowek": 9028
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7719,
+   "nowa": 7919,
+   "roznica": 200,
+   "naglowek": 8458
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, CC560 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7649,
+   "nowa": 8049,
+   "roznica": 400,
+   "naglowek": 8588
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Intel I7-14700KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8929,
+   "nowa": 9329,
+   "roznica": 400,
+   "naglowek": 9868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 2TB SSD, 32GB DDR5, 650W, Diaxid 605F",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8499,
+   "nowa": 8899,
+   "roznica": 400,
+   "naglowek": 9438
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 1TB SSD, 32GB DDR5, 850W, Depcool CC560",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7749,
+   "nowa": 7949,
+   "roznica": 200,
+   "naglowek": 8488
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7929,
+   "nowa": 8329,
+   "roznica": 400,
+   "naglowek": 8868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9070 16GB, 16GB DDR5, 1TB SSD, 850W, V100R",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7739,
+   "nowa": 7839,
+   "roznica": 100,
+   "naglowek": 8378
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO Argb",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8599,
+   "roznica": 200,
+   "naglowek": 9138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7929,
+   "nowa": 8329,
+   "roznica": 400,
+   "naglowek": 8868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Stellar 5F",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8149,
+   "nowa": 8549,
+   "roznica": 400,
+   "naglowek": 9088
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 550W, Exo ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7839,
+   "nowa": 8239,
+   "roznica": 400,
+   "naglowek": 8778
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7549,
+   "nowa": 7749,
+   "roznica": 200,
+   "naglowek": 8288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9059,
+   "nowa": 9259,
+   "roznica": 200,
+   "naglowek": 9798
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, XT Pro Ultra ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8799,
+   "roznica": 400,
+   "naglowek": 9338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7929,
+   "nowa": 8329,
+   "roznica": 400,
+   "naglowek": 8868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, H7 Flow (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8708,
+   "nowa": 8808,
+   "roznica": 100,
+   "naglowek": 9347
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, H7 Flow (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8708,
+   "nowa": 8808,
+   "roznica": 100,
+   "naglowek": 9347
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 Ti 16GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (3)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7929,
+   "nowa": 8329,
+   "roznica": 400,
+   "naglowek": 8868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9059,
+   "nowa": 9259,
+   "roznica": 200,
+   "naglowek": 9798
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO Argb",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8599,
+   "roznica": 200,
+   "naglowek": 9138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Intel I7-14700KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8929,
+   "nowa": 9329,
+   "roznica": 400,
+   "naglowek": 9868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 650W, Lian Li V100",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8089,
+   "nowa": 8489,
+   "roznica": 400,
+   "naglowek": 9028
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Stellar 5F",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8149,
+   "nowa": 8549,
+   "roznica": 400,
+   "naglowek": 9088
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Intel I7-14700KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8929,
+   "nowa": 9329,
+   "roznica": 400,
+   "naglowek": 9868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 2TB SSD, 32GB DDR5, 650W, Diaxid 605F",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8499,
+   "nowa": 8899,
+   "roznica": 400,
+   "naglowek": 9438
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO Argb",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8599,
+   "roznica": 200,
+   "naglowek": 9138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8299,
+   "nowa": 8499,
+   "roznica": 200,
+   "naglowek": 9038
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 750W, Hunter 3",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8729,
+   "nowa": 8929,
+   "roznica": 200,
+   "naglowek": 9468
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9099,
+   "nowa": 9299,
+   "roznica": 200,
+   "naglowek": 9838
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Ventum 200 Solid",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8349,
+   "nowa": 8749,
+   "roznica": 400,
+   "naglowek": 9288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700X, RTX 5060 Ti 16GB, 32GB DDR5, Stellar 5F ARGB, 650W",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8799,
+   "roznica": 400,
+   "naglowek": 9338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, XT Pro Ultra ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8399,
+   "nowa": 8799,
+   "roznica": 400,
+   "naglowek": 9338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 2TB SSD, 32GB DDR5, 650W, Diaxid 605F",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8499,
+   "nowa": 8899,
+   "roznica": 400,
+   "naglowek": 9438
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 16GB, 32GB DDR5, 500GB SSD, 650W, G400 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8499,
+   "nowa": 8899,
+   "roznica": 400,
+   "naglowek": 9438
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 750W, Hunter 3",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8729,
+   "nowa": 8929,
+   "roznica": 200,
+   "naglowek": 9468
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8799,
+   "nowa": 8999,
+   "roznica": 200,
+   "naglowek": 9538
+  },
+  {
+   "nazwa": "Zestaw | Intel I7-14700KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8929,
+   "nowa": 9329,
+   "roznica": 400,
+   "naglowek": 9868
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9099,
+   "nowa": 9299,
+   "roznica": 200,
+   "naglowek": 9838
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8919,
+   "nowa": 9119,
+   "roznica": 200,
+   "naglowek": 9658
+  },
+  {
+   "nazwa": "Zestaw | Intel I5 14600K, RTX 5060 TI 16GB, 32GB DDR5, 2TB SSD, 850W, nadir",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9039,
+   "nowa": 9439,
+   "roznica": 400,
+   "naglowek": 9958
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500f, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Stellar ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9009,
+   "nowa": 9209,
+   "roznica": 200,
+   "naglowek": 9728
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9019,
+   "nowa": 9219,
+   "roznica": 200,
+   "naglowek": 9758
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9059,
+   "nowa": 9259,
+   "roznica": 200,
+   "naglowek": 9798
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB , 32GB DDR5, 1TB SSD, 850W, Fishtank 6000",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9099,
+   "nowa": 9299,
+   "roznica": 200,
+   "naglowek": 9838
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9149,
+   "nowa": 9349,
+   "roznica": 200,
+   "naglowek": 9888
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9619,
+   "roznica": 200,
+   "naglowek": 10158
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9199,
+   "nowa": 9399,
+   "roznica": 200,
+   "naglowek": 9938
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 9799,
+   "roznica": 100,
+   "naglowek": 10338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9399,
+   "nowa": 9599,
+   "roznica": 200,
+   "naglowek": 10138
   }
  ]
 }
