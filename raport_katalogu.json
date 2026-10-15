@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 640,
+ "katalog_pozycji": 642,
  "nasze_identyfikatory": 219,
  "zniknely": [
   {
@@ -271,6 +271,12 @@
    "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
    "cena": 8599,
    "url": "https://sklep.hard-pc.pl/p26640,zestaw-ryzen-5-7500x3d-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "26653",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Pano 130R",
+   "cena": 6019,
+   "url": "https://sklep.hard-pc.pl/p26653,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-16gb-ddr5-1tb-ssd-650w-pano-130r.html"
   }
  ]
 }
