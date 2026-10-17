@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 642,
+ "katalog_pozycji": 669,
  "nasze_identyfikatory": 219,
  "zniknely": [
   {
@@ -89,13 +89,13 @@
   {
    "id": "22616",
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "cena": 5129,
+   "cena": 5229,
    "url": "https://sklep.hard-pc.pl/p22616,zestaw-ryzen-5-7500f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
   },
   {
    "id": "22617",
    "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "cena": 5039,
+   "cena": 5139,
    "url": "https://sklep.hard-pc.pl/p22617,zestaw-ryzen-5-8400f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
   },
   {
@@ -107,7 +107,7 @@
   {
    "id": "22756",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
-   "cena": 7849,
+   "cena": 7949,
    "url": "https://sklep.hard-pc.pl/p22756,zestaw-ryzen-7-7800x3d-rx-9060-xt-16gb-32gb-ddr5-500gb-ssd-650w-hunter-2.html"
   },
   {
@@ -137,49 +137,49 @@
   {
    "id": "22825",
    "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
-   "cena": 5249,
+   "cena": 5349,
    "url": "https://sklep.hard-pc.pl/p22825,zestaw-intel-ultra-5-225f-rtx-5060-8gb-16gb-ddr5-512gb-ssd-650w-hunter-2-argb.html"
   },
   {
    "id": "25205",
    "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron",
-   "cena": 5349,
+   "cena": 5449,
    "url": "https://sklep.hard-pc.pl/p25205,zestaw-ryzen-5-8400f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-atron.html"
   },
   {
    "id": "25275",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Hunter 2",
-   "cena": 7859,
+   "cena": 7959,
    "url": "https://sklep.hard-pc.pl/p25275,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-hunter-2.html"
   },
   {
    "id": "25528",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
-   "cena": 7599,
+   "cena": 7699,
    "url": "https://sklep.hard-pc.pl/p25528,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-aquarius-8000.html"
   },
   {
    "id": "26035",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona",
-   "cena": 7849,
+   "cena": 7949,
    "url": "https://sklep.hard-pc.pl/p26035,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-fishtank-6000-corona.html"
   },
   {
    "id": "26461",
    "nazwa": "Zestaw | Intel Ultra 7 270K Plus, RTX 5060 8GB, 2TB SSD, 32GB DDR5, 850W, Night Hunter",
-   "cena": 8529,
+   "cena": 8629,
    "url": "https://sklep.hard-pc.pl/p26461,zestaw-intel-ultra-7-270k-plus-rtx-5060-8gb-2tb-ssd-32gb-ddr5-850w-night-hunter.html"
   },
   {
    "id": "26462",
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 1TB SSD, 650W, Exo ARGB",
-   "cena": 6399,
+   "cena": 6499,
    "url": "https://sklep.hard-pc.pl/p26462,zestaw-ryzen-5-7500f-rtx-5060-8gb-16gb-ddr5-1tb-ssd-650w-exo-argb.html"
   },
   {
    "id": "26468",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
-   "cena": 6799,
+   "cena": 6899,
    "url": "https://sklep.hard-pc.pl/p26468,zestaw-ryzen-7-7800x3d-rx-9060-xt-16gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
   },
   {
@@ -187,12 +187,6 @@
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 850W, CG530U 4F",
    "cena": 8599,
    "url": "https://sklep.hard-pc.pl/p26477,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-16gb-ddr5-1tb-ssd-850w-cg530u-4f.html"
-  },
-  {
-   "id": "26481",
-   "nazwa": "Zestaw | Intel Ultra 7 270K Plus, RTX 5060 8GB, 2TB SSD, 32GB DDR5, 850W, Night Hunter",
-   "cena": 8929,
-   "url": "https://sklep.hard-pc.pl/p26481,zestaw-intel-ultra-7-270k-plus-rtx-5060-8gb-2tb-ssd-32gb-ddr5-850w-night-hunter.html"
   },
   {
    "id": "26485",
@@ -215,13 +209,13 @@
   {
    "id": "26557",
    "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 1TB SSD, 650W, CH160 Plus",
-   "cena": 6099,
+   "cena": 6199,
    "url": "https://sklep.hard-pc.pl/p26557,zestaw-ryzen-7-7700-rtx-5060-8gb-16gb-ddr5-1tb-ssd-650w-ch160-plus.html"
   },
   {
    "id": "26576",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "cena": 7399,
+   "cena": 7499,
    "url": "https://sklep.hard-pc.pl/p26576,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   },
   {
@@ -233,13 +227,13 @@
   {
    "id": "26583",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 1TB SSD, 32GB DDR5, 650W, Signum 300 ARGB",
-   "cena": 7829,
+   "cena": 7929,
    "url": "https://sklep.hard-pc.pl/p26583,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-1tb-ssd-32gb-ddr5-650w-signum-300-argb.html"
   },
   {
    "id": "26620",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Ventum 200 AIR",
-   "cena": 8059,
+   "cena": 8159,
    "url": "https://sklep.hard-pc.pl/p26620,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-ventum-200-air.html"
   },
   {
@@ -257,13 +251,13 @@
   {
    "id": "26626",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
-   "cena": 5949,
+   "cena": 6049,
    "url": "https://sklep.hard-pc.pl/p26626,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-16gb-ddr5-1tb-ssd-650w-hunter-2.html"
   },
   {
    "id": "26639",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "cena": 7729,
+   "cena": 7829,
    "url": "https://sklep.hard-pc.pl/p26639,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   },
   {
@@ -275,7 +269,7 @@
   {
    "id": "26653",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Pano 130R",
-   "cena": 6019,
+   "cena": 6119,
    "url": "https://sklep.hard-pc.pl/p26653,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-16gb-ddr5-1tb-ssd-650w-pano-130r.html"
   }
  ]
