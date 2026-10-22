@@ -1,35 +1,19 @@
 {
  "data": "22 października 2026",
  "pobrano": {
-  "ok": 437,
+  "ok": 494,
   "brak_ceny": 0,
   "wycofany": 6,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 82
+  "blad": 25
  },
- "pokrycie_proc": 83,
- "zmian_cen": 2,
+ "pokrycie_proc": 94,
+ "zmian_cen": 1,
  "do_przejrzenia": [],
- "zmiany_dostepnosci": [
-  {
-   "nazwa": "LG UltraGear OLED 27GS93QE-B",
-   "bylo": [],
-   "jest": [
-    "morele"
-   ]
-  }
- ],
+ "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
- "ukryte": [
-  {
-   "nazwa": "LG UltraGear OLED 27GS93QE-B",
-   "rodzaj": "monitor",
-   "sklepy": [
-    "morele"
-   ]
-  }
- ],
+ "ukryte": [],
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
@@ -71,22 +55,13 @@
  ],
  "zmiany": [
   {
-   "nazwa": "Acer X27UF5bmiippruzx",
+   "nazwa": "MSI MAG 271QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3293,
-   "nowa": 3428,
-   "roznica": 135,
-   "naglowek": 3428
-  },
-  {
-   "nazwa": "LG UltraGear OLED 27GS93QE-B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2519,
-   "nowa": 2559,
-   "roznica": 40,
-   "naglowek": 2559
+   "stara": 1974,
+   "nowa": 1968,
+   "roznica": -6,
+   "naglowek": 1968
   }
  ],
  "pros_cen_zsynchronizowane": [],
@@ -122,7 +97,7 @@
    "adresow": 6
   },
   "xkom": {
-   "ok": 0,
+   "ok": 57,
    "adresow": 57
   }
  }

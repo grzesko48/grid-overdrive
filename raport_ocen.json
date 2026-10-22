@@ -11,35 +11,12 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 2,
+ "przeliczonych": 0,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": [
-  {
-   "nazwa": "Acer X27UF5bmiippruzx",
-   "rodzaj": "monitor",
-   "podstawa": 6.86,
-   "zmiany": {
-    "value": [
-     60,
-     57
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear OLED 27GS93QE-B",
-   "rodzaj": "monitor",
-   "podstawa": 10.66,
-   "zmiany": {
-    "value": [
-     17,
-     15
-    ]
-   }
-  }
- ]
+ "zmiany": []
 }
