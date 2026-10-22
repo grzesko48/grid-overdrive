@@ -106,9 +106,26 @@ def pojemnosc_ram_gb(ram):
 
 
 def jakosc_ram(ram):
+    # 32 GB to OPTIMUM (decyzja właściciela 22.10.2026): więcej nie daje już punktów.
     cap = pojemnosc_ram_gb(ram)
-    q = 16 if cap >= 64 else 11 if cap >= 32 else 5 if cap >= 16 else 0
+    q = 11 if cap >= 32 else 5 if cap >= 16 else 0
     return q + (6 if "ddr5" in (ram or "").lower() else 0)
+
+
+# Kary rankingowe (w punktach Ultra i oceny ogólnej PC). To jawne reguły właściciela, nie
+# pomiar: zestaw poniżej optimum nie może wygrać z zestawem kompletnym i optymalnym.
+KARA_RAM_PONIZEJ_32GB = 10   # 16 GB RAM nie może być na szczycie; 32 GB jest optymalne
+KARA_BRAK_DYSKU = 20         # komputer bez dysku nie jest gotowy do pracy
+
+
+def kary_rankingu(ram, dysk):
+    """Suma kar [pkt] odejmowana od Ultra i oceny ogólnej PC. BrakDanych, gdy RAM nieczytelny."""
+    kara = 0
+    if pojemnosc_ram_gb(ram) < 32:
+        kara += KARA_RAM_PONIZEJ_32GB
+    if bez_ssd(dysk):
+        kara += KARA_BRAK_DYSKU
+    return kara
 
 
 def pojemnosc_dysku_gb(dysk):

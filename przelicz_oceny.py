@@ -120,6 +120,7 @@ def main():
             # pamięci, nieznany procesor), zostaje przy zapisanych wartościach i trafia
             # do raportu — brak danych nie zamienia się w wartość domyślną.
             spec_pc = None
+            kara_pc = 0
             def pole(n, seg=seg):
                 m = re.search(rf'(?<![A-Za-z]){n}:"([^"]*)"', seg)
                 return m.group(1) if m else ""
@@ -130,6 +131,10 @@ def main():
                                          pole("psu"), pole("os"), nsk)
             except ocena_pc.BrakDanych as x:
                 bez_kodu.append(f"{nazwa}: {x}")
+            try:
+                kara_pc = ocena_pc.kary_rankingu(pole("ram"), pole("storage"))
+            except ocena_pc.BrakDanych as x:
+                bez_kodu.append(f"{nazwa}: kary rankingowe niepoliczone — {x}")
             perf_nowy = spec_pc["perf"] if spec_pc else s.get("perf")
             if not perf_nowy:
                 bledy.append(f"{nazwa}: perf = 0 lub brak — nie liczę opłacalności")
@@ -171,6 +176,9 @@ def main():
                 # regułą parzystości.
                 suma = sum(Fraction(nowe[k]) * Fraction(str(w)) for k, w in skl)
                 nowe[pole] = int(round(suma))
+                if rodzaj == "pc" and kara_pc:
+                    # kary rankingowe (RAM < 32 GB, brak dysku) — patrz ocena_pc.kary_rankingu
+                    nowe[pole] = max(0, nowe[pole] - kara_pc)
 
         roznice = {k: (s[k], nowe[k]) for k in nowe if s.get(k) != nowe[k]}
         if roznice:

@@ -167,7 +167,10 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
         psu = f"{m.group(1)}W"
     cpu = t["cpu"]
     ocena_pc.klasa_cpu(cpu)        # brak reguły klasy = pominięcie zestawu (BrakDanych)
-    ocena_pc.klasa_gpu(gpu)
+    if ocena_pc.klasa_gpu(gpu) > 7:
+        # skala mocy (2,44–6,78) i długowieczności kończy się na klasie 7 (RX 9070 XT / RTX 5070 Ti);
+        # mocniejsza karta zostałaby przycięta do 100 i wypadła niżej, niż wynika z jej mocy.
+        raise BrakDanych(f"karta {gpu!r} spoza skali mocy rankingu (klasa > 7) — poszerzenie skali wymaga decyzji właściciela")
 
     if not (CENA_OD_BEZ_SYSTEMU <= cena_bare and cena_bare + okno <= SUFIT_Z_WINDOWS):
         raise BrakDanych(f"cena poza progiem: {cena_bare} zł bez systemu, {cena_bare + okno} z Windowsem")
@@ -190,7 +193,7 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
                   # zamarzałby na starej (tak się stało z 66 wariantami)
                   "dopłata_ram": None}
         zal, wad = ocena_pc.zalety_wady(zestaw, wynik, custom, ceny_min_istniejace)
-        scores = _sumy(sc, value, wynik["longevity"])
+        scores = _sumy(sc, value, wynik["longevity"], ocena_pc.kary_rankingu(ram_, dysk))
         return {
             "img": klucz_zdjecia, "name": nazwa + (" (custom: 32GB RAM)" if custom else ""),
             "cpu": cpu, "gpu": gpu, "ram": ram_ + (" DDR5" if "DDR5" not in ram_ else ""),
@@ -230,7 +233,7 @@ def _dlugowiecznosc(lata):
     return po.ocena_dlugowiecznosci(str(lata))
 
 
-def _sumy(sc, value, longevity):
+def _sumy(sc, value, longevity, kara=0):
     import przelicz_oceny as po
     from fractions import Fraction
     s = {"perf": sc["perf"], "components": sc["components"], "value": value,
@@ -238,8 +241,8 @@ def _sumy(sc, value, longevity):
     def suma(wagi):
         v = sum(Fraction(s[k]) * Fraction(str(w)) for k, w in wagi)
         return int(round(v))
-    s["overall"] = suma(po.WZORY["pc"]["overall"])
-    s["ultra"] = suma(po.WZORY["pc"]["ultra"])
+    s["overall"] = max(0, suma(po.WZORY["pc"]["overall"]) - kara)
+    s["ultra"] = max(0, suma(po.WZORY["pc"]["ultra"]) - kara)
     return {k: s[k] for k in ("perf", "components", "value", "features", "overall", "longevity", "ultra")}
 
 
