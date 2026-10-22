@@ -282,21 +282,8 @@ def wstaw(sz, wpisy):
 
 
 def zdjecie_data_uri(url_zdjecia):
-    from PIL import Image
-    if not z.REGULAMIN.wolno(url_zdjecia):
-        raise BrakDanych("robots.txt nie pozwala pobrać zdjęcia")
-    z.TEMPO.czekaj("sklep.hard-pc.pl")
-    r = urllib.request.Request(url_zdjecia, headers={"User-Agent": UA})
-    surowe = urllib.request.urlopen(r, timeout=30).read()
-    im = Image.open(io.BytesIO(surowe))
-    if im.mode in ("RGBA", "LA", "P"):
-        tlo = Image.new("RGB", im.size, (255, 255, 255))
-        im = im.convert("RGBA"); tlo.paste(im, mask=im.split()[-1]); im = tlo
-    else:
-        im = im.convert("RGB")
-    im.thumbnail((480, 480))
-    b = io.BytesIO(); im.save(b, "JPEG", quality=74, optimize=True, progressive=True)
-    return "data:image/jpeg;base64," + base64.b64encode(b.getvalue()).decode()
+    import zdjecie_obraz
+    return zdjecie_obraz.zdjecie_data_uri(url_zdjecia)
 
 
 # ------------------------------------------------------------------ przebieg
@@ -361,7 +348,7 @@ def main():
         except BrakDanych as x:
             pominiete.append((k["nazwa"], str(x))); continue
         except Exception as x:                       # nieoczekiwane: nie wywracamy całego przebiegu
-            pominiete.append((k["nazwa"], f"błąd: {type(x).__name__}: {x}")); continue
+            pominiete.append((k["nazwa"], f"BŁĄD TECHNICZNY: {type(x).__name__}: {x}")); continue
         nowe.extend(wpisy)
         dodane_baz += 1
 
@@ -375,6 +362,10 @@ def main():
         powody[re.sub(r"\d+", "N", p)[:70]] = powody.get(re.sub(r"\d+", "N", p)[:70], 0) + 1
     for p, n in sorted(powody.items(), key=lambda x: -x[1])[:10]:
         print(f"   {n:3d}× {p}")
+    techniczne = [p for _, p in pominiete if p.startswith("BŁĄD TECHNICZNY")]
+    if techniczne:
+        print(f"\n!!! UWAGA: {len(techniczne)} BŁĘDÓW TECHNICZNYCH (nie braków danych) — dopisywanie jest "
+              f"niepełne; to AWARIA do zgłoszenia: {techniczne[0][:150]}")
 
     if a.na_sucho or not nowe:
         return {"dopisane": len(nowe), "pominiete": pominiete}

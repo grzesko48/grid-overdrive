@@ -304,21 +304,8 @@ def wstaw(sz, wpisy):
 
 
 def zdjecie_data_uri(url_zdjecia):
-    from PIL import Image
-    if not z.REGULAMIN.wolno(url_zdjecia):
-        raise BrakDanych("robots.txt nie pozwala pobrać zdjęcia")
-    z.TEMPO.czekaj(re.sub(r"^https?://([^/]+)/.*$", r"\1", url_zdjecia))
-    r = urllib.request.Request(url_zdjecia, headers={"User-Agent": UA})
-    surowe = urllib.request.urlopen(r, timeout=30).read()
-    im = Image.open(io.BytesIO(surowe))
-    if im.mode in ("RGBA", "LA", "P"):
-        tlo = Image.new("RGB", im.size, (255, 255, 255))
-        im = im.convert("RGBA"); tlo.paste(im, mask=im.split()[-1]); im = tlo
-    else:
-        im = im.convert("RGB")
-    im.thumbnail((480, 480))
-    b = io.BytesIO(); im.save(b, "JPEG", quality=74, optimize=True, progressive=True)
-    return "data:image/jpeg;base64," + base64.b64encode(b.getvalue()).decode()
+    import zdjecie_obraz
+    return zdjecie_obraz.zdjecie_data_uri(url_zdjecia)
 
 
 # ------------------------------------------------------------------ przebieg
@@ -375,8 +362,6 @@ def main():
                 nowe_odrzucone[idm] = powod; continue
             klucz = klucz_zdjecia(nast, dane["nazwa"])
             e = wpis(dane, klucz)
-            if a.dopisz:
-                nowe_obrazy[klucz] = zdjecie_data_uri(dane["zdjecie"])
         except BrakDanych as x:
             tekst = str(x)
             pominiete.append((nazwa_listy, tekst))
@@ -385,7 +370,14 @@ def main():
                 nowe_odrzucone[idm] = tekst
             continue
         except Exception as x:
-            pominiete.append((nazwa_listy, f"błąd: {type(x).__name__}: {x}")); continue
+            pominiete.append((nazwa_listy, f"BŁĄD TECHNICZNY: {type(x).__name__}: {x}")); continue
+        if a.dopisz:
+            # Zdjęcie jest osobno: jego porażka to problem środowiska (sieć, Pillow), nie cecha produktu,
+            # więc NIGDY nie trafia do pamięci odrzuconych — produkt wróci przy następnym przebiegu.
+            try:
+                nowe_obrazy[klucz] = zdjecie_data_uri(dane["zdjecie"])
+            except Exception as x:
+                pominiete.append((nazwa_listy, f"BŁĄD TECHNICZNY (zdjęcie): {type(x).__name__}: {x}")); continue
         nowe.append(e)
         nast += 1
 
@@ -400,6 +392,10 @@ def main():
         powody[k] = powody.get(k, 0) + 1
     for p, n in sorted(powody.items(), key=lambda x: -x[1])[:12]:
         print(f"   {n:3d}× {p}")
+    techniczne = [p for _, p in pominiete if p.startswith("BŁĄD TECHNICZNY")]
+    if techniczne:
+        print(f"\n!!! UWAGA: {len(techniczne)} BŁĘDÓW TECHNICZNYCH (nie braków danych) — dopisywanie jest "
+              f"niepełne; to AWARIA do zgłoszenia: {techniczne[0][:150]}")
 
     if a.na_sucho or not nowe:
         if a.dopisz and nowe_odrzucone:
