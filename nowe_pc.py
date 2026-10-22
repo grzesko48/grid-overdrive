@@ -294,8 +294,8 @@ def zdjecie_data_uri(url_zdjecia):
         im = im.convert("RGBA"); tlo.paste(im, mask=im.split()[-1]); im = tlo
     else:
         im = im.convert("RGB")
-    im.thumbnail((520, 520))
-    b = io.BytesIO(); im.save(b, "JPEG", quality=80, optimize=True)
+    im.thumbnail((480, 480))
+    b = io.BytesIO(); im.save(b, "JPEG", quality=74, optimize=True, progressive=True)
     return "data:image/jpeg;base64," + base64.b64encode(b.getvalue()).decode()
 
 
