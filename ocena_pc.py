@@ -84,10 +84,13 @@ def klasa_cpu(cpu):
         return 5
     if re.search(r"\b270k\b", c):
         return 6
+    # „ryzen 9" / „i9" bez dokładniejszej reguły = klasa 6 (zachowawczo: więcej rdzeni niż Ryzen 7 / i7,
+    # ale bez pamięci 3D V-Cache i bez przewagi Ultra 9; dopisane 22.10.2026, żeby automat nie odrzucał
+    # takich zestawów — wcześniej każdy zestaw z Ryzen 9 był pomijany jako „procesor bez reguły klasy").
     for fragment, klasa in (("ultra 9", 7), ("ultra 7 2", 7), ("ryzen 7 9700x", 6),
                             ("8745hx", 6), ("ultra 7", 6), ("7800x3d", 6), ("9800x3d", 6),
                             ("7500x3d", 6), ("9600x", 5), ("9500f", 5), ("ultra 5", 5),
-                            ("ryzen 7", 5), ("i7", 5), ("7500f", 4), ("8400f", 4),
+                            ("ryzen 9", 6), ("i9", 6), ("ryzen 7", 5), ("i7", 5), ("7500f", 4), ("8400f", 4),
                             ("ryzen 5", 4), ("i5", 4)):
         if fragment in c:
             return klasa
