@@ -96,6 +96,24 @@ def podmien_cene_sklepu(seg, sklep, wartosc):
     return seg[:m.start(1)] + tresc + seg[m.end(1):], 1
 
 
+def doplata_ram(adresy, sklep, url):
+    """Aktualna dopłata sklepu za rozbudowę do 32GB (z konfiguratora strony produktu) albo
+    None, gdy dziś jej nie znamy. 66 wariantów „32GB RAM" trzymało dopłatę z dnia dodania
+    (+899 zł) przez miesiąc, gdy sklep żądał już +1199 zł — wszystkie były o 300 zł za tanie."""
+    w = adresy.get(f"{sklep}|{url}")
+    if not w or w.get("stan") != "ok":
+        return None
+    return next((v for k, v in (w.get("opcje") or {}).items() if re.match(r"^32\s*GB", k)), None)
+
+
+def odswiez_doplate_wariantu(seg, d):
+    """Przepisuje dopłatę tam, gdzie jest zapisana jako tekst: pole, etykieta i zaleta."""
+    nowy = re.sub(r"ramUpgradeCost:\d+", f"ramUpgradeCost:{d}", seg, count=1)
+    nowy = re.sub(r'(customLabel:"\+ RAM 32GB \(\+)\d+( zł\)")', rf"\g<1>{d}\g<2>", nowy, count=1)
+    nowy = re.sub(r"(RAM podniesiony do 32GB za dopłatą )\d+( zł)", rf"\g<1>{d}\g<2>", nowy, count=1)
+    return nowy, nowy != seg
+
+
 def ustaw_flage(seg, pole, wlacz):
     """Dopisuje albo zdejmuje flage typu `ukryty:1`. Zdejmowanie jest tak samo wazne jak
     dopisywanie: pozycja ma wrocic na strone sama, gdy towar wroci do sprzedazy."""
@@ -185,8 +203,10 @@ def kontrola_zgodnosci(poz, wynik, adresy, odrzucone, baza_dla):
                     bledy.append(f"{st['name'][:50]} [{sklep}]: zapisano {cena}, sklep podał {w['cena']}")
             else:
                 nb = nowe[idx[id(baza)]]
-                stara_dopl = st["prices"].get(sklep, 0) - baza["prices"].get(sklep, 0)
-                if cena - nb["prices"].get(sklep, 0) != stara_dopl and cena != st["prices"].get(sklep):
+                d_opcji = doplata_ram(adresy, sklep, u)
+                stara_dopl = (d_opcji if d_opcji is not None
+                              else st["prices"].get(sklep, 0) - baza["prices"].get(sklep, 0))
+                if cena - nb["prices"].get(sklep, 0) != stara_dopl:
                     bledy.append(f"{st['name'][:50]} [{sklep}]: dopłata wariantu się zmieniła")
     return bledy
 
@@ -233,7 +253,7 @@ def main():
                     baza_dla[x["start"]] = bazy[0]
 
     zmiany, do_przejrzenia, dostepnosc, bez_bazy, inny_produkt = [], [], [], [], []
-    sprzedawcy_zmiany = []
+    sprzedawcy_zmiany, doplaty_ram = [], []
     ukryte, przywrocone, doplaty_os, pros_cen_zsynchronizowane = [], [], [], []
 
     # Cena systemu przestaje byc zamrozona stala. Byla nia i sie zestarzala: sklep podniosl
@@ -306,7 +326,10 @@ def main():
                     # wariant o kilkaset złotych — po cichu. Lepiej zostawić starą cenę.
                     bez_bazy.append(p["name"])
                     continue
-                nowa = nowa + (p["priceBare"] - b["priceBare"])
+                d_opcji = doplata_ram(adresy, sklep, p["urls"][sklep])
+                nowa = nowa + (d_opcji if d_opcji is not None
+                               else p["priceBare"] - b["priceBare"])
+                p["_doplata_ram"] = d_opcji
             if not ta_sama_rzecz(p["name"], w_nazwa.get(f"{sklep}|{p['urls'][sklep]}", ""),
                                  url=p["urls"][sklep]):
                 inny_produkt.append({"nazwa": p["name"], "sklep": sklep,
@@ -349,6 +372,10 @@ def main():
             seg, n = ustaw_sprzedawcow(seg, obecni, cudz)
             if n:
                 sprzedawcy_zmiany.append({"nazwa": p["name"], "sprzedawcy": obecni})
+        if p.get("_doplata_ram") is not None and "(custom:" in p["name"]:
+            seg, zm_d = odswiez_doplate_wariantu(seg, p["_doplata_ram"])
+            if zm_d:
+                doplaty_ram.append({"nazwa": p["name"], "doplata": p["_doplata_ram"]})
         stare_sold = set(p["soldout"])
         if p["_niedostepne"] != stare_sold and (p["_nowe"] or p["_niedostepne"]):
             seg, n = ustaw_soldout(seg, p["_niedostepne"], cudz)
@@ -390,6 +417,13 @@ def main():
                 if n and stara_fraza and stara_fraza.group(1) != mprice.group(1):
                     pros_cen_zsynchronizowane.append({"nazwa": p["name"],
                         "bylo": stara_fraza.group(1), "jest": mprice.group(1)})
+            # Ta sama usterka w notatce o systemie: „Cena bazowa (bez systemu): 5049 zl" stała
+            # przy priceBare 5549 (notatka zamarzła przy pierwszym zapisie). Pole nie jest
+            # pokazywane przy zwykłych zestawach, ale czyta je karta zestawu z nieznanym
+            # systemem — a dane, które sobie przeczą, nie mają prawa leżeć w pliku.
+            mb = re.search(r"(?<![A-Za-z])priceBare:(\d+)", seg)
+            if mb:
+                seg = re.sub(r"(Cena bazowa \(bez systemu\): )\d+( zl)", rf"\g<1>{mb.group(1)}\g<2>", seg, count=1)
         nowy_dok.append(seg)
     nowy_dok.append(sz[koniec_poprz:])
     wynik = "".join(nowy_dok)
@@ -449,6 +483,7 @@ def main():
         "zmiany": zmiany,
         "pros_cen_zsynchronizowane": pros_cen_zsynchronizowane,
         "zmiany_sprzedawcow": sprzedawcy_zmiany,
+        "doplaty_ram_wariantow": doplaty_ram,
         "wg_sklepu": {k: {"ok": v[0], "adresow": v[1]} for k, v in sorted(wg_sklepu.items())},
     }
 
@@ -477,6 +512,9 @@ def main():
     print(f"do przejrzenia (powyżej {int(a.prog*100)}%): {len(do_przejrzenia)}")
     if bez_bazy:
         print(f"warianty bez zestawu bazowego (pominięte): {len(bez_bazy)}")
+    if doplaty_ram:
+        print(f"dopłata za RAM w wariantach custom odświeżona z konfiguratora: {len(doplaty_ram)} "
+              f"(teraz +{sorted({d['doplata'] for d in doplaty_ram})} zł)")
     if sprzedawcy_zmiany:
         print(f"sprzedawcy zewnętrzni (marketplace): {len(sprzedawcy_zmiany)} zmian")
     stare = [k for k, v in sorted(weryf.items()) if v < iso]

@@ -18,6 +18,7 @@ Dobrane tak, żeby dzisiejszy rynek mieścił się z zapasem po obu stronach:
 """
 import argparse, json, os, re, subprocess, sys
 from fractions import Fraction
+import ocena_pc
 
 BAZA = os.path.dirname(os.path.abspath(__file__))
 SZABLON = os.path.join(BAZA, "monitors_1700_template.html")
@@ -90,6 +91,7 @@ def main():
     nowy, koniec, zmiany, bledy = [], 0, [], []
     kontrola = {"monitor": [], "pc": []}
     kontrola_dlugowiecznosc = []
+    bez_kodu, zmiany_lat = [], []
 
     for i, (start, rodzaj) in enumerate(punkty):
         stop = punkty[i + 1][0] if i + 1 < len(punkty) else len(sz)
@@ -113,12 +115,30 @@ def main():
                 nowy.append(seg); continue
             podstawa = cena / int(hz.group(1))
         else:
-            if not s.get("perf"):
+            # Moc, podzespoły i kompletność liczy teraz KOD (ocena_pc.py), a nie liczby
+            # wpisane w szablonie. Zestaw, którego nie da się policzyć (karta bez podanej
+            # pamięci, nieznany procesor), zostaje przy zapisanych wartościach i trafia
+            # do raportu — brak danych nie zamienia się w wartość domyślną.
+            spec_pc = None
+            def pole(n, seg=seg):
+                m = re.search(rf'(?<![A-Za-z]){n}:"([^"]*)"', seg)
+                return m.group(1) if m else ""
+            mp = re.search(r"prices:\{([^}]*)\}", seg)
+            nsk = len(re.findall(r"\w+:\d+", mp.group(1))) if mp else 0
+            try:
+                spec_pc = ocena_pc.oceny(pole("cpu"), pole("gpu"), pole("ram"), pole("storage"),
+                                         pole("psu"), pole("os"), nsk)
+            except ocena_pc.BrakDanych as x:
+                bez_kodu.append(f"{nazwa}: {x}")
+            perf_nowy = spec_pc["perf"] if spec_pc else s.get("perf")
+            if not perf_nowy:
                 bledy.append(f"{nazwa}: perf = 0 lub brak — nie liczę opłacalności")
                 nowy.append(seg); continue
-            podstawa = cena / s["perf"]
+            podstawa = cena / perf_nowy
 
-        nowe = dict(s)
+        nowe = dict(s)          # s = wartości ZAPISANE; różnice liczymy względem nich
+        if rodzaj == "pc" and spec_pc:
+            nowe.update({k: spec_pc[k] for k in ("perf", "components", "features")})
         nowe["value"] = ocena_wartosci(podstawa, rodzaj)
 
         # `longevity` MUSI się policzyć PRZED sumami ważonymi niżej — inaczej `ultra`
@@ -126,6 +146,12 @@ def main():
         # 3 sprowadzałby się do przeliczenia samego pola bez wpływu na resztę.
         lata_tekst = None
         if rodzaj == "pc":
+            if spec_pc:
+                seg_lat = re.sub(r"longevityYears:[\d.]+",
+                                 f"longevityYears:{spec_pc['longevityYears']}", seg, count=1)
+                if seg_lat != seg:
+                    zmiany_lat.append(nazwa)
+                    seg = seg_lat
             ly = re.search(r"longevityYears:([\d.]+)", seg)
             if not ly:
                 bledy.append(f"{nazwa}: brak pola longevityYears — nie liczę longevity")
@@ -189,6 +215,12 @@ def main():
                 n += 1
     inwersje["longevity"] = n
 
+    if bez_kodu:
+        print(f"pozycje, których kod nie umie ocenić (zostają przy zapisanych wartościach): {len(bez_kodu)}")
+        for x in bez_kodu[:6]:
+            print("   ", x[:120])
+    if zmiany_lat:
+        print(f"zmienione lata długowieczności: {len(zmiany_lat)}")
     print(f"pozycji przeliczonych : {len(zmiany)}")
     for r in ("monitor", "pc"):
         z = [x for x in zmiany if x["rodzaj"] == r]

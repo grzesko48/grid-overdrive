@@ -37,7 +37,8 @@ adresy, oczekiwane = {}, {}
 for n, p in enumerate(nie_custom):
     u = p["urls"]["hardpc"]
     cena = p["prices"]["hardpc"] + 100 * (n + 1)          # inna zmiana dla każdego adresu
-    adresy[f"hardpc|{u}"] = {"stan": "ok", "cena": cena, "nazwa": p["name"], "niedostepny": False}
+    adresy[f"hardpc|{u}"] = {"stan": "ok", "cena": cena, "nazwa": p["name"], "niedostepny": False,
+                             "opcje": {"32GB": 1199}}     # sklep żąda dziś +1199 zł (było +899)
     oczekiwane[p["name"]] = cena
 tmp = tempfile.mkdtemp()
 pl_szablon, pl_zeb = os.path.join(tmp, "t.html"), os.path.join(tmp, "z.json")
@@ -68,13 +69,19 @@ for p in customy:   # wariant custom zachowuje dopłatę względem bazy
     if len(baza) == 1:
         b = baza[0]
         ma = wyn[p["name"]]["prices"]["hardpc"] - wyn[b["name"]]["prices"]["hardpc"]
-        bylo = p["prices"]["hardpc"] - b["prices"]["hardpc"]
-        if ma != bylo:
-            bledy.append(f"custom {p['name'][-30:]}: dopłata {ma}, była {bylo}")
+        if ma != 1199:
+            bledy.append(f"custom {p['name'][-30:]}: dopłata {ma}, sklep żąda dziś 1199")
+        # etykieta, pole i zaleta mają mówić to samo co cena
+        seg = zapisany["wynik"]
+        i = seg.index(p["name"]); fr = seg[i: i + 4000]
+        for wz in (r"ramUpgradeCost:1199", r"customLabel:\"\+ RAM 32GB \(\+1199 zł\)\"",
+                   r"RAM podniesiony do 32GB za dopłatą 1199 zł"):
+            if not re.search(wz, fr):
+                bledy.append(f"custom {p['name'][-30:]}: brak '{wz}' w wpisie po odświeżeniu dopłaty")
 if "BRAMKA ZGODNOŚCI NIE PRZESZŁA" in bufor.getvalue():
     bledy.append("bramka zgodności odrzuciła poprawny wynik")
 print(f"obudowa współdzielona przez {len(wybrana)} wpisów; sprawdzono {len(oczekiwane)} zestawów "
       f"+ {len(customy)} wariantów custom")
 if bledy:
     print("TEST NIE PRZESZEDŁ:"); [print("  ", b) for b in bledy]; sys.exit(1)
-print("TEST ZALICZONY: każdy zestaw ma własną cenę, warianty custom zachowały dopłatę")
+print("TEST ZALICZONY: każdy zestaw ma własną cenę, warianty custom dostały aktualną dopłatę sklepu")
