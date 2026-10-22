@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 4,
+ "przeliczonych": 2,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,46 +20,24 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
+   "nazwa": "Acer X27UF5bmiippruzx",
    "rodzaj": "monitor",
-   "podstawa": 8.92,
+   "podstawa": 6.86,
    "zmiany": {
     "value": [
-     39,
-     34
+     60,
+     57
     ]
    }
   },
   {
-   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "nazwa": "LG UltraGear OLED 27GS93QE-B",
    "rodzaj": "monitor",
-   "podstawa": 4.57,
+   "podstawa": 10.66,
    "zmiany": {
     "value": [
-     82,
-     83
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX271QZ",
-   "rodzaj": "monitor",
-   "podstawa": 6.92,
-   "zmiany": {
-    "value": [
-     57,
-     56
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 6.73,
-   "zmiany": {
-    "value": [
-     58,
-     59
+     17,
+     15
     ]
    }
   }

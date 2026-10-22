@@ -1,7 +1,7 @@
 {
  "data": "22 października 2026",
  "pobrano": {
-  "ok": 434,
+  "ok": 437,
   "brak_ceny": 0,
   "wycofany": 6,
   "zablokowane": 0,
@@ -9,11 +9,27 @@
   "blad": 82
  },
  "pokrycie_proc": 83,
- "zmian_cen": 4,
+ "zmian_cen": 2,
  "do_przejrzenia": [],
- "zmiany_dostepnosci": [],
+ "zmiany_dostepnosci": [
+  {
+   "nazwa": "LG UltraGear OLED 27GS93QE-B",
+   "bylo": [],
+   "jest": [
+    "morele"
+   ]
+  }
+ ],
  "doplaty_systemu": [],
- "ukryte": [],
+ "ukryte": [
+  {
+   "nazwa": "LG UltraGear OLED 27GS93QE-B",
+   "rodzaj": "monitor",
+   "sklepy": [
+    "morele"
+   ]
+  }
+ ],
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
@@ -55,40 +71,22 @@
  ],
  "zmiany": [
   {
-   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
+   "nazwa": "Acer X27UF5bmiippruzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2045,
-   "nowa": 2140,
-   "roznica": 95,
-   "naglowek": 2140
+   "stara": 3293,
+   "nowa": 3428,
+   "roznica": 135,
+   "naglowek": 3428
   },
   {
-   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "nazwa": "LG UltraGear OLED 27GS93QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1168,
-   "nowa": 1166,
-   "roznica": -2,
-   "naglowek": 1166
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX271QZ",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 3429,
-   "nowa": 3460,
-   "roznica": 31,
-   "naglowek": 3460
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2436,
-   "nowa": 2424,
-   "roznica": -12,
-   "naglowek": 2424
+   "stara": 2519,
+   "nowa": 2559,
+   "roznica": 40,
+   "naglowek": 2559
   }
  ],
  "pros_cen_zsynchronizowane": [],
@@ -100,8 +98,8 @@
    "adresow": 3
   },
   "hardpc": {
-   "ok": 266,
-   "adresow": 266
+   "ok": 267,
+   "adresow": 267
   },
   "mediaexpert": {
    "ok": 0,
@@ -112,8 +110,8 @@
    "adresow": 34
   },
   "morele": {
-   "ok": 101,
-   "adresow": 101
+   "ok": 103,
+   "adresow": 103
   },
   "plugnplay": {
    "ok": 36,
