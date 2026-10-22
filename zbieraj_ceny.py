@@ -66,7 +66,7 @@ def wczytaj(sz):
     MediaMarkt dostawal w ten sposob cudze soldout:["mediamarkt"]. Sciezka zapisu byla
     bezpieczna (granice() liczy ja poprawnie), ale odczyt klamal.
     """
-    wzory = [("monitor", r"\{img:'(\d\d_[^']+)', name:'([^']+)'", "'"),
+    wzory = [("monitor", r"\{img:'(\d{2,}_[^']+)', name:'([^']+)'", "'"),
              ("pc", r'\{img:"(p[^"]*)", name:"([^"]*)"', '"')]
     trafienia = []
     for rodzaj, wzor, cudz in wzory:

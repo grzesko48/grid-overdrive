@@ -11,12 +11,28 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 0,
+ "przeliczonych": 1,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "podstawa": 6.45,
+   "zmiany": {
+    "value": [
+     57,
+     62
+    ],
+    "overall": [
+     63,
+     64
+    ]
+   }
+  }
+ ]
 }

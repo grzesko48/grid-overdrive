@@ -22,7 +22,7 @@ KUBELKI = [(0, "bez zmiany"), (1, "1 punkt"), (2, "2 punkty"), (3, "3 punkty"),
 
 def stan(tresc):
     pkt = [(m.start(), "pc") for m in re.finditer(r'\{img:"p[^"]*", name:"', tresc)]
-    pkt += [(m.start(), "monitor") for m in re.finditer(r"\{img:'\d\d_[^']+', name:'", tresc)]
+    pkt += [(m.start(), "monitor") for m in re.finditer(r"\{img:'\d{2,}_[^']+', name:'", tresc)]
     pkt.sort()
     out = {}
     for i, (a, rodzaj) in enumerate(pkt):

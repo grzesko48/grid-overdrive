@@ -76,7 +76,7 @@ def _pokrycie(a, b):
 
 def granice(sz):
     """Początek każdego wpisu DATA[]/PDATA[] — wpis kończy się tam, gdzie zaczyna następny."""
-    p = [m.start() for m in re.finditer(r"\{img:'\d\d_[^']+', name:'", sz)]
+    p = [m.start() for m in re.finditer(r"\{img:'\d{2,}_[^']+', name:'", sz)]
     p += [m.start() for m in re.finditer(r'\{img:"p[^"]*", name:"', sz)]
     return sorted(p)
 

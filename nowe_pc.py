@@ -31,6 +31,8 @@ UA = z.UA if hasattr(z, "UA") else "Mozilla/5.0"
 
 CENA_OD_BEZ_SYSTEMU = 5000
 SUFIT_Z_WINDOWS = 10000
+# Artefakt w aplikacji Claude ma twardy limit 16 MB; zdjęcia w base64 to prawie cały rozmiar.
+BUDZET_BAJTOW = 15_300_000
 OPCJA_WINDOWS = re.compile(r"^Windows 11 Home", re.I)
 
 
@@ -313,6 +315,7 @@ def main():
     widoczne = [p["price"] for p in poz if p["rodzaj"] == "pc" and not p["ukryty"]]
     najnizsza = min(widoczne) if widoczne else None
     obrazy = json.load(open(OBRAZY_PC, encoding="utf-8"))
+    rozmiar = os.path.getsize(os.path.join(BAZA, "index.html"))
 
     print("pobieram katalog Hard-PC…", file=sys.stderr)
     kat = sk.katalog()
@@ -342,6 +345,8 @@ def main():
         if dodane_baz >= a.limit:
             pominiete.append((k["nazwa"], "limit przebiegu — dopisane w następnym"))
             continue
+        if rozmiar + sum(len(v) for v in nowe_obrazy.values()) > BUDZET_BAJTOW:
+            pominiete.append((k["nazwa"], "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany")); continue
         kod, s = z.pobierz(k["url"])
         if kod != 200:
             pominiete.append((k["nazwa"], f"HTTP {kod}")); continue

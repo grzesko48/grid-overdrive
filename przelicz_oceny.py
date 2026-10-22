@@ -74,7 +74,7 @@ def ocena_dlugowiecznosci(lata_tekst):
 
 
 def granice(sz):
-    t = [(m.start(), "monitor") for m in re.finditer(r"\{img:'\d\d_[^']+', name:'", sz)]
+    t = [(m.start(), "monitor") for m in re.finditer(r"\{img:'\d{2,}_[^']+', name:'", sz)]
     t += [(m.start(), "pc") for m in re.finditer(r'\{img:"p[^"]*", name:"', sz)]
     return sorted(t)
 
