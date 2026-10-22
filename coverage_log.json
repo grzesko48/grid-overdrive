@@ -96,5 +96,200 @@
   },
   "pokrycie_proc": 88,
   "zmian_cen": 0
+ },
+ {
+  "data": "19 września 2026",
+  "pobrano": {
+   "ok": 316,
+   "brak_ceny": 16,
+   "wycofany": 10,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 75,
+  "zmian_cen": 39
+ },
+ {
+  "data": "21 września 2026",
+  "pobrano": {
+   "ok": 316,
+   "brak_ceny": 16,
+   "wycofany": 10,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 75,
+  "zmian_cen": 7
+ },
+ {
+  "data": "24 września 2026",
+  "pobrano": {
+   "ok": 316,
+   "brak_ceny": 13,
+   "wycofany": 13,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 75,
+  "zmian_cen": 133
+ },
+ {
+  "data": "27 września 2026",
+  "pobrano": {
+   "ok": 314,
+   "brak_ceny": 14,
+   "wycofany": 14,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 41
+ },
+ {
+  "data": "29 września 2026",
+  "pobrano": {
+   "ok": 314,
+   "brak_ceny": 17,
+   "wycofany": 11,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 36
+ },
+ {
+  "data": "1 października 2026",
+  "pobrano": {
+   "ok": 313,
+   "brak_ceny": 17,
+   "wycofany": 12,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 21
+ },
+ {
+  "data": "3 października 2026",
+  "pobrano": {
+   "ok": 313,
+   "brak_ceny": 15,
+   "wycofany": 14,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 94
+ },
+ {
+  "data": "5 października 2026",
+  "pobrano": {
+   "ok": 312,
+   "brak_ceny": 14,
+   "wycofany": 16,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 63
+ },
+ {
+  "data": "9 października 2026",
+  "pobrano": {
+   "ok": 312,
+   "brak_ceny": 16,
+   "wycofany": 14,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 97
+ },
+ {
+  "data": "11 października 2026",
+  "pobrano": {
+   "ok": 314,
+   "brak_ceny": 21,
+   "wycofany": 7,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 13
+ },
+ {
+  "data": "13 października 2026",
+  "pobrano": {
+   "ok": 314,
+   "brak_ceny": 21,
+   "wycofany": 7,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 305
+ },
+ {
+  "data": "15 października 2026",
+  "pobrano": {
+   "ok": 315,
+   "brak_ceny": 20,
+   "wycofany": 7,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 38
+ },
+ {
+  "data": "17 października 2026",
+  "pobrano": {
+   "ok": 315,
+   "brak_ceny": 20,
+   "wycofany": 7,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 207
+ },
+ {
+  "data": "19 października 2026",
+  "pobrano": {
+   "ok": 315,
+   "brak_ceny": 20,
+   "wycofany": 7,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 16
+ },
+ {
+  "data": "21 października 2026",
+  "pobrano": {
+   "ok": 315,
+   "brak_ceny": 20,
+   "wycofany": 7,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 82
+  },
+  "pokrycie_proc": 74,
+  "zmian_cen": 156
  }
 ]
