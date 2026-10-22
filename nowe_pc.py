@@ -184,7 +184,9 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
                  "longevityYears": sc["longevityYears"]}
         zestaw = {"cpu": cpu, "gpu": gpu, "ram": ram_, "storage": dysk, "psu": psu,
                   "os": "Windows 11 Home", "price": cena, "liczba_sklepow": 1,
-                  "dopłata_ram": (opcje_ram if ram_gb == 16 and not custom else None)}
+                  # tekst wady o RAM bez kwoty: kwota dopłaty zmienia się w sklepie, a tekst
+                  # zamarzałby na starej (tak się stało z 66 wariantami)
+                  "dopłata_ram": None}
         zal, wad = ocena_pc.zalety_wady(zestaw, wynik, custom, ceny_min_istniejace)
         scores = _sumy(sc, value, wynik["longevity"])
         return {
