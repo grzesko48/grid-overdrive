@@ -1,15 +1,15 @@
 {
  "data": "22 października 2026",
  "pobrano": {
-  "ok": 494,
+  "ok": 437,
   "brak_ceny": 0,
   "wycofany": 6,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 25
+  "blad": 82
  },
- "pokrycie_proc": 94,
- "zmian_cen": 4,
+ "pokrycie_proc": 83,
+ "zmian_cen": 0,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
@@ -53,42 +53,7 @@
    "na_stronie": "Komputer RTX 5060 Ti / AMD AM5 / 32GB DDR5 / 1TB BIAŁY"
   }
  ],
- "zmiany": [
-  {
-   "nazwa": "AOC Q27G4ZDR",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2361,
-   "nowa": 2407,
-   "roznica": 46
-  },
-  {
-   "nazwa": "MSI MAG 271QP QD-OLED X24",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1981,
-   "nowa": 1974,
-   "roznica": -7,
-   "naglowek": 1974
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1649,
-   "nowa": 1549,
-   "roznica": -100,
-   "naglowek": 1549
-  },
-  {
-   "nazwa": "Philips Evnia 27M2N6501L/00",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2148,
-   "nowa": 2189,
-   "roznica": 41
-  }
- ],
+ "zmiany": [],
  "pros_cen_zsynchronizowane": [],
  "zmiany_sprzedawcow": [],
  "doplaty_ram_wariantow": [],
@@ -122,7 +87,7 @@
    "adresow": 6
   },
   "xkom": {
-   "ok": 57,
+   "ok": 0,
    "adresow": 57
   }
  }
