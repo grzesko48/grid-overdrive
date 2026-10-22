@@ -86,6 +86,11 @@ def wczytaj(sz):
         sold = re.search(r"soldout:\[([^\]]*)\]", seg)
         pb = re.search(r"priceBare:(\d+)", seg)
         poz.append({
+            # `start` to jedyny klucz, który jednoznacznie wskazuje wpis. Klucz zdjęcia (`img`)
+            # NIE jest unikalny: jedna obudowa to jedno zdjęcie, więc 290 z 360 zestawów dzieli
+            # go z innym wpisem. Słownik po `img` oddawał każdemu segmentowi dane OSTATNIEGO
+            # wpisu z tą obudową — i tak cena jednego zestawu trafiła do wszystkich Hunter 2.
+            "start": start,
             "rodzaj": rodzaj, "img": img, "name": nazwa,
             "price": int(mc.group(1)),
             "priceBare": int(pb.group(1)) if pb else None,
@@ -283,11 +288,54 @@ def z_mediamarkt(s):
     Ten rozróżnik jest jedynym pewnym — bez niego łapaliśmy 23 zł za ubezpieczenie."""
     m = re.search(r'"offers"\s*:\s*\{(?:(?!"name")[^{}])*?"price"\s*:\s*"?([\d.,]+)', s)
     if not m:
+        for o in oferty_tablicowe(s) or []:
+            c = _liczba(o.get("price")) if isinstance(o, dict) and "name" not in o else None
+            if c:
+                return c, str(o.get("availability", ""))
         return None, ""
-    cena = _liczba(m.group(1))
+    # grupa `[\d.,]+` zjada też przecinek JSON-a po liczbie: „7549.99," nie jest liczbą
+    # i każda cena z groszami (.99) kończyła się jako „brak_ceny" — NITROPC na MediaMarkt.
+    cena = _liczba(m.group(1).strip(".,"))
     blok = s[m.start():m.start() + 600]
     dost = re.search(r'"availability"\s*:\s*"([^"]+)"', blok)
     return cena, dost.group(1) if dost else ""
+
+
+def oferty_tablicowe(s):
+    """MediaMarkt, gdy towaru nie sprzedaje sam, pokazuje ofertę zewnętrznego sprzedawcy
+    z marketplace jako TABLICĘ `"offers":[{"price":2811,"seller":{"name":"Deluxury"}}]`.
+    Wcześniej parser znał tylko formę obiektu, więc 22 z 34 adresów MediaMarkt co przebieg
+    kończyło się „brak_ceny", a strona miesiącami pokazywała ceny sprzed kilku tygodni
+    (do 25% niższe od bieżących). Ubezpieczenia i dodatki w tej samej tablicy mają pole
+    `name` — ofertę towaru rozpoznajemy po jego braku, jak w z_mediamarkt()."""
+    i = s.find('"offers":[')
+    if i < 0:
+        return None
+    i += len('"offers":') 
+    gl = 0
+    for j in range(i, min(len(s), i + 20000)):
+        if s[j] == "[":
+            gl += 1
+        elif s[j] == "]":
+            gl -= 1
+            if gl == 0:
+                try:
+                    return json.loads(s[i:j + 1])
+                except Exception:
+                    return None
+    return None
+
+
+def sprzedawca_mediamarkt(s):
+    """Nazwa zewnętrznego sprzedawcy, gdy oferta pochodzi z marketplace; None, gdy
+    towar sprzedaje MediaMarkt sam (forma obiektu) albo gdy nie umiemy tego ustalić."""
+    if re.search(r'"offers"\s*:\s*\{', s):
+        return None
+    for o in oferty_tablicowe(s) or []:
+        if isinstance(o, dict) and "name" not in o and _liczba(o.get("price")):
+            sp = o.get("seller")
+            return sp.get("name") if isinstance(sp, dict) else None
+    return None
 
 
 def wyciagnij(sklep, url, s):
@@ -350,7 +398,8 @@ def bez_oferty(s):
     informacje: pierwsza jest DANĄ o produkcie, druga LUKĄ w naszym narzędziu.
     Wymagamy obu przesłanek naraz, żeby nie uznać za wycofany produktu, którego cenę
     po prostu nie umiemy odczytać."""
-    return '"offers"' not in s and any(w in s for w in SLOWA_BRAKU)
+    pusta = bool(re.search(r'"offers"\s*:\s*\[\s*\]', s))
+    return ('"offers"' not in s or pusta) and any(w in s for w in SLOWA_BRAKU)
 
 # ---------------------------------------------------------------- przebieg
 
@@ -410,6 +459,7 @@ def main():
                 return klucz, {"stan": "wycofany", "kod": kod, "niedostepny": True}
             return klucz, {"stan": "brak_ceny", "kod": kod}
         wynik = {"stan": "ok", "cena": cena, "nazwa": nazwa_ze_strony(s),
+                 "sprzedawca": sprzedawca_mediamarkt(s) if "mediamarkt.pl" in u else None,
                  "niedostepny": any(x in dost for x in NIEDOSTEPNE),
                  "dostepnosc": dost.split("/")[-1]}
         opcje = opcje_konfiguratora(s)

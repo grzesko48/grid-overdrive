@@ -33,16 +33,37 @@ def znaczniki(nazwa):
             if any(c.isdigit() for c in t)}
 
 
-def ta_sama_rzecz(nasza, ze_strony, prog=0.5):
+def znaczniki_adresu(url):
+    """Człony modelu z samego adresu (slug), bez numerycznych identyfikatorów sklepu."""
+    slug = re.sub(r"\.(html?|bhtml)$", "", (url or "").rstrip("/").rsplit("/", 1)[-1])
+    return {t for t in znaczniki(slug.replace("-", " ")) if not t.isdigit()}
+
+
+def ta_sama_rzecz(nasza, ze_strony, prog=0.5, url=None):
     """Czy adres nadal prowadzi do tego samego produktu. Brak nazwy ze strony nie
-    blokuje zapisu (część sklepów jej nie podaje) — blokuje dopiero rozjazd członów."""
+    blokuje zapisu (część sklepów jej nie podaje) — blokuje dopiero rozjazd członów.
+
+    Nasza nazwa bywa potoczna („Samsung Odyssey OLED G60SD"), a sklep podaje symbol
+    producenta („…G6 OLED (LS27DG602SUXEN)") — ten sam monitor, zero wspólnych członów,
+    więc strażnik blokował jego cenę przy KAŻDYM przebiegu przez miesiąc. Adres, pod
+    którym zestaw dodano, też identyfikuje model; gdyby sklep przepisał identyfikator na
+    inny SKU, zmieniłby się tytuł strony i ten test nadal by go odrzucił."""
     if not ze_strony:
         return True
+    b = znaczniki(ze_strony)
+    if url:
+        z_adresu = znaczniki_adresu(url)
+        if z_adresu and _pokrycie(z_adresu, b) >= prog:
+            return True
     a = znaczniki(nasza)
     if not a:
         return True
-    b = znaczniki(ze_strony)
 
+    return _pokrycie(a, b) >= prog
+
+
+def _pokrycie(a, b):
+    """Jaka część członów z `a` ma odpowiednik w `b`."""
     def pasuje(t):
         # Sklepy zapisują ten sam SKU różnie: „LS27FG602EUXEN" u nas, „S27FG602EUX" na
         # stronie. Zawieranie się członów łapie takie warianty, a nadal odrzuca produkt
@@ -50,7 +71,7 @@ def ta_sama_rzecz(nasza, ze_strony, prog=0.5):
         return any(t == x or (len(t) >= 5 and t in x) or (len(x) >= 5 and x in t)
                    for x in b)
 
-    return sum(1 for t in a if pasuje(t)) / len(a) >= prog
+    return sum(1 for t in a if pasuje(t)) / len(a) if a else 0
 
 
 def granice(sz):
@@ -89,6 +110,30 @@ def ustaw_flage(seg, pole, wlacz):
     return seg[:k.end()] + f", {pole}:1" + seg[k.end():], 1
 
 
+def ustaw_sprzedawcow(seg, nowi, cudz):
+    """Zapisuje `sprzedawcy:{mediamarkt:'Deluxury'}` — kto naprawdę sprzedaje towar, gdy
+    sklep jest tylko pośrednikiem (marketplace). `nowi` to PEŁNY słownik po przebiegu:
+    sklep, którego dziś nie udało się sprawdzić, zachowuje poprzedni wpis (wywołujący
+    scala to z tym, co już jest). Pusty słownik zdejmuje pole."""
+    m = re.search(r",\s*sprzedawcy:\{[^}]*\}", seg)
+    if not nowi:
+        return (seg[:m.start()] + seg[m.end():], 1) if m else (seg, 0)
+    czesci = ",".join(f"{k}:{cudz}{v}{cudz}" for k, v in sorted(nowi.items()))
+    nowy = f", sprzedawcy:{{{czesci}}}"
+    if m:
+        return (seg, 0) if m.group(0).strip() == nowy.strip() else \
+               (seg[:m.start()] + nowy + seg[m.end():], 1)
+    k = re.search(r"(?<![A-Za-z])price:\d+", seg)
+    if not k:
+        return seg, 0
+    return seg[:k.end()] + nowy + seg[k.end():], 1
+
+
+def czysty_sprzedawca(nazwa):
+    """Nazwa sprzedawcy trafia do kodu strony — przepuszczamy tylko znaki bezpieczne."""
+    return re.sub(r"[^0-9A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ .&-]", "", nazwa or "").strip()[:40]
+
+
 def ustaw_soldout(seg, sklepy, cudz):
     """Dopisuje/zdejmuje soldout:[...]. Zdjęcie jest równie ważne jak dopisanie —
     inaczej plakietka „chwilowo niedostępne" wisiałaby po powrocie towaru."""
@@ -104,6 +149,46 @@ def ustaw_soldout(seg, sklepy, cudz):
     if not k:
         return seg, 0
     return seg[:k.end()] + nowy + seg[k.end():], 1
+
+
+def kontrola_zgodnosci(poz, wynik, adresy, odrzucone, baza_dla):
+    """BRAMKA: cena zapisana na stronie musi być ceną, którą sklep faktycznie podał.
+
+    Przez miesiąc 175 z 217 zestawów Hard-PC miało na żywej stronie cudzą cenę (mediana
+    błędu 1700 zł), a żaden test tego nie widział: strażnik 40% porównywał dwie liczby
+    z TEGO SAMEGO błędnego wpisu. Ta kontrola porównuje wynik z zewnętrznym faktem —
+    odpowiedzią sklepu — osobno dla każdego wpisu. Wariant custom ma zachować swoją
+    dopłatę względem zestawu bazowego. Rozbieżność przerywa przebieg PRZED zapisem."""
+    nowe = wczytaj(wynik)
+    if len(nowe) != len(poz):
+        return [f"liczba wpisów zmieniła się: {len(poz)} → {len(nowe)}"]
+    idx = {id(p): i for i, p in enumerate(poz)}
+    bledy = []
+    for i, (st, nw) in enumerate(zip(poz, nowe)):
+        if st["name"] != nw["name"]:
+            bledy.append(f"kolejność wpisów się zmieniła przy: {st['name'][:50]}")
+            continue
+        baza = baza_dla.get(st["start"])
+        for sklep, cena in nw["prices"].items():
+            u = nw["urls"].get(sklep)
+            w = adresy.get(f"{sklep}|{u}")
+            if (st["name"], sklep) in odrzucone:
+                if cena != st["prices"].get(sklep):
+                    bledy.append(f"{st['name'][:50]} [{sklep}]: zmieniono mimo odrzucenia")
+                continue
+            if not w or w["stan"] != "ok":
+                if cena != st["prices"].get(sklep):
+                    bledy.append(f"{st['name'][:50]} [{sklep}]: zmieniono bez odpowiedzi sklepu")
+                continue
+            if baza is None:
+                if cena != w["cena"] and cena != st["prices"].get(sklep):
+                    bledy.append(f"{st['name'][:50]} [{sklep}]: zapisano {cena}, sklep podał {w['cena']}")
+            else:
+                nb = nowe[idx[id(baza)]]
+                stara_dopl = st["prices"].get(sklep, 0) - baza["prices"].get(sklep, 0)
+                if cena - nb["prices"].get(sklep, 0) != stara_dopl and cena != st["prices"].get(sklep):
+                    bledy.append(f"{st['name'][:50]} [{sklep}]: dopłata wariantu się zmieniła")
+    return bledy
 
 
 def main():
@@ -131,7 +216,8 @@ def main():
     w_nazwa = {k: v.get("nazwa", "") for k, v in adresy.items()}
     sz = open(SZABLON, encoding="utf-8").read()
     poz = wczytaj(sz)
-    wg_img = {p["img"]: p for p in poz}
+    # Wpis wskazujemy POŁOŻENIEM w pliku, nigdy kluczem zdjęcia (patrz komentarz w wczytaj()).
+    wg_start = {p["start"]: p for p in poz}
 
     # bazy dla wariantów custom: ten sam adres Hard-PC, nazwa bez „(custom:"
     baza_dla = {}
@@ -144,9 +230,10 @@ def main():
         if len(bazy) == 1:
             for x in lista:
                 if x is not bazy[0]:
-                    baza_dla[x["img"]] = bazy[0]
+                    baza_dla[x["start"]] = bazy[0]
 
     zmiany, do_przejrzenia, dostepnosc, bez_bazy, inny_produkt = [], [], [], [], []
+    sprzedawcy_zmiany = []
     ukryte, przywrocone, doplaty_os, pros_cen_zsynchronizowane = [], [], [], []
 
     # Cena systemu przestaje byc zamrozona stala. Byla nia i sie zestarzala: sklep podniosl
@@ -180,6 +267,13 @@ def main():
                 niedostepne.add(sklep)
             nowe_ceny[sklep] = w["cena"]
         p["_nowe"], p["_niedostepne"] = nowe_ceny, niedostepne
+        # sprzedawca zewnętrzny: dla każdego sklepu, który dziś odpowiedział ceną, wiemy
+        # na pewno — albo jest nazwa (marketplace), albo None (sprzedaje sam sklep)
+        p["_sprzedawcy"] = {}
+        for sklep, u in p["urls"].items():
+            w = adresy.get(f"{sklep}|{u}")
+            if w and w["stan"] == "ok" and sklep in p["prices"]:
+                p["_sprzedawcy"][sklep] = czysty_sprzedawca(w.get("sprzedawca")) or None
         # Ukrywamy dopiero wtedy, gdy KAZDY sklep z cena jest potwierdzenie martwy.
         # Sklep, ktorego nie udalo sie sprawdzic (403, blokada), nie trafia do
         # `niedostepne`, wiec sam z siebie nigdy nie skasuje pozycji ze strony —
@@ -195,7 +289,7 @@ def main():
         koniec_poprz = stop
 
         img = re.search(r"\{img:['\"]([^'\"]+)['\"]", seg).group(1)
-        p = wg_img.get(img)
+        p = wg_start.get(start)
         if not p:
             nowy_dok.append(seg)
             continue
@@ -205,7 +299,7 @@ def main():
             stara = p["prices"].get(sklep)
             # wariant custom: pobrana cena dotyczy zestawu bazowego
             if "(custom:" in p["name"]:
-                b = baza_dla.get(img)
+                b = baza_dla.get(p["start"])
                 if b is None or p["priceBare"] is None or b["priceBare"] is None:
                     # Pobrana cena dotyczy zestawu BAZOWEGO. Bez jednoznacznej bazy nie
                     # da się policzyć dopłaty za pamięć, a zapisanie ceny bazy zaniżyłoby
@@ -213,7 +307,8 @@ def main():
                     bez_bazy.append(p["name"])
                     continue
                 nowa = nowa + (p["priceBare"] - b["priceBare"])
-            if not ta_sama_rzecz(p["name"], w_nazwa.get(f"{sklep}|{p['urls'][sklep]}", "")):
+            if not ta_sama_rzecz(p["name"], w_nazwa.get(f"{sklep}|{p['urls'][sklep]}", ""),
+                                 url=p["urls"][sklep]):
                 inny_produkt.append({"nazwa": p["name"], "sklep": sklep,
                                      "na_stronie": w_nazwa.get(f"{sklep}|{p['urls'][sklep]}", "")})
                 continue
@@ -243,6 +338,17 @@ def main():
                 wpis["naglowek"] = nowa
             zmiany.append(wpis)
 
+        if p["_sprzedawcy"]:
+            ms = re.search(r"sprzedawcy:\{([^}]*)\}", seg)
+            obecni = dict(re.findall(r"(\w+):['\"]([^'\"]*)['\"]", ms.group(1))) if ms else {}
+            for sklep, kto in p["_sprzedawcy"].items():
+                if kto:
+                    obecni[sklep] = kto
+                else:
+                    obecni.pop(sklep, None)
+            seg, n = ustaw_sprzedawcow(seg, obecni, cudz)
+            if n:
+                sprzedawcy_zmiany.append({"nazwa": p["name"], "sprzedawcy": obecni})
         stare_sold = set(p["soldout"])
         if p["_niedostepne"] != stare_sold and (p["_nowe"] or p["_niedostepne"]):
             seg, n = ustaw_soldout(seg, p["_niedostepne"], cudz)
@@ -292,6 +398,41 @@ def main():
         wynik = re.sub(r"var PRICE_CHECK_LABEL = '[^']*';",
                        f"var PRICE_CHECK_LABEL = '{a.data}';", wynik)
 
+    # Kiedy KAŻDY sklep był ostatnio naprawdę sprawdzony. Strona pokazuje to przy cenach
+    # sklepów, które odrzucają automat: x-kom, Media Expert i RTV stały na cenach z 18.09,
+    # a ogólna data „ostatnia weryfikacja" sugerowała, że wszystkie są świeże. Sklep
+    # uznajemy za sprawdzony dziś, gdy co najmniej połowa jego adresów dała odpowiedź
+    # (cena albo potwierdzone wycofanie); mniej to nie weryfikacja, tylko trafienie.
+    wg_sklepu = {}
+    for klucz, w in adresy.items():
+        sk = klucz.split("|")[0]
+        d = wg_sklepu.setdefault(sk, [0, 0])
+        d[1] += 1
+        d[0] += w["stan"] in ("ok", "wycofany")
+    iso = datetime.date.today().isoformat()
+    ms = re.search(r"var SHOP_VERIFIED = (\{[^;]*\});", wynik)
+    weryf = json.loads(ms.group(1)) if ms else {}
+    for sk, (ok_, wszystkie) in wg_sklepu.items():
+        if wszystkie and ok_ / wszystkie >= 0.5:
+            weryf[sk] = iso
+    if ms:
+        wynik = (wynik[:ms.start()] + "var SHOP_VERIFIED = " +
+                 json.dumps(weryf, sort_keys=True) + ";" + wynik[ms.end():])
+    wynik = re.sub(r"var PRICE_CHECK_ISO = '[^']*';", f"var PRICE_CHECK_ISO = '{iso}';", wynik)
+
+    odrzucone = ({(x["nazwa"], x["sklep"]) for x in do_przejrzenia} |
+                 {(x["nazwa"], x["sklep"]) for x in inny_produkt} |
+                 {(n, s) for n in bez_bazy for s in ("hardpc", "goblinpc", "plugnplay",
+                                                    "morele", "xkom", "mediamarkt")})
+    niezgodne = kontrola_zgodnosci(poz, wynik, adresy, odrzucone, baza_dla)
+    if niezgodne:
+        print(f"\nBRAMKA ZGODNOŚCI NIE PRZESZŁA — {len(niezgodne)} wpisów ma cenę inną niż podał sklep:")
+        for x in niezgodne[:15]:
+            print("   ", x)
+        print("nic nie zapisano; strona NIE zostanie opublikowana.")
+        sys.exit(2)
+    print("bramka zgodności: każda zapisana cena zgadza się z odpowiedzią sklepu")
+
     licz = zeb.get("pobrano", {})
     raport = {
         "data": a.data or datetime.date.today().isoformat(),
@@ -307,6 +448,8 @@ def main():
         "inny_produkt_pod_adresem": inny_produkt,
         "zmiany": zmiany,
         "pros_cen_zsynchronizowane": pros_cen_zsynchronizowane,
+        "zmiany_sprzedawcow": sprzedawcy_zmiany,
+        "wg_sklepu": {k: {"ok": v[0], "adresow": v[1]} for k, v in sorted(wg_sklepu.items())},
     }
 
     print(f"pokrycie   : {licz.get('ok',0)}/{sum(licz.values())} ({raport['pokrycie_proc']}%)")
@@ -334,6 +477,12 @@ def main():
     print(f"do przejrzenia (powyżej {int(a.prog*100)}%): {len(do_przejrzenia)}")
     if bez_bazy:
         print(f"warianty bez zestawu bazowego (pominięte): {len(bez_bazy)}")
+    if sprzedawcy_zmiany:
+        print(f"sprzedawcy zewnętrzni (marketplace): {len(sprzedawcy_zmiany)} zmian")
+    stare = [k for k, v in sorted(weryf.items()) if v < iso]
+    if stare:
+        print("sklepy bez dzisiejszej weryfikacji: " +
+              ", ".join(f"{k} (ostatnio {weryf[k]})" for k in stare))
     if inny_produkt:
         print(f"adres prowadzi do innego produktu (pominięte): {len(inny_produkt)}")
         for x in inny_produkt[:6]:
@@ -359,7 +508,7 @@ def main():
     if os.path.exists(plik):
         dziennik = json.load(open(plik, encoding="utf-8"))
     dziennik.append({k: raport[k] for k in ("data", "pobrano", "pokrycie_proc",
-                                            "zmian_cen")})
+                                            "zmian_cen", "wg_sklepu")})
     json.dump(dziennik, open(plik, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # Oceny MUSZA isc za cenami. Dotad automat zmienial ceny i nie ruszal ocen, wiec
     # skladnik „oplacalnosc" (zalezny od ceny) rozjezdzal sie z kazdym przebiegiem:
