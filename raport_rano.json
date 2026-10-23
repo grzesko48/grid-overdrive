@@ -1,20 +1,28 @@
 {
- "data": "22 października 2026",
+ "data": "23 października 2026",
  "pobrano": {
-  "ok": 494,
-  "brak_ceny": 0,
-  "wycofany": 6,
+  "ok": 438,
+  "brak_ceny": 1,
+  "wycofany": 5,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 25
+  "blad": 82
  },
- "pokrycie_proc": 94,
- "zmian_cen": 1,
+ "pokrycie_proc": 83,
+ "zmian_cen": 14,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
  "ukryte": [],
- "przywrocone": [],
+ "przywrocone": [
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 7700 XT 12GB, 32GB DDR5, 2TB SSD, 850W, Ventum 200 Solid",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  }
+ ],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
   {
@@ -55,13 +63,128 @@
  ],
  "zmiany": [
   {
+   "nazwa": "Asus TUF Gaming VG27AQML5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1217,
+   "nowa": 1213,
+   "roznica": -4,
+   "naglowek": 1213
+  },
+  {
    "nazwa": "MSI MAG 271QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1974,
-   "nowa": 1968,
+   "stara": 1968,
+   "nowa": 1962,
    "roznica": -6,
-   "naglowek": 1968
+   "naglowek": 1962
+  },
+  {
+   "nazwa": "Acer CE270UXwmiipprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1620,
+   "nowa": 1608,
+   "roznica": -12,
+   "naglowek": 1608
+  },
+  {
+   "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1820,
+   "nowa": 1817,
+   "roznica": -3
+  },
+  {
+   "nazwa": "MSI MPG 271QRX QD-OLED",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2564,
+   "nowa": 2499,
+   "roznica": -65
+  },
+  {
+   "nazwa": "Philips Evnia 27M2N8500/00",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1980,
+   "nowa": 1981,
+   "roznica": 1,
+   "naglowek": 1981
+  },
+  {
+   "nazwa": "Acer X27UF5bmiippruzx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 3428,
+   "nowa": 3453,
+   "roznica": 25,
+   "naglowek": 3453
+  },
+  {
+   "nazwa": "AOC CQ27G4Z2",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 799,
+   "nowa": 789,
+   "roznica": -10,
+   "naglowek": 789
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PGO27QFS",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1959,
+   "nowa": 1925,
+   "roznica": -34,
+   "naglowek": 1925
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQML5F",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1379,
+   "nowa": 1489,
+   "roznica": 110,
+   "naglowek": 1489
+  },
+  {
+   "nazwa": "BenQ Mobiuz EX271QZ",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 3460,
+   "nowa": 3429,
+   "roznica": -31,
+   "naglowek": 3429
+  },
+  {
+   "nazwa": "Dahua Technology LM27-E341AY",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 794,
+   "nowa": 792,
+   "roznica": -2,
+   "naglowek": 792
+  },
+  {
+   "nazwa": "Philips Evnia 27M2N3500PF/00",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 737,
+   "nowa": 735,
+   "roznica": -2,
+   "naglowek": 735
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2424,
+   "nowa": 2402,
+   "roznica": -22,
+   "naglowek": 2402
   }
  ],
  "pros_cen_zsynchronizowane": [],
@@ -74,7 +197,7 @@
   },
   "hardpc": {
    "ok": 267,
-   "adresow": 267
+   "adresow": 268
   },
   "mediaexpert": {
    "ok": 0,
@@ -97,7 +220,7 @@
    "adresow": 6
   },
   "xkom": {
-   "ok": 57,
+   "ok": 0,
    "adresow": 57
   }
  }

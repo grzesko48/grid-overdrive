@@ -1,6 +1,6 @@
 {
  "katalog_pozycji": 676,
- "nasze_identyfikatory": 267,
+ "nasze_identyfikatory": 268,
  "zniknely": [
   {
    "id": "19716",
@@ -14,12 +14,6 @@
   }
  ],
  "nowi_kandydaci": [
-  {
-   "id": "19242",
-   "nazwa": "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
-   "cena": 9309,
-   "url": "https://sklep.hard-pc.pl/p19242,zestaw-ryzen-9-7900-rx-9070-16gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
-  },
   {
    "id": "25528",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",

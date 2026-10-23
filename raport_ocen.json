@@ -11,12 +11,68 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 0,
+ "przeliczonych": 5,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "Acer CE270UXwmiipprx",
+   "rodzaj": "monitor",
+   "podstawa": 6.7,
+   "zmiany": {
+    "value": [
+     58,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC CQ27G4Z2",
+   "rodzaj": "monitor",
+   "podstawa": 3.03,
+   "zmiany": {
+    "value": [
+     99,
+     100
+    ]
+   }
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PGO27QFS",
+   "rodzaj": "monitor",
+   "podstawa": 8.02,
+   "zmiany": {
+    "value": [
+     43,
+     44
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQML5F",
+   "rodzaj": "monitor",
+   "podstawa": 4.65,
+   "zmiany": {
+    "value": [
+     85,
+     82
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ Mobiuz EX271QZ",
+   "rodzaj": "monitor",
+   "podstawa": 6.86,
+   "zmiany": {
+    "value": [
+     56,
+     57
+    ]
+   }
+  }
+ ]
 }

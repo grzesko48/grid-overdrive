@@ -1,17 +1,8 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron",
-  "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron (custom: 32GB RAM)"
+  "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir"
  ],
  "pominiete": [
-  [
-   "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
-   "procesor bez reguły klasy: 'Ryzen 9 7900' — dopisz regułę w klasa_cpu()"
-  ],
-  [
-   "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
-   "procesor bez reguły klasy: 'Ryzen 9 7900' — dopisz regułę w klasa_cpu()"
-  ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
    "w tytule nie ma pola ram: 'Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000'"
@@ -75,6 +66,10 @@
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR, 1TB SSD, 850W, Aquarius 8000",
    "w tytule nie ma pola ram: 'Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR, 1TB SSD, 850W, Aquarius 8000'"
+  ],
+  [
+   "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena poza progiem: 9509 zł bez systemu, 10048 z Windowsem"
   ],
   [
    "Zestaw | Intel Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
