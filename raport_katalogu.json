@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 676,
+ "katalog_pozycji": 680,
  "nasze_identyfikatory": 268,
  "zniknely": [
   {
@@ -37,6 +37,12 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
    "cena": 8029,
    "url": "https://sklep.hard-pc.pl/p26639,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26686",
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5050 8GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "cena": 6979,
+   "url": "https://sklep.hard-pc.pl/p26686,zestaw-intel-ultra-5-245kf-rtx-5050-8gb-32gb-ddr5-1tb-ssd-750w-night-hunter.html"
   }
  ]
 }
