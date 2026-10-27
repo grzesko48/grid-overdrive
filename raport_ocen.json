@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 20,
+ "przeliczonych": 25,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,238 +20,305 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Gigabyte GS27Q X",
+   "nazwa": "Asus TUF Gaming VG27AQML5A",
    "rodzaj": "monitor",
-   "podstawa": 3.74,
+   "podstawa": 4.19,
    "zmiany": {
     "value": [
-     91,
-     92
+     88,
+     87
+    ],
+    "overall": [
+     75,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "Gigabyte GS27Q X",
+   "rodzaj": "monitor",
+   "podstawa": 3.77,
+   "zmiany": {
+    "value": [
+     92,
+     91
     ]
    }
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 3.95,
+   "podstawa": 5.33,
    "zmiany": {
     "value": [
-     74,
-     89
+     89,
+     74
     ],
     "overall": [
-     67,
-     72
+     72,
+     67
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 271QP QD-OLED X24",
+   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
-   "podstawa": 8.31,
+   "podstawa": 5.64,
    "zmiany": {
     "value": [
-     42,
-     41
-    ],
-    "overall": [
-     66,
-     65
+     72,
+     71
     ]
    }
   },
   {
-   "nazwa": "AOC AGON PRO AG276QZD2",
+   "nazwa": "MSI MAG 274QP QD-OLED X24",
    "rodzaj": "monitor",
-   "podstawa": 6.98,
+   "podstawa": 6.25,
    "zmiany": {
     "value": [
-     59,
-     56
+     61,
+     64
     ],
     "overall": [
      70,
-     69
+     71
     ]
    }
   },
   {
-   "nazwa": "AOC Q27G4ZD",
+   "nazwa": "Lenovo Legion Pro 27Q-10",
    "rodzaj": "monitor",
-   "podstawa": 5.66,
+   "podstawa": 5.89,
    "zmiany": {
     "value": [
-     71,
-     70
+     70,
+     68
     ]
    }
   },
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "Lenovo Legion 27QD-10",
    "rodzaj": "monitor",
-   "podstawa": 6.87,
+   "podstawa": 3.85,
    "zmiany": {
     "value": [
-     62,
-     57
+     94,
+     91
     ],
     "overall": [
-     64,
-     63
+     72,
+     71
     ]
    }
   },
   {
-   "nazwa": "Acer CE270UXwmiipprx",
+   "nazwa": "AOC Q27G4SDR",
    "rodzaj": "monitor",
-   "podstawa": 6.82,
+   "podstawa": 5.29,
+   "zmiany": {
+    "value": [
+     72,
+     75
+    ],
+    "overall": [
+     79,
+     80
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Predator X27UZ1bmiiprx",
+   "rodzaj": "monitor",
+   "podstawa": 6.4,
    "zmiany": {
     "value": [
      59,
-     58
+     62
+    ],
+    "overall": [
+     72,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "LG UltraGear 27GX700A-B",
+   "rodzaj": "monitor",
+   "podstawa": 7.85,
+   "zmiany": {
+    "value": [
+     42,
+     46
+    ],
+    "overall": [
+     66,
+     67
     ]
    }
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
-   "podstawa": 10.68,
+   "podstawa": 10.43,
    "zmiany": {
     "value": [
-     17,
-     15
+     15,
+     17
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Predator XB273UF5bmiiprzx",
+   "rodzaj": "monitor",
+   "podstawa": 5.81,
+   "zmiany": {
+    "value": [
+     73,
+     69
     ]
    }
   },
   {
    "nazwa": "Acer X27UF5bmiippruzx",
    "rodzaj": "monitor",
-   "podstawa": 6.94,
+   "podstawa": 6.86,
    "zmiany": {
     "value": [
-     57,
-     56
+     56,
+     57
     ]
    }
   },
   {
    "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
    "rodzaj": "monitor",
-   "podstawa": 9.86,
+   "podstawa": 10.45,
    "zmiany": {
     "value": [
-     31,
-     24
+     24,
+     17
     ]
    }
   },
   {
    "nazwa": "ASRock Phantom Gaming PGO27QFS",
    "rodzaj": "monitor",
-   "podstawa": 7.62,
+   "podstawa": 7.03,
    "zmiany": {
     "value": [
-     44,
-     49
+     49,
+     55
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
+   "rodzaj": "monitor",
+   "podstawa": 6.44,
+   "zmiany": {
+    "value": [
+     59,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
+   "rodzaj": "monitor",
+   "podstawa": 9.01,
+   "zmiany": {
+    "value": [
+     34,
+     33
     ]
    }
   },
   {
    "nazwa": "ASUS ROG Strix XG27ACMES",
    "rodzaj": "monitor",
-   "podstawa": 4.6,
+   "podstawa": 4.67,
    "zmiany": {
     "value": [
-     83,
-     82
+     82,
+     81
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQM5F",
+   "rodzaj": "monitor",
+   "podstawa": 4.28,
+   "zmiany": {
+    "value": [
+     88,
+     86
     ]
    }
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQML5F",
    "rodzaj": "monitor",
-   "podstawa": 5.26,
+   "podstawa": 5.57,
    "zmiany": {
     "value": [
-     82,
-     75
+     75,
+     71
     ]
    }
   },
   {
    "nazwa": "BenQ EX271QMZ",
    "rodzaj": "monitor",
-   "podstawa": 10.74,
+   "podstawa": 11.44,
    "zmiany": {
     "value": [
-     0,
-     14
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX271QZ",
-   "rodzaj": "monitor",
-   "podstawa": 6.93,
-   "zmiany": {
-    "value": [
-     57,
-     56
-    ]
-   }
-  },
-  {
-   "nazwa": "Cooler Master GM27QPA",
-   "rodzaj": "monitor",
-   "podstawa": 4.51,
-   "zmiany": {
-    "value": [
-     84,
-     83
-    ]
-   }
-  },
-  {
-   "nazwa": "Dahua Technology LM27-GO34A",
-   "rodzaj": "monitor",
-   "podstawa": 10.39,
-   "zmiany": {
-    "value": [
-     9,
-     18
+     14,
+     6
     ]
    }
   },
   {
    "nazwa": "LG UltraGear OLED 27GS93QE-B",
    "rodzaj": "monitor",
-   "podstawa": 12.16,
+   "podstawa": 10.66,
    "zmiany": {
     "value": [
-     15,
-     0
+     0,
+     15
     ]
    }
   },
   {
-   "nazwa": "MSI 272QRF X36 Pulsar",
+   "nazwa": "Minifire MFG27F4Q Pro",
    "rodzaj": "monitor",
-   "podstawa": 9.31,
+   "podstawa": 3.61,
    "zmiany": {
     "value": [
-     31,
-     30
+     92,
+     93
     ]
    }
   },
   {
-   "nazwa": "Rampage Slice SL27F275Q",
+   "nazwa": "MSI MPG 271QR QD-OLED X50",
    "rodzaj": "monitor",
-   "podstawa": 4.53,
+   "podstawa": 8.86,
    "zmiany": {
     "value": [
-     90,
-     83
+     38,
+     35
+    ]
+   }
+  },
+  {
+   "nazwa": "Koorui G2721E",
+   "rodzaj": "monitor",
+   "podstawa": 3.68,
+   "zmiany": {
+    "value": [
+     93,
+     92
     ]
    }
   }
