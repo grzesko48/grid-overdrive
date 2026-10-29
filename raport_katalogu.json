@@ -1,6 +1,6 @@
 {
- "katalog_pozycji": 680,
- "nasze_identyfikatory": 268,
+ "katalog_pozycji": 712,
+ "nasze_identyfikatory": 271,
  "zniknely": [
   {
    "id": "19716",
@@ -17,25 +17,25 @@
   {
    "id": "25528",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
-   "cena": 7699,
+   "cena": 7899,
    "url": "https://sklep.hard-pc.pl/p25528,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-aquarius-8000.html"
   },
   {
    "id": "26035",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona",
-   "cena": 7949,
+   "cena": 8149,
    "url": "https://sklep.hard-pc.pl/p26035,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-fishtank-6000-corona.html"
   },
   {
    "id": "26583",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 1TB SSD, 32GB DDR5, 650W, Signum 300 ARGB",
-   "cena": 8129,
+   "cena": 8329,
    "url": "https://sklep.hard-pc.pl/p26583,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-1tb-ssd-32gb-ddr5-650w-signum-300-argb.html"
   },
   {
    "id": "26639",
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "cena": 8029,
+   "cena": 8229,
    "url": "https://sklep.hard-pc.pl/p26639,zestaw-ryzen-5-7500f-rx-9060-xt-16gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   },
   {

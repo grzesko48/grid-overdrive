@@ -1,19 +1,14 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, Nadir"
+  "Zestaw | Ryzen 5 7500F, RX 7600 8GB, 32GB DDR5, 500GB SSD, 650W, Nadir",
+  "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R",
+  "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R (custom: 32GB RAM)",
+  "Zestaw | Ryzen 7 7800X3D, RX 9070 16GB, 16GB DDR5, 1TB SSD, 850W, Night Hunter"
  ],
  "pominiete": [
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
    "w tytule nie ma pola ram: 'Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000'"
-  ],
-  [
-   "Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
-   "tytuł w nieznanym kształcie: 'Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB'"
-  ],
-  [
-   "Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
-   "tytuł w nieznanym kształcie: 'Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB'"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona",
@@ -85,70 +80,46 @@
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 32GB DDR5, 850W, Depcool CC560",
-   "cena poza progiem: 9549 zł bez systemu, 10088 z Windowsem"
+   "cena poza progiem: 9749 zł bez systemu, 10288 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
    "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
   ],
   [
-   "Zestaw | Intel Ultra 7 270K Plus, RTX 5070 12GB, 1TB SSD, 32GB DDR5, 850W, Pano 130 ARGB",
-   "cena poza progiem: 9949 zł bez systemu, 10488 z Windowsem"
-  ],
-  [
-   "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 750W, Pano 130 ARGB",
-   "cena poza progiem: 9949 zł bez systemu, 10488 z Windowsem"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
-   "cena poza progiem: 9859 zł bez systemu, 10398 z Windowsem"
-  ],
-  [
    "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Aquarius 8000",
-   "cena poza progiem: 9609 zł bez systemu, 10148 z Windowsem"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Aquarius 8000",
-   "cena poza progiem: 9909 zł bez systemu, 10448 z Windowsem"
+   "cena poza progiem: 9809 zł bez systemu, 10348 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Fishtank 6000 Corona",
-   "cena poza progiem: 9799 zł bez systemu, 10338 z Windowsem"
+   "cena poza progiem: 9999 zł bez systemu, 10538 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
    "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
-   "cena poza progiem: 9949 zł bez systemu, 10488 z Windowsem"
-  ],
-  [
    "Zestaw | Ryzen 5 9600X, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 850W, Pano 130 ARGB",
-   "cena poza progiem: 9609 zł bez systemu, 10148 z Windowsem"
+   "cena poza progiem: 9809 zł bez systemu, 10348 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
-   "cena poza progiem: 9699 zł bez systemu, 10238 z Windowsem"
+   "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
    "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
-   "strona nie oferuje licencji Windows 11 Home — brak ceny z systemem"
-  ],
-  [
    "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 1TB SSD, 32GB DDR5, 650W, Signum 300 ARGB",
    "strona nie oferuje licencji Windows 11 Home — brak ceny z systemem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Ventum 200 ARGB",
-   "cena poza progiem: 9939 zł bez systemu, 10478 z Windowsem"
+   "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "strona nie oferuje licencji Windows 11 Home — brak ceny z systemem"
   ],
   [
-   "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "Zestaw | Intel Ultra 5 245KF, RTX 5050 8GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
    "strona nie oferuje licencji Windows 11 Home — brak ceny z systemem"
   ]
  ]
