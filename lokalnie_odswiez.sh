@@ -6,7 +6,9 @@
 #
 # UWAGA: robi `git reset --hard origin/main` — odpalaj WYŁĄCZNIE w osobnym klonie (~/Claude/grid-overdrive-bot)
 # albo na runnerze CI, nigdy w katalogu roboczym z niezacommitowaną pracą.
-# NOWE=1 → przed zbieraniem cen dopisuje nowe zestawy PC (limit 25) i monitory (limit 10).
+# Nabór nowych pozycji jest DOMYŚLNIE włączony (NOWE=0 wyłącza): Hard-PC (nowe_pc.py) oraz wszystkie
+# pozostałe sklepy przez nabor.py (zrodla/*: Morele, x-kom, MediaMarkt, PlugNPlay, GoblinPC) — nowe
+# zestawy PC (limit 25), nowe monitory (limit 10) i dopinanie sklepów do istniejących monitorów.
 # Przy wyścigu na `push` (ktoś wypchnął w międzyczasie) bierze świeży stan i nanosi to samo jeszcze raz.
 #
 # Kody wyjścia: 0 ok (także „brak zmian"), 10 git, 11 testy, 12 pokrycie < 50%, 2 bramka zgodności cen,
@@ -20,11 +22,11 @@ glowna() {
 
   przygotuj() {
     git fetch -q origin main && git reset -q --hard origin/main || { echo "BŁĄD: git fetch/reset"; exit 10; }
-    if [ "${NOWE:-0}" = "1" ]; then
-      python3 nowe_pc.py --dopisz --limit 25 > "$LOG/nowe_pc.log" 2>&1
-      python3 nowe_monitory.py --dopisz --limit 10 > "$LOG/nowe_mon.log" 2>&1
-      grep -hE "^DO DOPISANIA|^!!! UWAGA" "$LOG/nowe_pc.log" "$LOG/nowe_mon.log"
-      if grep -q "^!!! UWAGA" "$LOG/nowe_pc.log" "$LOG/nowe_mon.log"; then AWARIA=1; fi
+    if [ "${NOWE:-1}" = "1" ]; then
+      python3 nowe_pc.py --dopisz --limit 25 > "$LOG/nowe_pc.log" 2>&1 || { echo "!!! UWAGA: nowe_pc.py zakończył się błędem"; tail -3 "$LOG/nowe_pc.log"; AWARIA=1; }
+      python3 nabor.py --dopisz --limit-mon 10 --limit-pc 25 > "$LOG/nabor.log" 2>&1 || { echo "!!! UWAGA: nabor.py zakończył się błędem"; tail -3 "$LOG/nabor.log"; AWARIA=1; }
+      grep -hE "^SKLEPY|^UZUPEŁNIENIA|^DO DOPISANIA|^KONFLIKTY|^!!! UWAGA" "$LOG/nowe_pc.log" "$LOG/nabor.log"
+      if grep -q "^!!! UWAGA" "$LOG/nowe_pc.log" "$LOG/nabor.log"; then AWARIA=1; fi
     fi
   }
   nanies() {
@@ -35,13 +37,13 @@ glowna() {
   zapisz() {
     git config user.email "bot@grid-overdrive"; git config user.name "Grid Overdrive Bot"
     git add index.html monitors_1700_template.html images/pcs.json images/monitors.json coverage_log.json \
-        raport_rano.json raport_katalogu.json raport_ocen.json raport_nowe_pc.json raport_nowe_monitory.json \
-        monitory_odrzucone.json historia_cen.json 2>/dev/null
+        raport_rano.json raport_katalogu.json raport_ocen.json raport_nowe_pc.json raport_nowe_monitory.json raport_nabor.json \
+        monitory_odrzucone.json nabor_odrzucone.json nabor_stan.json historia_cen.json 2>/dev/null
     git commit -q -m "bot: odswiezenie cen i dostepnosci ($(date +%F), ${ZRODLO:-lokalnie})"
   }
 
   przygotuj
-  python3 test_nanies.py >/dev/null 2>&1 && python3 test_ranking.py >/dev/null 2>&1 \
+  python3 test_nanies.py >/dev/null 2>&1 && python3 test_ranking.py >/dev/null 2>&1 && python3 test_nabor.py >/dev/null 2>&1 \
     || { echo "BŁĄD: testy kontrolne kodu nie przechodzą — nic nie zapisuję"; exit 11; }
 
   python3 zbieraj_ceny.py --watki 6 > "$LOG/zbieranie.log" 2>&1
