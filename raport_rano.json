@@ -9,137 +9,76 @@
   "blad": 25
  },
  "pokrycie_proc": 94,
- "zmian_cen": 10,
+ "zmian_cen": 6,
  "do_przejrzenia": [],
- "zmiany_dostepnosci": [
-  {
-   "nazwa": "ViewSonic XG272-2K-OLED",
-   "bylo": [],
-   "jest": [
-    "morele"
-   ]
-  }
- ],
+ "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
- "ukryte": [
-  {
-   "nazwa": "ViewSonic XG272-2K-OLED",
-   "rodzaj": "monitor",
-   "sklepy": [
-    "morele"
-   ]
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "sklepy": [
-    "hardpc"
-   ]
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "hardpc"
-   ]
-  }
- ],
+ "ukryte": [],
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [],
  "zmiany": [
   {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1473,
-   "nowa": 1537,
-   "roznica": 64,
-   "naglowek": 1537
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "Philips Evnia 27M2N6501L/00",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1649,
-   "nowa": 1549,
-   "roznica": -100,
-   "naglowek": 1549
+   "stara": 2390,
+   "nowa": 2389,
+   "roznica": -1
   },
   {
-   "nazwa": "Acer XV270UF3BMIIPRX",
+   "nazwa": "Philips Evnia 27M2N8500/00",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 963,
-   "nowa": 960,
-   "roznica": -3,
-   "naglowek": 960
+   "stara": 1981,
+   "nowa": 1999,
+   "roznica": 18,
+   "naglowek": 1999
   },
   {
-   "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 3306,
-   "nowa": 3535,
-   "roznica": 229,
-   "naglowek": 3535
+   "nazwa": "NITROPC Extreme Gold v2 (Ryzen 5 7600X, RX 9060 XT 16GB)",
+   "rodzaj": "pc",
+   "sklep": "mediamarkt",
+   "stara": 8660,
+   "nowa": 8700,
+   "roznica": 40,
+   "naglowek": 8700
   },
   {
-   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2162,
-   "nowa": 2156,
-   "roznica": -6,
-   "naglowek": 2156
+   "nazwa": "NITROPC Extremo (Ryzen 5 8400F, RX 9060 XT 16GB, 32GB)",
+   "rodzaj": "pc",
+   "sklep": "mediamarkt",
+   "stara": 9290,
+   "nowa": 9330,
+   "roznica": 40,
+   "naglowek": 9330
   },
   {
-   "nazwa": "Cooler Master GM27QPA",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1078,
-   "nowa": 1080,
-   "roznica": 2,
-   "naglowek": 1080
-  },
-  {
-   "nazwa": "MSI 272QRF X36 Pulsar",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 3339,
-   "nowa": 3346,
-   "roznica": 7,
-   "naglowek": 3346
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2438,
-   "nowa": 2437,
-   "roznica": -1,
-   "naglowek": 2437
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
    "rodzaj": "pc",
    "sklep": "hardpc",
-   "stara": 10199,
-   "nowa": 10499,
-   "roznica": 300,
-   "naglowek": 11038
+   "stara": 5329,
+   "nowa": 5529,
+   "roznica": 200,
+   "naglowek": 6068
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
    "rodzaj": "pc",
    "sklep": "hardpc",
-   "stara": 11398,
-   "nowa": 11698,
-   "roznica": 300,
-   "naglowek": 12237
+   "stara": 6528,
+   "nowa": 6728,
+   "roznica": 200,
+   "naglowek": 7267
   }
  ],
- "pros_cen_zsynchronizowane": [],
+ "pros_cen_zsynchronizowane": [
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "bylo": "5868",
+   "jest": "6068"
+  }
+ ],
  "zmiany_sprzedawcow": [],
  "doplaty_ram_wariantow": [],
  "wg_sklepu": {
