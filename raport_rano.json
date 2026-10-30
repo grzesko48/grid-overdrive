@@ -9,35 +9,12 @@
   "blad": 25
  },
  "pokrycie_proc": 94,
- "zmian_cen": 3,
- "do_przejrzenia": [
-  {
-   "nazwa": "AOC Q27G4ZDR",
-   "sklep": "mediamarkt",
-   "stara": 1772,
-   "nowa": 2694,
-   "zmiana_proc": 52
-  }
- ],
+ "zmian_cen": 1,
+ "do_przejrzenia": [],
  "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
  "ukryte": [],
- "przywrocone": [
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "sklepy": [
-    "hardpc"
-   ]
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "sklepy": [
-    "hardpc"
-   ]
-  }
- ],
+ "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
   {
@@ -73,30 +50,12 @@
  ],
  "zmiany": [
   {
-   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "nazwa": "AOC Q27G4ZDR",
    "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1430,
-   "nowa": 1522,
-   "roznica": 92,
-   "naglowek": 1522
-  },
-  {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
-   "rodzaj": "monitor",
-   "sklep": "xkom",
-   "stara": 1499,
-   "nowa": 1379,
-   "roznica": -120
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2424,
-   "nowa": 2438,
-   "roznica": 14,
-   "naglowek": 2438
+   "sklep": "mediamarkt",
+   "stara": 1772,
+   "nowa": 2694,
+   "roznica": 922
   }
  ],
  "pros_cen_zsynchronizowane": [],
