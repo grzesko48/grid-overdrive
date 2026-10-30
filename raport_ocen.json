@@ -11,12 +11,89 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 0,
+ "przeliczonych": 4,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "NITROPC Pack Gold v2 (Ryzen 5 8400F, RTX 5060)",
+   "rodzaj": "pc",
+   "podstawa": 110.0,
+   "zmiany": {
+    "value": [
+     53,
+     43
+    ],
+    "overall": [
+     59,
+     56
+    ],
+    "ultra": [
+     41,
+     39
+    ]
+   }
+  },
+  {
+   "nazwa": "NITROPC Extreme Bronze v2 (Ryzen 5 8400F, RTX 5060)",
+   "rodzaj": "pc",
+   "podstawa": 112.69,
+   "zmiany": {
+    "value": [
+     54,
+     39
+    ],
+    "overall": [
+     59,
+     54
+    ],
+    "ultra": [
+     42,
+     39
+    ]
+   }
+  },
+  {
+   "nazwa": "NITROPC Extreme Gold v2 (Ryzen 5 7600X, RX 9060 XT 16GB)",
+   "rodzaj": "pc",
+   "podstawa": 117.03,
+   "zmiany": {
+    "value": [
+     41,
+     33
+    ],
+    "overall": [
+     57,
+     54
+    ],
+    "ultra": [
+     51,
+     50
+    ]
+   }
+  },
+  {
+   "nazwa": "NITROPC Extremo (Ryzen 5 8400F, RX 9060 XT 16GB, 32GB)",
+   "rodzaj": "pc",
+   "podstawa": 125.54,
+   "zmiany": {
+    "value": [
+     32,
+     21
+    ],
+    "overall": [
+     65,
+     61
+    ],
+    "ultra": [
+     63,
+     61
+    ]
+   }
+  }
+ ]
 }

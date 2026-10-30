@@ -78,6 +78,15 @@ for p in customy:   # wariant custom zachowuje dopłatę względem bazy
                    r"RAM podniesiony do 32GB za dopłatą 1199 zł"):
             if not re.search(wz, fr):
                 bledy.append(f"custom {p['name'][-30:]}: brak '{wz}' w wpisie po odświeżeniu dopłaty")
+_pnp = "https://plugnplay.sklep.pl/pl/p/Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/197"
+for nasza, strona, adres, oczek in [
+    ("NITROPC Extreme Gold v2 (Ryzen 5 7600X, RX 9060 XT 16GB)", "Komputer stacjonarny NITROPC Extremo Czarny", None, True),
+    ("PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5", "Komputer RTX 5060 Ti / AMD AM5 / 32GB DDR5 / 1TB", _pnp, False),
+    ("PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5", "Komputer RTX 5060 Ti / AMD AM5 / 32GB DDR5 / 1TB", _pnp, True),
+    ("Zestaw | Ryzen 5 7500F, RTX 5060 8GB", "Komputer RTX 5070 / AMD AM5", None, False),
+]:
+    if nz.ta_sama_rzecz(nasza, strona, url=adres) != oczek:
+        bledy.append(f"ta_sama_rzecz({nasza[:40]!r} | {strona[:40]!r}) powinno dać {oczek}")
 if "BRAMKA ZGODNOŚCI NIE PRZESZŁA" in bufor.getvalue():
     bledy.append("bramka zgodności odrzuciła poprawny wynik")
 print(f"obudowa współdzielona przez {len(wybrana)} wpisów; sprawdzono {len(oczekiwane)} zestawów "

@@ -51,6 +51,12 @@ def ta_sama_rzecz(nasza, ze_strony, prog=0.5, url=None):
     if not ze_strony:
         return True
     b = znaczniki(ze_strony)
+    if not b:
+        # Tytuł bez żadnego członu modelu (MediaMarkt: „Komputer stacjonarny NITROPC Extremo
+        # Czarny" dla trzech różnych zestawów) niczego nie obala ani nie potwierdza. Strażnik
+        # blokował wtedy cenę przy KAŻDYM przebiegu i cztery zestawy NITROPC stały 5–10% poniżej
+        # ceny sklepu. Rozjazd wychwytują tytuły, które mają człony modelu (RTX 5060 vs RX 9060).
+        return True
     if url:
         z_adresu = znaczniki_adresu(url)
         if z_adresu and _pokrycie(z_adresu, b) >= prog:

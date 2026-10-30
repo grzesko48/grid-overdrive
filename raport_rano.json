@@ -9,56 +9,64 @@
   "blad": 25
  },
  "pokrycie_proc": 94,
- "zmian_cen": 1,
+ "zmian_cen": 4,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
  "ukryte": [],
  "przywrocone": [],
  "warianty_bez_bazy": [],
- "inny_produkt_pod_adresem": [
+ "inny_produkt_pod_adresem": [],
+ "zmiany": [
   {
    "nazwa": "NITROPC Pack Gold v2 (Ryzen 5 8400F, RTX 5060)",
+   "rodzaj": "pc",
    "sklep": "mediamarkt",
-   "na_stronie": "Komputer stacjonarny NITROPC Pack Gold v2 Czarny"
+   "stara": 6889,
+   "nowa": 7370,
+   "roznica": 481,
+   "naglowek": 7370
   },
   {
    "nazwa": "NITROPC Extreme Bronze v2 (Ryzen 5 8400F, RTX 5060)",
+   "rodzaj": "pc",
    "sklep": "mediamarkt",
-   "na_stronie": "Komputer stacjonarny NITROPC Extremo Czarny"
+   "stara": 6869,
+   "nowa": 7550,
+   "roznica": 681,
+   "naglowek": 7550
   },
   {
    "nazwa": "NITROPC Extreme Gold v2 (Ryzen 5 7600X, RX 9060 XT 16GB)",
+   "rodzaj": "pc",
    "sklep": "mediamarkt",
-   "na_stronie": "Komputer stacjonarny NITROPC Extremo Czarny"
+   "stara": 8259,
+   "nowa": 8660,
+   "roznica": 401,
+   "naglowek": 8660
   },
   {
    "nazwa": "NITROPC Extremo (Ryzen 5 8400F, RX 9060 XT 16GB, 32GB)",
+   "rodzaj": "pc",
    "sklep": "mediamarkt",
-   "na_stronie": "PC Gaming NITROPC Extremo Czarny"
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
-   "sklep": "plugnplay",
-   "na_stronie": "Komputer RTX 5060 Ti / AMD AM5 / 32GB DDR5 / 1TB"
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "sklep": "plugnplay",
-   "na_stronie": "Komputer RTX 5060 Ti / AMD AM5 / 32GB DDR5 / 1TB BIAŁY"
+   "stara": 8679,
+   "nowa": 9290,
+   "roznica": 611,
+   "naglowek": 9290
   }
  ],
- "zmiany": [
+ "pros_cen_zsynchronizowane": [
   {
-   "nazwa": "AOC Q27G4ZDR",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1772,
-   "nowa": 2694,
-   "roznica": 922
+   "nazwa": "NITROPC Pack Gold v2 (Ryzen 5 8400F, RTX 5060)",
+   "bylo": "6889",
+   "jest": "7370"
+  },
+  {
+   "nazwa": "NITROPC Extreme Bronze v2 (Ryzen 5 8400F, RTX 5060)",
+   "bylo": "6869",
+   "jest": "7550"
   }
  ],
- "pros_cen_zsynchronizowane": [],
  "zmiany_sprzedawcow": [],
  "doplaty_ram_wariantow": [],
  "wg_sklepu": {
