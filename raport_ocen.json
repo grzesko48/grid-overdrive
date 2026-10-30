@@ -11,12 +11,39 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 0,
+ "przeliczonych": 2,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.34,
+   "zmiany": {
+    "value": [
+     67,
+     63
+    ],
+    "overall": [
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.77,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ]
+   }
+  }
+ ]
 }
