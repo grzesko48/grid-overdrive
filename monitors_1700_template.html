@@ -1075,13 +1075,13 @@ var KODY_PO_NAZWIE = {};
 (function(){ var l = (typeof PROMOCJE === 'object' && PROMOCJE && PROMOCJE.kody) || []; l.forEach(function(k){ KODY_PO_NAZWIE[k.n] = k; }); })();
 function kodChip(nazwa){
   var k = KODY_PO_NAZWIE[nazwa]; if(!k) return '';
-  return '<span class="promochip promochip-kod" title="Cena ' + k.c + ' zł w ' + (SHOP_NAMES[k.sk] || k.sk) + ' obowiązuje po wpisaniu kodu rabatowego w koszyku' + (k.bk ? '; bez kodu: ' + k.bk + ' zł' : '') + '.">z kodem ' + k.kod + (k.bk ? ' · bez kodu ' + k.bk + ' zł' : '') + '</span>';
+  return '<span class="promochip promochip-kod" title="Cena ' + k.c + ' zł w ' + (SHOP_NAMES[k.sk] || k.sk) + ' obowiązuje po wpisaniu kodu rabatowego w koszyku' + (k.bk ? '; bez kodu: ' + k.bk + ' zł' : '') + '.">' + (SHOP_NAMES[k.sk] || k.sk) + ': ' + k.c + ' zł z kodem ' + k.kod + (k.bk ? ' (bez kodu ' + k.bk + ' zł)' : '') + '</span>';
 }
 function promoChip(nazwa){
   var x = PROMO_PO_NAZWIE[nazwa], k = kodChip(nazwa);
   if(!x) return k;
   var sup = x.p >= PROMOCJE.prog_super;
-  return '<span class="promochip' + (sup ? ' promochip-super' : '') + '" title="' + promoOpis(x) + '">' + (sup ? 'SUPER PROMOCJA' : 'PROMOCJA') + ' −' + Math.round(x.p) + '%</span>' + (x.kod ? '' : k);
+  return '<span class="promochip' + (sup ? ' promochip-super' : '') + '" title="' + promoOpis(x) + '">' + (sup ? 'SUPER PROMOCJA' : 'PROMOCJA') + ' −' + Math.round(x.p) + '%</span>' + k;
 }
 function renderPromocje(rodzaj, wpisy, sekcjaId, notaId, siatkaId, otworz){
   var sek = document.getElementById(sekcjaId), siatka = document.getElementById(siatkaId), nota = document.getElementById(notaId);
