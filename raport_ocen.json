@@ -11,73 +11,12 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 4,
+ "przeliczonych": 0,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": [
-  {
-   "nazwa": "NITROPC Extreme Gold v2 (Ryzen 5 7600X, RX 9060 XT 16GB)",
-   "rodzaj": "pc",
-   "podstawa": 117.57,
-   "zmiany": {
-    "value": [
-     33,
-     32
-    ]
-   }
-  },
-  {
-   "nazwa": "NITROPC Extremo (Ryzen 5 8400F, RX 9060 XT 16GB, 32GB)",
-   "rodzaj": "pc",
-   "podstawa": 126.08,
-   "zmiany": {
-    "value": [
-     21,
-     20
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 90.57,
-   "zmiany": {
-    "value": [
-     75,
-     71
-    ],
-    "overall": [
-     65,
-     64
-    ],
-    "ultra": [
-     46,
-     45
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 108.46,
-   "zmiany": {
-    "value": [
-     49,
-     45
-    ],
-    "overall": [
-     68,
-     67
-    ],
-    "ultra": [
-     55,
-     54
-    ]
-   }
-  }
- ]
+ "zmiany": []
 }

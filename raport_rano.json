@@ -1,7 +1,7 @@
 {
  "data": "30 października 2026",
  "pobrano": {
-  "ok": 496,
+  "ok": 548,
   "brak_ceny": 0,
   "wycofany": 8,
   "zablokowane": 0,
@@ -9,7 +9,7 @@
   "blad": 25
  },
  "pokrycie_proc": 94,
- "zmian_cen": 6,
+ "zmian_cen": 0,
  "do_przejrzenia": [],
  "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
@@ -17,69 +17,58 @@
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [],
- "zmiany": [
+ "zmiany": [],
+ "pros_cen_zsynchronizowane": [],
+ "zmiany_sprzedawcow": [
   {
-   "nazwa": "Philips Evnia 27M2N6501L/00",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2390,
-   "nowa": 2389,
-   "roznica": -1
+   "nazwa": "AOC Q27G41ZDF",
+   "sprzedawcy": {
+    "mediamarkt": "Digital Bay PL"
+   }
   },
   {
-   "nazwa": "Philips Evnia 27M2N8500/00",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1981,
-   "nowa": 1999,
-   "roznica": 18,
-   "naglowek": 1999
+   "nazwa": "ASUS ROG Strix QD-OLED XG27ACDNG",
+   "sprzedawcy": {
+    "mediamarkt": "Super Merchant"
+   }
   },
   {
-   "nazwa": "NITROPC Extreme Gold v2 (Ryzen 5 7600X, RX 9060 XT 16GB)",
-   "rodzaj": "pc",
-   "sklep": "mediamarkt",
-   "stara": 8660,
-   "nowa": 8700,
-   "roznica": 40,
-   "naglowek": 8700
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDNG",
+   "sprzedawcy": {
+    "mediamarkt": "Electronic Shops PL"
+   }
   },
   {
-   "nazwa": "NITROPC Extremo (Ryzen 5 8400F, RX 9060 XT 16GB, 32GB)",
-   "rodzaj": "pc",
-   "sklep": "mediamarkt",
-   "stara": 9290,
-   "nowa": 9330,
-   "roznica": 40,
-   "naglowek": 9330
+   "nazwa": "ASUS ROG Strix Tandem OLED XG27AQWMG",
+   "sprzedawcy": {
+    "mediamarkt": "Digital Bay PL"
+   }
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "sklep": "hardpc",
-   "stara": 5329,
-   "nowa": 5529,
-   "roznica": 200,
-   "naglowek": 6068
+   "nazwa": "Dell Alienware AW2725D QD-OLED",
+   "sprzedawcy": {
+    "mediamarkt": "Action S.A. PL"
+   }
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "sklep": "hardpc",
-   "stara": 6528,
-   "nowa": 6728,
-   "roznica": 200,
-   "naglowek": 7267
+   "nazwa": "Dell Alienware AW2725DF QD-OLED",
+   "sprzedawcy": {
+    "mediamarkt": "Action S.A. PL"
+   }
+  },
+  {
+   "nazwa": "LG 27GS95QX-B",
+   "sprzedawcy": {
+    "mediamarkt": "Electronic Shops PL"
+   }
+  },
+  {
+   "nazwa": "MSI MAG 272QP QD-OLED X50",
+   "sprzedawcy": {
+    "mediamarkt": "Electronic Shops PL"
+   }
   }
  ],
- "pros_cen_zsynchronizowane": [
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "bylo": "5868",
-   "jest": "6068"
-  }
- ],
- "zmiany_sprzedawcow": [],
  "doplaty_ram_wariantow": [],
  "wg_sklepu": {
   "goblinpc": {
@@ -95,24 +84,24 @@
    "adresow": 19
   },
   "mediamarkt": {
-   "ok": 34,
-   "adresow": 34
+   "ok": 45,
+   "adresow": 45
   },
   "morele": {
-   "ok": 103,
-   "adresow": 103
+   "ok": 105,
+   "adresow": 105
   },
   "plugnplay": {
-   "ok": 36,
-   "adresow": 36
+   "ok": 51,
+   "adresow": 51
   },
   "rtveuroagd": {
    "ok": 0,
    "adresow": 6
   },
   "xkom": {
-   "ok": 57,
-   "adresow": 57
+   "ok": 81,
+   "adresow": 81
   }
  }
 }
