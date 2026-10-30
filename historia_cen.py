@@ -128,9 +128,43 @@ def dni_cen(rec, od, do):
 
 
 # ------------------------------------------------------------------ promocje
+def wczytaj_zebrane():
+    """Surowy zrzut z dzisiejszego zbierania (gitignorowany, istnieje tylko w katalogu przebiegu)."""
+    try:
+        return json.load(open(os.path.join(BAZA, "zebrane_ceny.json"), encoding="utf-8")).get("adresy", {})
+    except Exception:
+        return {}
+
+
+def deklaracje(zeb, poz):
+    """{(nazwa, sklep): (cena_dziś, promo)} — tylko ceny OK z dzisiejszego zbierania, które mają blok promo."""
+    wynik = {}
+    for nazwa, p in poz.items():
+        for sklep, url in p["urls"].items():
+            w = zeb.get(f"{sklep}|{url}")
+            if w and w.get("stan") == "ok" and w.get("promo") and isinstance(w.get("cena"), int):
+                wynik[(nazwa, sklep)] = (w["cena"], w["promo"])
+    return wynik
+
+
 def wylicz(h, data_iso, poz):
     dzis = d2n(data_iso)
-    lista = []
+    dekl = deklaracje(wczytaj_zebrane(), poz)
+    lista, kody = [], []
+    # --- promocje DEKLAROWANE przez sklep (Omnibus: najniższa cena z 30 dni przed obniżką) — od pierwszego dnia
+    for (nazwa, sklep), (cena, pr) in dekl.items():
+        p = poz[nazwa]
+        if p["ukryty"] or sklep in p["wyprzedane"] or sklep in p["marketplace"]:
+            continue
+        if pr.get("kod"):
+            kody.append({"n": nazwa, "sk": sklep, "kod": pr["kod"], "c": cena, "bk": pr.get("bk") or 0})
+        omn = pr.get("omn")
+        if omn and omn > cena:
+            oszcz = omn - cena
+            if oszcz >= MIN_ZL[p["rodzaj"]] and cena <= (1 - PROG_PROMOCJA) * omn:
+                lista.append({"n": nazwa, "k": p["rodzaj"], "sk": sklep, "c": cena, "r": omn,
+                              "p": round(100.0 * oszcz / omn, 1), "o": oszcz, "dni": 30, "min": 0, "t": "s",
+                              "kod": pr.get("kod") or "", "bk": pr.get("bk") or 0, "u": p["urls"].get(sklep, "")})
     for nazwa, p in poz.items():
         if p["ukryty"]:
             continue
@@ -151,20 +185,20 @@ def wylicz(h, data_iso, poz):
             lista.append({"n": nazwa, "k": p["rodzaj"], "sk": sklep, "c": aktualna, "r": typowa,
                           "p": round(100.0 * oszcz / typowa, 1), "o": oszcz, "dni": len(dni),
                           "min": 1 if (wczesniej and aktualna < min(wczesniej) and len(dni) >= 7) else 0,
-                          "u": p["urls"].get(sklep, "")})
+                          "t": "h", "kod": "", "bk": 0, "u": p["urls"].get(sklep, "")})
     lista.sort(key=lambda x: (-x["p"], -x["o"], x["n"]))
     # najlepsza oferta na pozycję (jedna pozycja = jeden wpis; sklep o największym spadku)
     widziane, wynik = set(), []
     for x in lista:
         if x["n"] not in widziane:
             widziane.add(x["n"]); wynik.append(x)
-    return wynik
+    return wynik, kody
 
 
-def wstaw(sz, data_iso, promocje):
+def wstaw(sz, data_iso, promocje, kody):
     blok = ("/*PROMO_START*/var PROMOCJE = " +
             json.dumps({"dzien": data_iso, "okno": OKNO_DNI, "prog_lista": int(PROG_LISTA * 100),
-                        "prog_super": int(PROG_SUPER * 100), "lista": promocje},
+                        "prog_super": int(PROG_SUPER * 100), "lista": promocje, "kody": kody},
                        ensure_ascii=False, separators=(",", ":")) + ";/*PROMO_END*/")
     if "/*PROMO_START*/" in sz:
         return re.sub(r"/\*PROMO_START\*/.*?/\*PROMO_END\*/", lambda m: blok, sz, count=1, flags=re.S)
@@ -203,16 +237,18 @@ def main():
     dopisz(h, data_iso, weryf, poz)
     przytnij(h, d2n(data_iso))
     zapisz_historie(h)
-    promocje = wylicz(h, data_iso, poz)
+    promocje, kody = wylicz(h, data_iso, poz)
     if not a.bez_szablonu:
-        nowy = wstaw(sz, data_iso, promocje)
+        nowy = wstaw(sz, data_iso, promocje, kody)
         if nowy != sz:
             open(SZABLON, "w", encoding="utf-8").write(nowy)
     n_obs = sum(len(r["p"]) for s in h.values() for r in s.values())
     print(f"historia: {len(h)} pozycji, {n_obs} punktów zmiany ceny | promocje dziś ({data_iso}): "
-          f"{len(promocje)} (≥{int(PROG_LISTA*100)}%: {sum(1 for x in promocje if x['p'] >= PROG_LISTA*100)})")
+          f"{len(promocje)} (≥{int(PROG_LISTA*100)}%: {sum(1 for x in promocje if x['p'] >= PROG_LISTA*100)}) | "
+          f"deklarowane przez sklep: {sum(1 for x in promocje if x['t']=='s')} | ceny z kodem: {len(kody)}")
     for x in promocje[:10]:
-        print(f"   −{x['p']:4.1f}%  {x['c']:5d} zł (typowo {x['r']} zł, {x['dni']} dni, {x['sk']})  {x['n'][:60]}")
+        zr = "Omnibus 30 dni" if x["t"] == "s" else f"typowo, {x['dni']} dni obserwacji"
+        print(f"   −{x['p']:4.1f}%  {x['c']:5d} zł (ref. {x['r']} zł, {zr}, {x['sk']}{', kod '+x['kod'] if x['kod'] else ''})  {x['n'][:56]}")
     return promocje
 
 

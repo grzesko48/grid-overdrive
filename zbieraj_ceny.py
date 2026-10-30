@@ -338,6 +338,53 @@ def sprzedawca_mediamarkt(s):
     return None
 
 
+# ---------------------------------------------------------------- promocje deklarowane przez sklep
+# Rozpoznanie 30.10.2026 (workflow „rozpoznanie-promocji-sklepow"): x-kom, Morele i Hard-PC podają na stronie
+# przecenionego produktu „najniższą cenę z 30 dni przed obniżką" (dyrektywa Omnibus). To jedyna wiarygodna cena
+# odniesienia — „cena przekreślona" (old) bywa zawyżona. Morele dodatkowo pokazuje cenę „z kodem" (kampania
+# Black Weeks): cena w JSON-LD to cena Z KODEM, a „cena bez kodu" jest osobno. Czytamy tylko to, co jest na
+# stronie głównego produktu; brak pola = brak promocji (nie zero rabatu).
+def _zl(txt):
+    """„1 569,00 zł" → 1569 (zaokrąglone do pełnych złotych)."""
+    if txt is None:
+        return None
+    s = re.sub(r"[^\d,.]", "", txt.replace("\xa0", " "))
+    s = s.replace(",", ".")
+    try:
+        return int(round(float(s))) if s else None
+    except ValueError:
+        return None
+
+
+def promo_ze_strony(sklep, url, s):
+    """→ {"omn": najniższa cena z 30 dni | None, "bk": cena bez kodu | None, "kod": kod rabatowy | None}
+    albo None, gdy strona nie deklaruje żadnej obniżki."""
+    omn = bk = kod = None
+    if sklep == "morele":
+        m = re.search(r'data-testid="product-regular-price"[^>]*>\s*([\d\s\xa0.,]+?)\s*z', s)
+        bk = _zl(m.group(1)) if m else None
+        m = re.search(r'data-testid="product-lowest-price"[^>]*>\s*([\d\s\xa0.,]+?)\s*z', s)
+        omn = _zl(m.group(1)) if m else None
+        m = re.search(r'data-testid="product-discount-code"[^>]*>([^<]+)<', s)
+        kod = m.group(1).strip() if m else None
+    elif sklep == "xkom":
+        m = re.search(r'Najniższa cena z 30 dni przed obniżką: <span[^>]*>([\d\s\xa0,]+)\s*zł', s)
+        omn = _zl(m.group(1)) if m else None
+        if omn is None:
+            m = re.search(r'"minPriceInfo":\{"minPrice":(\d+(?:\.\d+)?)', s)
+            omn = _zl(m.group(1)) if m else None
+        m = re.search(r'<meta property="product:original_price:amount" content="([\d.]+)"', s)
+        bk = _zl(m.group(1)) if m else None
+    elif sklep == "hardpc":
+        # promocja realna tylko, gdy jest odznaka -N% ORAZ Omnibus (sam „old" nie wystarcza — bywa zawyżony)
+        if re.search(r'<p class="discount-a">Promocja <span>-\d+%</span></p>', s):
+            m = re.search(r'<hr class="omnibus-price">\s*<span>Najniższa cena z 30 dni przed obniżką: ([^<]+)</span>', s)
+            omn = _zl(m.group(1)) if m else None
+    if omn is None and bk is None and kod is None:
+        return None
+    return {"omn": omn, "bk": bk, "kod": kod}
+
+
 def wyciagnij(sklep, url, s):
     if "ceneo.pl" in url:
         return z_ceneo(s, url)
@@ -465,6 +512,12 @@ def main():
         opcje = opcje_konfiguratora(s)
         if opcje:
             wynik["opcje"] = opcje
+        try:
+            pr = promo_ze_strony(sklep, u, s)
+        except Exception:
+            pr = None                                   # błąd odczytu promocji nigdy nie psuje ceny
+        if pr:
+            wynik["promo"] = pr
         return klucz, wynik
 
     t0 = time.time()
