@@ -46,15 +46,23 @@ for w in wpisy:
         continue
     seg = sz[tw["start"]: tw["start"] + 4000]
     sc = {a: int(b) for a, b in re.findall(r"(\w+):(\d+)", re.search(r"scores:\{([^}]*)\}", seg).group(1))}
-    ok(w["scores"] == sc, f"{w['name'][-30:]}: oceny {w['scores']} ≠ strona {sc}")
+    # Ceny na stronie dryfują razem z rynkiem (bot odświeża je codziennie), a fixtura jest zapisana raz —
+    # porównujemy więc wyłącznie to, co od ceny NIE zależy: moc, podzespoły, kompletność, długowieczność.
+    # Spójność opłacalności i sum z ceną pilnują przelicz_oceny.py (test par sprzecznych) i test_ranking.py.
+    bez_ceny = ("perf", "components", "features", "longevity")
+    ok({k: w["scores"][k] for k in bez_ceny} == {k: sc[k] for k in bez_ceny},
+       f"{w['name'][-30:]}: oceny niezależne od ceny {w['scores']} ≠ strona {sc}")
     for k in ("cpu", "gpu", "ram", "storage", "psu", "os"):
         ok(w[k] == pole(seg, k), f"{w['name'][-30:]}: {k}: {w[k]!r} ≠ {pole(seg, k)!r}")
-    ok(w["price"] == tw["price"] and w["priceBare"] == tw["priceBare"],
-       f"{w['name'][-30:]}: cena {w['price']}/{w['priceBare']} ≠ {tw['price']}/{tw['priceBare']}")
-    ok(w["pros"] == re.findall(r'"((?:[^"\\]|\\.)*)"', re.search(r"pros:\[(.*?)\]", seg, re.S).group(1)),
-       f"{w['name'][-30:]}: zalety różnią się od tych na stronie")
-    ok(w["cons"] == re.findall(r'"((?:[^"\\]|\\.)*)"', re.search(r"cons:\[(.*?)\]", seg, re.S).group(1)),
-       f"{w['name'][-30:]}: wady różnią się od tych na stronie")
+    # dopłata za system (price − priceBare) to cena licencji z konfiguratora — nie dryfuje z rynkiem
+    ok(w["price"] - w["priceBare"] == tw["price"] - tw["priceBare"],
+       f"{w['name'][-30:]}: dopłata za system {w['price'] - w['priceBare']} ≠ {tw['price'] - tw['priceBare']}")
+    def bez_cen(lista):
+        return [re.sub(r"\d[\d\s\u00a0]*zł", "N zł", x) for x in lista]
+    na_stronie_pros = re.findall(r'"((?:[^"\\]|\\.)*)"', re.search(r"pros:\[(.*?)\]", seg, re.S).group(1))
+    na_stronie_cons = re.findall(r'"((?:[^"\\]|\\.)*)"', re.search(r"cons:\[(.*?)\]", seg, re.S).group(1))
+    ok(bez_cen(w["pros"]) == bez_cen(na_stronie_pros), f"{w['name'][-30:]}: zalety (po zamaskowaniu cen) różnią się od tych na stronie")
+    ok(bez_cen(w["cons"]) == bez_cen(na_stronie_cons), f"{w['name'][-30:]}: wady (po zamaskowaniu cen) różnią się od tych na stronie")
 
 # --- brak licencji Windows na stronie → pominięcie, nie zgadywanie
 url2 = "https://sklep.hard-pc.pl/p26430,zestaw-intel-ultra-225f-rtx-5060-ti-8gb-16gb-ddr5-650w-signum-300-argb.html"
