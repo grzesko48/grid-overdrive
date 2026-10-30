@@ -87,6 +87,14 @@ for nasza, strona, adres, oczek in [
 ]:
     if nz.ta_sama_rzecz(nasza, strona, url=adres) != oczek:
         bledy.append(f"ta_sama_rzecz({nasza[:40]!r} | {strona[:40]!r}) powinno dać {oczek}")
+_mm = ('{"offers":{"@type":"Offer","url":"/pl/product/_pc-extremo-bialy-174360812.html","priceCurrency":"PLN","price":9289.99,'
+       '"availability":"https://schema.org/InStock"}},{"offers":{"@type":"Offer","url":"/pl/product/_pc-extremo-czarny-174360814.html",'
+       '"priceCurrency":"PLN","price":9329.99,"availability":"https://schema.org/InStock"}}')
+import zbieraj_ceny as _z
+for adres, oczek in [("https://mediamarkt.pl/pl/product/_pc-extremo-czarny-174360814.html", 9330),
+                     ("https://mediamarkt.pl/pl/product/_pc-extremo-bialy-174360812.html", 9290)]:
+    if _z.z_mediamarkt(_mm, adres)[0] != oczek:
+        bledy.append(f"z_mediamarkt: cena wariantu {adres[-15:]} ≠ {oczek} (parser bierze ofertę sąsiedniego wariantu)")
 if "BRAMKA ZGODNOŚCI NIE PRZESZŁA" in bufor.getvalue():
     bledy.append("bramka zgodności odrzuciła poprawny wynik")
 print(f"obudowa współdzielona przez {len(wybrana)} wpisów; sprawdzono {len(oczekiwane)} zestawów "

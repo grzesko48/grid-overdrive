@@ -281,11 +281,31 @@ def z_ceneo(s, url):
     return naj, ""
 
 
-def z_mediamarkt(s):
+def oferta_wariantu_mediamarkt(s, url):
+    """Oferta TEJ strony, gdy blok ProductGroup wylicza warianty (kolory) z ich ofertami.
+
+    Wcześniej parser brał pierwszą „offers" na stronie, a to bywa oferta SĄSIEDNIEGO wariantu
+    (NITROPC Extremo Czarny 174360814 dostawał cenę wersji Białej 174360812: 9290 zamiast 9330).
+    Ofertę wariantu rozpoznajemy po adresie kończącym się numerem z adresu strony."""
+    m = re.search(r"-(\d{6,12})\.html(?:[?#].*)?$", url or "")
+    if not m:
+        return None
+    nr = m.group(1)
+    for o in re.finditer(r'"offers"\s*:\s*\{[^{}]*?"url"\s*:\s*"([^"]*)"[^{}]*?"price"\s*:\s*"?([\d.,]+)[^{}]*\}', s):
+        if re.search(r"-%s\.html$" % nr, o.group(1)):
+            dost = re.search(r'"availability"\s*:\s*"([^"]+)"', o.group(0))
+            return _liczba(o.group(2).strip(".,")), dost.group(1) if dost else ""
+    return None
+
+
+def z_mediamarkt(s, url=None):
     """MediaMarkt nie wystawia oferty produktu w zwykłym bloku ld+json — siedzi ona
     w osadzonym stanie strony. Oferta produktu jest OBIEKTEM ("offers":{...}), a oferty
     dodatkowe (ubezpieczenia, „Ochrona od awarii") leżą w TABLICY i mają pole "name".
     Ten rozróżnik jest jedynym pewnym — bez niego łapaliśmy 23 zł za ubezpieczenie."""
+    wariant = oferta_wariantu_mediamarkt(s, url)
+    if wariant and wariant[0]:
+        return wariant
     m = re.search(r'"offers"\s*:\s*\{(?:(?!"name")[^{}])*?"price"\s*:\s*"?([\d.,]+)', s)
     if not m:
         for o in oferty_tablicowe(s) or []:
@@ -389,7 +409,7 @@ def wyciagnij(sklep, url, s):
     if "ceneo.pl" in url:
         return z_ceneo(s, url)
     if "mediamarkt.pl" in url:
-        return z_mediamarkt(s)
+        return z_mediamarkt(s, url)
     return z_jsonld(s)
 
 

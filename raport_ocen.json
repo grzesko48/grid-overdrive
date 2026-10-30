@@ -11,103 +11,12 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 6,
+ "przeliczonych": 0,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": [
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
-   "rodzaj": "monitor",
-   "podstawa": 5.91,
-   "zmiany": {
-    "value": [
-     70,
-     68
-    ],
-    "overall": [
-     66,
-     65
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
-   "rodzaj": "monitor",
-   "podstawa": 6.45,
-   "zmiany": {
-    "value": [
-     57,
-     62
-    ],
-    "overall": [
-     63,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
-   "rodzaj": "monitor",
-   "podstawa": 9.82,
-   "zmiany": {
-    "value": [
-     31,
-     24
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
-   "rodzaj": "monitor",
-   "podstawa": 8.98,
-   "zmiany": {
-    "value": [
-     33,
-     34
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W",
-   "rodzaj": "pc",
-   "podstawa": 110.38,
-   "zmiany": {
-    "value": [
-     47,
-     42
-    ],
-    "overall": [
-     68,
-     66
-    ],
-    "ultra": [
-     74,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 500GB SSD, Pano 130 ARGB, 850W (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 122.37,
-   "zmiany": {
-    "value": [
-     29,
-     25
-    ],
-    "overall": [
-     74,
-     73
-    ],
-    "ultra": [
-     84,
-     83
-    ]
-   }
-  }
- ]
+ "zmiany": []
 }
