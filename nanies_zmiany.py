@@ -553,6 +553,10 @@ def main():
     # przeliczenie na cenach sprzed dziewieciu dni przesuwalo 298 z 324 zestawow, srednio
     # o 6 miejsc. Skrypt konczy sie bledem, gdy test par sprzecznych nie przejdzie —
     # check=True przerywa wtedy caly przebieg i strona NIE zostaje opublikowana.
+    print("\nhistoria cen i promocje")
+    r_hist = subprocess.run([sys.executable, os.path.join(BAZA, "historia_cen.py")])
+    if r_hist.returncode != 0:
+        print("UWAGA: historia_cen.py zakończył się błędem (ceny zapisane normalnie, promocje niezaktualizowane)")
     print("\nszablon zapisany; przeliczam oceny")
     subprocess.run([sys.executable, os.path.join(BAZA, "przelicz_oceny.py"),
                     "--bez-przebudowy"], check=True)

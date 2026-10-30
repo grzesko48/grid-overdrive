@@ -317,6 +317,10 @@ section.grid-view{padding:1.4rem 0 2.6rem;}
 .gauge .gnum{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:1.15rem;}
 .gauge .gnum small{font-weight:400; font-size:.68em; color:var(--ink-dim);}
 .gauge.overall .gnum{color:var(--accent); font-size:1.3rem;}
+.promochip{display:inline-block; margin-left:.4rem; padding:.04rem .55rem; border-radius:999px; font-size:.7rem; font-weight:700; letter-spacing:.02em; background:var(--good-bg); color:var(--good); border:1px solid var(--good); white-space:nowrap; vertical-align:middle;}
+.promochip-super{border-width:2px;}
+section.promo{padding:1.2rem 0 1.6rem;}
+section.promo h2{font-size:1.65rem; margin-bottom:.3rem;}
 .covchip{display:inline-block; margin-left:.5rem; padding:.04rem .5rem; border:1px solid var(--line-strong); border-radius:999px; font-size:.7rem; font-weight:500; color:var(--ink-dim); white-space:nowrap; vertical-align:middle;}
 .covchip-brak{border-style:dashed;}
 .pc-chip-warn{padding:.05rem .4rem; margin-left:.4rem; border-color:var(--line-strong); font-size:.7rem;}
@@ -575,7 +579,7 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   <div class="wrap">
     <div class="hero-top">
       <div>
-        <div class="eyebrow"><span class="dot"></span>Ceny odświeżane automatycznie co dwa dni
+        <div class="eyebrow"><span class="dot"></span>Ceny odświeżane automatycznie codziennie
           // ostatnio <span id="eyebrowDate">—</span>
           // <a class="eyebrow-link" href="https://grzesko48.github.io/grid-overdrive/index.html"
                target="_blank" rel="noopener">zawsze aktualna wersja</a></div>
@@ -724,6 +728,11 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   </section>
 </section>
 
+<section class="promo wrap" id="promoMon" hidden>
+  <h2>Promocje</h2>
+  <p class="rank-note" id="promoMonNote"></p>
+  <div class="pick-grid" id="promoMonGrid"></div>
+</section>
 <section class="picks wrap">
   <h2>Wybory z rankingu</h2>
   <div class="pick-grid" id="pickGrid"></div>
@@ -887,6 +896,11 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
   </div>
 </section>
 
+<section class="promo wrap" id="promoPc" hidden>
+  <h2>Promocje</h2>
+  <p class="rank-note" id="promoPcNote"></p>
+  <div class="pick-grid" id="promoPcGrid"></div>
+</section>
 <section class="grid-view wrap" id="pcGridView">
   <div class="mcard-grid" id="pcCardGrid"></div>
 </section>
@@ -1048,6 +1062,35 @@ footer#zrodla h2{font-size:1.3rem; margin-bottom:.9rem; text-transform:uppercase
    bloku <script>. Wepchnięta z powrotem do środka któregokolwiek z nich wywala każdą
    kartę szczegółów PC przez ReferenceError (tak się stało w commicie 1c6c83e).
    Datę podmienia automat jednym wzorcem na tę jedną linię — apply_price_updates.py. */
+/*PROMO_START*/var PROMOCJE = {"dzien":"2026-10-30","okno":45,"prog_lista":10,"prog_super":20,"lista":[{"n":"Acer XV270UF3BMIIPRX","k":"monitor","sk":"morele","c":963,"r":1290,"p":25.3,"o":327,"dni":9,"min":1,"u":"https://www.morele.net/monitor-acer-xv270uf3bmiiprx-um-hx0ee-323-15514872/"},{"n":"MSI MPG 271QR QD-OLED X50","k":"monitor","sk":"morele","c":3399,"r":4288,"p":20.7,"o":889,"dni":9,"min":0,"u":"https://www.morele.net/monitor-msi-mpg-271qr-qd-oled-x50-15759839/"},{"n":"ASRock Phantom Gaming PGO27QFS","k":"monitor","sk":"morele","c":1522,"r":1829,"p":16.8,"o":307,"dni":9,"min":1,"u":"https://www.morele.net/monitor-asrock-phantom-gaming-pgo27qfs-90lxa0p0-a0e1a0c-15001004/"},{"n":"Samsung Odyssey OLED G60SD","k":"monitor","sk":"xkom","c":2439,"r":2699,"p":9.6,"o":260,"dni":9,"min":1,"u":"https://www.x-kom.pl/p/1265551-monitor-led-27-265-284-samsung-odyssey-g6-s27dg600sux-g60sd.html"}]};/*PROMO_END*/
+/* ---------- promocje: pomocnicze (dane w PROMOCJE liczy historia_cen.py z obserwacji bota) ---------- */
+var PROMO_PO_NAZWIE = {};
+(function(){ var l = (typeof PROMOCJE === 'object' && PROMOCJE && PROMOCJE.lista) || []; l.forEach(function(x){ PROMO_PO_NAZWIE[x.n] = x; }); })();
+function promoOpis(x){
+  return 'Cena w ' + (SHOP_NAMES[x.sk] || x.sk) + ' niższa o ' + x.o + ' zł od typowej (' + x.r + ' zł — mediana dziennych cen tego sklepu z ' + x.dni + ' dni obserwacji bota)' + (x.min ? '; to najniższa cena, jaką zaobserwowaliśmy' : '') + '.';
+}
+function promoChip(nazwa){
+  var x = PROMO_PO_NAZWIE[nazwa]; if(!x) return '';
+  var sup = x.p >= PROMOCJE.prog_super;
+  return '<span class="promochip' + (sup ? ' promochip-super' : '') + '" title="' + promoOpis(x) + '">' + (sup ? 'SUPER PROMOCJA' : 'PROMOCJA') + ' −' + Math.round(x.p) + '%</span>';
+}
+function renderPromocje(rodzaj, wpisy, sekcjaId, notaId, siatkaId, otworz){
+  var sek = document.getElementById(sekcjaId), siatka = document.getElementById(siatkaId), nota = document.getElementById(notaId);
+  if(!sek || !siatka || typeof PROMOCJE !== 'object') return;
+  var po = {}; wpisy.forEach(function(d){ po[d.name] = d; });
+  var lista = (PROMOCJE.lista || []).filter(function(x){ return x.k === rodzaj && x.p >= PROMOCJE.prog_lista && po[x.n]; }).slice(0, 6);
+  siatka.innerHTML = '';
+  if(!lista.length){ sek.hidden = true; return; }
+  sek.hidden = false;
+  if(nota) nota.textContent = 'Cena dziś niższa o co najmniej ' + PROMOCJE.prog_lista + '% od typowej w danym sklepie (mediana dziennych cen z ostatnich dni obserwacji bota, min. 5 dni). Pokazujemy tylko ceny zweryfikowane dziś i tylko towar w sprzedaży. Dzień: ' + PROMOCJE.dzien + '.';
+  lista.forEach(function(x){
+    var d = po[x.n], c = document.createElement('div');
+    c.className = 'pick-card'; c.style.cursor = 'pointer';
+    c.innerHTML = '<div class="pick-img"><img src="' + d.src + '" alt="' + d.name + '"></div><div class="pick-body"><div class="role">' + promoChip(x.n) + '</div><div class="pick-name">' + d.name + '</div><div class="pick-price">' + x.c + ' zł <s style="opacity:.6;font-weight:400">' + x.r + ' zł</s> · ' + (SHOP_NAMES[x.sk] || x.sk) + '</div><p>Oszczędzasz ' + x.o + ' zł względem typowej ceny (' + x.dni + ' dni obserwacji)' + (x.min ? ' — najniższa zaobserwowana cena.' : '.') + (x.u ? ' <a href="' + x.u + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">Zobacz w sklepie →</a>' : '') + '</p></div>';
+    c.addEventListener('click', function(){ otworz(d); });
+    siatka.appendChild(c);
+  });
+}
 var PRICE_CHECK_LABEL = '30 października 2026';
 var PRICE_CHECK_ISO = '2026-10-30';
 /* Kiedy każdy sklep był ostatnio NAPRAWDĘ sprawdzony. Automat z chmury nie dostaje odpowiedzi
@@ -1565,7 +1608,7 @@ wstaw('monCount', DATA.length);
       var content = '<span class="pstore">'+dot+e.label+shopRowNote(d, e.key)+'</span>' + priceHtml;
       return '<div class="price-row-store'+(isCheapest?' cheapest':'')+'" style="--store-color:'+STORE_COLORS[e.key]+'">' + (href ? '<a href="'+href+'" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="display:flex;justify-content:space-between;align-items:center;width:100%;gap:.6rem;">'+content+'</a>' : content) + '</div>';
     }).join('');
-    return '<div class="price-checked-note">Ostatnia weryfikacja cen: ' + PRICE_CHECK_LABEL + ' — sprawdzane automatycznie co dwa dni.' + shopStaleNote() + ' Oferty, których nie da się w tej chwili kupić, nie są pokazywane. Kliknięcie prowadzi do aktualnej ceny w sklepie.'+'</div>' + rows;
+    return '<div class="price-checked-note">Ostatnia weryfikacja cen: ' + PRICE_CHECK_LABEL + ' — sprawdzane automatycznie codziennie.' + shopStaleNote() + ' Oferty, których nie da się w tej chwili kupić, nie są pokazywane. Kliknięcie prowadzi do aktualnej ceny w sklepie.'+'</div>' + rows;
   }
 
   var GAUGE_DEFS = [
@@ -1721,7 +1764,7 @@ wstaw('monCount', DATA.length);
             '<span class="detail-tag-plain">'+hzText+' Hz</span>'+
             '<span class="detail-tag-plain">'+d.zhz.toFixed(2)+' zł/Hz</span>'+
           '</div>'+
-          '<div class="detail-price-row"><span class="detail-price grad-text">'+d.price+' zł</span><span class="detail-price-store">cena w '+d.store+'</span></div>'+
+          '<div class="detail-price-row"><span class="detail-price grad-text">'+d.price+' zł</span><span class="detail-price-store">cena w '+d.store+'</span>'+promoChip(d.name)+'</div>'+
           (d.note ? '<p class="detail-note">'+d.note+'</p>' : '')+
         '</div>'+
       '</div>'+
@@ -1760,7 +1803,7 @@ wstaw('monCount', DATA.length);
         '</div>'+
         '<div class="body">'+
           '<h3><a href="'+d.url+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+d.name+'</a></h3>'+
-          '<div class="meta-row"><span>'+d.diag+'</span><span>·</span><span>'+d.store+'</span>'+(d.nowy ? '<span>·</span><span class="newtag">nowy · bez oceny</span>' : '')+'</div>'+
+          '<div class="meta-row"><span>'+d.diag+'</span><span>·</span><span>'+d.store+'</span>'+(d.nowy ? '<span>·</span><span class="newtag">nowy · bez oceny</span>' : '')+promoChip(d.name)+'</div>'+
           '<p class="note">'+d.note+'</p>'+
           '<div class="price-row">'+
             '<span class="price grad-text">'+d.price+' zł</span>'+
@@ -1870,6 +1913,7 @@ wstaw('monCount', DATA.length);
     c.addEventListener('click', function(){ openAndScrollTo(p.d.name); });
     pickGrid.appendChild(c);
   });
+  renderPromocje('monitor', DATA, 'promoMon', 'promoMonNote', 'promoMonGrid', function(d){ openAndScrollTo(d.name); });
 
   var themeObserver = new MutationObserver(function(){ drawChart(); render(); });
   themeObserver.observe(root, {attributes:true, attributeFilter:['data-theme']});
@@ -2403,6 +2447,7 @@ wstaw('monCount', DATA.length);
     var r = 0; for(var k in PC_WAGI_ULTRA){ r += PC_WAGI_ULTRA[k] * d.scores[k]; }
     return r - pcKaraSuma(d);
   }
+  renderPromocje('pc', PDATA, 'promoPc', 'promoPcNote', 'promoPcGrid', function(d){ pcOpenAndScrollTo(d); });
 
   /* ---------- category toggle ---------- */
   var catMonitorsBtn = document.getElementById('catMonitorsBtn');
@@ -2624,7 +2669,7 @@ wstaw('monCount', DATA.length);
       return '<div class="price-row-store'+(isCheapest?' cheapest':'')+'" style="--store-color:'+PSTORE_COLORS[k]+'"><a href="'+d.urls[k]+'" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="display:flex;justify-content:space-between;align-items:center;width:100%;gap:.6rem;">'+content+'</a></div>';
     }).join('');
     var osNote = d.osPriceKind==='included' ? '' : (d.osPriceKind==='unknown' ? (' '+(d.osPriceNote||'')) : (' Ceny w sklepach poniżej to kwoty bez systemu; w nagłówku karty podano cenę z doliczonym Windows 11 (+'+(d.price-d.priceBare)+' zł).'));
-    return '<div class="price-checked-note">Ostatnia weryfikacja cen: ' + PRICE_CHECK_LABEL + ' — sprawdzane automatycznie co dwa dni.' + shopStaleNote() + ' Oferty, których nie da się w tej chwili kupić, nie są pokazywane. Kliknięcie prowadzi do aktualnej ceny w sklepie.'+osNote+'</div>' + rows;
+    return '<div class="price-checked-note">Ostatnia weryfikacja cen: ' + PRICE_CHECK_LABEL + ' — sprawdzane automatycznie codziennie.' + shopStaleNote() + ' Oferty, których nie da się w tej chwili kupić, nie są pokazywane. Kliknięcie prowadzi do aktualnej ceny w sklepie.'+osNote+'</div>' + rows;
   }
 
   var PC_GAUGE_DEFS = [
@@ -2695,7 +2740,7 @@ wstaw('monCount', DATA.length);
           '<div class="detail-eyebrow">Zestawy PC · '+d.store+'</div>'+
           '<h1>'+d.name+'</h1>'+
           '<div class="pc-gpu-cpu-row" style="font-size:.95rem;"><span class="gpu-dot" style="--pc-brand:'+BRAND_COLOR[brand]+'"></span><span class="gpu-name">'+d.gpu+'</span><span>·</span><span>'+d.cpu+'</span><span>·</span><span>'+d.ram+'</span></div>'+
-          '<div class="detail-price-row"><span class="detail-price grad-text pc-price-display">'+d.price+' zł</span><span class="detail-price-store">Ranking Ultra: '+d.scores.ultra+'/100'+(d.longevityYears?' · ~'+d.longevityYears.toFixed(1)+' roku komfortowej gry 1440p':'')+'</span>'+pcKaryChips(d)+'</div>'+
+          '<div class="detail-price-row"><span class="detail-price grad-text pc-price-display">'+d.price+' zł</span><span class="detail-price-store">Ranking Ultra: '+d.scores.ultra+'/100'+(d.longevityYears?' · ~'+d.longevityYears.toFixed(1)+' roku komfortowej gry 1440p':'')+'</span>'+pcKaryChips(d)+promoChip(d.name)+'</div>'+
           buildPcOsPriceBadges(d)+
           (d.isCustom ? '<p class="detail-note"><strong>Wariant custom:</strong> '+d.customLabel+' względem wersji bazowej „'+d.baseName+'" ('+d.baseRam+').</p>' : '')+
         '</div>'+
@@ -2775,6 +2820,7 @@ wstaw('monCount', DATA.length);
           '<h3>'+d.name+'</h3>'+
           '<div class="pc-gpu-cpu-row"><span class="gpu-dot"></span><span class="gpu-name">'+d.gpu+'</span><span>·</span><span>'+d.cpu+'</span></div>'+
           '<div class="pc-chips">'+
+            promoChip(d.name)+
             vram8Chip(d)+
             '<span class="pc-chip pc-chip-ram'+(d.isCustom?' pc-chip-highlight':'')+'">'+ICON_RAM+d.ram+'</span>'+
             pcStorageChipHtml(d)+

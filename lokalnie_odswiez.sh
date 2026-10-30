@@ -36,7 +36,7 @@ glowna() {
     git config user.email "bot@grid-overdrive"; git config user.name "Grid Overdrive Bot"
     git add index.html monitors_1700_template.html images/pcs.json images/monitors.json coverage_log.json \
         raport_rano.json raport_katalogu.json raport_ocen.json raport_nowe_pc.json raport_nowe_monitory.json \
-        monitory_odrzucone.json 2>/dev/null
+        monitory_odrzucone.json historia_cen.json 2>/dev/null
     git commit -q -m "bot: odswiezenie cen i dostepnosci ($(date +%F), ${ZRODLO:-lokalnie})"
   }
 
