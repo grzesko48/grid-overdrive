@@ -1,263 +1,132 @@
 {
  "dopisane_monitory": [
-  "Gigabyte MO27Q28G OLED",
-  "HP Omen 27qs G2 AW3V0E9#ABB",
-  "MSI MAG 274CQPDF X32",
-  "Acer Nitro KG273UW2bmiippx",
-  "LG 27GS95QX-B",
-  "MSI MAG 272QP QD-OLED X50"
+  "Acer XF270UF3",
+  "Lenovo 27Q-10 26.5 2xHDMI, DP"
  ],
  "dopisane_pc": [
-  "PlugNPlay | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
-  "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
-  "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO biała",
-  "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, MSI MAG Pano M100R PZ ARGB",
-  "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Krux Tano + 3 wentylatory reverse",
-  "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD M.2, KRUX EXO",
-  "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
-  "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North",
-  "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO",
-  "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Zalman Z10",
-  "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North (2)",
-  "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Zalman Z10",
-  "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Krux Tano + 3 wentylatory reverse",
-  "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North",
-  "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO",
-  "LENOVO LOQ Tower 26ADR10 (Ryzen 7 8745HX, RTX 5050 8GB)",
-  "LENOVO LOQ Tower 26ADR10 (Ryzen 7 8745HX, RTX 5060 Ti 8GB)",
-  "x-kom | Ryzen 7 7700X, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD",
-  "x-kom | Core Ultra 5 225, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Ryzen 5 7600, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Core i5-14400, RTX 5060 8GB, 24GB DDR5, 512GB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Core i7-14700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD"
+  "Morele | Core i5-14400F, RTX 5050 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5050 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5050 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 7 265KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 8400F, RTX 5050 8GB, 16GB DDR5, 2TB SSD"
  ],
  "uzupelnione": [
   [
-   "MSI MAG 274QPF X32",
-   "xkom"
-  ],
-  [
-   "ViewSonic VX2758A-2K-PRO-3",
-   "xkom"
-  ],
-  [
-   "MSI MPG 271QR QD-OLED X50",
-   "xkom"
+   "LG UltraGear OLED 27GX790A-B",
+   "mediamarkt"
   ],
   [
    "Lenovo Legion 27Q-2c 67EFGAC1EU",
-   "xkom"
+   "mediamarkt"
   ],
   [
    "iiyama G-Master GOB2701QSC-B1 Titan Falcon Tandem OLED",
-   "xkom"
-  ],
-  [
-   "Dell Alienware AW2725DF QD-OLED",
-   "xkom"
-  ],
-  [
-   "Dell Alienware AW2725DF QD-OLED",
    "mediamarkt"
   ],
   [
-   "Dell Alienware AW2725D QD-OLED",
-   "xkom"
-  ],
-  [
-   "Dell Alienware AW2725D QD-OLED",
+   "LG UltraGear 27GX700A-B",
    "mediamarkt"
   ],
   [
-   "ASUS ROG Strix WOLED XG27AQDMGR",
-   "xkom"
-  ],
-  [
-   "ASUS ROG Strix Tandem OLED XG27AQWMG",
-   "xkom"
-  ],
-  [
-   "ASUS ROG Strix Tandem OLED XG27AQWMG",
-   "mediamarkt"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27AQDPG",
-   "xkom"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27AQDPG",
-   "mediamarkt"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27AQDNG",
-   "xkom"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27AQDNG",
-   "mediamarkt"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27ACDNG",
-   "xkom"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27ACDNG",
-   "mediamarkt"
-  ],
-  [
-   "AOC Q27G4SRU",
-   "xkom"
-  ],
-  [
-   "AOC Q27G41ZDF",
+   "Gigabyte MO27Q3",
    "mediamarkt"
   ]
  ],
- "konflikty": [
-  [
-   "Gigabyte MO27Q2A ICE",
-   "kilka istniejących wpisów pasuje do tego modelu"
-  ]
- ],
+ "konflikty": [],
  "pominiete": [
-  [
-   "https://www.morele.net/monitor-alienware-aw3226dm-210-bwqd-600322014/",
-   "przekątna 31.5\" poza zakresem 26–28\""
-  ],
-  [
-   "https://www.morele.net/monitor-aoc-q25g4sr-15283913/",
-   "przekątna 24.5\" poza zakresem 26–28\""
-  ],
   [
    "https://www.morele.net/monitor-asus-rog-strix-xg27acmeg-g-hatsune-miku-edition-90lm0c7u-b01371-15601657/",
    "nie ma w sprzedaży (availability ≠ InStock)"
-  ],
-  [
-   "https://www.morele.net/monitor-asus-rog-strix-xg32wcms-90lm09x0-b01970-13769664/",
-   "przekątna 31.5\" poza zakresem 26–28\""
-  ],
-  [
-   "https://www.morele.net/monitor-benq-zowie-xq2566x-9h-e19lb-qse-600383191/",
-   "przekątna 24.1\" poza zakresem 26–28\""
-  ],
-  [
-   "https://www.morele.net/monitor-iiyama-g-master-gb3290qsu-b1-gold-phoenix-15490431/",
-   "przekątna 31.5\" poza zakresem 26–28\""
-  ],
-  [
-   "https://www.morele.net/monitor-iiyama-g-master-gb3295qsu-b1-gold-phoenix-15739765/",
-   "przekątna 31.5\" poza zakresem 26–28\""
   ],
   [
    "https://www.morele.net/monitor-msi-mag-272qp-qd-oled-x50-14978670/",
    "nie ma w sprzedaży (availability ≠ InStock)"
   ],
   [
-   "https://www.morele.net/monitor-msi-mag-274qpf-x30mv-14978682/",
-   "typ matrycy „Rapid VA” spoza zakresu (IPS/VA/OLED/QD-OLED)"
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-alienware-aw2524hf-czarny-145822214.html",
+   "przekątna 25\" poza zakresem 26–28\""
   ],
   [
-   "https://www.morele.net/monitor-philips-evnia-32m2c5500w-00-13136713/",
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-aoc-g4-cq32g4ve-czarny-szary-145225192.html",
    "przekątna 31.5\" poza zakresem 26–28\""
   ],
   [
-   "https://www.morele.net/monitor-samsung-odyssey-g6-ls32bg650euxen-10399420/",
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-asrock-phantom-gaming-czarny-145225249.html",
+   "brak częstotliwości odświeżania"
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-asus-vg27vqm1b-czarny-143946823.html",
+   "rozdzielczość „1920x1080” (wymagane 2560 x 1440)"
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-gigabyte-gs27qa-czarny-144927750.html",
+   "180 Hz poza zakresem 240–500 Hz"
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_monitor-asus-zenscreen-zenscreen-duo-oled-mq149cd-srebrny-151912342.html",
+   "przekątna 14\" poza zakresem 26–28\""
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_monitor-gamingowy-asus-rog-swift-oled-pg34wcdn-zakrzywiony-panel-oled-qd-oled-360hz-003ms-czarny-179209297.html",
+   "przekątna 34\" poza zakresem 26–28\""
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_monitor-gamingowy-samsung-ls32hg732suxen-odyssey-oled-g7-g73sh-czarny-183993413.html",
    "przekątna 32\" poza zakresem 26–28\""
   ],
   [
-   "https://www.x-kom.pl/p/1293193-monitor-led-27-265-284-asus-rog-strix-xg27wcms.html",
-   "Hz z podkręcenia (OC) bez wartości natywnej"
+   "https://mediamarkt.pl/pl/product/_monitor-lenovo-legion-27-10-68c5gac4eu-raven-black-165082362.html",
+   "rozdzielczość „1920x1080” (wymagane 2560 x 1440)"
   ],
   [
-   "https://www.x-kom.pl/p/1340781-monitor-led-27-265-284-eizo-flexscan-ev2720s-bk.html",
-   "brak natywnej częstotliwości odświeżania (same wartości OC): None"
+   "https://mediamarkt.pl/pl/product/_monitor-lg-27gx790b-baeu-czarny-176189643.html",
+   "540 Hz poza zakresem 240–500 Hz"
   ],
   [
-   "https://www.x-kom.pl/p/1340782-monitor-led-27-265-284-eizo-flexscan-ev2720s-wt.html",
-   "brak natywnej częstotliwości odświeżania (same wartości OC): None"
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-ax-50-czarny-125967926.html",
+   "to nie monitor (rodzaj produktu: None, tytuł: 'Monitor LIPA AX-50 przenośny czarny')"
   ],
   [
-   "https://www.x-kom.pl/p/1344638-monitor-led-27-265-284-msi-mag-274qpf-x30mv.html",
-   "typ matrycy „Mini-LED, Rapid VA” spoza zakresu (IPS/VA/OLED/QD-OLED)"
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-ax-60-czarny-125967928.html",
+   "przekątna 15.6\" poza zakresem 26–28\""
   ],
   [
-   "https://www.x-kom.pl/p/1352451-monitor-led-27-265-284-acer-nitro-xv270uf3bmiiprx.html",
-   "Hz z podkręcenia (OC) bez wartości natywnej"
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-ax-60t-czarny-125967979.html",
+   "przekątna 15.6\" poza zakresem 26–28\""
   ],
   [
-   "xkom",
-   "limit pobrań (25 na sklep) — 7 adresów w następnych przebiegach"
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-hdr-50-czarny-125967973.html",
+   "to nie monitor (rodzaj produktu: None, tytuł: 'Monitor LIPA HDR-50 przenośny czarny')"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-acer-predator-x34-x34vbmiiphuzx-czarny-142971448.html",
-   "przekątna 34\" poza zakresem 26–28\""
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-hdr-60-czarny-125972176.html",
+   "przekątna 17.3\" poza zakresem 26–28\""
   ],
   [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-aoc-g2-a76uzd-czarny-158321291.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-hdr-72-czarny-138614170.html",
+   "to nie monitor (rodzaj produktu: None, tytuł: 'Monitor LIPA HDR-72 czarny')"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-aoc-porsche-pd34-czarny-149404502.html",
-   "przekątna 34\" poza zakresem 26–28\""
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-hdr-80-czarny-138614168.html",
+   "to nie monitor (rodzaj produktu: None, tytuł: 'Monitor LIPA HDR-80 przenośny czarny')"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-asus-rog-swift-oled-pg27ucdm-czarny-150041512.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-asus-rog-swift-pg32ucdp-czarny-148965680.html",
-   "przekątna 31.5\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-lenovo-legion-pro-27ud-10-czarny-szary-162650363.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-lenovo-legion-pro-34wd-10-czarny-154840540.html",
-   "przekątna 34\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-msi-mag-272up-qd-oled-x24-czarny-162650027.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-philips-evnia-34m2c650000-szary-144505804.html",
-   "przekątna 34\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-philips-evnia-8000-49m2c890000-bialy-142959088.html",
-   "przekątna 49\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-g81sf-srebrny-154840069.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-g85sd-srebrny-149020850.html",
-   "przekątna 34\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-s27fg814su-metaliczny-155818324.html",
-   "rozdzielczość „2160x3840” (wymagane 2560 x 1440)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-s32fg810su-srebrny-154847266.html",
-   "przekątna 32\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-s32fg814su-srebrny-154847688.html",
-   "przekątna 32\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-asus-proart-oledpa279cdv-czarny-srebrny-185334074.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
+   "https://mediamarkt.pl/pl/product/_monitor-lipa-s14-szary-125972301.html",
+   "przekątna 14\" poza zakresem 26–28\""
   ],
   [
    "mediamarkt",
-   "limit pobrań (25 na sklep) — 28 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 14 adresów w następnych przebiegach"
   ],
   [
    "Gigabyte G27Q3 EK",
@@ -276,306 +145,78 @@
    "nazwa już istnieje na stronie"
   ],
   [
-   "Lenovo Legion Pro 27Q-10",
-   "nazwa już istnieje na stronie"
-  ],
-  [
    "https://goblinpc.pl/product/widmo",
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-or-pro-gaming-czarny-169883726.html",
-   "pamięć nie jest DDR5: 'DDR4'"
+   "https://mediamarkt.pl/pl/product/_komputer-stacjonarny-msi-2nvl5-064eu-czarny-186258908.html",
+   "zbyt ogólna nazwa procesora (brak modelu): '225F'"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-or-pro-gaming-czarny-173069392.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-or-pro-gaming-czarny-173074192.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-or-pro-gaming-czarny-173074200.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781162.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781164.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781178.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781180.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781182.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781208.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781210.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-134781326.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-142245325.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-142245327.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-142245436.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-142284506.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-142537162.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-142537275.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-pc-bleu-jour-sprite-czerwony-187760728.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_komputer-beastcom-q5-or-pro-gaming-bialy-176855495.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_komputer-beastcom-q5-or-pro-gaming-czarny-176855693.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_komputer-gamingowy-beastcom-q5-or-pro-gaming-czarny-177056802.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_komputer-gamingowy-beastcom-q5-or-pro-gaming-czarny-177056804.html",
-   "pamięć nie jest DDR5: 'DDR4'"
-  ],
-  [
-   "mediamarkt",
-   "limit pobrań (25 na sklep) — 1 adresów w następnych przebiegach"
-  ],
-  [
-   "https://www.x-kom.pl/p/1488444-desktop-msi-pro-dp180-14a-i5-14400-16gb-5121tb-win11-rtx5060.html",
-   "pole „Dysk” ma kilka wartości ['1000 GB SSD SATA III', '512 GB SSD M.2 PCIe'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1509241-desktop-polecany-zestaw-ryzen-5-7500f-16gb-512gb-rtx-5060.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1509242-desktop-polecany-zestaw-ryzen-5-7500f-32gb-1tb-rx-9060-xt.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1509632-desktop-polecany-zestaw-core-i5-12400-16gb-512gb-rtx-5060.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1509744-desktop-polecany-zestaw-core-i5-14400f-32gb-1tb-rx-9060-xt.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518543-desktop-msi-mag-infinite-s3-i5-14400f-16gb-2tb1tb-rtx5070-win11x.html",
-   "pole „Dysk” ma kilka wartości ['1000 GB SSD M.2 PCIe', '2000 GB SSD M.2 PCIe'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518584-desktop-msi-mag-infinite-s3-i5-14400f-16gb-1tb1tb-win11-rtx5060.html",
-   "pole „Dysk” ma kilka wartości ['1000 GB SSD SATA III', '1000 GB SSD M.2 PCIe'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518585-desktop-msi-mag-infinite-s3-i5-14400f-16gb-2tb1tb-win11-rtx5060.html",
-   "pole „Dysk” ma kilka wartości ['1000 GB SSD SATA III', '2000 GB SSD M.2 PCIe'] — niejednoznaczne"
-  ],
-  [
-   "xkom",
-   "limit pobrań (25 na sklep) — 61 adresów w następnych przebiegach"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-5-9500f-16gb-rtx-5060-ti-512gb-m-2-pcie-windows-11-pro-600296853/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-9500f-16gb-rtx-5060-ti-512gb-m-2-pcie-windows-11-pro-600296855/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-core-ultra-5-225f-32gb-rx-9060-1tb-m-2-pcie-600291690/",
+   "https://www.morele.net/komputer-altreo-chieftec-visio-core-i7-14700f-16gb-ddr5-rx-9060-512gb-m-2-pcie-600288533/",
    "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
   ],
   [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-8400f-16gb-rx-7600-512gb-m-2-pcie-windows-11-pro-600296198/",
+   "https://www.morele.net/komputer-altreo-chieftec-visio-core-ultra-5-245kf-16gb-rx-9060-512gb-m-2-pcie-600291657/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-i5-14400f-16gb-ddr5-rx-7600-512gb-m-2-pcie-31117-600287994/",
    "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
   ],
   [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-9500f-16gb-rtx-5060-ti-512gb-m-2-pcie-windows-11-pro-600297801/",
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-i5-14400f-32gb-ddr5-rx-7600-2tb-m-2-pcie-31081-600288017/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-ultra-5-225f-16gb-rx-7600-1tb-m-2-pcie-600291716/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-ultra-5-225f-16gb-rx-7600-512gb-m-2-pcie-600291188/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-ultra-5-225f-16gb-rx-9060-1tb-m-2-pcie-600291146/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-ultra-5-225f-32gb-rx-7600-1tb-m-2-pcie-600291743/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-ultra-5-225f-32gb-rx-7600-512gb-m-2-pcie-600291207/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-core-ultra-5-250kf-plus-16gb-rx-9060-xt-512gb-m-2-pcie-600292765/",
    "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 1586 adresów w następnych przebiegach"
-  ],
-  [
-   "https://www.x-kom.pl/p/1367257-desktop-hp-omen-45l-ultra-7-265k-32gb-1tb-rtx5070.html",
-   "cena z systemem 10499 zł powyżej progu 10000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1491053-desktop-g4m3r-hero-20-i7-14700f-32gb-1tb-rtx-5060ti-w11x.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1491064-desktop-g4m3r-hero-20-r7-7800x3d-32gb-1tb-rtx-5060-w11x.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1491066-desktop-g4m3r-hero-20-r7-7800x3d-32gb-1tb-rtx-5060ti-w11x.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1491067-desktop-g4m3r-hero-20-r7-7800x3d-32gb-1tb-rtx-5070.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518542-desktop-msi-mag-infinite-s3-i5-14400f-16gb-1tb1tb-rtx5070-win11x.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518582-desktop-msi-mag-infinite-s3-i5-14400f-16gb-1tb-win11-rtx5060.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518583-desktop-msi-mag-infinite-s3-i5-14400f-16gb-2tb-win11-rtx5060.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518596-desktop-msi-mag-infinite-s3-i5-14400f-16gb-2tb-rtx5060ti-8gb.html",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-adronix-nightstorm-ryzen-7-7800x3d-32gb-rtx-5070-1tb-ssd-m-2-600560451/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-ryzen-5-7600x-16gb-rx-9060-xt-8gb-1tb-m-2-pcie-600295045/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-tg-op-ryzen-5-8400f-16gb-rx-9070-512gb-m-2-pcie-600295562/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-core-ultra-5-225f-16gb-rtx-5060-ti-512gb-m-2-pcie-22333-600292013/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-core-ultra-5-245kf-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-22289-600272780/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7500f-16gb-rtx-5060-1tb-m-2-pcie-windows-11-pro-600297094/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7500f-16gb-rtx-5060-ti-2tb-m-2-pcie-windows-11-pro-600297807/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-7-8700f-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-600297821/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-ryzen-5-8400f-16gb-rtx-5060-ti-2tb-m-2-pcie-windows-11-pro-600296934/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-5-8400f-16gb-rtx-5060-ti-2tb-m-2-pcie-windows-11-pro-600296928/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-7500f-16gb-rtx-5060-ti-2tb-m-2-pcie-windows-11-pro-600296933/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-7500f-32gb-rtx-5060-ti-512gb-m-2-pcie-windows-11-pro-600296907/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-7-8700f-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-600296976/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-ryzen-5-7500f-16gb-rx-9070-512gb-m-2-pcie-600295606/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-ryzen-5-7600x-16gb-rtx-5060-ti-1tb-m-2-pcie-600295334/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-7500f-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-600296989/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-7500f-32gb-rtx-5060-ti-512gb-m-2-pcie-windows-11-pro-600297809/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-7500f-32gb-rtx-5070-1tb-m-2-pcie-windows-11-pro-600295863/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-dk352-plus-ryzen-5-7500f-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-600296994/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-dk352-plus-ryzen-5-7500f-16gb-rtx-5060-ti-2tb-m-2-pcie-windows-11-pro-600296930/",
-   "limit przebiegu — dopisane w następnym"
+   "limit pobrań (25 na sklep) — 735 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 114, do sprawdzenia 22"
+   "monitor": "lista 116, do sprawdzenia 12"
   },
   "xkom": {
-   "monitor": "lista 62, do sprawdzenia 32",
-   "pc": "lista 87, do sprawdzenia 86"
+   "monitor": "lista 0, do sprawdzenia 0",
+   "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 65, do sprawdzenia 53",
-   "pc": "lista 27, do sprawdzenia 26"
+   "monitor": "lista 73, do sprawdzenia 39",
+   "pc": "lista 26, do sprawdzenia 1"
   },
   "plugnplay": {
-   "pc": "lista 51, do sprawdzenia 15"
+   "pc": "lista 51, do sprawdzenia 0"
   },
   "goblinpc": {
    "pc": "lista 4, do sprawdzenia 1"
   },
   "morele_pc": {
-   "pc": "lista 1612, do sprawdzenia 1611"
+   "pc": "lista 760, do sprawdzenia 760"
   }
  }
 }

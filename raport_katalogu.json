@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 703,
+ "katalog_pozycji": 725,
  "nasze_identyfikatory": 271,
  "zniknely": [
   {
@@ -43,6 +43,120 @@
    "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5050 8GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
    "cena": 6979,
    "url": "https://sklep.hard-pc.pl/p26686,zestaw-intel-ultra-5-245kf-rtx-5050-8gb-32gb-ddr5-1tb-ssd-750w-night-hunter.html"
+  },
+  {
+   "id": "26730",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB",
+   "cena": 6509,
+   "url": "https://sklep.hard-pc.pl/p26730,zestaw-ryzen-5-7500f-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "26731",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB",
+   "cena": 6729,
+   "url": "https://sklep.hard-pc.pl/p26731,zestaw-ryzen-7-7700-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "26732",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB",
+   "cena": 6929,
+   "url": "https://sklep.hard-pc.pl/p26732,zestaw-ryzen-5-7500x3d-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "26733",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB",
+   "cena": 7319,
+   "url": "https://sklep.hard-pc.pl/p26733,zestaw-ryzen-7-7800x3d-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "26734",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB",
+   "cena": 7819,
+   "url": "https://sklep.hard-pc.pl/p26734,zestaw-ryzen-7-9800x3d-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "26735",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 6629,
+   "url": "https://sklep.hard-pc.pl/p26735,zestaw-ryzen-5-7500f-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26736",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 6829,
+   "url": "https://sklep.hard-pc.pl/p26736,zestaw-ryzen-7-7700-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26737",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 7029,
+   "url": "https://sklep.hard-pc.pl/p26737,zestaw-ryzen-5-7500x3d-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26738",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 7419,
+   "url": "https://sklep.hard-pc.pl/p26738,zestaw-ryzen-7-7800x3d-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26739",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 7919,
+   "url": "https://sklep.hard-pc.pl/p26739,zestaw-ryzen-7-9800x3d-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26740",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "cena": 8779,
+   "url": "https://sklep.hard-pc.pl/p26740,zestaw-ryzen-7-7800x3d-rx-9070-gre-12gb-32gb-ddr5-1tb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26741",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "cena": 9279,
+   "url": "https://sklep.hard-pc.pl/p26741,zestaw-ryzen-7-9800x3d-rx-9070-gre-12gb-32gb-ddr5-1tb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26742",
+   "nazwa": "Zestaw | Intel Ultra 5 245Kf, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "cena": 8549,
+   "url": "https://sklep.hard-pc.pl/p26742,zestaw-intel-ultra-5-245kf-rx-9070-gre-12gb-32gb-ddr5-1tb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26743",
+   "nazwa": "Zestaw | Intel Ultra 5 250Kf, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "cena": 8599,
+   "url": "https://sklep.hard-pc.pl/p26743,zestaw-intel-ultra-5-250kf-rx-9070-gre-12gb-32gb-ddr5-1tb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26744",
+   "nazwa": "Zestaw | Intel Ultra 7 270K Plus, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "cena": 9149,
+   "url": "https://sklep.hard-pc.pl/p26744,zestaw-intel-ultra-7-270k-plus-rx-9070-gre-12gb-32gb-ddr5-1tb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26745",
+   "nazwa": "Zestaw | Intel Ultra 5 245Kf, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 7249,
+   "url": "https://sklep.hard-pc.pl/p26745,zestaw-intel-ultra-5-245kf-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26746",
+   "nazwa": "Zestaw | Intel Ultra 5 250Kf, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 7289,
+   "url": "https://sklep.hard-pc.pl/p26746,zestaw-intel-ultra-5-250kf-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26747",
+   "nazwa": "Zestaw | Intel Ultra 7 270K Plus, RX 9070 GRE 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "cena": 7549,
+   "url": "https://sklep.hard-pc.pl/p26747,zestaw-intel-ultra-7-270k-plus-rx-9070-gre-12gb-16gb-ddr5-500gb-ssd-850w-pano-130-argb.html"
+  },
+  {
+   "id": "26748",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 6079,
+   "url": "https://sklep.hard-pc.pl/p26748,zestaw-ryzen-5-7500f-rtx-5060-ti-8gb-16gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   }
  ]
 }

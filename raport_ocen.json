@@ -11,12 +11,131 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 0,
+ "przeliczonych": 10,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.53,
+   "zmiany": {
+    "value": [
+     63,
+     61
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "podstawa": 6.87,
+   "zmiany": {
+    "value": [
+     62,
+     57
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer XV270UF3BMIIPRX",
+   "rodzaj": "monitor",
+   "podstawa": 4.03,
+   "zmiany": {
+    "value": [
+     100,
+     89
+    ]
+   }
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PGO27QFS",
+   "rodzaj": "monitor",
+   "podstawa": 7.41,
+   "zmiany": {
+    "value": [
+     63,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
+   "rodzaj": "monitor",
+   "podstawa": 6.72,
+   "zmiany": {
+    "value": [
+     62,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
+   "rodzaj": "monitor",
+   "podstawa": 8.3,
+   "zmiany": {
+    "value": [
+     34,
+     41
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MPG 271QR QD-OLED X50",
+   "rodzaj": "monitor",
+   "podstawa": 6.6,
+   "zmiany": {
+    "value": [
+     58,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.72,
+   "zmiany": {
+    "value": [
+     58,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey OLED G6 G60SF LS27FG604SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 5.19,
+   "zmiany": {
+    "value": [
+     74,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
+   "rodzaj": "monitor",
+   "podstawa": 6.54,
+   "zmiany": {
+    "value": [
+     60,
+     61
+    ]
+   }
+  }
+ ]
 }
