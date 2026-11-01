@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 8,
+ "przeliczonych": 5,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,110 +20,77 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "LG UltraGear 27GX704A-B",
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 6.87,
+   "podstawa": 6.92,
    "zmiany": {
     "value": [
-     52,
-     57
+     61,
+     56
     ],
     "overall": [
-     67,
-     68
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 271QP QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 9.43,
+   "zmiany": {
+    "value": [
+     41,
+     29
+    ],
+    "overall": [
+     65,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "rodzaj": "monitor",
+   "podstawa": 6.77,
+   "zmiany": {
+    "value": [
+     70,
+     58
+    ],
+    "overall": [
+     72,
+     69
     ]
    }
   },
   {
    "nazwa": "ASUS ROG Strix XG27WCMS",
    "rodzaj": "monitor",
-   "podstawa": 6.45,
+   "podstawa": 6.87,
    "zmiany": {
     "value": [
-     57,
-     62
+     62,
+     57
     ],
     "overall": [
-     63,
-     64
+     64,
+     63
     ]
    }
   },
   {
-   "nazwa": "Acer CE270UXwmiipprx",
+   "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
-   "podstawa": 6.98,
-   "zmiany": {
-    "value": [
-     57,
-     56
-    ],
-    "overall": [
-     70,
-     69
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer X27UF5bmiippruzx",
-   "rodzaj": "monitor",
-   "podstawa": 7.01,
-   "zmiany": {
-    "value": [
-     60,
-     55
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI 272QRF X36 Pulsar",
-   "rodzaj": "monitor",
-   "podstawa": 9.35,
-   "zmiany": {
-    "value": [
-     30,
-     29
-    ]
-   }
-  },
-  {
-   "nazwa": "LG 27GS95QX-B",
-   "rodzaj": "monitor",
-   "podstawa": 10.29,
+   "podstawa": 10.7,
    "zmiany": {
     "value": [
      20,
-     19
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 272QP QD-OLED X50",
-   "rodzaj": "monitor",
-   "podstawa": 6.57,
-   "zmiany": {
-    "value": [
-     61,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "x-kom | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 144.87,
-   "zmiany": {
-    "value": [
-     30,
-     0
+     14
     ],
     "overall": [
-     68,
-     58
-    ],
-    "ultra": [
-     59,
-     53
+     57,
+     55
     ]
    }
   }

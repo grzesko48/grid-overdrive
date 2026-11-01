@@ -1,118 +1,48 @@
 {
  "dopisane_monitory": [
-  "Samsung OdysseyG60SD"
+  "MSI MAG 272QPDE QD-OLED X24"
  ],
  "dopisane_pc": [
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-  "x-kom | Core i5-14400F, RTX 5070 12GB, 16GB DDR5, 2TB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "x-kom | Core Ultra 7 265F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-  "x-kom | Core i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 7 8700F, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD"
+  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD"
  ],
- "uzupelnione": [
-  [
-   "ViewSonic VX27G32A-2K",
-   "xkom"
-  ],
-  [
-   "Samsung Odyssey G6 OLED LS27FG602SUXEN",
-   "mediamarkt"
-  ],
-  [
-   "Samsung Odyssey G6 OLED LS27DG610SUXEN",
-   "mediamarkt"
-  ],
-  [
-   "Dell Alienware AW2726DL",
-   "xkom"
-  ],
-  [
-   "BenQ Mobiuz EX271QZ",
-   "xkom"
-  ],
-  [
-   "ASUS TUF Gaming VG27AQME5F",
-   "xkom"
-  ],
-  [
-   "ASUS TUF Gaming VG27AQM5F",
-   "xkom"
-  ],
-  [
-   "ASUS ROG Strix QD-OLED XG27ACDMS",
-   "xkom"
-  ],
-  [
-   "AOC Q27G4SDR",
-   "mediamarkt"
-  ],
-  [
-   "MSI MAG 274QP QD-OLED X24",
-   "mediamarkt"
-  ]
- ],
- "konflikty": [
-  [
-   "Gigabyte MO27Q2A ICE",
-   "kilka istniejących wpisów pasuje do tego modelu"
-  ]
- ],
+ "uzupelnione": [],
+ "konflikty": [],
  "pominiete": [
-  [
-   "https://www.morele.net/monitor-asus-rog-strix-xg27acmeg-g-hatsune-miku-edition-90lm0c7u-b01371-15601657/",
-   "nie ma w sprzedaży (availability ≠ InStock)"
-  ],
   [
    "https://www.morele.net/monitor-msi-mag-272qp-qd-oled-x50-14978670/",
    "nie ma w sprzedaży (availability ≠ InStock)"
   ],
   [
-   "https://www.x-kom.pl/p/1607666-monitor-led-27-265-284-viewsonic-vx2738-2k.html",
-   "brak natywnej częstotliwości odświeżania (same wartości OC): None"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-msi-promax-271upxw12g-bialy-181253935.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-przenosny-elcostar-a2-czarny-183099668.html",
-   "przekątna 15.6\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-ricoh-514910-czarny-145543442.html",
-   "przekątna 15.6\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-samsung-ls27fg502suxen-czarny-169525293.html",
-   "180 Hz poza zakresem 240–500 Hz"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-g5-g55c-czarny-139991313.html",
-   "165 Hz poza zakresem 240–500 Hz"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-oled-g9-ls49dg934suxen-49-dqhd-oled-0003ms-240hz-srebrny-1490914.html",
-   "przekątna 49\" poza zakresem 26–28\""
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-alienware-aw3225qf-czarny-bialy-142415739.html",
+   "przekątna 32\" poza zakresem 26–28\""
   ],
   [
    "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-oled-g9-ls49dg950suxdu-49-dqhd-oled-0003ms-240hz-srebrny-1490915.html",
    "nie ma w sprzedaży (status: TEMPORARILY_NOT_AVAILABLE)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-samsung-viewfinity-s9-s95uc-czarny-137114903.html",
-   "przekątna 49\" poza zakresem 26–28\""
   ],
   [
    "Gigabyte G27Q3 EK",
@@ -131,164 +61,24 @@
    "nazwa już istnieje na stronie"
   ],
   [
-   "Lenovo Legion Pro 27Q-10",
-   "nazwa już istnieje na stronie"
-  ],
-  [
    "https://goblinpc.pl/product/widmo",
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.x-kom.pl/p/1518601-desktop-msi-mag-infinite-s3-i5-14400f-16gb-1tb1tb-win11x-rtx5060ti-8gb.html",
-   "pole „Dysk” ma kilka wartości ['1000 GB SSD SATA III', '1000 GB SSD M.2 PCIe'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1518602-desktop-msi-mag-infinite-s3-i5-14400f-16gb-2tb1tb-win11x-rtx5060ti-8gb.html",
-   "pole „Dysk” ma kilka wartości ['1000 GB SSD SATA III', '2000 GB SSD M.2 PCIe'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1578751-desktop-polecany-zestaw-ryzen-5-7500f-32gb-1tb-rtx-5070-12gb.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1579106-desktop-polecany-zestaw-ryzen-5-8400f-32gb-1tb-rx-9060-xt-16gb.html",
-   "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1579905-desktop-polecany-zestaw-core-ultra-5-245kf-16gb-512gb-rtx5060-8gb.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1579912-desktop-polecany-zestaw-core-ultra-5-245kf-16gb-1tb-rx9060-xt-8gb.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1579913-desktop-polecany-zestaw-core-ultra-5-245kf-16gb-1tb-rtx5060-ti-8gb.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1579957-desktop-polecany-zestaw-core-ultra-5-245kf-32gb-1tb-rtx-5070-12gb.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1580205-desktop-polecany-zestaw-ryzen-5-7500f-16gb-1tb-rtx5060-8gb.html",
-   "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1580206-desktop-polecany-zestaw-ryzen-5-7500f-32gb-1tb-rx9060-xt-8gb.html",
-   "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1580207-desktop-polecany-zestaw-ryzen-5-7500f-32gb-1tb-rtx5060-ti-8gb.html",
-   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
-  ],
-  [
-   "https://www.x-kom.pl/p/1580208-desktop-polecany-zestaw-ryzen-5-7500f-32gb-2tb-rx9060-xt-16gb.html",
-   "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne"
-  ],
-  [
-   "https://www.x-kom.pl/p/1580210-desktop-polecany-zestaw-ryzen-7-7700-16gb-1tb-rtx5070-12gb.html",
-   "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne"
-  ],
-  [
-   "xkom",
-   "limit pobrań (25 na sklep) — 42 adresów w następnych przebiegach"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-chieftec-visio-gm-30b-ryzen-5-7500f-16gb-rx-7600-2tb-m-2-pcie-windows-11-pro-600296236/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-5-7500f-32gb-rx-9060-8gb-512gb-m-2-pcie-windows-11-pro-600296055/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-5-7600x-16gb-rx-9060-1tb-m-2-pcie-600294480/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7500f-16gb-rx-9060-8gb-2tb-m-2-pcie-windows-11-pro-600296081/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7600x-16gb-rx-9060-2tb-m-2-pcie-600294438/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-9500f-16gb-rx-7600-2tb-m-2-pcie-windows-11-pro-600296199/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-9500f-16gb-rx-7600-512gb-m-2-pcie-windows-11-pro-600296152/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-9500f-16gb-rx-9060-8gb-512gb-m-2-pcie-windows-11-pro-600296013/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-core-ultra-5-250kf-plus-16gb-radeon-rx-9060-xt-8gb-1tb-m-2-pcie-windows-11-pro-600292793/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-core-ultra-5-250kf-plus-16gb-radeon-rx-9060-xt-8gb-1tb-m-2-pcie-windows-11-pro-600292801/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-5-7500f-32gb-rx-7600-512gb-m-2-pcie-windows-11-pro-600296210/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-5-8400f-16gb-rx-9060-8gb-512gb-m-2-pcie-windows-11-pro-600296036/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-5-9500f-16gb-rx-7600-2tb-m-2-pcie-windows-11-pro-600296182/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-5-9600x-16gb-rx-9060-512gb-m-2-pcie-600294381/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-7-7800x3d-16gb-rx-9060-xt-512gb-m-2-pcie-600293589/",
-   "procesor w specyfikacji (Ryzen 5 7500F) różni się od procesora w tytule (Ryzen 7 7800X3D)"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-ryzen-7-8700f-16gb-rx-9060-8gb-1tb-m-2-pcie-windows-11-pro-600296128/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-7500f-16gb-rx-7600-2tb-m-2-pcie-windows-11-pro-600296232/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-7500f-16gb-rx-9060-8gb-1tb-m-2-pcie-windows-11-pro-600296157/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-7500f-32gb-rx-9060-8gb-512gb-m-2-pcie-windows-11-pro-600296056/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 578 adresów w następnych przebiegach"
-  ],
-  [
-   "https://www.x-kom.pl/p/1491067-desktop-g4m3r-hero-20-r7-7800x3d-32gb-1tb-rtx-5070.html",
-   "cena z systemem 11200 zł powyżej progu 10000 zł"
+   "limit pobrań (25 na sklep) — 155 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 115, do sprawdzenia 11"
+   "monitor": "lista 115, do sprawdzenia 10"
   },
   "xkom": {
-   "monitor": "lista 62, do sprawdzenia 11",
-   "pc": "lista 84, do sprawdzenia 67"
+   "monitor": "lista 0, do sprawdzenia 0",
+   "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 71, do sprawdzenia 13",
+   "monitor": "lista 69, do sprawdzenia 3",
    "pc": "lista 26, do sprawdzenia 0"
   },
   "plugnplay": {
@@ -298,7 +88,7 @@
    "pc": "lista 4, do sprawdzenia 1"
   },
   "morele_pc": {
-   "pc": "lista 603, do sprawdzenia 603"
+   "pc": "lista 180, do sprawdzenia 180"
   }
  }
 }
