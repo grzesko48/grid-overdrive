@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 5,
+ "przeliczonych": 7,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,77 +20,107 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "nazwa": "ASUS ROG Strix XG27WCMS",
    "rodzaj": "monitor",
-   "podstawa": 6.92,
+   "podstawa": 6.45,
    "zmiany": {
     "value": [
-     61,
-     56
+     57,
+     62
     ],
     "overall": [
      63,
-     62
+     64
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 271QP QD-OLED X24",
+   "nazwa": "Koorui G2721E",
    "rodzaj": "monitor",
-   "podstawa": 9.43,
+   "podstawa": 4.34,
    "zmiany": {
     "value": [
-     41,
-     29
-    ],
-    "overall": [
-     65,
-     62
+     92,
+     85
     ]
    }
   },
   {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "nazwa": "LG 27GS95QX-B",
    "rodzaj": "monitor",
-   "podstawa": 6.77,
+   "podstawa": 10.15,
    "zmiany": {
     "value": [
-     70,
-     58
-    ],
-    "overall": [
-     72,
-     69
+     19,
+     21
     ]
    }
   },
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
-   "rodzaj": "monitor",
-   "podstawa": 6.87,
-   "zmiany": {
-    "value": [
-     62,
-     57
-    ],
-    "overall": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear 27GS95QE-B",
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
    "rodzaj": "monitor",
    "podstawa": 10.7,
    "zmiany": {
     "value": [
-     20,
+     13,
      14
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 100.51,
+   "zmiany": {
+    "value": [
+     64,
+     56
     ],
     "overall": [
-     57,
+     63,
+     61
+    ],
+    "ultra": [
+     56,
      55
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "podstawa": 116.72,
+   "zmiany": {
+    "value": [
+     41,
+     33
+    ],
+    "overall": [
+     68,
+     65
+    ],
+    "ultra": [
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 115.38,
+   "zmiany": {
+    "value": [
+     50,
+     35
+    ],
+    "overall": [
+     75,
+     70
+    ],
+    "ultra": [
+     63,
+     60
     ]
    }
   }

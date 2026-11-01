@@ -33,6 +33,7 @@
  "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-msi-mag-272up-qd-oled-x24-czarny-162650027.html": "rozdzielczość „3840x2160” (wymagane 2560 x 1440)",
  "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-philips-evnia-34m2c650000-szary-144505804.html": "przekątna 34\" poza zakresem 26–28\"",
  "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-philips-evnia-8000-49m2c890000-bialy-142959088.html": "przekątna 49\" poza zakresem 26–28\"",
+ "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-philips-evnia-8000-49m2c8900l00-bialy-144510262.html": "przekątna 48.9\" poza zakresem 26–28\"",
  "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-g81sf-srebrny-154840069.html": "rozdzielczość „3840x2160” (wymagane 2560 x 1440)",
  "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-g85sd-srebrny-149020850.html": "przekątna 34\" poza zakresem 26–28\"",
  "mediamarkt|https://mediamarkt.pl/pl/product/_gaming-monitor-samsung-odyssey-oled-g8-s27fg814su-metaliczny-155818324.html": "rozdzielczość „2160x3840” (wymagane 2560 x 1440)",
@@ -136,5 +137,6 @@
  "xkom|https://www.x-kom.pl/p/1580207-desktop-polecany-zestaw-ryzen-5-7500f-32gb-1tb-rtx5060-ti-8gb.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł",
  "xkom|https://www.x-kom.pl/p/1580208-desktop-polecany-zestaw-ryzen-5-7500f-32gb-2tb-rx9060-xt-16gb.html": "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne",
  "xkom|https://www.x-kom.pl/p/1580210-desktop-polecany-zestaw-ryzen-7-7700-16gb-1tb-rtx5070-12gb.html": "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne",
+ "xkom|https://www.x-kom.pl/p/1594633-desktop-hp-omen-35l-i5-14400f-32gb-2tb-rtx5060.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł",
  "xkom|https://www.x-kom.pl/p/1607666-monitor-led-27-265-284-viewsonic-vx2738-2k.html": "brak natywnej częstotliwości odświeżania (same wartości OC): None"
 }
