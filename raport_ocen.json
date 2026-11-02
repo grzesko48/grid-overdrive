@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 7,
+ "przeliczonych": 9,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,107 +20,121 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 6.45,
+   "podstawa": 6.84,
    "zmiany": {
     "value": [
-     57,
-     62
-    ],
-    "overall": [
-     63,
-     64
+     56,
+     57
     ]
    }
   },
   {
-   "nazwa": "Koorui G2721E",
+   "nazwa": "MSI MAG 271QP QD-OLED X24",
    "rodzaj": "monitor",
-   "podstawa": 4.34,
+   "podstawa": 9.44,
    "zmiany": {
     "value": [
-     92,
-     85
+     29,
+     28
+    ],
+    "overall": [
+     62,
+     61
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "podstawa": 6.87,
+   "zmiany": {
+    "value": [
+     62,
+     57
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "LG UltraGear 27GX700A-B",
+   "rodzaj": "monitor",
+   "podstawa": 8.42,
+   "zmiany": {
+    "value": [
+     48,
+     40
+    ],
+    "overall": [
+     68,
+     65
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer X27UF5bmiippruzx",
+   "rodzaj": "monitor",
+   "podstawa": 6.88,
+   "zmiany": {
+    "value": [
+     55,
+     57
+    ]
+   }
+  },
+  {
+   "nazwa": "ViewSonic VX2738-2K",
+   "rodzaj": "monitor",
+   "podstawa": 3.38,
+   "zmiany": {
+    "value": [
+     97,
+     96
+    ]
+   }
+  },
+  {
+   "nazwa": "ViewSonic VX27G32A-2K",
+   "rodzaj": "monitor",
+   "podstawa": 3.72,
+   "zmiany": {
+    "value": [
+     99,
+     92
     ]
    }
   },
   {
    "nazwa": "LG 27GS95QX-B",
    "rodzaj": "monitor",
-   "podstawa": 10.15,
+   "podstawa": 10.2,
    "zmiany": {
     "value": [
-     19,
-     21
+     21,
+     20
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
-   "rodzaj": "monitor",
-   "podstawa": 10.7,
-   "zmiany": {
-    "value": [
-     13,
-     14
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
+   "nazwa": "LENOVO LOQ Tower 26ADR10 (Ryzen 7 8745HX, RTX 5050 8GB)",
    "rodzaj": "pc",
-   "podstawa": 100.51,
+   "podstawa": 114.05,
    "zmiany": {
     "value": [
-     64,
-     56
-    ],
-    "overall": [
-     63,
-     61
-    ],
-    "ultra": [
-     56,
-     55
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 116.72,
-   "zmiany": {
-    "value": [
-     41,
-     33
+     77,
+     37
     ],
     "overall": [
      68,
-     65
+     55
     ],
     "ultra": [
-     65,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "x-kom | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 115.38,
-   "zmiany": {
-    "value": [
-     50,
+     43,
      35
-    ],
-    "overall": [
-     75,
-     70
-    ],
-    "ultra": [
-     63,
-     60
     ]
    }
   }

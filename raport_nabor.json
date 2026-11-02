@@ -1,33 +1,31 @@
 {
- "dopisane_monitory": [
-  "MSI MAG 272QPDE QD-OLED X24"
- ],
+ "dopisane_monitory": [],
  "dopisane_pc": [
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD"
+  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7600X, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 8400F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 8400F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 8400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 8400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 7600X, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD (2)"
  ],
  "uzupelnione": [],
  "konflikty": [],
@@ -35,10 +33,6 @@
   [
    "https://www.morele.net/monitor-msi-mag-272qp-qd-oled-x50-14978670/",
    "nie ma w sprzedaży (availability ≠ InStock)"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-alienware-aw3225qf-czarny-bialy-142415739.html",
-   "przekątna 32\" poza zakresem 26–28\""
   ],
   [
    "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-oled-g9-ls49dg950suxdu-49-dqhd-oled-0003ms-240hz-srebrny-1490915.html",
@@ -66,7 +60,7 @@
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 155 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 1547 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
@@ -78,8 +72,8 @@
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 69, do sprawdzenia 3",
-   "pc": "lista 26, do sprawdzenia 0"
+   "monitor": "lista 69, do sprawdzenia 1",
+   "pc": "lista 25, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 51, do sprawdzenia 0"
@@ -88,7 +82,7 @@
    "pc": "lista 4, do sprawdzenia 1"
   },
   "morele_pc": {
-   "pc": "lista 180, do sprawdzenia 180"
+   "pc": "lista 1578, do sprawdzenia 1572"
   }
  }
 }
