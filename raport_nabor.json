@@ -1,38 +1,59 @@
 {
- "dopisane_monitory": [],
- "dopisane_pc": [
-  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7600X, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 8400F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 16GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 8400F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 8400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 8400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 7600X, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD (2)"
+ "dopisane_monitory": [
+  "KOORUI S2721XO OLED 240 Hz 0.03ms",
+  "Dahua LM27-GO34A"
  ],
- "uzupelnione": [],
- "konflikty": [],
+ "dopisane_pc": [
+  "x-kom | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (3)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 24GB DDR5, 512GB SSD",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 24GB DDR5, 1TB SSD",
+  "x-kom | Core i7-14700F, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD (2)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 24GB DDR5, 512GB SSD (2)",
+  "x-kom | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "x-kom | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "x-kom | Ryzen 5 8400F, RTX 5060 8GB, 24GB DDR5, 1TB SSD",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 24GB DDR5, 1TB SSD",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (3)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
+  "x-kom | Core i5-14400F, RTX 5060 8GB, 24GB DDR5, 1TB SSD (2)",
+  "x-kom | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 24GB DDR5, 1TB SSD (2)",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
+  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)"
+ ],
+ "uzupelnione": [
+  [
+   "Samsung Odyssey G6 OLED LS27FG602SUXEN",
+   "xkom"
+  ],
+  [
+   "Dahua Technology LM27-E341AY",
+   "xkom"
+  ]
+ ],
+ "konflikty": [
+  [
+   "Gigabyte MO27Q2A ICE",
+   "kilka istniejących wpisów pasuje do tego modelu"
+  ]
+ ],
  "pominiete": [
   [
    "https://www.morele.net/monitor-msi-mag-272qp-qd-oled-x50-14978670/",
    "nie ma w sprzedaży (availability ≠ InStock)"
+  ],
+  [
+   "https://www.x-kom.pl/p/1166533-monitor-led-27-265-284-eizo-coloredge-cg2700s-colornavigator.html",
+   "brak natywnej częstotliwości odświeżania (same wartości OC): None"
   ],
   [
    "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-oled-g9-ls49dg950suxdu-49-dqhd-oled-0003ms-240hz-srebrny-1490915.html",
@@ -55,24 +76,132 @@
    "nazwa już istnieje na stronie"
   ],
   [
+   "Lenovo Legion Pro 27Q-10",
+   "nazwa już istnieje na stronie"
+  ],
+  [
    "https://goblinpc.pl/product/widmo",
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
+   "xkom",
+   "limit pobrań (25 na sklep) — 16 adresów w następnych przebiegach"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-5-9500f-16gb-rtx-5050-512gb-m-2-pcie-windows-11-pro-600296434/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-ultra-5-225f-16gb-rx-7600-1tb-m-2-pcie-600291729/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-ultra-5-225f-32gb-rx-7600-512gb-m-2-pcie-600291185/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-ultra-5-250kf-plus-16gb-rx-9060-1tb-m-2-pcie-600292336/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-9500f-16gb-rtx-5050-512gb-m-2-pcie-windows-11-pro-600296439/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-9500f-16gb-rtx-5060-512gb-m-2-pcie-windows-11-pro-600297831/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-core-i7-14700f-16gb-ddr5-rx-9060-512gb-m-2-pcie-600288531/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-core-ultra-5-245kf-16gb-rx-9060-2tb-m-2-pcie-600291676/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-core-ultra-5-245kf-16gb-rx-9060-512gb-m-2-pcie-600291658/",
+   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+  ],
+  [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 1547 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 696 adresów w następnych przebiegach"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-5-8400f-16gb-rtx-5060-2tb-m-2-pcie-windows-11-pro-600297060/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-7-9700x-16gb-rtx-5060-1tb-m-2-pcie-600272914/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-chieftec-visio-ryzen-7-9700x-16gb-rtx-5060-512gb-m-2-pcie-600295345/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-core-ultra-5-245kf-32gb-rtx-5060-512gb-m-2-pcie-windows-11-pro-22254-600292065/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-i5-12400f-16gb-ddr5-rtx-5060-1tb-m-2-pcie-600288524/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-ultra-5-225f-16gb-rtx-5060-1tb-m-2-pcie-22214-600292122/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-ultra-5-225f-16gb-rx-9060-xt-8gb-1tb-m-2-pcie-600291989/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-core-ultra-5-245kf-32gb-rx-9060-xt-8gb-512gb-m-2-pcie-600291933/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7500f-16gb-rtx-5050-2tb-m-2-pcie-windows-11-pro-600296536/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7500f-32gb-rtx-5060-512gb-m-2-pcie-windows-11-pro-600297844/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-7600x-16gb-rtx-5060-1tb-m-2-pcie-600295428/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-8400f-32gb-rtx-5050-1tb-m-2-pcie-windows-11-pro-600296575/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-5-8400f-32gb-rtx-5050-2tb-m-2-pcie-windows-11-pro-600296526/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-black-ryzen-7-8700f-16gb-rtx-5050-1tb-m-2-pcie-windows-11-pro-600296545/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-core-i5-12400f-16gb-ddr5-rtx-5060-512gb-m-2-pcie-windows-11-pro-600288409/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-core-i5-12400f-16gb-ddr5-rtx-5060-2tb-m-2-pcie-600288431/",
+   "limit przebiegu — dopisane w następnym"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 115, do sprawdzenia 10"
+   "monitor": "lista 114, do sprawdzenia 10"
   },
   "xkom": {
-   "monitor": "lista 0, do sprawdzenia 0",
-   "pc": "lista 0, do sprawdzenia 0"
+   "monitor": "lista 67, do sprawdzenia 9",
+   "pc": "lista 84, do sprawdzenia 41"
   },
   "mediamarkt": {
-   "monitor": "lista 69, do sprawdzenia 1",
+   "monitor": "lista 67, do sprawdzenia 1",
    "pc": "lista 25, do sprawdzenia 0"
   },
   "plugnplay": {
@@ -82,7 +211,7 @@
    "pc": "lista 4, do sprawdzenia 1"
   },
   "morele_pc": {
-   "pc": "lista 1578, do sprawdzenia 1572"
+   "pc": "lista 761, do sprawdzenia 721"
   }
  }
 }
