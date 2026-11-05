@@ -1,6 +1,6 @@
 {
- "katalog_pozycji": 725,
- "nasze_identyfikatory": 271,
+ "katalog_pozycji": 792,
+ "nasze_identyfikatory": 277,
  "zniknely": [
   {
    "id": "19716",
@@ -11,6 +11,46 @@
    "id": "25239",
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
    "wpisow": 2
+  },
+  {
+   "id": "25439",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "25457",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "26050",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26173",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 Ti 8GB. 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "wpisow": 1
+  },
+  {
+   "id": "26210",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD, 750W, Night Hunter",
+   "wpisow": 1
+  },
+  {
+   "id": "26399",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26430",
+   "nazwa": "Zestaw | Intel Ultra 225F, RTX 5060 Ti 8GB, 16GB DDR5, 650W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26485",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 1
   }
  ],
  "nowi_kandydaci": [
@@ -155,7 +195,7 @@
   {
    "id": "26748",
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "cena": 6079,
+   "cena": 6229,
    "url": "https://sklep.hard-pc.pl/p26748,zestaw-ryzen-5-7500f-rtx-5060-ti-8gb-16gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   }
  ]

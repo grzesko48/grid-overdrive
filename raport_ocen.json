@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 50,
+ "przeliczonych": 47,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,876 +20,599 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
+   "nazwa": "Gigabyte MO27Q2A",
    "rodzaj": "monitor",
-   "podstawa": 3.43,
+   "podstawa": 7.12,
    "zmiany": {
     "value": [
-     100,
-     95
+     63,
+     54
     ],
     "overall": [
-     80,
-     79
+     74,
+     71
     ]
    }
   },
   {
-   "nazwa": "Asus TUF Gaming VG27AQML5A",
+   "nazwa": "Gigabyte GS27Q X",
    "rodzaj": "monitor",
-   "podstawa": 4.16,
+   "podstawa": 3.76,
    "zmiany": {
     "value": [
-     89,
-     87
-    ],
-    "overall": [
-     75,
-     74
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQM5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.33,
-   "zmiany": {
-    "value": [
-     90,
-     96
-    ],
-    "overall": [
-     75,
-     76
+     91,
+     92
     ]
    }
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 7.31,
+   "podstawa": 8.97,
    "zmiany": {
     "value": [
-     57,
-     52
+     52,
+     34
     ],
     "overall": [
-     62,
-     61
+     61,
+     55
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 271QP QD-OLED X24",
+   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
-   "podstawa": 9.32,
+   "podstawa": 6.19,
    "zmiany": {
     "value": [
-     28,
-     30
+     68,
+     65
     ],
     "overall": [
-     61,
-     62
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "LG UltraGear 27GX704A-B",
+   "rodzaj": "monitor",
+   "podstawa": 7.08,
+   "zmiany": {
+    "value": [
+     57,
+     55
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "rodzaj": "monitor",
+   "podstawa": 7.1,
+   "zmiany": {
+    "value": [
+     58,
+     54
+    ],
+    "overall": [
+     69,
+     68
     ]
    }
   },
   {
    "nazwa": "AOC Q27G4SDR",
    "rodzaj": "monitor",
-   "podstawa": 5.47,
+   "podstawa": 5.51,
    "zmiany": {
     "value": [
-     75,
-     73
-    ],
-    "overall": [
-     80,
-     79
+     73,
+     72
     ]
    }
   },
   {
    "nazwa": "ASUS ROG Strix XG27WCMS",
    "rodzaj": "monitor",
-   "podstawa": 6.45,
+   "podstawa": 6.87,
    "zmiany": {
     "value": [
-     57,
-     62
+     62,
+     57
     ],
     "overall": [
-     63,
-     64
+     64,
+     63
     ]
    }
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
-   "podstawa": 6.89,
+   "podstawa": 6.73,
    "zmiany": {
     "value": [
-     56,
-     57
+     57,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC AGON PRO AG276QKD2",
+   "rodzaj": "monitor",
+   "podstawa": 5.1,
+   "zmiany": {
+    "value": [
+     74,
+     77
     ],
     "overall": [
-     69,
-     70
+     85,
+     86
+    ]
+   }
+  },
+  {
+   "nazwa": "LG UltraGear 27GX700A-B",
+   "rodzaj": "monitor",
+   "podstawa": 7.77,
+   "zmiany": {
+    "value": [
+     40,
+     47
+    ],
+    "overall": [
+     65,
+     67
     ]
    }
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
-   "podstawa": 10.5,
+   "podstawa": 10.17,
    "zmiany": {
     "value": [
-     14,
-     17
+     17,
+     20
     ],
     "overall": [
-     55,
-     56
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
-   "rodzaj": "monitor",
-   "podstawa": 10.21,
-   "zmiany": {
-    "value": [
-     24,
-     20
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDNG",
-   "rodzaj": "monitor",
-   "podstawa": 6.88,
-   "zmiany": {
-    "value": [
-     50,
+     56,
      57
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Predator XB273UF5bmiiprzx",
+   "rodzaj": "monitor",
+   "podstawa": 5.28,
+   "zmiany": {
+    "value": [
+     69,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer X27UF5bmiippruzx",
+   "rodzaj": "monitor",
+   "podstawa": 6.74,
+   "zmiany": {
+    "value": [
+     57,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PGO27QFS",
+   "rodzaj": "monitor",
+   "podstawa": 7.27,
+   "zmiany": {
+    "value": [
+     51,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
+   "rodzaj": "monitor",
+   "podstawa": 9.09,
+   "zmiany": {
+    "value": [
+     37,
+     32
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
+   "rodzaj": "monitor",
+   "podstawa": 6.44,
+   "zmiany": {
+    "value": [
+     59,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix Tandem OLED XG27AQWMG",
+   "rodzaj": "monitor",
+   "podstawa": 8.32,
+   "zmiany": {
+    "value": [
+     38,
+     41
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
+   "rodzaj": "monitor",
+   "podstawa": 7.91,
+   "zmiany": {
+    "value": [
+     41,
+     45
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "rodzaj": "monitor",
+   "podstawa": 4.47,
+   "zmiany": {
+    "value": [
+     81,
+     84
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQML5F",
+   "rodzaj": "monitor",
+   "podstawa": 4.37,
+   "zmiany": {
+    "value": [
+     71,
+     85
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ EX271QMZ",
+   "rodzaj": "monitor",
+   "podstawa": 10.64,
+   "zmiany": {
+    "value": [
+     0,
+     15
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ Mobiuz EX271QZ",
+   "rodzaj": "monitor",
+   "podstawa": 6.8,
+   "zmiany": {
+    "value": [
+     56,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "Cooler Master GM27QPA",
+   "rodzaj": "monitor",
+   "podstawa": 4.42,
+   "zmiany": {
+    "value": [
+     83,
+     84
+    ]
+   }
+  },
+  {
+   "nazwa": "Dell Alienware AW2725D QD-OLED",
+   "rodzaj": "monitor",
+   "podstawa": 6.21,
+   "zmiany": {
+    "value": [
+     62,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Gigabyte Aorus FO27Q5P",
+   "rodzaj": "monitor",
+   "podstawa": 7.84,
+   "zmiany": {
+    "value": [
+     48,
+     46
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-2c 67EFGAC1EU",
+   "rodzaj": "monitor",
+   "podstawa": 3.54,
+   "zmiany": {
+    "value": [
+     93,
+     94
+    ]
+   }
+  },
+  {
+   "nazwa": "LG UltraGear OLED 27GX790A-B",
+   "rodzaj": "monitor",
+   "podstawa": 4.48,
+   "zmiany": {
+    "value": [
+     77,
+     84
     ]
    }
   },
   {
    "nazwa": "MSI 272QRF X36 Pulsar",
    "rodzaj": "monitor",
-   "podstawa": 9.34,
+   "podstawa": 9.24,
    "zmiany": {
     "value": [
-     29,
-     30
+     30,
+     31
+    ]
+   }
+  },
+  {
+   "nazwa": "Rampage Slice SL27F275Q",
+   "rodzaj": "monitor",
+   "podstawa": 5.17,
+   "zmiany": {
+    "value": [
+     83,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.75,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey OLED G6 G60SF LS27FG604SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 4.99,
+   "zmiany": {
+    "value": [
+     76,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "ViewSonic VX2738-2K",
+   "rodzaj": "monitor",
+   "podstawa": 3.23,
+   "zmiany": {
+    "value": [
+     96,
+     97
     ]
    }
   },
   {
    "nazwa": "ViewSonic VX2758A-2K-PRO-3",
    "rodzaj": "monitor",
-   "podstawa": 3.17,
+   "podstawa": 2.75,
    "zmiany": {
     "value": [
-     100,
-     98
+     98,
+     100
     ]
    }
   },
   {
-   "nazwa": "LG 27GS95QX-B",
+   "nazwa": "ViewSonic VX27G32A-2K",
    "rodzaj": "monitor",
-   "podstawa": 10.25,
+   "podstawa": 3.09,
    "zmiany": {
     "value": [
-     20,
-     19
+     92,
+     99
     ]
    }
   },
   {
-   "nazwa": "Lenovo Legion T5 30IAX10 (Ultra 7-255HX, RTX 5060 Ti, 2TB)",
-   "rodzaj": "pc",
-   "podstawa": 109.99,
-   "zmiany": {
-    "value": [
-     38,
-     43
-    ],
-    "overall": [
-     73,
-     75
-    ],
-    "ultra": [
-     63,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "podstawa": 86.73,
-   "zmiany": {
-    "value": [
-     80,
-     76
-    ],
-    "overall": [
-     69,
-     67
-    ],
-    "ultra": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 102.93,
-   "zmiany": {
-    "value": [
-     57,
-     53
-    ],
-    "overall": [
-     73,
-     72
-    ],
-    "ultra": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 88.22,
-   "zmiany": {
-    "value": [
-     82,
-     74
-    ],
-    "overall": [
-     69,
-     67
-    ],
-    "ultra": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 104.42,
-   "zmiany": {
-    "value": [
-     58,
-     51
-    ],
-    "overall": [
-     73,
-     71
-    ],
-    "ultra": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 87.74,
-   "zmiany": {
-    "value": [
-     85,
-     75
-    ],
-    "overall": [
-     75,
-     72
-    ],
-    "ultra": [
-     56,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 103.51,
-   "zmiany": {
-    "value": [
-     63,
-     52
-    ],
-    "overall": [
-     79,
-     75
-    ],
-    "ultra": [
-     65,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "podstawa": 87.74,
-   "zmiany": {
-    "value": [
-     84,
-     75
-    ],
-    "overall": [
-     72,
-     69
-    ],
-    "ultra": [
-     55,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 103.51,
+   "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
+   "rodzaj": "monitor",
+   "podstawa": 6.58,
    "zmiany": {
     "value": [
      61,
-     52
-    ],
-    "overall": [
-     76,
-     73
-    ],
-    "ultra": [
-     64,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 TI 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 91.29,
-   "zmiany": {
-    "value": [
-     80,
-     70
-    ],
-    "overall": [
-     71,
-     68
-    ],
-    "ultra": [
-     54,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 TI 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 107.07,
-   "zmiany": {
-    "value": [
-     57,
-     47
-    ],
-    "overall": [
-     76,
-     73
-    ],
-    "ultra": [
-     64,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 89.21,
-   "zmiany": {
-    "value": [
-     83,
-     73
-    ],
-    "overall": [
-     73,
-     70
-    ],
-    "ultra": [
-     56,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 104.58,
-   "zmiany": {
-    "value": [
-     61,
-     51
-    ],
-    "overall": [
-     78,
-     74
-    ],
-    "ultra": [
-     65,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Stellar 8F ARGB Black",
-   "rodzaj": "pc",
-   "podstawa": 93.66,
-   "zmiany": {
-    "value": [
-     77,
-     66
-    ],
-    "overall": [
-     72,
-     69
-    ],
-    "ultra": [
-     55,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 750W, Stellar 8F ARGB Black (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 109.43,
-   "zmiany": {
-    "value": [
-     55,
-     44
-    ],
-    "overall": [
-     76,
-     73
-    ],
-    "ultra": [
-     64,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "podstawa": 92.15,
-   "zmiany": {
-    "value": [
-     78,
-     68
-    ],
-    "overall": [
-     71,
-     68
-    ],
-    "ultra": [
-     55,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 107.53,
-   "zmiany": {
-    "value": [
-     56,
-     46
-    ],
-    "overall": [
-     76,
-     73
-    ],
-    "ultra": [
-     64,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, PANO 130R",
-   "rodzaj": "pc",
-   "podstawa": 93.44,
-   "zmiany": {
-    "value": [
-     77,
-     67
-    ],
-    "overall": [
-     71,
-     68
-    ],
-    "ultra": [
-     55,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 650W, PANO 130R (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 108.81,
-   "zmiany": {
-    "value": [
-     55,
-     45
-    ],
-    "overall": [
-     76,
-     72
-    ],
-    "ultra": [
-     64,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 97.47,
-   "zmiany": {
-    "value": [
-     73,
-     61
-    ],
-    "overall": [
-     69,
-     65
-    ],
-    "ultra": [
-     53,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 113.25,
-   "zmiany": {
-    "value": [
-     50,
-     38
-    ],
-    "overall": [
-     73,
-     69
-    ],
-    "ultra": [
-     62,
      60
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 650W, PANO 130R",
-   "rodzaj": "pc",
-   "podstawa": 96.64,
+   "nazwa": "MSI MAG 272QP QD-OLED X50",
+   "rodzaj": "monitor",
+   "podstawa": 5.92,
    "zmiany": {
     "value": [
-     72,
-     62
-    ],
-    "overall": [
-     71,
+     60,
      68
-    ],
-    "ultra": [
-     54,
-     52
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 1TB SSD, 650W, PANO 130R (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 112.01,
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 8.35,
    "zmiany": {
     "value": [
-     50,
-     40
+     14,
+     41
+    ]
+   }
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 750W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "podstawa": 97.02,
+   "zmiany": {
+    "value": [
+     72,
+     61
     ],
     "overall": [
      74,
      71
     ],
     "ultra": [
-     63,
-     61
+     78,
+     75
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R",
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 750W, Pano 130 ARGB (custom: 32GB RAM)",
    "rodzaj": "pc",
-   "podstawa": 97.28,
-   "zmiany": {
-    "value": [
-     71,
-     61
-    ],
-    "overall": [
-     70,
-     67
-    ],
-    "ultra": [
-     54,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 112.65,
-   "zmiany": {
-    "value": [
-     50,
-     39
-    ],
-    "overall": [
-     75,
-     71
-    ],
-    "ultra": [
-     63,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
-   "rodzaj": "pc",
-   "podstawa": 107.81,
-   "zmiany": {
-    "value": [
-     56,
-     46
-    ],
-    "overall": [
-     76,
-     72
-    ],
-    "ultra": [
-     63,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 TI 8GB, 32GB DDR5, 1000GB SSD, 850W, Pano 130 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 109.16,
+   "podstawa": 109.26,
    "zmiany": {
     "value": [
      55,
      44
     ],
     "overall": [
-     75,
-     72
+     81,
+     77
     ],
     "ultra": [
-     63,
-     61
+     88,
+     86
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, Pano 130 ARGB",
+   "nazwa": "Zestaw | Intel I5 14600KF, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
    "rodzaj": "pc",
-   "podstawa": 111.32,
+   "podstawa": 111.33,
    "zmiany": {
     "value": [
-     53,
+     49,
      41
     ],
     "overall": [
-     75,
-     71
+     79,
+     77
     ],
     "ultra": [
-     62,
-     60
+     86,
+     85
     ]
    }
   },
   {
-   "nazwa": "Zestaw Redragon | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Night Hunter",
    "rodzaj": "pc",
-   "podstawa": 112.0,
+   "podstawa": 96.28,
    "zmiany": {
     "value": [
-     52,
-     40
-    ],
-    "overall": [
-     74,
-     71
-    ],
-    "ultra": [
-     62,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw Redragon | Ryzen 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, GC 623 Evo ARGB",
-   "rodzaj": "pc",
-   "podstawa": 109.05,
-   "zmiany": {
-    "value": [
-     56,
-     44
-    ],
-    "overall": [
-     76,
-     73
-    ],
-    "ultra": [
-     64,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (2)",
-   "rodzaj": "pc",
-   "podstawa": 97.47,
-   "zmiany": {
-    "value": [
-     56,
-     61
-    ],
-    "overall": [
-     63,
-     65
-    ],
-    "ultra": [
-     50,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (2) (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 113.25,
-   "zmiany": {
-    "value": [
-     34,
-     38
-    ],
-    "overall": [
-     68,
-     69
-    ],
-    "ultra": [
-     59,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3 RGB",
-   "rodzaj": "pc",
-   "podstawa": 108.18,
-   "zmiany": {
-    "value": [
-     57,
-     45
+     69,
+     62
     ],
     "overall": [
      77,
-     73
+     75
     ],
     "ultra": [
-     65,
-     62
+     79,
+     77
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 TI 8GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
+   "nazwa": "LENOVO LOQ Tower 26ADR10 (Ryzen 7 8745HX, RTX 5050 8GB)",
    "rodzaj": "pc",
-   "podstawa": 114.59,
+   "podstawa": 85.92,
    "zmiany": {
     "value": [
-     47,
-     36
+     37,
+     77
     ],
     "overall": [
-     74,
-     71
-    ],
-    "ultra": [
-     63,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R",
-   "rodzaj": "pc",
-   "podstawa": 104.21,
-   "zmiany": {
-    "value": [
-     64,
-     51
-    ],
-    "overall": [
-     68,
-     63
-    ],
-    "ultra": [
-     52,
-     50
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 TI 8GB, 16GB DDR5, 500GB SSD, 850W, Pano PZ130R (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 119.58,
-   "zmiany": {
-    "value": [
-     42,
-     29
-    ],
-    "overall": [
-     72,
+     55,
      68
     ],
     "ultra": [
-     62,
-     59
+     35,
+     43
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 108.05,
+   "zmiany": {
+    "value": [
+     47,
+     46
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 8400F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 84.72,
+   "zmiany": {
+    "value": [
+     81,
+     79
+    ],
+    "overall": [
+     74,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 85.84,
+   "zmiany": {
+    "value": [
+     79,
+     77
+    ],
+    "ultra": [
+     72,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 85.62,
+   "zmiany": {
+    "value": [
+     79,
+     78
     ]
    }
   }

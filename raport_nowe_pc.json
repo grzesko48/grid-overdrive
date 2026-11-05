@@ -1,7 +1,11 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-  "Zestaw | Ryzen 7 7700, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB"
+  "Zestaw | Ryzen 5 7500F, RX 7600 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+  "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 850W, ARX 700 ARGB",
+  "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 850W, ARX 700 ARGB (custom: 32GB RAM)",
+  "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 850W, Stellar Plus 5F",
+  "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 850W, Stellar Plus 5F (custom: 32GB RAM)",
+  "Zestaw | Ryzen 7 9800X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB"
  ],
  "pominiete": [
   [
@@ -11,6 +15,86 @@
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona",
    "w tytule nie ma pola ram: 'Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona'"
+  ],
+  [
+   "Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5060/xxW TGP/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5060/xxW TGP/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5070/xxW TGP/16 GB/512GB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5070/xxW TGP/16 GB/512GB'"
+  ],
+  [
+   "Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5070/xxW TGP/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5070/xxW TGP/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5070/xxW TGP/32 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines Ryzen 7 H255/15.6”/FHD/144Hz/N7/RTX5070/xxW TGP/32 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i7-14700HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i7-14700HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i7-14700HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i7-14700HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i7-14700HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/2 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i7-14700HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/2 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/2 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/32 GB/2 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/3rd Fan/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i7-14700HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i7-14700HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i7-14700HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/32 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i7-14700HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/32 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i7-14700HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/32 GB/2 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i7-14700HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/32 GB/2 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/32 GB/2 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/32 GB/2 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/1x32 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/QHD/165Hz/N7/RTX5060/115W TGP/3rd Fan/1x32 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/QHD/240Hz/N7/RTX5070/115W TGP/3rd Fan/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/QHD/240Hz/N7/RTX5070/115W TGP/3rd Fan/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines i9-14900HX/17.3”/QHD/240Hz/N7/RTX5070/115W TGP/3rd Fan/32 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines i9-14900HX/17.3”/QHD/240Hz/N7/RTX5070/115W TGP/3rd Fan/32 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines Ultra 9-290HX/17.3”/QHD/240Hz/N7/RTX5070/115W TGP/3rd Fan/16 GB/1 TB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines Ultra 9-290HX/17.3”/QHD/240Hz/N7/RTX5070/115W TGP/3rd Fan/16 GB/1 TB'"
+  ],
+  [
+   "Laptop Dream Machines Ryzen 7 H255/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/16 GB/512GB",
+   "tytuł w nieznanym kształcie: 'Laptop Dream Machines Ryzen 7 H255/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/16 GB/512GB'"
   ],
   [
    "Laptop Dream Machines Ryzen 7 H255/17.3”/FHD/144Hz/N7/RTX5050/115W TGP/16 GB/1 TB",
@@ -61,6 +145,22 @@
    "w tytule nie ma pola ram: 'Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR, 1TB SSD, 850W, Aquarius 8000'"
   ],
   [
+   "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena poza progiem: 9529 zł bez systemu, 10068 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 5 7600, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena poza progiem: 9729 zł bez systemu, 10268 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 5 7600X, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena poza progiem: 9689 zł bez systemu, 10228 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena poza progiem: 9809 zł bez systemu, 10348 z Windowsem"
+  ],
+  [
    "Zestaw | Ryzen 9 7900, RX 9070 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
    "cena poza progiem: 9509 zł bez systemu, 10048 z Windowsem"
   ],
@@ -73,16 +173,44 @@
    "cena poza progiem: 9499 zł bez systemu, 10038 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 1000W, ARX 700 ARGB",
-   "cena poza progiem: 9999 zł bez systemu, 10538 z Windowsem"
+   "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Exo ARGB",
+   "cena poza progiem: 9479 zł bez systemu, 10018 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "cena poza progiem: 9479 zł bez systemu, 10018 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Diaxid 605 ARGB",
+   "cena poza progiem: 9979 zł bez systemu, 10518 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
+   "cena poza progiem: 9529 zł bez systemu, 10068 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 7600, RX 9070 XT 16GB, 1TB SSD, 32GB DDR5, 750W, Hunter",
+   "cena poza progiem: 9549 zł bez systemu, 10088 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 32GB DDR5, 850W, Depcool CC560",
    "cena poza progiem: 9749 zł bez systemu, 10288 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
-   "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
+   "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "cena poza progiem: 9729 zł bez systemu, 10268 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
+   "cena poza progiem: 9819 zł bez systemu, 10358 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 5 7500f, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
+   "cena poza progiem: 9559 zł bez systemu, 10098 z Windowsem"
+  ],
+  [
+   "Zestaw | Ryzen 5 7500X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
+   "cena poza progiem: 9999 zł bez systemu, 10538 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Aquarius 8000",
@@ -93,19 +221,11 @@
    "cena poza progiem: 9999 zł bez systemu, 10538 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
-   "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
-  ],
-  [
    "Zestaw | Ryzen 5 9600X, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 850W, Pano 130 ARGB",
    "cena poza progiem: 9809 zł bez systemu, 10348 z Windowsem"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
-   "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
    "cena poza progiem: 9899 zł bez systemu, 10438 z Windowsem"
   ],
   [
