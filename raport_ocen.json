@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 47,
+ "przeliczonych": 20,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,569 +20,13 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Gigabyte MO27Q2A",
+   "nazwa": "Asus TUF Gaming VG27AQML5A",
    "rodzaj": "monitor",
-   "podstawa": 7.12,
+   "podstawa": 4.55,
    "zmiany": {
     "value": [
-     63,
-     54
-    ],
-    "overall": [
-     74,
-     71
-    ]
-   }
-  },
-  {
-   "nazwa": "Gigabyte GS27Q X",
-   "rodzaj": "monitor",
-   "podstawa": 3.76,
-   "zmiany": {
-    "value": [
-     91,
-     92
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 8.97,
-   "zmiany": {
-    "value": [
-     52,
-     34
-    ],
-    "overall": [
-     61,
-     55
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
-   "rodzaj": "monitor",
-   "podstawa": 6.19,
-   "zmiany": {
-    "value": [
-     68,
-     65
-    ],
-    "overall": [
-     65,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear 27GX704A-B",
-   "rodzaj": "monitor",
-   "podstawa": 7.08,
-   "zmiany": {
-    "value": [
-     57,
-     55
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
-   "rodzaj": "monitor",
-   "podstawa": 7.1,
-   "zmiany": {
-    "value": [
-     58,
-     54
-    ],
-    "overall": [
-     69,
-     68
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27G4SDR",
-   "rodzaj": "monitor",
-   "podstawa": 5.51,
-   "zmiany": {
-    "value": [
-     73,
-     72
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
-   "rodzaj": "monitor",
-   "podstawa": 6.87,
-   "zmiany": {
-    "value": [
-     62,
-     57
-    ],
-    "overall": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer CE270UXwmiipprx",
-   "rodzaj": "monitor",
-   "podstawa": 6.73,
-   "zmiany": {
-    "value": [
-     57,
-     59
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QKD2",
-   "rodzaj": "monitor",
-   "podstawa": 5.1,
-   "zmiany": {
-    "value": [
-     74,
-     77
-    ],
-    "overall": [
-     85,
-     86
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear 27GX700A-B",
-   "rodzaj": "monitor",
-   "podstawa": 7.77,
-   "zmiany": {
-    "value": [
-     40,
-     47
-    ],
-    "overall": [
-     65,
-     67
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear 27GS95QE-B",
-   "rodzaj": "monitor",
-   "podstawa": 10.17,
-   "zmiany": {
-    "value": [
-     17,
-     20
-    ],
-    "overall": [
-     56,
-     57
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer Predator XB273UF5bmiiprzx",
-   "rodzaj": "monitor",
-   "podstawa": 5.28,
-   "zmiany": {
-    "value": [
-     69,
-     75
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer X27UF5bmiippruzx",
-   "rodzaj": "monitor",
-   "podstawa": 6.74,
-   "zmiany": {
-    "value": [
-     57,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "ASRock Phantom Gaming PGO27QFS",
-   "rodzaj": "monitor",
-   "podstawa": 7.27,
-   "zmiany": {
-    "value": [
-     51,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
-   "rodzaj": "monitor",
-   "podstawa": 9.09,
-   "zmiany": {
-    "value": [
-     37,
-     32
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
-   "rodzaj": "monitor",
-   "podstawa": 6.44,
-   "zmiany": {
-    "value": [
-     59,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix Tandem OLED XG27AQWMG",
-   "rodzaj": "monitor",
-   "podstawa": 8.32,
-   "zmiany": {
-    "value": [
-     38,
-     41
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
-   "rodzaj": "monitor",
-   "podstawa": 7.91,
-   "zmiany": {
-    "value": [
-     41,
-     45
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27ACMES",
-   "rodzaj": "monitor",
-   "podstawa": 4.47,
-   "zmiany": {
-    "value": [
-     81,
-     84
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQML5F",
-   "rodzaj": "monitor",
-   "podstawa": 4.37,
-   "zmiany": {
-    "value": [
-     71,
-     85
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ EX271QMZ",
-   "rodzaj": "monitor",
-   "podstawa": 10.64,
-   "zmiany": {
-    "value": [
-     0,
-     15
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX271QZ",
-   "rodzaj": "monitor",
-   "podstawa": 6.8,
-   "zmiany": {
-    "value": [
-     56,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "Cooler Master GM27QPA",
-   "rodzaj": "monitor",
-   "podstawa": 4.42,
-   "zmiany": {
-    "value": [
-     83,
-     84
-    ]
-   }
-  },
-  {
-   "nazwa": "Dell Alienware AW2725D QD-OLED",
-   "rodzaj": "monitor",
-   "podstawa": 6.21,
-   "zmiany": {
-    "value": [
-     62,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Gigabyte Aorus FO27Q5P",
-   "rodzaj": "monitor",
-   "podstawa": 7.84,
-   "zmiany": {
-    "value": [
-     48,
-     46
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion 27Q-2c 67EFGAC1EU",
-   "rodzaj": "monitor",
-   "podstawa": 3.54,
-   "zmiany": {
-    "value": [
-     93,
-     94
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear OLED 27GX790A-B",
-   "rodzaj": "monitor",
-   "podstawa": 4.48,
-   "zmiany": {
-    "value": [
-     77,
-     84
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI 272QRF X36 Pulsar",
-   "rodzaj": "monitor",
-   "podstawa": 9.24,
-   "zmiany": {
-    "value": [
-     30,
-     31
-    ]
-   }
-  },
-  {
-   "nazwa": "Rampage Slice SL27F275Q",
-   "rodzaj": "monitor",
-   "podstawa": 5.17,
-   "zmiany": {
-    "value": [
-     83,
-     76
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 6.75,
-   "zmiany": {
-    "value": [
-     59,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey OLED G6 G60SF LS27FG604SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 4.99,
-   "zmiany": {
-    "value": [
-     76,
-     78
-    ]
-   }
-  },
-  {
-   "nazwa": "ViewSonic VX2738-2K",
-   "rodzaj": "monitor",
-   "podstawa": 3.23,
-   "zmiany": {
-    "value": [
-     96,
-     97
-    ]
-   }
-  },
-  {
-   "nazwa": "ViewSonic VX2758A-2K-PRO-3",
-   "rodzaj": "monitor",
-   "podstawa": 2.75,
-   "zmiany": {
-    "value": [
-     98,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "ViewSonic VX27G32A-2K",
-   "rodzaj": "monitor",
-   "podstawa": 3.09,
-   "zmiany": {
-    "value": [
-     92,
-     99
-    ]
-   }
-  },
-  {
-   "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
-   "rodzaj": "monitor",
-   "podstawa": 6.58,
-   "zmiany": {
-    "value": [
-     61,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 272QP QD-OLED X50",
-   "rodzaj": "monitor",
-   "podstawa": 5.92,
-   "zmiany": {
-    "value": [
-     60,
-     68
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
-   "rodzaj": "monitor",
-   "podstawa": 8.35,
-   "zmiany": {
-    "value": [
-     14,
-     41
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 750W, Pano 130 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 97.02,
-   "zmiany": {
-    "value": [
-     72,
-     61
-    ],
-    "overall": [
-     74,
-     71
-    ],
-    "ultra": [
-     78,
-     75
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9070 XT 16GB, 16GB DDR5, 500GB SSD, 750W, Pano 130 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 109.26,
-   "zmiany": {
-    "value": [
-     55,
-     44
-    ],
-    "overall": [
-     81,
-     77
-    ],
-    "ultra": [
-     88,
-     86
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel I5 14600KF, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
-   "rodzaj": "pc",
-   "podstawa": 111.33,
-   "zmiany": {
-    "value": [
-     49,
-     41
-    ],
-    "overall": [
-     79,
-     77
-    ],
-    "ultra": [
-     86,
-     85
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Night Hunter",
-   "rodzaj": "pc",
-   "podstawa": 96.28,
-   "zmiany": {
-    "value": [
-     69,
-     62
-    ],
-    "overall": [
-     77,
-     75
-    ],
-    "ultra": [
-     79,
-     77
-    ]
-   }
-  },
-  {
-   "nazwa": "LENOVO LOQ Tower 26ADR10 (Ryzen 7 8745HX, RTX 5050 8GB)",
-   "rodzaj": "pc",
-   "podstawa": 85.92,
-   "zmiany": {
-    "value": [
-     37,
-     77
-    ],
-    "overall": [
-     55,
-     68
-    ],
-    "ultra": [
-     35,
-     43
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 108.05,
-   "zmiany": {
-    "value": [
-     47,
-     46
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 8400F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 84.72,
-   "zmiany": {
-    "value": [
-     81,
-     79
+     87,
+     83
     ],
     "overall": [
      74,
@@ -591,28 +35,255 @@
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 85.84,
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 8.99,
    "zmiany": {
     "value": [
-     79,
-     77
-    ],
-    "ultra": [
-     72,
-     71
+     34,
+     33
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9070 16GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 85.62,
+   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "rodzaj": "monitor",
+   "podstawa": 6.07,
    "zmiany": {
     "value": [
-     79,
-     78
+     68,
+     66
+    ],
+    "overall": [
+     75,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "podstawa": 6.45,
+   "zmiany": {
+    "value": [
+     57,
+     62
+    ],
+    "overall": [
+     63,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Alienware AW2726DM",
+   "rodzaj": "monitor",
+   "podstawa": 7.16,
+   "zmiany": {
+    "value": [
+     50,
+     54
+    ],
+    "overall": [
+     65,
+     66
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
+   "rodzaj": "monitor",
+   "podstawa": 9.07,
+   "zmiany": {
+    "value": [
+     32,
+     33
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "rodzaj": "monitor",
+   "podstawa": 4.53,
+   "zmiany": {
+    "value": [
+     84,
+     83
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ EX271QMZ",
+   "rodzaj": "monitor",
+   "podstawa": 9.45,
+   "zmiany": {
+    "value": [
+     15,
+     28
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.73,
+   "zmiany": {
+    "value": [
+     58,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "LG 27GS95QX-B",
+   "rodzaj": "monitor",
+   "podstawa": 10.05,
+   "zmiany": {
+    "value": [
+     19,
+     22
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 272QP QD-OLED X50",
+   "rodzaj": "monitor",
+   "podstawa": 5.93,
+   "zmiany": {
+    "value": [
+     68,
+     67
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 8.38,
+   "zmiany": {
+    "value": [
+     41,
+     40
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo Legion T5 30IAX10 (Ultra 7-255HX, RTX 5060 Ti, 2TB)",
+   "rodzaj": "pc",
+   "podstawa": 107.49,
+   "zmiany": {
+    "value": [
+     43,
+     46
+    ],
+    "overall": [
+     75,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG Infinite S3 (i5-14400F, RTX 5060 Ti 8GB, 16GB)",
+   "rodzaj": "pc",
+   "podstawa": 82.42,
+   "zmiany": {
+    "value": [
+     78,
+     82
+    ],
+    "overall": [
+     71,
+     72
+    ],
+    "ultra": [
+     53,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Utopiec (GoblinPC)",
+   "rodzaj": "pc",
+   "podstawa": 106.0,
+   "zmiany": {
+    "value": [
+     50,
+     49
+    ]
+   }
+  },
+  {
+   "nazwa": "Utopiec (custom: 32GB RAM) (GoblinPC)",
+   "rodzaj": "pc",
+   "podstawa": 124.45,
+   "zmiany": {
+    "value": [
+     23,
+     22
+    ]
+   }
+  },
+  {
+   "nazwa": "Goblin (GoblinPC)",
+   "rodzaj": "pc",
+   "podstawa": 128.7,
+   "zmiany": {
+    "value": [
+     18,
+     16
+    ]
+   }
+  },
+  {
+   "nazwa": "Kobold (GoblinPC)",
+   "rodzaj": "pc",
+   "podstawa": 131.71,
+   "zmiany": {
+    "value": [
+     13,
+     12
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 99.99,
+   "zmiany": {
+    "value": [
+     53,
+     57
+    ],
+    "overall": [
+     63,
+     64
+    ],
+    "ultra": [
+     48,
+     49
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 95.93,
+   "zmiany": {
+    "value": [
+     59,
+     63
+    ],
+    "overall": [
+     63,
+     65
+    ],
+    "ultra": [
+     49,
+     50
     ]
    }
   }

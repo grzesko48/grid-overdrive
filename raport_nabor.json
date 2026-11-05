@@ -1,152 +1,254 @@
 {
- "dopisane_monitory": [],
- "dopisane_pc": [
-  "LENOVO Legion T5 30IAS10 (Core Ultra 5 225, RTX 5060 8GB)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (3)",
-  "Morele | Ryzen 5 8400F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (4)",
-  "Morele | Ryzen 5 7600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)"
+ "dopisane_monitory": [
+  "ASUS ROG Strix QD-OLED XG27AQDMES"
  ],
- "uzupelnione": [],
- "konflikty": [],
+ "dopisane_pc": [],
+ "uzupelnione": [
+  [
+   "LG UltraGear 27GX704A-B",
+   "xkom"
+  ]
+ ],
+ "konflikty": [
+  [
+   "Gigabyte MO27Q2A ICE",
+   "kilka istniejących wpisów pasuje do tego modelu"
+  ]
+ ],
  "pominiete": [
   [
    "https://www.morele.net/monitor-msi-mag-272qp-qd-oled-x50-14978670/",
    "nie ma w sprzedaży (availability ≠ InStock)"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-msi-mag-341cqpde-qd-oled-czarny-143086936.html",
-   "przekątna 34\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-msi-mpg-321urxde-qd-oled-czarny-148965831.html",
-   "przekątna 31.5\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-msi-mpg-491cqpde-qd-oled-czarny-139991277.html",
-   "przekątna 49\" poza zakresem 26–28\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-gamingowy-samsung-ls27hg800suxen-srebrny-180955271.html",
-   "rozdzielczość „3840x2160” (wymagane 2560 x 1440)"
-  ],
-  [
    "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-oled-g9-ls49dg950suxdu-49-dqhd-oled-0003ms-240hz-srebrny-1490915.html",
    "nie ma w sprzedaży (status: TEMPORARILY_NOT_AVAILABLE)"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_monitor-samsung-smart-monitor-m90sf-srebrny-159443310.html",
-   "przekątna 32\" poza zakresem 26–28\""
-  ],
-  [
    "Gigabyte G27Q3 EK",
-   "nazwa już istnieje na stronie"
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
   ],
   [
    "Gigabyte M27Q3",
-   "nazwa już istnieje na stronie"
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
   ],
   [
    "LC-Power LC-M27QO",
-   "nazwa już istnieje na stronie"
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
   ],
   [
    "MSI MAG 272QP QD-OLED X24",
-   "nazwa już istnieje na stronie"
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "Sony INZONE M10S",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
   ],
   [
    "https://goblinpc.pl/product/widmo",
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_desktop-gaming-beastcom-q5-pro-gaming-czarny-152837972.html",
-   "brak pojemności pamięci karty (strona jej nie podaje): 'GeForce RTX 5060'"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-core-ultra-5-250kf-plus-16gb-rx-9060-1tb-m-2-pcie-600292324/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-cougar-airface-pure-pro-white-core-ultra-5-250kf-plus-16gb-rx-9060-xt-512gb-m-2-pcie-600292763/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-7600x-16gb-rx-9060-2tb-m-2-pcie-600294446/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-9500f-16gb-rx-7600-2tb-m-2-pcie-windows-11-pro-600296194/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7600): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-9500f-16gb-rx-9060-8gb-512gb-m-2-pcie-windows-11-pro-600296020/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-core-ultra-5-250kf-plus-16gb-radeon-rx-9060-xt-16gb-512gb-m-2-pcie-windows-11-pro-600292692/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-ryzen-5-8400f-16gb-rx-9060-8gb-2tb-m-2-pcie-windows-11-pro-600296099/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-core-ultra-5-250kf-plus-16gb-radeon-rx-9060-xt-16gb-512gb-m-2-pcie-windows-11-pro-600292688/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-core-ultra-5-250kf-plus-16gb-radeon-rx-9060-xt-8gb-1tb-m-2-pcie-windows-11-pro-600292796/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-core-ultra-5-250kf-plus-16gb-radeon-rx-9060-xt-8gb-2tb-m-2-pcie-windows-11-pro-600292772/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-core-ultra-5-250kf-plus-16gb-rx-9060-xt-512gb-m-2-pcie-600292761/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-7500f-16gb-rx-9060-8gb-1tb-m-2-pcie-windows-11-pro-600296142/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-darkflash-c365-white-ryzen-5-7600x-16gb-rx-9060-512gb-m-2-pcie-600294372/",
-   "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne"
+   "https://www.x-kom.pl/p/1578639-desktop-polecany-zestaw-ryzen-5-7500f-32gb-1tb-rtx-5070-12gb.html",
+   "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 542 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 134 adresów w następnych przebiegach"
+  ],
+  [
+   "https://www.x-kom.pl/p/1367243-desktop-hp-omen-35l-ryzen-5-8400f-32gb-1tb-win11x-rtx5060.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594646-desktop-hp-omen-35l-ryzen-7-8700f-24gb-1tb-win11-rtx5060.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594647-desktop-hp-omen-35l-i5-14400f-16gb-1tb-win11-rtx5060.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594648-desktop-hp-omen-35l-i5-14400f-32gb-1tb-win11-rtx5060.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594650-desktop-hp-omen-35l-i5-14400f-24gb-1tb-win11-rtx5060.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594652-desktop-hp-omen-35l-ryzen-7-8700f-16gb-1tb-win11x-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594654-desktop-hp-omen-35l-ryzen-7-8700f-32gb-1tb-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594661-desktop-hp-omen-35l-ryzen-7-8700f-24gb-1tb-win11x-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594664-desktop-hp-omen-35l-i5-14400f-16gb-1tb-win11x-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594666-desktop-hp-omen-35l-i5-14400f-32gb-1tb-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594673-desktop-hp-omen-35l-i5-14400f-24gb-1tb-win11x-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594675-desktop-hp-omen-35l-i7-14700f-16gb-1tb-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594684-desktop-hp-omen-35l-i7-14700f-24gb-1tb-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594691-desktop-hp-omen-35l-ryzen-7-8700f-16gb-1tb-win11-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594694-desktop-hp-omen-35l-ryzen-7-8700f-24gb-1tb-win11-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594695-desktop-hp-omen-35l-i5-14400f-16gb-1tb-win11-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1594698-desktop-hp-omen-35l-i5-14400f-24gb-1tb-win11-rtx5060ti.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.x-kom.pl/p/1614579-desktop-msi-mag-infinite-s-ai-ultra-5-225f-16gb-512-win11-rtx5060.html",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-darkflash-c365-black-ryzen-5-8400f-32gb-rx-9060-xt-8gb-1tb-m-2-pcie-windows-11-pro-600297794/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-darkflash-dk352-plus-ryzen-5-7500f-16gb-rx-9060-xt-8gb-1tb-m-2-pcie-windows-11-pro-600297796/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-gaming-13570-ryzen-5-8400f-32gb-rx-9060-xt-8gb-1tb-m-2-pcie-windows-11-pro-600297791/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500f-16gb-rx-9060xt-8gb-2tb-ssd-windows-11-pg00591-600479306/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500f-16gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00589-600479304/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500f-32gb-rx-9060xt-8gb-1tb-ssd-windows-11-pg00593-600479309/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500f-32gb-rx-9060xt-8gb-2tb-ssd-windows-11-pg00594-600479311/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500f-32gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00592-600479308/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500x3d-16gb-rx-9060xt-8gb-2tb-ssd-windows-11-pg00777-600479479/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500x3d-16gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00775-600479477/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500x3d-32gb-rx-9060xt-8gb-512gb-ssd-nvme-windows-11-pg00778-600479481/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7700-16gb-radeon-rx-9060xt-8gb-2tb-ssd-nvme-windows-11-pg01017-600479749/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7700-16gb-radeon-rx-9060xt-8gb-512gb-ssd-nvme-windows-11-pg01015-600479751/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7700-32gb-radeon-rx-9060xt-8gb-1tb-ssd-nvme-windows-11-pg01019-600479759/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7700-32gb-radeon-rx-9060xt-8gb-2tb-ssd-nvme-windows-11-pg01020-600479747/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7700-32gb-radeon-rx-9060xt-8gb-512gb-ssd-nvme-windows-11-pg01018-600479742/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7800x3d-16gb-radeon-rx-9060xt-8gb-1tb-ssd-nvme-windows-11-pg01141-600479857/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7800x3d-32gb-radeon-rx-9060xt-8gb-1tb-ssd-nvme-windows-11-pg01143-600479880/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-7800x3d-32gb-radeon-rx-9060xt-8gb-2tb-ssd-nvme-windows-11-pg01144-600479882/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-16gb-radeon-rx-9060xt-8gb-1tb-ssd-nvme-windows-11-pg01213-600479943/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-16gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01214-600479945/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-32gb-rx-9060xt-1tb-ssd-nvme-windows-11-pg01215-600479948/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-32gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01216-600479950/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9800x3d-16gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01322-600480047/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9800x3d-32gb-rx-9060xt-1tb-ssd-nvme-windows-11-pg01323-600480053/",
+   "budżet rozmiaru strony (16 MB limitu artefaktu) wyczerpany"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 112, do sprawdzenia 10"
+   "monitor": "lista 113, do sprawdzenia 11"
   },
   "xkom": {
-   "monitor": "lista 0, do sprawdzenia 0",
-   "pc": "lista 0, do sprawdzenia 0"
+   "monitor": "lista 67, do sprawdzenia 5",
+   "pc": "lista 81, do sprawdzenia 19"
   },
   "mediamarkt": {
-   "monitor": "lista 57, do sprawdzenia 6",
-   "pc": "lista 27, do sprawdzenia 2"
+   "monitor": "lista 50, do sprawdzenia 1",
+   "pc": "lista 27, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 51, do sprawdzenia 0"
   },
   "goblinpc": {
-   "pc": "lista 4, do sprawdzenia 1"
+   "pc": "lista 3, do sprawdzenia 1"
   },
   "morele_pc": {
-   "pc": "lista 592, do sprawdzenia 567"
+   "pc": "lista 180, do sprawdzenia 159"
   }
  }
 }
