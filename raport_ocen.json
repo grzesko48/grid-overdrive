@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 20,
+ "przeliczonych": 45,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -22,111 +22,37 @@
   {
    "nazwa": "Asus TUF Gaming VG27AQML5A",
    "rodzaj": "monitor",
-   "podstawa": 4.55,
+   "podstawa": 4.22,
    "zmiany": {
     "value": [
-     87,
-     83
+     83,
+     86
     ],
     "overall": [
-     74,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 8.99,
-   "zmiany": {
-    "value": [
-     34,
-     33
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion Pro 27Q-10",
-   "rodzaj": "monitor",
-   "podstawa": 6.07,
-   "zmiany": {
-    "value": [
-     68,
-     66
-    ],
-    "overall": [
-     75,
+     73,
      74
     ]
    }
   },
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
-   "podstawa": 6.45,
+   "podstawa": 6.97,
    "zmiany": {
     "value": [
-     57,
-     62
+     59,
+     56
     ],
     "overall": [
-     63,
-     64
+     70,
+     69
     ]
    }
   },
   {
-   "nazwa": "Alienware AW2726DM",
+   "nazwa": "Acer X27UF5bmiippruzx",
    "rodzaj": "monitor",
-   "podstawa": 7.16,
-   "zmiany": {
-    "value": [
-     50,
-     54
-    ],
-    "overall": [
-     65,
-     66
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
-   "rodzaj": "monitor",
-   "podstawa": 9.07,
-   "zmiany": {
-    "value": [
-     32,
-     33
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27ACMES",
-   "rodzaj": "monitor",
-   "podstawa": 4.53,
-   "zmiany": {
-    "value": [
-     84,
-     83
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ EX271QMZ",
-   "rodzaj": "monitor",
-   "podstawa": 9.45,
-   "zmiany": {
-    "value": [
-     15,
-     28
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 6.73,
+   "podstawa": 6.67,
    "zmiany": {
     "value": [
      58,
@@ -135,155 +61,760 @@
    }
   },
   {
-   "nazwa": "LG 27GS95QX-B",
+   "nazwa": "Gigabyte Aorus FO27Q5P",
    "rodzaj": "monitor",
-   "podstawa": 10.05,
+   "podstawa": 7.34,
    "zmiany": {
     "value": [
-     19,
-     22
+     46,
+     52
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 272QP QD-OLED X50",
+   "nazwa": "LC-Power LC-M27QO",
    "rodzaj": "monitor",
-   "podstawa": 5.93,
+   "podstawa": 7.87,
    "zmiany": {
     "value": [
-     68,
-     67
+     45,
+     46
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "nazwa": "Rampage Slice SL27F275Q",
    "rodzaj": "monitor",
-   "podstawa": 8.38,
+   "podstawa": 4.45,
    "zmiany": {
     "value": [
-     41,
-     40
+     76,
+     84
     ]
    }
   },
   {
-   "nazwa": "Lenovo Legion T5 30IAX10 (Ultra 7-255HX, RTX 5060 Ti, 2TB)",
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.79,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
+   "rodzaj": "monitor",
+   "podstawa": 6.55,
+   "zmiany": {
+    "value": [
+     60,
+     61
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
    "rodzaj": "pc",
-   "podstawa": 107.49,
+   "podstawa": 112.15,
    "zmiany": {
     "value": [
-     43,
+     49,
+     40
+    ],
+    "overall": [
+     74,
+     71
+    ],
+    "ultra": [
+     62,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+   "rodzaj": "pc",
+   "podstawa": 112.15,
+   "zmiany": {
+    "value": [
+     49,
+     40
+    ],
+    "overall": [
+     73,
+     70
+    ],
+    "ultra": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+   "rodzaj": "pc",
+   "podstawa": 105.39,
+   "zmiany": {
+    "value": [
+     59,
+     49
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     63,
+     61
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 107.85,
+   "zmiany": {
+    "value": [
+     56,
      46
     ],
     "overall": [
-     75,
+     80,
+     77
+    ],
+    "ultra": [
+     79,
+     77
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+   "rodzaj": "pc",
+   "podstawa": 111.22,
+   "zmiany": {
+    "value": [
+     51,
+     41
+    ],
+    "overall": [
+     78,
+     75
+    ],
+    "ultra": [
+     78,
      76
     ]
    }
   },
   {
-   "nazwa": "MSI MAG Infinite S3 (i5-14400F, RTX 5060 Ti 8GB, 16GB)",
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
    "rodzaj": "pc",
-   "podstawa": 82.42,
+   "podstawa": 111.22,
    "zmiany": {
     "value": [
+     51,
+     41
+    ],
+    "overall": [
      78,
-     82
+     75
+    ],
+    "ultra": [
+     78,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB Biały",
+   "rodzaj": "pc",
+   "podstawa": 113.5,
+   "zmiany": {
+    "value": [
+     48,
+     38
+    ],
+    "overall": [
+     73,
+     69
+    ],
+    "ultra": [
+     61,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
+   "rodzaj": "pc",
+   "podstawa": 117.55,
+   "zmiany": {
+    "value": [
+     42,
+     32
     ],
     "overall": [
      71,
-     72
+     67
     ],
     "ultra": [
-     53,
-     54
+     60,
+     58
     ]
    }
   },
   {
-   "nazwa": "Utopiec (GoblinPC)",
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
    "rodzaj": "pc",
-   "podstawa": 106.0,
+   "podstawa": 118.91,
    "zmiany": {
     "value": [
-     50,
-     49
-    ]
-   }
-  },
-  {
-   "nazwa": "Utopiec (custom: 32GB RAM) (GoblinPC)",
-   "rodzaj": "pc",
-   "podstawa": 124.45,
-   "zmiany": {
-    "value": [
-     23,
-     22
-    ]
-   }
-  },
-  {
-   "nazwa": "Goblin (GoblinPC)",
-   "rodzaj": "pc",
-   "podstawa": 128.7,
-   "zmiany": {
-    "value": [
-     18,
-     16
-    ]
-   }
-  },
-  {
-   "nazwa": "Kobold (GoblinPC)",
-   "rodzaj": "pc",
-   "podstawa": 131.71,
-   "zmiany": {
-    "value": [
-     13,
-     12
+     40,
+     30
     ],
     "overall": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 99.99,
-   "zmiany": {
-    "value": [
-     53,
-     57
-    ],
-    "overall": [
-     63,
-     64
+     70,
+     67
     ],
     "ultra": [
-     48,
-     49
+     60,
+     58
     ]
    }
   },
   {
-   "nazwa": "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO (2)",
    "rodzaj": "pc",
-   "podstawa": 95.93,
+   "podstawa": 104.16,
+   "zmiany": {
+    "value": [
+     66,
+     51
+    ],
+    "overall": [
+     85,
+     80
+    ],
+    "ultra": [
+     90,
+     87
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+   "rodzaj": "pc",
+   "podstawa": 104.16,
+   "zmiany": {
+    "value": [
+     66,
+     51
+    ],
+    "overall": [
+     85,
+     80
+    ],
+    "ultra": [
+     90,
+     87
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
+   "rodzaj": "pc",
+   "podstawa": 109.36,
    "zmiany": {
     "value": [
      59,
-     63
+     44
     ],
     "overall": [
-     63,
+     83,
+     78
+    ],
+    "ultra": [
+     89,
+     86
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+   "rodzaj": "pc",
+   "podstawa": 114.6,
+   "zmiany": {
+    "value": [
+     46,
+     36
+    ],
+    "overall": [
+     77,
+     74
+    ],
+    "ultra": [
+     77,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
+   "rodzaj": "pc",
+   "podstawa": 113.5,
+   "zmiany": {
+    "value": [
+     48,
+     38
+    ],
+    "overall": [
+     73,
+     69
+    ],
+    "ultra": [
+     61,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "podstawa": 118.91,
+   "zmiany": {
+    "value": [
+     40,
+     30
+    ],
+    "overall": [
+     70,
+     67
+    ],
+    "ultra": [
+     60,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
+   "rodzaj": "pc",
+   "podstawa": 122.96,
+   "zmiany": {
+    "value": [
+     34,
+     24
+    ],
+    "overall": [
+     68,
      65
     ],
     "ultra": [
+     58,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "podstawa": 124.99,
+   "zmiany": {
+    "value": [
+     31,
+     21
+    ],
+    "overall": [
+     68,
+     64
+    ],
+    "ultra": [
+     58,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+   "rodzaj": "pc",
+   "podstawa": 109.45,
+   "zmiany": {
+    "value": [
+     53,
+     44
+    ],
+    "overall": [
+     74,
+     71
+    ],
+    "ultra": [
+     62,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
+   "rodzaj": "pc",
+   "podstawa": 111.22,
+   "zmiany": {
+    "value": [
+     51,
+     41
+    ],
+    "overall": [
+     78,
+     75
+    ],
+    "ultra": [
+     78,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
+   "rodzaj": "pc",
+   "podstawa": 108.09,
+   "zmiany": {
+    "value": [
+     55,
+     46
+    ],
+    "overall": [
+     75,
+     72
+    ],
+    "ultra": [
+     63,
+     61
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+   "rodzaj": "pc",
+   "podstawa": 110.1,
+   "zmiany": {
+    "value": [
+     52,
+     43
+    ],
+    "overall": [
+     79,
+     76
+    ],
+    "ultra": [
+     78,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+   "rodzaj": "pc",
+   "podstawa": 113.5,
+   "zmiany": {
+    "value": [
+     48,
+     38
+    ],
+    "overall": [
+     73,
+     69
+    ],
+    "ultra": [
+     61,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
+   "rodzaj": "pc",
+   "podstawa": 107.28,
+   "zmiany": {
+    "value": [
+     62,
+     47
+    ],
+    "overall": [
+     84,
+     79
+    ],
+    "ultra": [
+     89,
+     86
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
+   "rodzaj": "pc",
+   "podstawa": 114.6,
+   "zmiany": {
+    "value": [
+     46,
+     36
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     77,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO biała",
+   "rodzaj": "pc",
+   "podstawa": 117.97,
+   "zmiany": {
+    "value": [
+     41,
+     31
+    ],
+    "overall": [
+     75,
+     72
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, MSI MAG Pano M100R PZ ARGB",
+   "rodzaj": "pc",
+   "podstawa": 115.72,
+   "zmiany": {
+    "value": [
+     44,
+     35
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "podstawa": 115.72,
+   "zmiany": {
+    "value": [
+     44,
+     35
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD M.2, KRUX EXO",
+   "rodzaj": "pc",
+   "podstawa": 116.84,
+   "zmiany": {
+    "value": [
+     43,
+     33
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
+   "rodzaj": "pc",
+   "podstawa": 117.97,
+   "zmiany": {
+    "value": [
+     41,
+     31
+    ],
+    "overall": [
+     75,
+     72
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North",
+   "rodzaj": "pc",
+   "podstawa": 112.35,
+   "zmiany": {
+    "value": [
      49,
-     50
+     40
+    ],
+    "overall": [
+     77,
+     75
+    ],
+    "ultra": [
+     77,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO",
+   "rodzaj": "pc",
+   "podstawa": 117.97,
+   "zmiany": {
+    "value": [
+     41,
+     31
+    ],
+    "overall": [
+     75,
+     72
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Zalman Z10",
+   "rodzaj": "pc",
+   "podstawa": 117.97,
+   "zmiany": {
+    "value": [
+     41,
+     31
+    ],
+    "overall": [
+     75,
+     72
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North (2)",
+   "rodzaj": "pc",
+   "podstawa": 115.72,
+   "zmiany": {
+    "value": [
+     44,
+     35
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     76,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Zalman Z10",
+   "rodzaj": "pc",
+   "podstawa": 114.27,
+   "zmiany": {
+    "value": [
+     46,
+     37
+    ],
+    "overall": [
+     77,
+     74
+    ],
+    "ultra": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Krux Tano + 3 wentylatory reverse",
+   "rodzaj": "pc",
+   "podstawa": 112.08,
+   "zmiany": {
+    "value": [
+     49,
+     40
+    ],
+    "overall": [
+     78,
+     75
+    ],
+    "ultra": [
+     78,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North",
+   "rodzaj": "pc",
+   "podstawa": 116.47,
+   "zmiany": {
+    "value": [
+     43,
+     34
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     77,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO",
+   "rodzaj": "pc",
+   "podstawa": 116.47,
+   "zmiany": {
+    "value": [
+     43,
+     34
+    ],
+    "overall": [
+     76,
+     73
+    ],
+    "ultra": [
+     77,
+     75
     ]
    }
   }
