@@ -1,25 +1,25 @@
 {
  "data": "6 listopada 2026",
  "pobrano": {
-  "ok": 552,
+  "ok": 680,
   "brak_ceny": 0,
   "wycofany": 26,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 154
+  "blad": 26
  },
- "pokrycie_proc": 75,
- "zmian_cen": 67,
- "do_przejrzenia": [],
- "zmiany_dostepnosci": [
+ "pokrycie_proc": 93,
+ "zmian_cen": 35,
+ "do_przejrzenia": [
   {
-   "nazwa": "Gigabyte MO27Q3",
-   "bylo": [],
-   "jest": [
-    "mediamarkt"
-   ]
+   "nazwa": "Acer XV270UF3BMIIPRX",
+   "sklep": "morele",
+   "stara": 1290,
+   "nowa": 2036,
+   "zmiana_proc": 58
   }
  ],
+ "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
  "ukryte": [],
  "przywrocone": [],
@@ -27,608 +27,312 @@
  "inny_produkt_pod_adresem": [],
  "zmiany": [
   {
-   "nazwa": "Samsung Odyssey G6 LS27FG602EUXEN",
+   "nazwa": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1121,
-   "nowa": 1099,
-   "roznica": -22,
-   "naglowek": 1099
+   "stara": 1049,
+   "nowa": 1032,
+   "roznica": -17
   },
   {
-   "nazwa": "Asus TUF Gaming VG27AQML5A",
+   "nazwa": "AOC Q27G4ZR",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 817,
+   "nowa": 825,
+   "roznica": 8
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQM5A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1364,
-   "nowa": 1265,
-   "roznica": -99,
-   "naglowek": 1265
+   "stara": 1149,
+   "nowa": 1155,
+   "roznica": 6
   },
   {
-   "nazwa": "AOC Q27G41ZDF",
+   "nazwa": "Gigabyte GS27Q X",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2638,
-   "nowa": 2631,
-   "roznica": -7
+   "sklep": "morele",
+   "stara": 902,
+   "nowa": 894,
+   "roznica": -8,
+   "naglowek": 894
   },
   {
-   "nazwa": "AOC Q27G4ZDR",
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2700,
-   "nowa": 2693,
-   "roznica": -7
+   "sklep": "morele",
+   "stara": 2158,
+   "nowa": 2147,
+   "roznica": -11,
+   "naglowek": 2147
   },
   {
-   "nazwa": "AOC AGON PRO AG276QZD2",
+   "nazwa": "Gigabyte GO27Q24",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 3547,
-   "nowa": 3538,
-   "roznica": -9
+   "stara": 1611,
+   "nowa": 1629,
+   "roznica": 18
   },
   {
-   "nazwa": "AOC Q27G4SDR",
+   "nazwa": "MSI MAG 274QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 3858,
-   "nowa": 3848,
-   "roznica": -10
+   "stara": 1699,
+   "nowa": 1717,
+   "roznica": 18
   },
   {
-   "nazwa": "Philips Evnia 27M2N6501L/00",
+   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1699,
+   "nowa": 2022,
+   "roznica": 323,
+   "naglowek": 2022
+  },
+  {
+   "nazwa": "Lenovo Legion 27QD-10",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2395,
-   "nowa": 2389,
-   "roznica": -6
+   "stara": 918,
+   "nowa": 927,
+   "roznica": 9
+  },
+  {
+   "nazwa": "Lenovo Legion 27QD-10",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 923,
+   "nowa": 927,
+   "roznica": 4,
+   "naglowek": 927
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1549,
+   "nowa": 1546,
+   "roznica": -3,
+   "naglowek": 1546
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1616,
-   "nowa": 1672,
-   "roznica": 56,
-   "naglowek": 1672
-  },
-  {
-   "nazwa": "Acer Predator X27UZ1bmiiprx",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1790,
-   "nowa": 1786,
-   "roznica": -4,
-   "naglowek": 1786
+   "stara": 1672,
+   "nowa": 1665,
+   "roznica": -7,
+   "naglowek": 1665
   },
   {
    "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1842,
-   "nowa": 1833,
-   "roznica": -9
+   "stara": 1833,
+   "nowa": 1913,
+   "roznica": 80
+  },
+  {
+   "nazwa": "Gigabyte MO27Q28GR",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2346,
+   "nowa": 2371,
+   "roznica": 25
+  },
+  {
+   "nazwa": "LG UltraGear 27GX700A-B",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2176,
+   "nowa": 2187,
+   "roznica": 11,
+   "naglowek": 2187
   },
   {
    "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2441,
-   "nowa": 2438,
-   "roznica": -3,
-   "naglowek": 2438
+   "stara": 2438,
+   "nowa": 2567,
+   "roznica": 129,
+   "naglowek": 2567
   },
   {
-   "nazwa": "Philips Evnia 27M2N8500/00",
+   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1999,
-   "nowa": 1981,
-   "roznica": -18,
-   "naglowek": 1981
+   "stara": 3267,
+   "nowa": 3268,
+   "roznica": 1,
+   "naglowek": 3268
   },
   {
-   "nazwa": "Acer X27UF5bmiippruzx",
+   "nazwa": "ASUS ROG Strix Tandem OLED XG27AQWMG",
+   "rodzaj": "monitor",
+   "sklep": "xkom",
+   "stara": 2399,
+   "nowa": 2329,
+   "roznica": -70
+  },
+  {
+   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
+   "rodzaj": "monitor",
+   "sklep": "xkom",
+   "stara": 1899,
+   "nowa": 1999,
+   "roznica": 100,
+   "naglowek": 1999
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27ACMES",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3375,
-   "nowa": 3336,
-   "roznica": -39,
-   "naglowek": 3336
+   "stara": 1155,
+   "nowa": 1173,
+   "roznica": 18,
+   "naglowek": 1173
   },
   {
-   "nazwa": "ASRock Phantom Gaming PGO27QFS",
+   "nazwa": "BenQ EX271QMZ",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1745,
-   "nowa": 1741,
-   "roznica": -4,
-   "naglowek": 1741
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27ACDNG",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3597,
-   "nowa": 3588,
-   "roznica": -9
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDNG",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3481,
-   "nowa": 3472,
-   "roznica": -9
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQM5F",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1353,
-   "nowa": 1352,
-   "roznica": -1,
-   "naglowek": 1352
+   "stara": 2267,
+   "nowa": 1864,
+   "roznica": -403,
+   "naglowek": 1864
   },
   {
    "nazwa": "Cooler Master GM27QPA",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1058,
-   "nowa": 1057,
-   "roznica": -1,
-   "naglowek": 1057
+   "stara": 1057,
+   "nowa": 1064,
+   "roznica": 7,
+   "naglowek": 1064
+  },
+  {
+   "nazwa": "Dell Alienware AW2725D QD-OLED",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2019,
+   "nowa": 2041,
+   "roznica": 22
+  },
+  {
+   "nazwa": "Dell Alienware AW2725DF QD-OLED",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2550,
+   "nowa": 2577,
+   "roznica": 27
   },
   {
    "nazwa": "Gigabyte Aorus FO27Q5P",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3918,
-   "nowa": 3671,
-   "roznica": -247,
-   "naglowek": 3671
-  },
-  {
-   "nazwa": "iiyama G-Master GOB2701QSC-B1 Titan Falcon Tandem OLED",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1999,
-   "nowa": 1899,
-   "roznica": -100
+   "stara": 3671,
+   "nowa": 3758,
+   "roznica": 87,
+   "naglowek": 3758
   },
   {
    "nazwa": "LC-Power LC-M27QO",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1918,
-   "nowa": 1888,
-   "roznica": -30,
-   "naglowek": 1888
-  },
-  {
-   "nazwa": "LG UltraGear OLED 27GS93QE-B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2949,
-   "nowa": 2929,
-   "roznica": -20,
-   "naglowek": 2929
+   "stara": 1888,
+   "nowa": 1832,
+   "roznica": -56,
+   "naglowek": 1832
   },
   {
    "nazwa": "MSI 272QRF X36 Pulsar",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3321,
-   "nowa": 3318,
-   "roznica": -3,
-   "naglowek": 3318
-  },
-  {
-   "nazwa": "Philips Evnia 27M2N3500PF/00",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 744,
-   "nowa": 741,
-   "roznica": -3,
-   "naglowek": 741
-  },
-  {
-   "nazwa": "Rampage Slice SL27F275Q",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1421,
-   "nowa": 1223,
-   "roznica": -198,
-   "naglowek": 1223
+   "stara": 3318,
+   "nowa": 3342,
+   "roznica": 24,
+   "naglowek": 3342
   },
   {
    "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2423,
-   "nowa": 2446,
-   "roznica": 23,
-   "naglowek": 2446
-  },
-  {
-   "nazwa": "Samsung Odyssey OLED G6 G60SF LS27FG604SUXEN",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2493,
-   "nowa": 2499,
-   "roznica": 6,
-   "naglowek": 2499
-  },
-  {
-   "nazwa": "Koorui G2721E",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1399,
-   "nowa": 1389,
-   "roznica": -10,
-   "naglowek": 1389
-  },
-  {
-   "nazwa": "Gigabyte MO27Q28G OLED",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2598,
-   "nowa": 2249,
-   "roznica": -349
+   "stara": 2446,
+   "nowa": 2429,
+   "roznica": -17,
+   "naglowek": 2429
   },
   {
    "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1842,
-   "nowa": 1833,
-   "roznica": -9,
-   "naglowek": 1833
+   "stara": 1833,
+   "nowa": 1913,
+   "roznica": 80,
+   "naglowek": 1913
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7799,
-   "nowa": 8299,
-   "roznica": 500,
-   "naglowek": 8299
+   "nazwa": "LG 27GS95QX-B",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2413,
+   "nowa": 2429,
+   "roznica": 16,
+   "naglowek": 2429
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7799,
-   "nowa": 8299,
-   "roznica": 500,
-   "naglowek": 8299
+   "nazwa": "MSI MAG 272QP QD-OLED X50",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2967,
+   "nowa": 2954,
+   "roznica": -13,
+   "naglowek": 2954
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7299,
-   "nowa": 7799,
-   "roznica": 500,
-   "naglowek": 7799
+   "nazwa": "Acer XF270UF3",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 953,
+   "nowa": 955,
+   "roznica": 2,
+   "naglowek": 955
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8999,
-   "nowa": 9599,
-   "roznica": 600,
-   "naglowek": 9599
+   "nazwa": "Samsung OdysseyG60SD",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2673,
+   "nowa": 2702,
+   "roznica": 29,
+   "naglowek": 2702
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9299,
-   "nowa": 9899,
-   "roznica": 600,
-   "naglowek": 9899
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2012,
+   "nowa": 2025,
+   "roznica": 13,
+   "naglowek": 2025
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
    "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9299,
-   "nowa": 9899,
-   "roznica": 600,
-   "naglowek": 9899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 8399,
-   "roznica": 500,
-   "naglowek": 8399
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8199,
-   "nowa": 8699,
-   "roznica": 500,
-   "naglowek": 8699
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8299,
-   "nowa": 8799,
-   "roznica": 500,
-   "naglowek": 8799
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8999,
-   "nowa": 9999,
-   "roznica": 1000,
-   "naglowek": 9999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8999,
-   "nowa": 9999,
-   "roznica": 1000,
-   "naglowek": 9999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9499,
-   "nowa": 10499,
-   "roznica": 1000,
-   "naglowek": 10499
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9599,
-   "nowa": 10199,
-   "roznica": 600,
-   "naglowek": 10199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 8399,
-   "roznica": 500,
-   "naglowek": 8399
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8299,
-   "nowa": 8799,
-   "roznica": 500,
-   "naglowek": 8799
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8599,
-   "nowa": 9099,
-   "roznica": 500,
-   "naglowek": 9099
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8999,
-   "nowa": 9499,
-   "roznica": 500,
-   "naglowek": 9499
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7599,
-   "nowa": 8099,
-   "roznica": 500,
-   "naglowek": 8099
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9299,
-   "nowa": 9899,
-   "roznica": 600,
-   "naglowek": 9899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7499,
-   "nowa": 7999,
-   "roznica": 500,
-   "naglowek": 7999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9199,
-   "nowa": 9799,
-   "roznica": 600,
-   "naglowek": 9799
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7899,
-   "nowa": 8399,
-   "roznica": 500,
-   "naglowek": 8399
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9299,
-   "nowa": 10299,
-   "roznica": 1000,
-   "naglowek": 10299
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9599,
-   "nowa": 10199,
-   "roznica": 600,
-   "naglowek": 10199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO biała",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9899,
-   "nowa": 10499,
-   "roznica": 600,
-   "naglowek": 10499
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9699,
-   "nowa": 10299,
-   "roznica": 600,
-   "naglowek": 10299
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9699,
-   "nowa": 10299,
-   "roznica": 600,
-   "naglowek": 10299
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD M.2, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9799,
-   "nowa": 10399,
-   "roznica": 600,
-   "naglowek": 10399
-  },
-  {
-   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Thermalright A70 ARGB FAN",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9899,
-   "nowa": 10499,
-   "roznica": 600,
-   "naglowek": 10499
-  },
-  {
-   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9399,
-   "nowa": 9999,
-   "roznica": 600,
-   "naglowek": 9999
-  },
-  {
-   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9899,
-   "nowa": 10499,
-   "roznica": 600,
-   "naglowek": 10499
-  },
-  {
-   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9899,
-   "nowa": 10499,
-   "roznica": 600,
-   "naglowek": 10499
-  },
-  {
-   "nazwa": "PlugNPlay | i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North (2)",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9699,
-   "nowa": 10299,
-   "roznica": 600,
-   "naglowek": 10299
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Zalman Z10",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9799,
-   "nowa": 10399,
-   "roznica": 600,
-   "naglowek": 10399
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9599,
-   "nowa": 10199,
-   "roznica": 600,
-   "naglowek": 10199
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9999,
-   "nowa": 10599,
-   "roznica": 600,
-   "naglowek": 10599
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD M.2, KRUX EXO",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9999,
-   "nowa": 10599,
-   "roznica": 600,
-   "naglowek": 10599
+   "sklep": "hardpc",
+   "stara": 9449,
+   "nowa": 9689,
+   "roznica": 240,
+   "naglowek": 10228
   }
  ],
  "pros_cen_zsynchronizowane": [],
- "zmiany_sprzedawcow": [
-  {
-   "nazwa": "LG UltraGear 27GX700A-B",
-   "sprzedawcy": {
-    "mediamarkt": "Electronic Shops PL"
-   }
-  }
- ],
+ "zmiany_sprzedawcow": [],
  "doplaty_ram_wariantow": [],
  "wg_sklepu": {
   "goblinpc": {
@@ -660,7 +364,7 @@
    "adresow": 6
   },
   "xkom": {
-   "ok": 0,
+   "ok": 128,
    "adresow": 128
   }
  }
