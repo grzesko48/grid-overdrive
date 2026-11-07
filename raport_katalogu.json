@@ -1,11 +1,26 @@
 {
- "katalog_pozycji": 793,
+ "katalog_pozycji": 889,
  "nasze_identyfikatory": 277,
  "zniknely": [
   {
    "id": "19716",
    "nazwa": "Zestaw | Ryzen 7 7700, RX 7700 XT 12GB, 32GB DDR5, 2TB SSD, 850W, Ventum 200 Solid",
    "wpisow": 1
+  },
+  {
+   "id": "20815",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
+   "wpisow": 1
+  },
+  {
+   "id": "22593",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (2)",
+   "wpisow": 1
+  },
+  {
+   "id": "25205",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron",
+   "wpisow": 2
   },
   {
    "id": "25239",
@@ -20,6 +35,11 @@
   {
    "id": "25457",
    "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "25563",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, H7 Flow",
    "wpisow": 2
   },
   {
@@ -55,15 +75,135 @@
  ],
  "nowi_kandydaci": [
   {
+   "id": "19339",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Nadir",
+   "cena": 9349,
+   "url": "https://sklep.hard-pc.pl/p19339,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-850w-nadir.html"
+  },
+  {
+   "id": "20539",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Night Hunter",
+   "cena": 9279,
+   "url": "https://sklep.hard-pc.pl/p20539,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-650w-night-hunter.html"
+  },
+  {
+   "id": "20699",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Night Hunter",
+   "cena": 9129,
+   "url": "https://sklep.hard-pc.pl/p20699,zestaw-ryzen-5-8400f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-650w-night-hunter.html"
+  },
+  {
+   "id": "20814",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Hunter 3",
+   "cena": 9339,
+   "url": "https://sklep.hard-pc.pl/p20814,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-650w-hunter-3.html"
+  },
+  {
+   "id": "20818",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
+   "cena": 9379,
+   "url": "https://sklep.hard-pc.pl/p20818,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "20820",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
+   "cena": 9369,
+   "url": "https://sklep.hard-pc.pl/p20820,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-850w-signum-300-argb.html"
+  },
+  {
+   "id": "20992",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Signum 300 ARGB",
+   "cena": 7199,
+   "url": "https://sklep.hard-pc.pl/p20992,zestaw-ryzen-5-9600x-rtx-5060-8gb-32gb-ddr5-1000gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "21081",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, KRUX EXO",
+   "cena": 9329,
+   "url": "https://sklep.hard-pc.pl/p21081,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-650w-krux-exo.html"
+  },
+  {
+   "id": "21208",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Night Hunter",
+   "cena": 9339,
+   "url": "https://sklep.hard-pc.pl/p21208,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-650w-night-hunter.html"
+  },
+  {
+   "id": "21394",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, PANO 130R PZ ARGB Black",
+   "cena": 9339,
+   "url": "https://sklep.hard-pc.pl/p21394,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-1tb-ssd-650w-pano-130r-pz-argb-black.html"
+  },
+  {
+   "id": "22624",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 8679,
+   "url": "https://sklep.hard-pc.pl/p22624,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "22626",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 8139,
+   "url": "https://sklep.hard-pc.pl/p22626,zestaw-ryzen-5-9600x-rtx-5070-12gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "22726",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 6659,
+   "url": "https://sklep.hard-pc.pl/p22726,zestaw-ryzen-5-7500f-rtx-5060-8gb-32gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "22730",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 8959,
+   "url": "https://sklep.hard-pc.pl/p22730,zestaw-ryzen-5-7500f-rtx-5070-12gb-32gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "22731",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "cena": 5549,
+   "url": "https://sklep.hard-pc.pl/p22731,zestaw-ryzen-5-7500f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
+  },
+  {
+   "id": "22741",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 8369,
+   "url": "https://sklep.hard-pc.pl/p22741,zestaw-ryzen-5-7500x3d-rtx-5070-12gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "22747",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 6069,
+   "url": "https://sklep.hard-pc.pl/p22747,zestaw-ryzen-5-7500x3d-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "22817",
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5070 12GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "cena": 8449,
+   "url": "https://sklep.hard-pc.pl/p22817,zestaw-intel-ultra-5-245kf-rtx-5070-12gb-16gb-ddr5-512gb-ssd-650w-hunter-2-argb.html"
+  },
+  {
+   "id": "22885",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "cena": 8929,
+   "url": "https://sklep.hard-pc.pl/p22885,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-16gb-ddr5-500gb-ssd-650w-pano-130r-argb.html"
+  },
+  {
+   "id": "25294",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 700W, Signum 300 ARGB",
+   "cena": 7939,
+   "url": "https://sklep.hard-pc.pl/p25294,zestaw-ryzen-5-8400f-rtx-5070-12gb-16gb-ddr5-1tb-ssd-700w-signum-300-argb.html"
+  },
+  {
    "id": "25528",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
-   "cena": 7899,
+   "cena": 8229,
    "url": "https://sklep.hard-pc.pl/p25528,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-aquarius-8000.html"
   },
   {
    "id": "26035",
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Fishtank 6000 Corona",
-   "cena": 8149,
+   "cena": 8059,
    "url": "https://sklep.hard-pc.pl/p26035,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-fishtank-6000-corona.html"
   },
   {
@@ -197,6 +337,12 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
    "cena": 6229,
    "url": "https://sklep.hard-pc.pl/p26748,zestaw-ryzen-5-7500f-rtx-5060-ti-8gb-16gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26772",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "cena": 8649,
+   "url": "https://sklep.hard-pc.pl/p26772,zestaw-ryzen-5-7500x3d-rtx-5070-12gb-16gb-ddr5-1tb-ssd-750w-night-hunter.html"
   }
  ]
 }

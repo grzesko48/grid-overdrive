@@ -1,28 +1,150 @@
 {
- "data": "6 listopada 2026",
+ "data": "7 listopada 2026",
  "pobrano": {
-  "ok": 680,
-  "brak_ceny": 0,
-  "wycofany": 26,
+  "ok": 547,
+  "brak_ceny": 3,
+  "wycofany": 28,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 26
+  "blad": 154
  },
- "pokrycie_proc": 93,
- "zmian_cen": 35,
+ "pokrycie_proc": 75,
+ "zmian_cen": 84,
  "do_przejrzenia": [
+  {
+   "nazwa": "AOC Q27G4SDR",
+   "sklep": "mediamarkt",
+   "stara": 3848,
+   "nowa": 1785,
+   "zmiana_proc": -54
+  },
+  {
+   "nazwa": "AOC AGON PRO AG276QKD2",
+   "sklep": "morele",
+   "stara": 2549,
+   "nowa": 4362,
+   "zmiana_proc": 71
+  },
+  {
+   "nazwa": "LG UltraGear 27GX700A-B",
+   "sklep": "mediamarkt",
+   "stara": 2571,
+   "nowa": 3856,
+   "zmiana_proc": 50
+  },
   {
    "nazwa": "Acer XV270UF3BMIIPRX",
    "sklep": "morele",
    "stara": 1290,
-   "nowa": 2036,
-   "zmiana_proc": 58
+   "nowa": 2028,
+   "zmiana_proc": 57
   }
  ],
- "zmiany_dostepnosci": [],
+ "zmiany_dostepnosci": [
+  {
+   "nazwa": "Gigabyte MO27Q2A Ice",
+   "bylo": [],
+   "jest": [
+    "mediamarkt"
+   ]
+  },
+  {
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
+   "bylo": [
+    "morele"
+   ],
+   "jest": []
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
+   "bylo": [],
+   "jest": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (2)",
+   "bylo": [],
+   "jest": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron",
+   "bylo": [],
+   "jest": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron (custom: 32GB RAM)",
+   "bylo": [],
+   "jest": [
+    "hardpc"
+   ]
+  }
+ ],
  "doplaty_systemu": [],
- "ukryte": [],
- "przywrocone": [],
+ "ukryte": [
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (2)",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Atron (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  }
+ ],
+ "przywrocone": [
+  {
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
+   "rodzaj": "pc",
+   "sklepy": [
+    "morele"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 750W, P30 RGB",
+   "rodzaj": "pc",
+   "sklepy": [
+    "hardpc"
+   ]
+  }
+ ],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [],
  "zmiany": [
@@ -30,309 +152,791 @@
    "nazwa": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1049,
-   "nowa": 1032,
-   "roznica": -17
-  },
-  {
-   "nazwa": "AOC Q27G4ZR",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 817,
-   "nowa": 825,
-   "roznica": 8
+   "stara": 1032,
+   "nowa": 1099,
+   "roznica": 67
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQM5A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1149,
-   "nowa": 1155,
-   "roznica": 6
-  },
-  {
-   "nazwa": "Gigabyte GS27Q X",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 902,
-   "nowa": 894,
-   "roznica": -8,
-   "naglowek": 894
+   "stara": 1155,
+   "nowa": 999,
+   "roznica": -156
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2158,
-   "nowa": 2147,
-   "roznica": -11,
-   "naglowek": 2147
+   "stara": 2147,
+   "nowa": 2258,
+   "roznica": 111,
+   "naglowek": 2258
   },
   {
-   "nazwa": "Gigabyte GO27Q24",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1611,
-   "nowa": 1629,
-   "roznica": 18
-  },
-  {
-   "nazwa": "MSI MAG 274QP QD-OLED X24",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1699,
-   "nowa": 1717,
-   "roznica": 18
-  },
-  {
-   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "nazwa": "HP OMEN 27qs",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1699,
-   "nowa": 2022,
-   "roznica": 323,
-   "naglowek": 2022
+   "stara": 1734,
+   "nowa": 1732,
+   "roznica": -2
   },
   {
-   "nazwa": "Lenovo Legion 27QD-10",
+   "nazwa": "AOC Q27G41ZDF",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 918,
-   "nowa": 927,
-   "roznica": 9
+   "stara": 2631,
+   "nowa": 2628,
+   "roznica": -3
   },
   {
-   "nazwa": "Lenovo Legion 27QD-10",
+   "nazwa": "AOC Q27G41ZDF",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 923,
-   "nowa": 927,
-   "roznica": 4,
-   "naglowek": 927
+   "stara": 1399,
+   "nowa": 1339,
+   "roznica": -60,
+   "naglowek": 1339
   },
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "AOC Q27G4ZDR",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2693,
+   "nowa": 1826,
+   "roznica": -867
+  },
+  {
+   "nazwa": "AOC AGON PRO AG276QZD2",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 3538,
+   "nowa": 3533,
+   "roznica": -5
+  },
+  {
+   "nazwa": "AOC Q27G4SDR",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1549,
-   "nowa": 1546,
-   "roznica": -3,
-   "naglowek": 1546
+   "stara": 1982,
+   "nowa": 1917,
+   "roznica": -65,
+   "naglowek": 1917
+  },
+  {
+   "nazwa": "Philips Evnia 27M2N6501L/00",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2389,
+   "nowa": 2385,
+   "roznica": -4
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1672,
-   "nowa": 1665,
-   "roznica": -7,
-   "naglowek": 1665
+   "stara": 1665,
+   "nowa": 1686,
+   "roznica": 21,
+   "naglowek": 1686
+  },
+  {
+   "nazwa": "Acer Predator X27UZ1bmiiprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1786,
+   "nowa": 1787,
+   "roznica": 1,
+   "naglowek": 1787
   },
   {
    "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1833,
-   "nowa": 1913,
-   "roznica": 80
+   "stara": 1913,
+   "nowa": 1829,
+   "roznica": -84
   },
   {
-   "nazwa": "Gigabyte MO27Q28GR",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2346,
-   "nowa": 2371,
-   "roznica": 25
-  },
-  {
-   "nazwa": "LG UltraGear 27GX700A-B",
+   "nazwa": "Philips Evnia 27M2N8500/00",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2176,
-   "nowa": 2187,
-   "roznica": 11,
-   "naglowek": 2187
-  },
-  {
-   "nazwa": "LG UltraGear 27GS95QE-B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2438,
-   "nowa": 2567,
-   "roznica": 129,
-   "naglowek": 2567
-  },
-  {
-   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 3267,
-   "nowa": 3268,
-   "roznica": 1,
-   "naglowek": 3268
-  },
-  {
-   "nazwa": "ASUS ROG Strix Tandem OLED XG27AQWMG",
-   "rodzaj": "monitor",
-   "sklep": "xkom",
-   "stara": 2399,
-   "nowa": 2329,
-   "roznica": -70
-  },
-  {
-   "nazwa": "ASUS ROG Strix WOLED XG27AQDMGR",
-   "rodzaj": "monitor",
-   "sklep": "xkom",
-   "stara": 1899,
+   "stara": 1981,
    "nowa": 1999,
-   "roznica": 100,
+   "roznica": 18,
    "naglowek": 1999
   },
   {
-   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "nazwa": "Acer X27UF5bmiippruzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1155,
-   "nowa": 1173,
-   "roznica": 18,
-   "naglowek": 1173
+   "stara": 3336,
+   "nowa": 3294,
+   "roznica": -42,
+   "naglowek": 3294
+  },
+  {
+   "nazwa": "AOC CQ27G4Z2",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 789,
+   "nowa": 704,
+   "roznica": -85,
+   "naglowek": 704
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27ACDNG",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 3588,
+   "nowa": 3583,
+   "roznica": -5
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDNG",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 3472,
+   "nowa": 3468,
+   "roznica": -4
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQM5F",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1352,
+   "nowa": 1356,
+   "roznica": 4,
+   "naglowek": 1356
   },
   {
    "nazwa": "BenQ EX271QMZ",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2267,
-   "nowa": 1864,
-   "roznica": -403,
-   "naglowek": 1864
+   "stara": 1864,
+   "nowa": 1863,
+   "roznica": -1,
+   "naglowek": 1863
   },
   {
    "nazwa": "Cooler Master GM27QPA",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1057,
-   "nowa": 1064,
-   "roznica": 7,
-   "naglowek": 1064
+   "stara": 1064,
+   "nowa": 1063,
+   "roznica": -1,
+   "naglowek": 1063
   },
   {
    "nazwa": "Dell Alienware AW2725D QD-OLED",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2019,
-   "nowa": 2041,
-   "roznica": 22
-  },
-  {
-   "nazwa": "Dell Alienware AW2725DF QD-OLED",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2550,
-   "nowa": 2577,
-   "roznica": 27
+   "sklep": "morele",
+   "stara": 1739,
+   "nowa": 1729,
+   "roznica": -10,
+   "naglowek": 1729
   },
   {
    "nazwa": "Gigabyte Aorus FO27Q5P",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3671,
-   "nowa": 3758,
-   "roznica": 87,
-   "naglowek": 3758
+   "stara": 3758,
+   "nowa": 3680,
+   "roznica": -78,
+   "naglowek": 3680
   },
   {
-   "nazwa": "LC-Power LC-M27QO",
+   "nazwa": "LG UltraGear OLED 27GS93QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1888,
-   "nowa": 1832,
-   "roznica": -56,
-   "naglowek": 1832
+   "stara": 2929,
+   "nowa": 2919,
+   "roznica": -10,
+   "naglowek": 2919
   },
   {
    "nazwa": "MSI 272QRF X36 Pulsar",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3318,
-   "nowa": 3342,
-   "roznica": 24,
-   "naglowek": 3342
+   "stara": 3342,
+   "nowa": 3338,
+   "roznica": -4,
+   "naglowek": 3338
+  },
+  {
+   "nazwa": "MSI MPG 271QR QD-OLED X50",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 3299,
+   "nowa": 2979,
+   "roznica": -320,
+   "naglowek": 2979
+  },
+  {
+   "nazwa": "Philips Evnia 27M2N3500PF/00",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 741,
+   "nowa": 739,
+   "roznica": -2,
+   "naglowek": 739
+  },
+  {
+   "nazwa": "Rampage Slice SL27F275Q",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1223,
+   "nowa": 1071,
+   "roznica": -152,
+   "naglowek": 1071
   },
   {
    "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2446,
-   "nowa": 2429,
-   "roznica": -17,
-   "naglowek": 2429
+   "stara": 2429,
+   "nowa": 2407,
+   "roznica": -22,
+   "naglowek": 2407
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG610SUXEN",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2272,
+   "nowa": 2292,
+   "roznica": 20,
+   "naglowek": 2292
   },
   {
    "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1833,
-   "nowa": 1913,
-   "roznica": 80,
-   "naglowek": 1913
+   "stara": 1913,
+   "nowa": 1829,
+   "roznica": -84,
+   "naglowek": 1829
   },
   {
    "nazwa": "LG 27GS95QX-B",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2413,
-   "nowa": 2429,
-   "roznica": 16,
-   "naglowek": 2429
+   "stara": 2429,
+   "nowa": 2426,
+   "roznica": -3,
+   "naglowek": 2426
   },
   {
    "nazwa": "MSI MAG 272QP QD-OLED X50",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2967,
-   "nowa": 2954,
-   "roznica": -13,
-   "naglowek": 2954
+   "stara": 2954,
+   "nowa": 2955,
+   "roznica": 1,
+   "naglowek": 2955
   },
   {
    "nazwa": "Acer XF270UF3",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 953,
-   "nowa": 955,
-   "roznica": 2,
-   "naglowek": 955
+   "stara": 955,
+   "nowa": 933,
+   "roznica": -22,
+   "naglowek": 933
   },
   {
-   "nazwa": "Samsung OdysseyG60SD",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2673,
-   "nowa": 2702,
-   "roznica": 29,
-   "naglowek": 2702
-  },
-  {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2012,
-   "nowa": 2025,
-   "roznica": 13,
-   "naglowek": 2025
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
    "rodzaj": "pc",
    "sklep": "hardpc",
-   "stara": 9449,
-   "nowa": 9689,
-   "roznica": 240,
-   "naglowek": 10228
+   "stara": 5649,
+   "nowa": 5799,
+   "roznica": 150,
+   "naglowek": 6338
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6848,
+   "nowa": 6998,
+   "roznica": 150,
+   "naglowek": 7537
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 5819,
+   "nowa": 6249,
+   "roznica": 430,
+   "naglowek": 6788
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7018,
+   "nowa": 7448,
+   "roznica": 430,
+   "naglowek": 7987
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6149,
+   "nowa": 6349,
+   "roznica": 200,
+   "naglowek": 6888
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7348,
+   "nowa": 7548,
+   "roznica": 200,
+   "naglowek": 8087
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6169,
+   "nowa": 6229,
+   "roznica": 60,
+   "naglowek": 6768
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7368,
+   "nowa": 7428,
+   "roznica": 60,
+   "naglowek": 7967
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6249,
+   "nowa": 6409,
+   "roznica": 160,
+   "naglowek": 6948
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7448,
+   "nowa": 7608,
+   "roznica": 160,
+   "naglowek": 8147
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6819,
+   "nowa": 6749,
+   "roznica": -70,
+   "naglowek": 7288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6849,
+   "nowa": 6899,
+   "roznica": 50,
+   "naglowek": 7438
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6869,
+   "nowa": 6899,
+   "roznica": 30,
+   "naglowek": 7438
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7139,
+   "nowa": 7179,
+   "roznica": 40,
+   "naglowek": 7718
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7249,
+   "nowa": 7499,
+   "roznica": 250,
+   "naglowek": 8038
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7349,
+   "nowa": 7509,
+   "roznica": 160,
+   "naglowek": 8048
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7509,
+   "nowa": 7849,
+   "roznica": 340,
+   "naglowek": 8388
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8708,
+   "nowa": 9048,
+   "roznica": 340,
+   "naglowek": 9587
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7649,
+   "nowa": 8069,
+   "roznica": 420,
+   "naglowek": 8608
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8848,
+   "nowa": 9268,
+   "roznica": 420,
+   "naglowek": 9807
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7809,
+   "nowa": 8129,
+   "roznica": 320,
+   "naglowek": 8668
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9008,
+   "nowa": 9328,
+   "roznica": 320,
+   "naglowek": 9867
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 850W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7849,
+   "nowa": 8249,
+   "roznica": 400,
+   "naglowek": 8788
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 1TB SSD, 850W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9048,
+   "nowa": 9448,
+   "roznica": 400,
+   "naglowek": 9987
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Pano PZ130R",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8099,
+   "nowa": 8199,
+   "roznica": 100,
+   "naglowek": 8738
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8099,
+   "nowa": 8649,
+   "roznica": 550,
+   "naglowek": 9188
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9298,
+   "nowa": 9848,
+   "roznica": 550,
+   "naglowek": 10387
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8169,
+   "nowa": 8479,
+   "roznica": 310,
+   "naglowek": 9018
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9368,
+   "nowa": 9678,
+   "roznica": 310,
+   "naglowek": 10217
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (2)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8199,
+   "nowa": 8649,
+   "roznica": 450,
+   "naglowek": 9188
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (2) (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9398,
+   "nowa": 9848,
+   "roznica": 450,
+   "naglowek": 10387
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8199,
+   "nowa": 8709,
+   "roznica": 510,
+   "naglowek": 9248
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9398,
+   "nowa": 9908,
+   "roznica": 510,
+   "naglowek": 10447
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8239,
+   "nowa": 8829,
+   "roznica": 590,
+   "naglowek": 9368
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8999,
+   "nowa": 9169,
+   "roznica": 170,
+   "naglowek": 9708
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9599,
+   "nowa": 9879,
+   "roznica": 280,
+   "naglowek": 10418
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9299,
+   "nowa": 9579,
+   "roznica": 280,
+   "naglowek": 10118
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9299,
+   "nowa": 9809,
+   "roznica": 510,
+   "naglowek": 10348
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9419,
+   "nowa": 9749,
+   "roznica": 330,
+   "naglowek": 10288
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 650W, Pano 130R ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9519,
+   "nowa": 10139,
+   "roznica": 620,
+   "naglowek": 10678
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Stellar 5F ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9559,
+   "nowa": 10199,
+   "roznica": 640,
+   "naglowek": 10738
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9649,
+   "nowa": 10179,
+   "roznica": 530,
+   "naglowek": 10718
+  },
+  {
+   "nazwa": "Zestaw Redragon | Ryzen 5 7500X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9699,
+   "nowa": 10179,
+   "roznica": 480,
+   "naglowek": 10718
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 5239,
+   "nowa": 5349,
+   "roznica": 110,
+   "naglowek": 5888
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6438,
+   "nowa": 6548,
+   "roznica": 110,
+   "naglowek": 7087
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 5449,
+   "nowa": 5699,
+   "roznica": 250,
+   "naglowek": 6238
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 6648,
+   "nowa": 6898,
+   "roznica": 250,
+   "naglowek": 7437
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5070 12GB, 32GB DDR5, 2TB SSD, 750W, Night Hunter",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 9809,
+   "nowa": 10169,
+   "roznica": 360,
+   "naglowek": 10708
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 7709,
+   "nowa": 7539,
+   "roznica": -170,
+   "naglowek": 8078
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 500GB SSD, 650W, Pano 130R (custom: 32GB RAM)",
+   "rodzaj": "pc",
+   "sklep": "hardpc",
+   "stara": 8908,
+   "nowa": 8738,
+   "roznica": -170,
+   "naglowek": 9277
   }
  ],
- "pros_cen_zsynchronizowane": [],
- "zmiany_sprzedawcow": [],
+ "pros_cen_zsynchronizowane": [
+  {
+   "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "bylo": "6188",
+   "jest": "6338"
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "bylo": "6358",
+   "jest": "6788"
+  },
+  {
+   "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "bylo": "5778",
+   "jest": "5888"
+  },
+  {
+   "nazwa": "Zestaw | Intel Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
+   "bylo": "5988",
+   "jest": "6238"
+  }
+ ],
+ "zmiany_sprzedawcow": [
+  {
+   "nazwa": "AOC Q27G4ZDR",
+   "sprzedawcy": {
+    "mediamarkt": "Electronic Shops PL"
+   }
+  },
+  {
+   "nazwa": "AOC Q27G4SDR",
+   "sprzedawcy": {
+    "mediamarkt": "Mirapol Next"
+   }
+  },
+  {
+   "nazwa": "LG UltraGear 27GX700A-B",
+   "sprzedawcy": {
+    "mediamarkt": "Digital Bay PL"
+   }
+  }
+ ],
  "doplaty_ram_wariantow": [],
  "wg_sklepu": {
   "goblinpc": {
@@ -340,7 +944,7 @@
    "adresow": 3
   },
   "hardpc": {
-   "ok": 277,
+   "ok": 274,
    "adresow": 277
   },
   "mediaexpert": {
@@ -364,7 +968,7 @@
    "adresow": 6
   },
   "xkom": {
-   "ok": 128,
+   "ok": 0,
    "adresow": 128
   }
  }
