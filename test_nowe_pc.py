@@ -37,6 +37,7 @@ def pole(seg, nazwa):
     m = re.search(rf'(?<![A-Za-z]){nazwa}:"([^"]*)"', seg); return m.group(1) if m else None
 url = "https://sklep.hard-pc.pl/p22785,zestaw-ryzen-5-9500f-rtx-5060-8gb-16gb-ddr5-500gb-ssd-650w-hunter-2.html"
 s = F("hardpc_pelna_p22785.html")
+n.CENA_OD_BEZ_SYSTEMU = 5000  # fixtura sprzed podniesienia progu: zestaw za 5549 zł
 wpisy = n.zloz_wpisy(url, s, None, set(), "pcimg_test")
 ok(len(wpisy) == 2, f"oczekiwano bazy i wariantu 32GB, jest {len(wpisy)}")
 for w in wpisy:
@@ -64,13 +65,12 @@ for w in wpisy:
     ok(bez_cen(w["pros"]) == bez_cen(na_stronie_pros), f"{w['name'][-30:]}: zalety (po zamaskowaniu cen) różnią się od tych na stronie")
     ok(bez_cen(w["cons"]) == bez_cen(na_stronie_cons), f"{w['name'][-30:]}: wady (po zamaskowaniu cen) różnią się od tych na stronie")
 
-# --- brak licencji Windows na stronie → pominięcie, nie zgadywanie
+# --- brak licencji Windows na stronie → zestaw ze znacznikiem „system nieznany”, bez doliczania ceny
 url2 = "https://sklep.hard-pc.pl/p26430,zestaw-intel-ultra-225f-rtx-5060-ti-8gb-16gb-ddr5-650w-signum-300-argb.html"
-try:
-    n.zloz_wpisy(url2, F("hardpc_bez_windows_p26430.html"), None, set(), "k")
-    ok(False, "strona bez licencji Windows powinna zostać pominięta")
-except BrakDanych as x:
-    ok("Windows" in str(x), f"zły powód pominięcia: {x}")
+# zapis strony ma status „niedostępny”; tu sprawdzamy tylko system, więc status zerujemy
+for w2 in n.zloz_wpisy(url2, F("hardpc_bez_windows_p26430.html").replace('class="shipping-b"', 'class="x"'), None, set(), "k"):
+    ok(w2["osPriceKind"] == "unknown" and w2["os"] == "brak danych", f"bez licencji: {w2['osPriceKind']}, {w2['os']}")
+    ok(w2["price"] == w2["priceBare"], f"bez licencji cena bez korekty: {w2['price']} vs {w2['priceBare']}")
 
 # --- dysk: BRAK w specyfikacji
 spec3 = n.specyfikacja(F("hardpc_bez_dysku_p26383.html"))
@@ -91,6 +91,18 @@ odczyt = z.wczytaj(mini)
 ok(len(odczyt) == 1 and odczyt[0]["price"] == wpisy[1]["price"] and odczyt[0]["prices"] == {"hardpc": wpisy[1]["priceBare"]},
    f"wpis nie wraca z serializacji: {odczyt}")
 ok(js.count("{") == js.count("}") and js.count("[") == js.count("]"), "nawiasy w wpisie się nie domykają")
+
+# --- Hard-PC: schema.org mówi zawsze InStock, prawdziwy stan jest w bloku shipping-b
+brak = '<p class="shipping-b"> <a href="i12,dostepnosc-towaru.html"><span class="a">Towar: <span class="b">niedostępny</span></span></a></p>'
+zapytaj = '<p class="shipping-b"> <a href="i12,dostepnosc-towaru.html"><span class="a">Zapytaj o dostępność</span></a></p>'
+jest = '<p class="shipping-b"> <a href="i12,dostepnosc-towaru.html"><span class="a">Wysyłka: <span class="b">5-7dni roboczych</span></span></a></p>'
+ok(z.brak_hardpc(brak) and z.brak_hardpc(zapytaj), "status niedostępny/zapytaj nie został rozpoznany")
+ok(z.brak_hardpc(F("hardpc_bez_windows_p26430.html")) and not z.brak_hardpc(F("hardpc_pelna_p22785.html")), "zapisane strony Hard-PC: zły status")
+try:
+    n.zloz_wpisy(url2, F("hardpc_bez_windows_p26430.html"), None, set(), "k"); ok(False, "niedostępny zestaw przeszedł do katalogu")
+except BrakDanych as x:
+    ok("niedostępny" in str(x), f"zły powód: {x}")
+ok(not z.brak_hardpc(jest) and not z.brak_hardpc('"availability":"InStock"'), "fałszywy brak przy statusie wysyłki")
 
 if bledy:
     print("TEST NIE PRZESZEDŁ"); [print("  ", b) for b in bledy]; sys.exit(1)

@@ -134,7 +134,7 @@ oczekuj(pnp.nastepna_strona(L1.replace("https://plugnplay.sklep.pl/kategoria-pro
 
 L2_koniec = L2.replace('rel="next"', 'rel="nofollow"')
 PNP = atrapa({pnp.LISTA_PC: L1, URL2: L2_koniec})
-adresy = pnp.lista_pc(PNP)
+adresy = pnp.lista_pc(PNP, cena_od=5000, cena_do=10000)
 oczekuj(PNP.wywolania == [pnp.LISTA_PC, URL2], f"dwie strony = dwa żądania, było {PNP.wywolania}")
 B = "https://plugnplay.sklep.pl/pl/p/"
 oczekuj(adresy == [B + "Komputer-RTX-5070-AMD-AM5-32GB-DDR5-1TB-BIALY/233", B + "Komputer-RTX-5060-Ti-AMD-AM5-32GB-DDR5-1TB/210",
@@ -145,7 +145,7 @@ oczekuj(all(pnp.dozwolony(a) for a in adresy + [pnp.LISTA_PC, URL2]), "adres spr
 
 # maks_stron jako dolna granica: nawet przy maks_stron=1 pobiera obie strony za rel=next
 P1 = atrapa({pnp.LISTA_PC: L1, URL2: L2_koniec})
-adresy_p1 = pnp.lista_pc(P1, maks_stron=1)
+adresy_p1 = pnp.lista_pc(P1, maks_stron=1, cena_od=5000, cena_do=10000)
 oczekuj(len(adresy_p1) == 4 and P1.wywolania == [pnp.LISTA_PC, URL2],
         f"maks_stron jako dolna granica: idzie za rel=next mimo maks_stron=1 ({P1.wywolania})")
 
@@ -181,13 +181,13 @@ oczekuj(res_403 == [] and len(uw_pnp) == 1 and "403" in uw_pnp[0],
 
 # uwagi: błąd na stronie >= 2 zachowuje wynik pierwszej i wpisuje uwagę
 uw_p2 = []
-res_p2 = pnp.lista_pc(atrapa({pnp.LISTA_PC: L1, URL2: (403, "forbidden")}), uwagi=uw_p2)
+res_p2 = pnp.lista_pc(atrapa({pnp.LISTA_PC: L1, URL2: (403, "forbidden")}), uwagi=uw_p2, cena_od=5000, cena_do=10000)
 oczekuj(len(res_p2) == 2 and len(uw_p2) == 1 and "403" in uw_p2[0],
         f"PlugNPlay: błąd HTTP na stronie >= 2 zachowuje dotychczasowe adresy i wpisuje uwagę: {uw_p2}")
 
 oczekuj(len(pnp.lista_pc(atrapa({pnp.LISTA_PC: L1, URL2: L2_koniec}), maks_stron=2, cena_od=None, cena_do=None)) == 11,
         "bez przesiewu ceny powinno zostać 11 adresów (7 + 4, DDR4 odsiane)")
-oczekuj(len(pnp.lista_pc(atrapa({pnp.LISTA_PC: L1}), maks_stron=5)) == 2,
+oczekuj(len(pnp.lista_pc(atrapa({pnp.LISTA_PC: L1}), maks_stron=5, cena_od=5000, cena_do=10000)) == 2,
         "brak 200 na drugiej stronie powinien zachować wynik pierwszej")
 for nazwa, strony, fragment in (("HTTP 404 na pierwszej stronie", {}, "HTTP 404"),
                                 ("zmiana układu", {pnp.LISTA_PC: "<html><body>nic</body></html>"}, "niedostępne")):
@@ -234,6 +234,7 @@ oczekuj((d["gpu"], d["vram_zrodlo"], d["psu"], d["cena_bazowa"]) == ("AMD Radeon
 oczekuj("Wersja karty (ilość VRAM)" not in d["domyslne"], "250: ta strona nie ma wyboru VRAM")
 sprawdz_zgodnosc_z_ocena(d, "250")
 
+oczekuj(pnp.karta("GeForce RTX 5070 Ti biała", {})[0] == "NVIDIA GeForce RTX 5070 Ti 16GB", "kolor w nazwie karty nie odrzuca zestawu")
 d = pnp.odczytaj_pc("u", czytaj("plugnplay_pc_231_5060_biala"))
 oczekuj((d["gpu"], d["psu"], d["obudowa"], d["cena_bazowa"]) == ("NVIDIA GeForce RTX 5060 8GB", "650W 80 Plus Bronze", "KRUX EXO biała", 8199),
         f"231 (wiersze „Zasilacz…Obudowa” bez <br>): {(d['gpu'], d['psu'], d['obudowa'], d['cena_bazowa'])}")
@@ -302,7 +303,7 @@ oczekuj([(k["nazwa"], k["cena"]) for k in kg][:4] == [("Utopiec", 6310), ("Gobli
         and len(kg) == 9, f"GoblinPC: kafelki {[(k['nazwa'], k['cena']) for k in kg]}")
 oczekuj(gob._deklarowana_liczba(GL) == 9, "GoblinPC: deklarowana liczba zestawów")
 G = atrapa({gob.LISTA_PC: GL})
-ga = gob.lista_pc(G)
+ga = gob.lista_pc(G, cena_od=5000, cena_do=10000)
 oczekuj(G.wywolania == [gob.LISTA_PC], f"GoblinPC: lista = jedno żądanie, było {G.wywolania}")
 oczekuj(ga == ["https://goblinpc.pl/product/" + n for n in ("utopiec", "goblin", "widmo", "kobold")], f"GoblinPC: adresy {ga}")
 oczekuj(len(gob.lista_pc(atrapa({gob.LISTA_PC: GL}), cena_od=None, cena_do=None)) == 9, "GoblinPC: bez przesiewu ceny 9 adresów")

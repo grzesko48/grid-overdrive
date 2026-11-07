@@ -401,7 +401,8 @@ def main():
                                        "nowa": nowa_os, "cena": bare + nowa_os})
 
         bylo_ukryte = bool(re.search(r",\s*ukryty:1", seg))
-        if p.get("_ukryty") != bylo_ukryte:
+        # bez świeżych danych (częściowy przebieg, blokada sklepu) stan zostaje, jak przy soldout
+        if p.get("_ukryty") != bylo_ukryte and (p["_nowe"] or p["_niedostepne"]):
             seg, n = ustaw_flage(seg, "ukryty", p.get("_ukryty"))
             if n:
                 (ukryte if p["_ukryty"] else przywrocone).append(

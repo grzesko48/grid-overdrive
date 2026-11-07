@@ -459,6 +459,14 @@ def zablokowane(url, s):
     return "ceneo.pl" in url and "data-ShopUrl" not in s
 
 
+def brak_hardpc(s):
+    """Hard-PC w schema.org podaje zawsze InStock. Prawdziwy stan stoi pod nazwą, w bloku
+    shipping-b (opis: i12,dostepnosc-towaru): „Towar: niedostępny” to brak też u dostawców,
+    „Zapytaj o dostępność” to brak w magazynie i nieznany termin."""
+    m = re.search(r'class="shipping-b">(.*?)</p>', s, re.S)
+    return bool(m and re.search(r"niedostępn|zapytaj o dost", m.group(1), re.I))
+
+
 def bez_oferty(s):
     """Strona wraca z kodem 200, ale nie ma na niej żadnej oferty — produkt zdjęto ze
     sprzedaży. Odróżniamy to od zwykłego nietrafienia ekstraktora, bo to dwie różne
@@ -527,7 +535,7 @@ def main():
             return klucz, {"stan": "brak_ceny", "kod": kod}
         wynik = {"stan": "ok", "cena": cena, "nazwa": nazwa_ze_strony(s),
                  "sprzedawca": sprzedawca_mediamarkt(s) if "mediamarkt.pl" in u else None,
-                 "niedostepny": any(x in dost for x in NIEDOSTEPNE),
+                 "niedostepny": any(x in dost for x in NIEDOSTEPNE) or ("hard-pc.pl" in u and brak_hardpc(s)),
                  "dostepnosc": dost.split("/")[-1]}
         opcje = opcje_konfiguratora(s)
         if opcje:

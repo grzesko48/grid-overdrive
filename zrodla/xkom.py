@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Adapter sklepu x-kom (www.x-kom.pl): monitory QHD 26–28" 240–500 Hz i gotowe komputery DDR5.
+"""Adapter sklepu x-kom (www.x-kom.pl): monitory FHD/QHD/4K 23,8–32" 100–500 Hz i gotowe komputery DDR5.
 
 x-kom odpowiada tylko z komputera właściciela (z chmury daje 403), więc LOKALNIE = True. Gdy
 sklep odmawia (kod ≠ 200 albo błąd sieci), listy zwracają [] i nic się nie wywraca; strona listy
@@ -50,11 +50,12 @@ if BAZA not in sys.path:
 import ocena_pc
 from ocena_pc import BrakDanych
 import nowe_pc
+from nowe_monitory import klasa_rozdzielczosci
 
 SKLEP = "xkom"
 LOKALNIE = True
 SKLEP_UWAGI = (
-    "monitory: kategoria Monitory + filtr WQHD (90/stronę), przesiew po podsumowaniu cech z listy "
+    "monitory: kategoria Monitory (90/stronę), przesiew po podsumowaniu cech z listy "
     "(rozdzielczość, Hz, przekątna); komputery: kategoria Desktopy + „Dla graczy” + typ RAM DDR5 "
     "(UDIMM, DIMM, DDR5; zapis z przecinkiem gubi drugą wartość, więc trzy przebiegi), przesiew po "
     "karcie, procesorze i cenie z uwzględnieniem min(cena, cena_promocyjna) oraz zwijaniem wariantów "
@@ -67,8 +68,7 @@ SKLEP_UWAGI = (
 
 HOST = "www.x-kom.pl"
 ADRES = "https://" + HOST
-LISTA_MONITOROW = (ADRES + "/g-6/c/15-monitory.html?per_page=90"
-                   "&f100098-rozdzielczosc-ekranu=1045868-2560-x-1440-wqhd")
+LISTA_MONITOROW = ADRES + "/g-6/c/15-monitory.html?per_page=90"
 SCIEZKA_MONITOROW = "/g-6/c/15-monitory"
 # Filtr „Typ pamięci RAM" przyjmuje jedną wartość naraz (przecinek odrzuca drugą), a DDR5 jest
 # opisany trzema wartościami. UDIMM i DIMM to prawie wszystkie komputery; „DDR5" ma kilka pozycji.
@@ -82,12 +82,12 @@ SCIEZKA_PC = "/g-2/c/1708-desktopy"
 MAKS_STRON_TWARDO = 20      # sufit niezależny od argumentu wołającego [stron listy]
 MAKS_ADRESOW = 400          # sufit wyniku jednej listy [adresów kart]
 
-HZ_OD, HZ_DO = 240, 500
-DIAG_OD, DIAG_DO = 26.0, 28.0
-CENA_MONITORA_OD, CENA_MONITORA_DO = 500, 6000        # jak nowe_monitory: poza tym to błąd odczytu
+HZ_OD, HZ_DO = 100, 500
+DIAG_OD, DIAG_DO = 23.8, 32.0
+CENA_MONITORA_OD, CENA_MONITORA_DO = 300, 2000        # jak nowe_monitory: poza tym to błąd odczytu
 CENA_PC_OD, CENA_PC_DO = 500, 100000                  # j.w. dla karty komputera
-# Przesiew listy komputerów po cenie [zł]: te same progi co nowe_pc (decyzja właściciela 21.10.2026).
-# Cena karty ≥ ceny bez systemu, więc cena < 5000 nie da zestawu ≥ 5000 bez systemu, a cena > 10000
+# Przesiew listy komputerów po cenie [zł]: te same progi co nowe_pc (decyzja właściciela 06.11.2026).
+# Cena karty ≥ ceny bez systemu, więc cena poniżej progu nie da zestawu w progu bez systemu, a cena powyżej sufitu
 # nie zmieści się pod sufitem z Windowsem — przesiew odrzuca tylko to, co na pewno odpadnie.
 CENA_LISTY_PC_OD = nowe_pc.CENA_OD_BEZ_SYSTEMU
 CENA_LISTY_PC_DO = nowe_pc.SUFIT_Z_WINDOWS
@@ -520,8 +520,9 @@ def odczytaj_monitor(url, html):
     if not (DIAG_OD <= diag <= DIAG_DO):
         raise BrakDanych(f"przekątna {diag:g}\" poza zakresem {DIAG_OD:g}–{DIAG_DO:g}\"")
     rozdz = _jedna(cechy, "Rozdzielczość ekranu")
-    if not re.match(r"2560\s*x\s*1440\b", rozdz, re.I):
-        raise BrakDanych(f"rozdzielczość „{rozdz}” (wymagane 2560 x 1440)")
+    res = klasa_rozdzielczosci(rozdz)
+    if not res:
+        raise BrakDanych(f"rozdzielczość „{rozdz}” (wymagane FHD, QHD albo 4K)")
     hz, oc = czestotliwosci(cechy.get("Częstotliwość odświeżania ekranu"))
     if oc is None:
         opis = (encja.get("productDescription") or "") + " " + html
@@ -539,7 +540,7 @@ def odczytaj_monitor(url, html):
     cena = _cena(ld, encja, CENA_MONITORA_OD, CENA_MONITORA_DO)
     cena_bez_kodu, kod_rabatowy, kod_do = _promo_info(ld, encja, cena)
     wynik = {"nazwa": nazwa, "url": url, "hz": hz, "diag": diag, "panelName": nazwa_matrycy,
-             "panel": klucz_matrycy, "cena": cena, "zdjecie": _zdjecie(ld),
+             "panel": klucz_matrycy, "cena": cena, "zdjecie": _zdjecie(ld), "res": res,
              "kod_modelu": _kod_modelu(ld, encja)}
     if cena_bez_kodu is not None:
         wynik["cena_bez_kodu"] = cena_bez_kodu
@@ -555,14 +556,15 @@ def powod_odrzucenia_monitora(p):
     odrzucenia. Odrzuca tylko jawne sprzeczności z wymaganiami; brak pola nie odrzuca."""
     if p["dostepny"] is False:
         return "niedostępny"
+    if p.get("cena") is not None and not (CENA_MONITORA_OD <= p["cena"] <= CENA_MONITORA_DO):
+        return f"cena {p['cena']} zł"
     c = p["cechy"]
     if c is None:
-        # kafelek bez podsumowania: zostają monitory z grupy 27" (26,5"–28,4"), reszta o innej przekątnej
-        return None if "monitor-led-27-265-284" in p["url"] else "bez podsumowania i spoza grupy 27\""
+        return None                     # kafelek bez podsumowania: rozstrzyga karta produktu
     if "Rozdzielczość ekranu" in c:
         if len(c["Rozdzielczość ekranu"]) != 1:
             return "kilka rozdzielczości (tryb dwuekranowy) — niejednoznaczne Hz"
-        if not re.match(r"2560\s*x\s*1440\b", c["Rozdzielczość ekranu"][0], re.I):
+        if not klasa_rozdzielczosci(c["Rozdzielczość ekranu"][0]):
             return f"rozdzielczość {c['Rozdzielczość ekranu'][0]}"
     if "Częstotliwość odświeżania ekranu" in c:
         try:
@@ -579,7 +581,7 @@ def powod_odrzucenia_monitora(p):
 
 
 def lista_monitorow(pobierz, maks_stron=6):
-    """Adresy kart monitorów QHD 26–28" 240–500 Hz z kategorii Monitory (filtr WQHD, 90 na stronę).
+    """Adresy kart monitorów w zakresie (FHD/QHD/4K, Hz, przekątna, cena) z kategorii Monitory (90 na stronę).
     `pobierz(url)` → (kod, html). Kod ≠ 200 (np. 403 z chmury) = [], bez wyjątku."""
     return _przejdz([LISTA_MONITOROW], SCIEZKA_MONITOROW, pobierz, maks_stron,
                     powod_odrzucenia_monitora)
@@ -761,7 +763,7 @@ def odczytaj_pc(url, html):
     if system["w_cenie"] is None:
         raise BrakDanych(f"system operacyjny „{system['nazwa']}” nie jest wspieranym systemem Windows")
     if system["w_cenie"] is False and system["doplata"] is None:
-        raise BrakDanych("karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł")
+        raise BrakDanych("karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu z Windowsem")
     cena_bez_kodu, kod_rabatowy, kod_do = _promo_info(ld, encja, cena)
     wynik = {"nazwa": nazwa, "url": url, "cpu": cpu, "gpu": gpu, "ram": ram, "storage": dysk,
              "psu": psu, "cena_bazowa": cena, "system": system, "dostepny": True,

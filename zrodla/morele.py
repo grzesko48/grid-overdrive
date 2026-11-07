@@ -7,11 +7,11 @@ import zbieraj_ceny
 
 SKLEP = "morele"
 LOKALNIE = False
-SKLEP_UWAGI = "monitory: kategoria WQHD z facetami 240–500 Hz (nowe_monitory.lista_morele)"
+SKLEP_UWAGI = "monitory: FHD/WQHD/4K z facetami Hz i oknem cen (nowe_monitory.lista_morele)"
 
 
 def lista_monitorow(pobierz, maks_stron=6):
-    adres = nm.LISTA.format(filtry=nm.FILTR_WQHD, strona="")
+    adres = nm.LISTA.format(filtry=nm.FILTRY_ROZDZ[0], strona="")
     if not zbieraj_ceny.REGULAMIN.wolno(adres):
         return []
     return sorted(nm.lista_morele(maks_stron))

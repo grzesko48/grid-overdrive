@@ -122,6 +122,10 @@ oczekuj((mm.HZ_OD, mm.HZ_DO, mm.DIAG_OD, mm.DIAG_DO) == (nm.HZ_OD, nm.HZ_DO, nm.
 oczekuj((mm.CENA_MON_OD, mm.CENA_MON_DO) == (nm.CENA_OD, nm.CENA_DO), "zakres ceny monitora różni się od nowe_monitory")
 oczekuj((mm.CENA_PC_OD, mm.CENA_PC_DO) == (npc.CENA_OD_BEZ_SYSTEMU, npc.SUFIT_Z_WINDOWS),
         "progi ceny PC różnią się od nowe_pc")
+# zapisane strony są z czasów zakresu QHD 26–28" 240–500 Hz do 6000 zł, więc testy przesiewu trzymają ten zakres
+mm.HZ_OD, mm.DIAG_OD, mm.DIAG_DO, mm.CENA_MON_OD, mm.CENA_MON_DO = 240, 26.0, 28.0, 500, 6000
+nm.ROZDZIELCZOSCI = {"2560x1440": "QHD"}
+nm.HZ_OD, nm.DIAG_OD, nm.DIAG_DO, nm.CENA_OD, nm.CENA_DO = 240, 26.0, 28.0, 500, 6000
 zrodlo_adaptera = open(os.path.join(BAZA, "zrodla", "mediamarkt.py"), encoding="utf-8").read()
 oczekuj(not re.search(r"urlopen|import requests|http\.client|urllib\.request|subprocess|curl", zrodlo_adaptera),
         "adapter zawiera kod sieciowy — pobieranie ma robić wyłącznie wstrzyknięte `pobierz`")
@@ -449,7 +453,7 @@ except BrakDanych as x:
 MAPA_PC = {C + "komputery-gamingowe-50070.html": "mediamarkt_lista_pc_1.html",
            C + "komputery-gamingowe-50070.html?page=2": "mediamarkt_lista_pc_2.html"}
 zad = []
-adresy_pc = mm.lista_pc(atrapa(MAPA_PC, zad), maks_stron=3)
+adresy_pc = mm.lista_pc(atrapa(MAPA_PC, zad), maks_stron=3, cena_od=5000, cena_do=10000)
 oczekuj(zad == [C + "komputery-gamingowe-50070.html", C + "komputery-gamingowe-50070.html?page=2",
                 C + "komputery-gamingowe-50070.html?page=3"], f"żądania listy PC: {zad}")
 oczekuj(len(adresy_pc) == len(set(adresy_pc)) == 13, f"adresów PC: {len(adresy_pc)}, oczekiwano 13 (cena 5000-10000 zł, bez DDR4 w tytule)")

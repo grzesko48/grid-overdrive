@@ -98,6 +98,10 @@ oczekuj((x.CENA_MONITORA_OD, x.CENA_MONITORA_DO) == (nm.CENA_OD, nm.CENA_DO),
         "zakres wiarygodnej ceny monitora różni się od nowe_monitory")
 oczekuj((x.CENA_LISTY_PC_OD, x.CENA_LISTY_PC_DO) == (nowe_pc.CENA_OD_BEZ_SYSTEMU, nowe_pc.SUFIT_Z_WINDOWS),
         "przesiew cen komputerów różni się od progów nowe_pc")
+# zapisane strony są z czasów zakresu QHD 26–28" 240–500 Hz do 6000 zł, więc testy przesiewu trzymają ten zakres
+x.HZ_OD, x.DIAG_OD, x.DIAG_DO, x.CENA_MONITORA_OD, x.CENA_MONITORA_DO = 240, 26.0, 28.0, 500, 6000
+nm.ROZDZIELCZOSCI = {"2560x1440": "QHD"}
+nm.HZ_OD, nm.DIAG_OD, nm.DIAG_DO, nm.CENA_OD, nm.CENA_DO = 240, 26.0, 28.0, 500, 6000
 
 # 1. monitory: poprawne karty
 d = x.odczytaj_monitor(URL["go27q24a"], czytaj("xkom_monitor_go27q24a"))
@@ -107,7 +111,7 @@ oczekuj((d["panelName"], d["panel"]) == ("QD-OLED", "qdoled"), f"matryca: {d['pa
 oczekuj(d["kod_modelu"] == "GO27Q24A", f"kod modelu: {d['kod_modelu']!r}")
 oczekuj(d["zdjecie"].startswith("https://cdn.x-kom.pl/") and "{SEO}" not in d["zdjecie"]
         and d["zdjecie"].endswith(".jpg"), f"zdjęcie: {d['zdjecie']!r}")
-klucze_nm = {"nazwa", "url", "hz", "diag", "panelName", "panel", "cena", "zdjecie"}
+klucze_nm = {"nazwa", "url", "hz", "diag", "panelName", "panel", "cena", "zdjecie", "res"}
 oczekuj(set(d) == klucze_nm | {"kod_modelu"}, f"klucze monitora: {sorted(d)}")
 oczekuj(isinstance(d["hz"], int) and isinstance(d["cena"], int) and isinstance(d["diag"], float),
         "typy hz/cena/diag inne niż w nowe_monitory.odczytaj")
@@ -341,24 +345,25 @@ oczekuj(opc_prom.get("Microsoft Windows 11 Home") == 300, f"promocyjna dopłata:
 lista_pc_html = czytaj("xkom_lista_pc_udimm_ddr5")
 poz = x.pozycje_listy(lista_pc_html)
 oczekuj(len(poz) == 90 and all(p["cechy"] and "Grafika" in p["cechy"] for p in poz), "pozycje listy komputerów")
-kandydaci_przed = [p for p in poz if x.powod_odrzucenia_pc(p) is None]
+# fixtura pochodzi z okna 5000–10000 zł; okno podane jawnie, by test nie zależał od stałych sklepu
+kandydaci_przed = [p for p in poz if x.powod_odrzucenia_pc(p, cena_od=5000, cena_do=10000) is None]
 oczekuj(len(kandydaci_przed) == 25, f"kandydatów przed zwinięciem wariantów systemu: {len(kandydaci_przed)}")
 a = Atrapa(lista_pc_html)
-adresy_pc = x.lista_pc(a)
+adresy_pc = x.lista_pc(a, cena_od=5000, cena_do=10000)
 oczekuj(len(adresy_pc) == 15, f"komputerów po przesiewie i zwinięciu wariantów: {len(adresy_pc)}")
 oczekuj(adresy_pc == sorted(set(adresy_pc)), "adresy PC niepowtarzalne i posortowane")
 oczekuj([u for u in a.adresy if "?page=" not in u] == list(x.LISTY_PC),
         f"trzy przebiegi po typie RAM, w kolejności: {a.adresy}")
 oczekuj(len(a.adresy) == 4, f"liczba żądań (UDIMM 2 strony; DIMM i DDR5 po 1, bo powtarzają znane pozycje): {len(a.adresy)}")
 oczekuj(all(u.startswith(x.ADRES + "/g-2/c/1708-desktopy") for u in a.adresy), "żądania poza listą komputerów")
-oczekuj(all(p["cena"] is not None and x.CENA_LISTY_PC_OD <= p["cena"] <= x.CENA_LISTY_PC_DO
+oczekuj(all(p["cena"] is not None and 5000 <= p["cena"] <= 10000
             for p in poz if p["url"] in adresy_pc), "cena kandydata poza przesiewem")
 oczekuj(U + "1361184-desktop-lenovo-legion-t5-ryzen-5-7600-32gb-1tb-win11x-rtx5070.html" not in adresy_pc,
         "Legion za 10599 zł powinien odpaść z listy (sufit 10000 zł)")
 bez_cen = x.lista_pc(Atrapa(lista_pc_html), cena_od=None, cena_do=None)
 oczekuj(len(bez_cen) == 46, f"bez przesiewu cen po zwinięciu: {len(bez_cen)}")
 a = Atrapa(lista_pc_html)
-oczekuj(len(x.lista_pc(a, maks_stron=1)) == 15 and len(a.adresy) == 3, f"maks_stron=1 → po jednym żądaniu na przebieg: {len(a.adresy)}")
+oczekuj(len(x.lista_pc(a, maks_stron=1, cena_od=5000, cena_do=10000)) == 15 and len(a.adresy) == 3, f"maks_stron=1 → po jednym żądaniu na przebieg: {len(a.adresy)}")
 for kod in (403, None):
     a = Atrapa(kod=kod)
     oczekuj(x.lista_pc(a) == [] and len(a.adresy) == 3, f"kod {kod} (x-kom z chmury) → [] bez wyjątku")

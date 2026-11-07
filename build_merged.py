@@ -23,6 +23,18 @@ MAPY = [
 ]
 
 
+def mapa_js(dane):
+    """Wyrażenie JS z mapą klucz → obraz; każdy obraz raz (te same zdjęcia to 3/4 wagi strony)."""
+    unikalne, ktory = [], {}
+    for v in dane.values():
+        if v not in ktory:
+            ktory[v] = len(unikalne)
+            unikalne.append(v)
+    klucze = {k: ktory[v] for k, v in dane.items()}
+    return ("(function(u,m){var o={};for(var k in m)o[k]=u[m[k]];return o})("
+            + json.dumps(unikalne) + "," + json.dumps(klucze, ensure_ascii=False) + ")")
+
+
 def main():
     szablon = open(J("monitors_1700_template.html"), encoding="utf-8").read()
     wynik = szablon
@@ -33,7 +45,7 @@ def main():
         surowy = open(J(plik), encoding="utf-8").read()
         dane = json.loads(surowy)                      # kontrola poprawności przed wstawieniem
         assert dane, f"{plik}: pusta mapa obrazów"
-        wynik = wynik.replace(znacznik, surowy)
+        wynik = wynik.replace(znacznik, mapa_js(dane))
         print(f"  {zmienna:<5} ← {plik:<22} {len(dane):>4} obrazów")
 
     # Każdy klucz img: w danych musi mieć swój obraz — inaczej karta pokaże pustą ramkę.

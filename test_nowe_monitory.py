@@ -17,6 +17,9 @@ import nowe_monitory as nm
 import zbieraj_ceny as z
 from ocena_pc import BrakDanych
 
+# zapisane strony są z czasów zakresu QHD 26–28" 240–500 Hz do 6000 zł, więc testy przesiewu trzymają ten zakres
+nm.HZ_OD, nm.DIAG_OD, nm.DIAG_DO, nm.CENA_OD, nm.CENA_DO = 240, 26.0, 28.0, 500, 6000
+nm.ROZDZIELCZOSCI = {"2560x1440": "QHD"}
 F = os.path.join(BAZA, "tests_fixtures")
 bledy = []
 
@@ -30,6 +33,13 @@ def oczekuj(warunek, opis):
         bledy.append(opis)
         print("  BŁĄD:", opis)
 
+
+# 0. klasa rozdzielczości (mapa pełnego zakresu, nie ta przypięta wyżej) i dolna granica perf
+nm.ROZDZIELCZOSCI = {"1920x1080": "FHD", "2560x1440": "QHD", "3840x2160": "4K"}
+for tekst, klasa in [("1920 x 1080", "FHD"), ("2560×1440 WQHD", "QHD"), ("3840 x 2160", "4K"),
+                     ("3440 x 1440", None), ("5120x2880", None), ("", None), (None, None)]:
+    oczekuj(nm.klasa_rozdzielczosci(tekst) == klasa, f"klasa_rozdzielczosci({tekst!r})")
+nm.ROZDZIELCZOSCI = {"2560x1440": "QHD"}
 
 # 1. poprawna karta
 u = "https://www.morele.net/monitor-asus-rog-strix-woled-xg27aqdmgr-90lm0cc0-b01171-15625114/"

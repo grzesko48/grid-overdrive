@@ -97,6 +97,19 @@ for adres, oczek in [("https://mediamarkt.pl/pl/product/_pc-extremo-czarny-17436
         bledy.append(f"z_mediamarkt: cena wariantu {adres[-15:]} ≠ {oczek} (parser bierze ofertę sąsiedniego wariantu)")
 if "BRAMKA ZGODNOŚCI NIE PRZESZŁA" in bufor.getvalue():
     bledy.append("bramka zgodności odrzuciła poprawny wynik")
+# --- pozycja ukryta bez dzisiejszych danych zostaje ukryta (częściowy przebieg, blokada sklepu)
+ukr, dane = nie_custom[0], nie_custom[1]
+klucz_d = f"hardpc|{dane['urls']['hardpc']}"
+seg_ukr, _ = nz.ustaw_flage(segment(ukr), "ukryty", True)
+with open(pl_szablon, "w", encoding="utf-8") as f:
+    f.write("var PDATA = [\n" + seg_ukr + segment(dane) + "\n];\n")
+with open(pl_zeb, "w") as f:
+    json.dump({"adresy": {klucz_d: adresy[klucz_d]}, "pobrano": {}}, f)
+with contextlib.redirect_stdout(io.StringIO()):
+    nz.main()
+if zapisany["wynik"].count("ukryty:1") != 1:
+    bledy.append("pozycja bez świeżych danych straciła flagę ukryty")
+
 print(f"obudowa współdzielona przez {len(wybrana)} wpisów; sprawdzono {len(oczekiwane)} zestawów "
       f"+ {len(customy)} wariantów custom")
 if bledy:

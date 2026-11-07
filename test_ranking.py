@@ -169,9 +169,42 @@ for d in pc:
         k = ocena_pc.klasa_gpu(d["gpu"])
     except ocena_pc.BrakDanych:
         continue
-    if k > 7:
+    if k > ocena_pc.KLASA_GPU_MAKS:
         poza.append((d["name"][:50], k))
-oczekuj(not poza, f"karta spoza skali mocy (klasa > 7) — przycięcie do 100 zafałszuje ranking: {poza[:3]}")
+oczekuj(not poza, f"karta spoza skali mocy (klasa > {ocena_pc.KLASA_GPU_MAKS}) — przycięcie do 100 zafałszuje ranking: {poza[:3]}")
+
+# ------------------------------------------------------------------ 5. ranking co 500 zł (JS)
+def _pc(nazwa, cena, sklep="hardpc", perf=90, cpu="A", **reszta):
+    return {"name": nazwa, "cpu": cpu, "gpu": "G", "ram": "32GB", "storage": "1TB", "price": cena, "prices": {sklep: cena},
+            "scores": {"components": 100, "perf": perf, "features": 70}, **reszta}
+
+probka = [_pc("drozszy", 10200), _pc("tani", 10100), _pc("slabszy", 10050, perf=80, cpu="B"),
+          _pc("granica", 10000, perf=70, cpu="C"), _pc("czwarty", 10000, perf=60, cpu="D"),
+          _pc("sprzedany", 10100, perf=99, cpu="E", soldout=["hardpc"]), _pc("inny sklep", 10100, sklep="xkom"),
+          _pc("gora", 13000), _pc("poza", 13001)]
+skrypt = wytnij("RANKING") + (
+    "const r=rankingPcCo500(%s,['hardpc','xkom'],10000,13000);"
+    "console.log(JSON.stringify(r.map(p=>[p.od,p.sklepy.hardpc.map(d=>d.name),p.sklepy.xkom.map(d=>d.name)])));" % json.dumps(probka))
+try:
+    wyj = subprocess.run(["node", "-e", skrypt], capture_output=True, text=True, timeout=60)
+    oczekuj(wyj.returncode == 0, f"node nie uruchomił rankingu: {wyj.stderr[:300]}")
+    if wyj.returncode == 0:
+        r = json.loads(wyj.stdout)
+        oczekuj(len(r) == 6 and r[0][0] == 10000 and r[5][0] == 12500, f"progi co 500 zł: {[x[0] for x in r]}")
+        oczekuj(r[0][1] == ["tani", "slabszy", "granica"], f"top 3 Hard-PC: {r[0][1]}")
+        oczekuj(r[0][2] == ["inny sklep"], f"sklep osobno: {r[0][2]}")
+        oczekuj(r[5][1] == ["gora"], f"13 000 zł w ostatnim progu, 13 001 poza: {r[5][1]}")
+except FileNotFoundError:
+    print("  (node niedostępny — pominięto test rankingu co 500 zł)")
+
+# ── 6. obrazy bez powtórzeń: każdy klucz nadal wskazuje swój obraz ──────
+import build_merged
+_mapa = {"a": "data:x", "b": "data:y", "c": "data:x"}
+_wyr = build_merged.mapa_js(_mapa)
+_wynik = json.loads(subprocess.run(["node", "-e", "console.log(JSON.stringify(" + _wyr + "))"],
+                                   capture_output=True, text=True, check=True).stdout)
+assert _wynik == _mapa, f"mapa obrazów po skróceniu: {_wynik}"
+assert _wyr.count("data:x") == 1, "ten sam obraz zapisany dwa razy"
 
 print("\nTEST ZALICZONY: ranking spełnia swoje reguły" if not bledy else f"\nTEST NIEZALICZONY: {len(bledy)} błędów")
 sys.exit(1 if bledy else 0)

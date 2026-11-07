@@ -36,7 +36,7 @@ SKLEP = "morele"
 LOKALNIE = False                       # Morele odpowiada też z chmury (x-kom: tylko z komputera właściciela)
 SKLEP_UWAGI = (
     "Kategoria komputery-stacjonarne-672 z filtrami: Typ pamięci RAM = DDR5, Zastosowanie = Gamingowe, "
-    "okno cen 4500-10000 zł, a dalej fasety „Chipset graficzny” (tylko modele z ocena_pc.KLASA_GPU), "
+    "okno cen 6000-13000 zł, a dalej fasety „Chipset graficzny” (tylko modele z ocena_pc.KLASA_GPU), "
     "maks_stron stron na chipset (30 ofert na stronę). Sklep ma ~3500 ofert w tym oknie (marketplace: Artrel, "
     "ERROR, Proxima…), więc jeden przebieg widzi ułamek — parametr strona_od pozwala rotować głębokość. "
     "Monitory: lista_monitorow = [] (obsługuje je nowe_monitory.py). Cena w JSON-LD bywa Z KODEM rabatowym; "
@@ -50,10 +50,10 @@ LISTA = ("https://www.morele.net/kategoria/komputery-stacjonarne-672/"
          "{cena_od},{cena_do},,,,,,,0,,,,{filtry}/{strona}/")
 FILTR_DDR5 = (33381, 1976356)          # grupa „Typ pamięci RAM” = DDR5
 FILTR_GAMING = (43184, 1607461)        # grupa „Zastosowanie” = Gamingowe
-# Okno cen listy: nowe_pc przyjmuje zestaw od 5000 zł bez systemu do 10 000 zł z Windowsem, więc
-# każda cena na stronie jest ≥ 5000 i ≤ 10 000. Dolna granica ma zapas 500 zł, bo nie wiemy, czy
+# Okno cen listy: nowe_pc przyjmuje zestaw od 6500 zł bez systemu do 13 000 zł z Windowsem, więc
+# każda cena na stronie jest ≥ 6500 i ≤ 13 000. Dolna granica ma zapas 500 zł, bo nie wiemy, czy
 # filtr sklepu liczy po cenie z kodem rabatowym (a ta bywa niższa od ceny bez kodu).
-CENA_LISTY_OD, CENA_LISTY_DO = 4500, 10000
+CENA_LISTY_OD, CENA_LISTY_DO = 6000, 13000
 NA_STRONE = 30                         # tyle ofert na stronie listy
 STRON_SUFIT = 60                       # sklep sam kończy paginację na 60 stronach (data-max-page)
 CENA_PC_OD, CENA_PC_DO = 1500, 60000   # poza tym zakresem to błąd odczytu, nie komputer

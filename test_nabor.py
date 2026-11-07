@@ -73,9 +73,9 @@ oczekuj(not ponownie, "dolacz_sklep nadpisał istniejący sklep")
 
 # 3. wpis monitora z kilku sklepów
 kand = [
-    {"sklep": "xkom", "nazwa": "Testowy Monitor ZZ27QD9", "diag": 26.5, "hz": 360, "cena": 2100, "panelName": "QD-OLED",
+    {"sklep": "xkom", "nazwa": "Testowy Monitor ZZ27QD9", "diag": 26.5, "hz": 360, "cena": 2100, "res": "QHD", "panelName": "QD-OLED",
      "panel": "qdoled", "url": "https://www.x-kom.pl/p/1-test.html", "zdjecie": "https://x/img.jpg"},
-    {"sklep": "morele", "nazwa": "Testowy Monitor ZZ27QD9", "diag": 26.5, "hz": 360, "cena": 2199, "panelName": "QD-OLED",
+    {"sklep": "morele", "nazwa": "Testowy Monitor ZZ27QD9", "diag": 26.5, "hz": 360, "cena": 2199, "res": "QHD", "panelName": "QD-OLED",
      "panel": "qdoled", "url": "https://www.morele.net/test-12345678/", "zdjecie": "https://m/img.jpg"},
 ]
 grupy = nb.grupuj(kand)
@@ -113,7 +113,7 @@ e3, sp3, _ = nb.zloz_pc(nieznany, 5000, nazwy)
 oczekuj(e3["osPriceKind"] == "unknown" and e3["os"] == "brak danych" and e3["psu"] == "brak danych", "system/zasilacz nieznany muszą być jawnie 'brak danych'")
 oczekuj(sp3 == "Nitropc PL", "sprzedawca marketplace zgubiony")
 for zle, powod in [(dict(baza, ram="32GB DDR4 3200MHz"), "DDR4"), (dict(baza, cena_bazowa=4500), "cena poniżej progu"),
-                   (dict(baza, cena_bazowa=9800, system={"w_cenie": False, "doplata": 539}), "cena z Windowsem ponad sufit"),
+                   (dict(baza, cena_bazowa=12800, system={"w_cenie": False, "doplata": 539}), "cena z Windowsem ponad sufit"),
                    (dict(baza, gpu="NVIDIA GeForce RTX 5090 32GB"), "karta spoza skali"),
                    (dict(baza, storage="2TB HDD"), "dysk HDD jako SSD"), (dict(baza, dostepny=False), "niedostępny")]:
     try:

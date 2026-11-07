@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Adapter sklepu MediaMarkt (mediamarkt.pl): monitory QHD 26-28" 240-500 Hz i gotowe komputery DDR5.
+"""Adapter sklepu MediaMarkt (mediamarkt.pl): monitory FHD/QHD/4K 23,8-32" 100-500 Hz i gotowe komputery DDR5.
 
 Adapter jest CZYSTY: funkcje odczytu biorą adres i tekst strony, niczego nie pobierają. Pobieranie
 robi wyłącznie wstrzyknięty argument `pobierz` (w produkcji zbieraj_ceny.pobierz, w teście atrapa).
@@ -28,6 +28,7 @@ if BAZA not in sys.path:
     sys.path.insert(0, BAZA)
 import ocena_pc
 from ocena_pc import BrakDanych
+import nowe_monitory as nm
 
 SKLEP = "mediamarkt"
 LOKALNIE = False                      # MediaMarkt odpowiada także z chmury
@@ -49,10 +50,10 @@ KATEGORIA_PC = "/pl/category/komputery-gamingowe-50070.html"
 STRON_MAKS = 30                       # maxPage podawane przez sklep nie przekracza 30 (407 pozycji = 34 strony)
 ADRESOW_MAKS = 400                    # górny limit adresów oddawanych z jednego wywołania
 
-HZ_OD, HZ_DO = 240, 500               # jak w nowe_monitory.py
-DIAG_OD, DIAG_DO = 26.0, 28.0
-CENA_MON_OD, CENA_MON_DO = 500, 6000  # poza zakresem to błąd odczytu, nie monitor
-CENA_PC_OD, CENA_PC_DO = 5000, 10000  # = nowe_pc.CENA_OD_BEZ_SYSTEMU / SUFIT_Z_WINDOWS (pilnuje test)
+HZ_OD, HZ_DO = 100, 500               # jak w nowe_monitory.py
+DIAG_OD, DIAG_DO = 23.8, 32.0
+CENA_MON_OD, CENA_MON_DO = 300, 2000
+CENA_PC_OD, CENA_PC_DO = 6500, 13000  # = nowe_pc.CENA_OD_BEZ_SYSTEMU / SUFIT_Z_WINDOWS (pilnuje test)
 ZASILACZ_WYMAGANY = True              # False: brak zasilacza daje psu=None zamiast odrzucenia
 
 MARKI = {"asus": "ASUS", "msi": "MSI", "aoc": "AOC", "lg": "LG", "hp": "HP", "dell": "Dell",
@@ -291,16 +292,16 @@ def sprzedawca_z_karty(s):
 # ------------------------------------------------------------------ monitory: lista
 def tytul_monitora_odpada(t):
     """Powód odrzucenia po samym tytule z listy albo None. Odrzuca WYŁĄCZNIE przy jawnym przeciwieństwie
-    (inne odświeżanie, ultrawide/4K/FHD, przekątna spoza 26-28"): tytuł bez parametrów, jak
+    (inne odświeżanie, ultrawide/5K, przekątna spoza zakresu): tytuł bez parametrów, jak
     »Monitor GIGABYTE GO27Q24A Czarny« u sprzedawców marketplace, idzie dalej do karty."""
     if re.search(r"EKSPOZYCJ|OUTLET|ODNOWION|REFURB|UŻYWAN|PO ZWROCIE|USZKODZON|OTWART", t or "", re.I):
         return "towar nie jest nowy (tytuł)"
     herce = [int(x) for x in re.findall(r"(?<![\d.,])(\d{2,3})\s?Hz\b", t or "", re.I)]
     if herce and max(herce) < HZ_OD:
         return f"{max(herce)} Hz poniżej {HZ_OD} Hz"
-    wysoka = re.search(r"\b(UW\s?QHD|UWHD|WUHD|WFHD|UWFHD|UHD|4K|5K|FHD|Full HD)\b", t or "", re.I)
-    if wysoka and not re.search(r"(?<![A-Za-z])W?QHD\b", t or "", re.I):
-        return f"rozdzielczość {wysoka.group(1)} (wymagane QHD 2560 x 1440)"
+    wysoka = re.search(r"\b(UW\s?QHD|UWHD|WUHD|WFHD|UWFHD|5K)\b", t or "", re.I)
+    if wysoka:
+        return f"rozdzielczość {wysoka.group(1)} (wymagane FHD, QHD albo 4K)"
     przekatne = [float(x.replace(",", ".")) for x in re.findall(
         r"""(?<![\d.,A-Za-z-])(\d{2}(?:[.,]\d)?)\s*(?:"|”|″|'')""", t or "")]
     przekatne += [float(x.replace(",", ".")) for x in re.findall(
@@ -381,7 +382,7 @@ def zbierz_adresy(pobierz, kategorie, maks_stron, maks_adresow, odpada):
 
 
 def lista_monitorow(pobierz, maks_stron=6, maks_adresow=ADRESOW_MAKS):
-    """Adresy kart monitorów, które mogą być QHD 26-28" 240-500 Hz. `maks_stron` liczy się NA
+    """Adresy kart monitorów, które mogą mieścić się w zakresie. `maks_stron` liczy się NA
     KATEGORIĘ (dwie kategorie, 12 pozycji na stronę): »Monitory OLED« ma 7 stron, »Monitory dla
     graczy« 30. Przed pobraniem karty odpadają pozycje bez ceny (nie do kupienia), z ceną poza
     zakresem i z jawnie niepasującym tytułem; resztę rozstrzyga odczytaj_monitor()."""
@@ -407,7 +408,7 @@ def nazwa_monitora(tytul, producent):
     kolory = (r"czarny|biały|bialy|srebrny|szary|niebieski|czerwony|różowy|zielony|złoty|"
               r"dwukolorowy|biało-czarny|czarno-szary|brązowy|fioletowy|pomarańczowy")
     n = re.sub(rf"(?:[\s,;/]+(?:{kolory}))+\s*$", "", n, flags=re.I).strip(" ,;-|")
-    n = re.sub(r"(?:\s+(?:W?QHD|OLED|QD-OLED|IPS|VA))+$", "", n, flags=re.I).strip(" ,;-|")
+    n = re.sub(r"(?:\s+(?:W?QHD|FHD|UHD|4K|OLED|QD-OLED|IPS|VA))+$", "", n, flags=re.I).strip(" ,;-|")
     n = n.replace("'", "’")
     s = n.split(" ")
     if len(s) > 1 and s[0].lower() == s[1].lower():
@@ -464,8 +465,9 @@ def odczytaj_monitor(url, html):
         raise BrakDanych(f"przekątna {diag:g}\" poza zakresem {DIAG_OD:g}–{DIAG_DO:g}\"")
     rozdzielczosci = {r for w, _ in c.get("Rozdzielczość", []) for r in re.findall(r"\d{3,5}\s*x\s*\d{3,5}", w, re.I)}
     rozdzielczosci = {re.sub(r"\s+", "", r).lower() for r in rozdzielczosci}
-    if rozdzielczosci != {"2560x1440"}:
-        raise BrakDanych(f"rozdzielczość „{', '.join(sorted(rozdzielczosci)) or 'brak'}” (wymagane 2560 x 1440)")
+    res = nm.ROZDZIELCZOSCI.get(next(iter(rozdzielczosci))) if len(rozdzielczosci) == 1 else None
+    if not res:
+        raise BrakDanych(f"rozdzielczość „{', '.join(sorted(rozdzielczosci)) or 'brak'}” (wymagane FHD, QHD albo 4K)")
     hz = liczba(wartosc(c, "Częstotliwość odświeżania (maksymalna)") or wartosc(c, "Częstotliwość odświeżania"))
     if hz is None:
         raise BrakDanych("brak częstotliwości odświeżania")
@@ -479,7 +481,7 @@ def odczytaj_monitor(url, html):
     nazwa = nazwa_monitora(k["tytul"], k["producent"])      # na końcu: najpierw powód z parametrów
     kod = wartosc(c, "Kod producenta")
     kod = None if not kod or kod.lower() in ("-", "brak", "n/a", "nie dotyczy") else kod
-    return {"nazwa": nazwa, "url": url, "hz": hz, "diag": diag, "panelName": nazwa_matrycy,
+    return {"nazwa": nazwa, "url": url, "hz": hz, "diag": diag, "res": res, "panelName": nazwa_matrycy,
             "panel": klucz_matrycy, "cena": k["cena"], "zdjecie": k["zdjecie"],
             "kod_modelu": kod, "ean": k["ean"]}
 

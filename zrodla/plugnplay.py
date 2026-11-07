@@ -42,7 +42,7 @@ SKLEP_UWAGI = (
     "komputery: lista /kategoria-produktu/komputery (8 kafelków na stronę, ok. 17 stron; kolejne strony "
     "przez <link rel=next>, pełny przegląd idzie za rel=next do końca z twardym sufitem MAKS_STRON_TWARDO=40). "
     "Filtr „Platforma (DDR5)” jest po stronie JS, więc DDR5 odsiewamy po tytule kafelka (tylko jawne DDR4) "
-    "i dopiero po specyfikacji karty; wstępnie tniemy też po cenie kafelka 5000–10000 zł (Windows jest w cenie, "
+    "i dopiero po specyfikacji karty; wstępnie tniemy też po cenie kafelka 6500–13000 zł (Windows jest w cenie, "
     "więc cena kafelka = cena bazowa) — to oszczędność żądań, cena_od/cena_do=None ją wyłączają. Karta produktu to "
     "konfigurator: cena i specyfikacja dotyczą wariantu domyślnego (opcje bez dopłaty: Procesor, Wersja "
     "karty VRAM, Gwarancja), dopłaty pozostałych opcji są w polu 'opcje' (klucz „Grupa: opcja”). "
@@ -56,7 +56,7 @@ SKLEP_UWAGI = (
 
 HOST = "plugnplay.sklep.pl"
 LISTA_PC = "https://plugnplay.sklep.pl/kategoria-produktu/komputery"
-CENA_LISTY_OD, CENA_LISTY_DO = 5000, 10000      # wstępny przesiew po cenie kafelka [zł]; None = bez przesiewu
+CENA_LISTY_OD, CENA_LISTY_DO = 6500, 13000      # wstępny przesiew po cenie kafelka [zł]; None = bez przesiewu
 # MAKS_STRON_TWARDO: twardy sufit liczby stron listy PC (niezależny od argumentu wołającego).
 # Argument maks_stron traktujemy jako dolną granicę, nie górną — lista_pc przechodzi
 # wszystkie strony za rel=next / do pustej strony aż do twardego sufitu MAKS_STRON_TWARDO=40.
@@ -373,7 +373,7 @@ def dokladny_klucz_gpu(surowa):
 
 def karta(linia, dom):
     """(gpu kanoniczny, źródło pamięci). Pamięć: opis → konfigurator → tabela JEDNA_PAMIEC_GB."""
-    linia = _tekst(linia)
+    linia = re.sub(r"\s+(biał[aey]|czarn[aey])\b", "", _tekst(linia), flags=re.I)   # kolor to nie model karty
     if re.search(r"\b(SUPER|GRE|XTX)\b", linia, re.I):
         raise BrakDanych(f"karta z nieobsługiwanym przyrostkiem w {linia!r}")
     m = re.search(r"(\d{1,2})\s*GB", linia, re.I)

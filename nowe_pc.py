@@ -9,8 +9,8 @@ ZASADY (ta sama co w całym serwisie: BRAK zamiast zgadywania):
 - zestaw dopisujemy tylko wtedy, gdy każdą daną da się odczytać ze strony sklepu: procesor,
   karta (łącznie z pamięcią), RAM DDR5, dysk, zasilacz, cena Windows z konfiguratora;
 - brakująca dana = pominięcie i wpis w raporcie, nigdy wartość domyślna;
-- próg ceny: od 5000 zł bez systemu do 10 000 zł Z DOLICZONYM WINDOWSEM (decyzja
-  właściciela z 21.10.2026);
+- próg ceny: od 6500 zł bez systemu (ok. 7000 z Windowsem) do 13 000 zł Z DOLICZONYM WINDOWSEM
+  (decyzja właściciela z 06.11.2026, wcześniej 5000–10 000);
 - wpis wskazujemy położeniem, nie kluczem zdjęcia (jedna obudowa = jedno zdjęcie).
 
 Użycie:
@@ -29,8 +29,8 @@ SZABLON = os.path.join(BAZA, "monitors_1700_template.html")
 OBRAZY_PC = os.path.join(BAZA, "images", "pcs.json")
 UA = z.UA if hasattr(z, "UA") else "Mozilla/5.0"
 
-CENA_OD_BEZ_SYSTEMU = 5000
-SUFIT_Z_WINDOWS = 10000
+CENA_OD_BEZ_SYSTEMU = 6500
+SUFIT_Z_WINDOWS = 13000
 # Artefakt w aplikacji Claude ma twardy limit 16 MB; zdjęcia w base64 to prawie cały rozmiar.
 BUDZET_BAJTOW = 15_300_000
 OPCJA_WINDOWS = re.compile(r"^Windows 11 Home", re.I)
@@ -140,7 +140,7 @@ def zdjecie_url(s):
 # ------------------------------------------------------------------ składanie wpisu
 def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
     """Zwraca listę wpisów (bazowy + ewentualny wariant custom 32GB) albo rzuca BrakDanych."""
-    if "OutOfStock" in s and '"InStock"' not in s:
+    if ("OutOfStock" in s and '"InStock"' not in s) or z.brak_hardpc(s):
         raise BrakDanych("towar niedostępny")
     tytul = z.nazwa_ze_strony(s)
     t = rozbierz_tytul(tytul)
@@ -150,10 +150,10 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
         raise BrakDanych("nie udało się odczytać ceny")
     opcje = z.opcje_konfiguratora(s)
     okno = next((v for k, v in opcje.items() if OPCJA_WINDOWS.match(k)), None)
-    if okno is None:
-        # Sklep instaluje nieaktywowany Windows, ale na tej stronie nie sprzedaje licencji.
-        # Cena „z Windowsem" nie istnieje, więc nie ma z czym porównać progu 10 000 zł.
-        raise BrakDanych("strona nie oferuje licencji Windows 11 Home — brak ceny z systemem")
+    # Sklep instaluje nieaktywowany Windows, ale na tej stronie nie sprzedaje licencji: ceny „z Windowsem"
+    # nie ma, więc zestaw wchodzi z ceną bez korekty i znacznikiem „system nieznany” (jak w nabor.py).
+    bez_licencji = okno is None
+    okno = okno or 0
 
     gpu = gpu_kanoniczna(t["gpu"], spec)
     ram = ram_ddr5(t["ram"], spec)
@@ -167,10 +167,9 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
         psu = f"{m.group(1)}W"
     cpu = t["cpu"]
     ocena_pc.klasa_cpu(cpu)        # brak reguły klasy = pominięcie zestawu (BrakDanych)
-    if ocena_pc.klasa_gpu(gpu) > 7:
-        # skala mocy (2,44–6,78) i długowieczności kończy się na klasie 7 (RX 9070 XT / RTX 5070 Ti);
+    if ocena_pc.klasa_gpu(gpu) > ocena_pc.KLASA_GPU_MAKS:
         # mocniejsza karta zostałaby przycięta do 100 i wypadła niżej, niż wynika z jej mocy.
-        raise BrakDanych(f"karta {gpu!r} spoza skali mocy rankingu (klasa > 7) — poszerzenie skali wymaga decyzji właściciela")
+        raise BrakDanych(f"karta {gpu!r} spoza skali mocy rankingu (klasa > {ocena_pc.KLASA_GPU_MAKS}) — poszerzenie skali wymaga decyzji właściciela")
 
     if not (CENA_OD_BEZ_SYSTEMU <= cena_bare and cena_bare + okno <= SUFIT_Z_WINDOWS):
         raise BrakDanych(f"cena poza progiem: {cena_bare} zł bez systemu, {cena_bare + okno} z Windowsem")
@@ -182,13 +181,14 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
         nazwa = f"{tytul} ({n})"
 
     def jeden(ram_, bare, custom=None):
-        sc = ocena_pc.oceny(cpu, gpu, ram_, dysk, psu, "Windows 11 Home", 1)
+        system = "brak danych" if bez_licencji else "Windows 11 Home"
+        sc = ocena_pc.oceny(cpu, gpu, ram_, dysk, psu, system, 1)
         cena = bare + okno
         value = _wartosc(cena, sc["perf"])
         wynik = {"longevity": _dlugowiecznosc(sc["longevityYears"]), "value": value,
                  "longevityYears": sc["longevityYears"]}
         zestaw = {"cpu": cpu, "gpu": gpu, "ram": ram_, "storage": dysk, "psu": psu,
-                  "os": "Windows 11 Home", "price": cena, "liczba_sklepow": 1,
+                  "os": system, "price": cena, "liczba_sklepow": 1,
                   # tekst wady o RAM bez kwoty: kwota dopłaty zmienia się w sklepie, a tekst
                   # zamarzałby na starej (tak się stało z 66 wariantami)
                   "dopłata_ram": None}
@@ -197,13 +197,15 @@ def zloz_wpisy(url, s, ceny_min_istniejace, nazwy_istniejace, klucz_zdjecia):
         return {
             "img": klucz_zdjecia, "name": nazwa + (" (custom: 32GB RAM)" if custom else ""),
             "cpu": cpu, "gpu": gpu, "ram": ram_ + (" DDR5" if "DDR5" not in ram_ else ""),
-            "storage": dysk, "psu": psu, "os": "Windows 11 Home (doliczony do ceny)",
+            "storage": dysk, "psu": psu, "os": system if bez_licencji else "Windows 11 Home (doliczony do ceny)",
             "price": cena, "store": "Hard-PC.pl", "prices": {"hardpc": bare},
             "urls": {"hardpc": url}, "scores": scores, "pros": zal, "cons": wad,
             "longevityYears": sc["longevityYears"],
-            "osPriceNote": (f"Cena bazowa (bez systemu): {bare} zl + Windows 11 Home (potwierdzona "
+            "osPriceNote": ("System operacyjny nieznany: strona nie sprzedaje licencji Windows, cena bez korekty."
+                            if bez_licencji else
+                            f"Cena bazowa (bez systemu): {bare} zl + Windows 11 Home (potwierdzona "
                             f"w konfiguratorze Hard-PC.pl): {okno} zl."),
-            "priceBare": bare, "osPriceKind": "confirmed",
+            "priceBare": bare, "osPriceKind": "unknown" if bez_licencji else "confirmed",
         }, custom
 
     ram_gb = ocena_pc.pojemnosc_ram_gb(ram)

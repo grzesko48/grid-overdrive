@@ -39,7 +39,7 @@ LOKALNIE = False
 SKLEP_UWAGI = (
     "komputery: lista /komputery to jedna strona bez paginacji (dziś 9 zestawów: Utopiec 6310 zł … "
     "Hydra 21270 zł; strona deklaruje ich liczbę, a adapter ją sprawdza); wstępny przesiew po cenie "
-    "kafelka 5000–10000 zł (cena_od/cena_do=None go wyłączają). Cena zestawu jest ceną konfiguracji "
+    "kafelka 6500–13000 zł (cena_od/cena_do=None go wyłączają). Cena zestawu jest ceną konfiguracji "
     "DOMYŚLNEJ (np. Utopiec = START + 16 GB RAM + 512 GB; Goblin = STANDARD + 32 GB + 1 TB) i "
     "zawiera Windows 11 (kafelek „System” — zainstalowany; brak opcji bez systemu). Pole 'model' = "
     "nazwa zestawu (Utopiec, Goblin…). Konfigurator (Moc/RAM/Dysk) zmienia CPU, GPU, RAM i dysk, "
@@ -51,7 +51,7 @@ SKLEP_UWAGI = (
 
 HOST = "goblinpc.pl"
 LISTA_PC = "https://goblinpc.pl/komputery"
-CENA_LISTY_OD, CENA_LISTY_DO = 5000, 10000      # wstępny przesiew po cenie kafelka [zł]; None = bez przesiewu
+CENA_LISTY_OD, CENA_LISTY_DO = 6500, 13000      # wstępny przesiew po cenie kafelka [zł]; None = bez przesiewu
 MAKS_ADRESOW = 100
 CENA_OD, CENA_DO = 500, 100000
 

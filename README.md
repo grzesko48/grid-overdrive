@@ -1,6 +1,6 @@
 # Grid Overdrive
 
-Porównywarka 57 monitorów gamingowych QHD (240–500 Hz) i 492 zestawów PC (5000–9000 zł).
+Porównywarka monitorów gamingowych (FHD, QHD, 4K; 300–2000 zł) i zestawów PC (7–13 tys. zł) z rankingiem 10–13 tys. zł co 500 zł. Ceny i liczby liczone z danych w stronie.
 
 Ceny dla wpisów kupowanych w x-kom.pl lub Morele.net (50 z 57 monitorów) są odświeżane
 automatycznie, raz dziennie, przez zaplanowane zadanie Claude Code (Routine). Pozostałe

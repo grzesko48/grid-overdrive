@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dopisuje do strony NOWE monitory QHD 26–28" 240–500 Hz z katalogu Morele.
+"""Dopisuje do strony NOWE monitory FHD/QHD/4K 23,8–32" 100–500 Hz za 300–2000 zł z katalogu Morele.
 
 Do 22.10.2026 automat odświeżał tylko ceny istniejących pozycji. Nowy monitor pojawiał się
 w sklepach, a strona o nim nie wiedziała. Ten skrypt dopisuje go sam — ale uczciwie:
@@ -30,11 +30,13 @@ OBRAZY = os.path.join(BAZA, "images", "monitors.json")
 ODRZUCONE = os.path.join(BAZA, "monitory_odrzucone.json")
 UA = z.UA if hasattr(z, "UA") else "Mozilla/5.0"
 
-LISTA = "https://www.morele.net/kategoria/monitory-523/,,,,,,,,0,,,,{filtry}/{strona}"
-FILTR_WQHD = "28249O991076"
-HZ_OD, HZ_DO = 240, 500
-DIAG_OD, DIAG_DO = 26.0, 28.0
-CENA_OD, CENA_DO = 500, 6000          # poza tym zakresem to błąd odczytu, nie monitor
+# Zakres nowych pozycji (decyzja właściciela 06.11.2026): monitory 300–2000 zł; wcześniej dodane zostają.
+CENA_OD, CENA_DO = 300, 2000
+HZ_OD, HZ_DO = 100, 500
+DIAG_OD, DIAG_DO = 23.8, 32.0
+LISTA = "https://www.morele.net/kategoria/monitory-523/" + f"{CENA_OD},{CENA_DO}" + ",,,,,,,0,,,,{filtry}/{strona}"
+FILTRY_ROZDZ = ("28249O890136", "28249O991076", "28249O899344")   # Morele: FHD, WQHD, 4K UHD
+ROZDZIELCZOSCI = {"1920x1080": "FHD", "2560x1440": "QHD", "3840x2160": "4K"}   # bez ultrawide
 NAZWA_SKLEPU = "Morele.net"
 # Artefakt w aplikacji Claude ma twardy limit 16 MB (dziś ~14,4 MB, z czego prawie całość to
 # zdjęcia w base64). Powyżej tego budżetu nie dopisujemy niczego nowego — zamiast tego raport.
@@ -56,8 +58,14 @@ def jsonld(s):
                 yield o
 
 
+def klasa_rozdzielczosci(txt):
+    """„2560 x 1440” → „QHD”. Inna rozdzielczość albo brak → None."""
+    m = re.search(r"(\d{3,5})\s*[x×]\s*(\d{3,5})", txt or "")
+    return ROZDZIELCZOSCI.get(f"{m[1]}x{m[2]}") if m else None
+
+
 def czestotliwosci(s):
-    """Identyfikatory faset „N Hz" (240–500) z listy Morele. Faseta nie istnieje → pusto."""
+    """Identyfikatory faset „N Hz" (HZ_OD–HZ_DO) z listy Morele. Faseta nie istnieje → pusto."""
     wyniki = {}
     for m in re.finditer(r'<input[^>]*?\bid="(\d+)"[^>]*?name="30331"[^>]*?data-label="(\d+) Hz"', s, re.S):
         hz = int(m.group(2))
@@ -67,35 +75,36 @@ def czestotliwosci(s):
 
 
 def lista_morele(maks_stron=6):
-    """{adres: (nazwa, cena)} — monitory WQHD o odświeżaniu 240–500 Hz z katalogu sklepu."""
-    kod, s = z.pobierz(LISTA.format(filtry=FILTR_WQHD, strona=""))
-    if kod != 200:
-        raise BrakDanych(f"lista Morele: HTTP {kod}")
-    fasety = czestotliwosci(s)
-    if not fasety:
-        raise BrakDanych("lista Morele: nie znaleziono faset częstotliwości — zmienił się układ strony")
+    """{adres: (nazwa, cena)} — monitory FHD/WQHD/4K o odświeżaniu HZ_OD–HZ_DO z katalogu sklepu."""
     wynik = {}
-    for hz, fid in sorted(fasety.items()):
-        for strona in range(1, maks_stron + 1):
-            kod, s = z.pobierz(LISTA.format(filtry=f"{FILTR_WQHD},30331O{fid}",
-                                            strona=f"{strona}/" if strona > 1 else ""))
-            if kod != 200:
-                break
-            nowych = 0
-            for o in jsonld(s):
-                if o.get("@type") != "ItemList":
-                    continue
-                for el in o.get("itemListElement", []):
-                    it = el.get("item", el)
-                    adres, nazwa = it.get("url"), it.get("name")
-                    of = it.get("offers") or {}
-                    of = of[0] if isinstance(of, list) and of else of
-                    cena = z._liczba(of.get("price")) if isinstance(of, dict) else None
-                    if adres and nazwa and adres not in wynik:
-                        wynik[adres] = (nazwa, cena)
-                        nowych += 1
-            if nowych == 0:
-                break
+    for filtr in FILTRY_ROZDZ:
+        kod, s = z.pobierz(LISTA.format(filtry=filtr, strona=""))
+        if kod != 200:
+            raise BrakDanych(f"lista Morele: HTTP {kod}")
+        fasety = czestotliwosci(s)
+        if not fasety:
+            raise BrakDanych("lista Morele: nie znaleziono faset częstotliwości — zmienił się układ strony")
+        for hz, fid in sorted(fasety.items()):
+            for strona in range(1, maks_stron + 1):
+                kod, s = z.pobierz(LISTA.format(filtry=f"{filtr},30331O{fid}",
+                                                strona=f"{strona}/" if strona > 1 else ""))
+                if kod != 200:
+                    break
+                nowych = 0
+                for o in jsonld(s):
+                    if o.get("@type") != "ItemList":
+                        continue
+                    for el in o.get("itemListElement", []):
+                        it = el.get("item", el)
+                        adres, nazwa = it.get("url"), it.get("name")
+                        of = it.get("offers") or {}
+                        of = of[0] if isinstance(of, list) and of else of
+                        cena = z._liczba(of.get("price")) if isinstance(of, dict) else None
+                        if adres and nazwa and adres not in wynik:
+                            wynik[adres] = (nazwa, cena)
+                            nowych += 1
+                if nowych == 0:
+                    break
     return wynik
 
 
@@ -222,8 +231,9 @@ def odczytaj(url, s):
         raise BrakDanych("brak przekątnej")
     if not (DIAG_OD <= diag <= DIAG_DO):
         raise BrakDanych(f"przekątna {diag:g}\" poza zakresem {DIAG_OD:g}–{DIAG_DO:g}\"")
-    if not re.search(r"2560\s*x\s*1440", w.get("Rozdzielczość", ""), re.I):
-        raise BrakDanych(f"rozdzielczość „{w.get('Rozdzielczość', 'brak')}” (wymagane 2560 x 1440)")
+    res = klasa_rozdzielczosci(w.get("Rozdzielczość", ""))
+    if not res:
+        raise BrakDanych(f"rozdzielczość „{w.get('Rozdzielczość', 'brak')}” (wymagane FHD, QHD albo 4K)")
     hz = liczba(w.get("Częstotliwość odświeżania"))
     if hz is None:
         raise BrakDanych("brak częstotliwości odświeżania")
@@ -241,7 +251,7 @@ def odczytaj(url, s):
     if not str(of.get("availability", "")).endswith("InStock"):
         raise BrakDanych("nie ma w sprzedaży (availability ≠ InStock)")
     return {"nazwa": nazwa, "diag": diag, "hz": hz, "cena": cena, "panelName": nazwa_matrycy,
-            "panel": klucz_matrycy, "url": url, "zdjecie": zdjecie_url(o, s)}
+            "panel": klucz_matrycy, "url": url, "zdjecie": zdjecie_url(o, s), "res": res}
 
 
 # ------------------------------------------------------------------ złożenie wpisu
@@ -256,10 +266,10 @@ def klucz_zdjecia(numer, nazwa):
 
 def wpis(dane, klucz):
     cena, hz = dane["cena"], dane["hz"]
-    perf = int(round(60 + (hz - 240) / 260 * 40))                 # ta sama reguła co 8/8 istniejących
+    perf = max(60, int(round(60 + (hz - 240) / 260 * 40)))        # poniżej 240 Hz: dolna granica 60 (jak test_ranking)
     value = po.ocena_wartosci(cena / hz, "monitor")
     oled = dane["panel"] in ("oled", "qdoled")
-    pros = [f"Matryca {dane['panelName']} i {hz} Hz natywnie przy QHD — wg specyfikacji sklepu."]
+    pros = [f"Matryca {dane['panelName']} i {hz} Hz natywnie przy {dane['res']} — wg specyfikacji sklepu."]
     cons = ["Brak niezależnej recenzji — oceny obrazu, funkcji i oceny ogólnej nie ma."]
     if oled:
         cons.append("Typowe dla OLED ryzyko wypalenia przy długotrwałych, statycznych elementach obrazu.")
@@ -268,7 +278,7 @@ def wpis(dane, klucz):
                       "Brak recenzji — oceny obrazu i funkcji do uzupełnienia."}
     return {"img": klucz, "name": dane["nazwa"], "price": cena, "store": NAZWA_SKLEPU,
             "diag": diag_tekst(dane["diag"]), "panelName": dane["panelName"], "panel": dane["panel"],
-            "hz": hz, "url": dane["url"],
+            "hz": hz, "res": dane["res"], "url": dane["url"],
             "note": "Nowy model — dopisany automatycznie, bez oceny ogólnej (brak recenzji).",
             "prices": {"morele": cena}, "urls": {"morele": dane["url"]},
             "review": review, "scores": {"perf": perf, "value": value}, "pros": pros, "cons": cons}
@@ -283,7 +293,7 @@ def wpis_js(e):
     review = json.dumps(e["review"], ensure_ascii=False).replace("\\", "\\\\").replace("'", "\\'")
     czesci = [("img", js1(e["img"])), ("name", js1(e["name"])), ("price", e["price"]),
               ("store", js1(e["store"])), ("diag", js1(e["diag"])), ("panelName", js1(e["panelName"])),
-              ("panel", js1(e["panel"])), ("hz", e["hz"]), ("url", js1(e["url"])),
+              ("panel", js1(e["panel"])), ("hz", e["hz"]), ("res", js1(e["res"])), ("url", js1(e["url"])),
               ("note", js1(e["note"])), ("nowy", 1),
               ("prices", "{" + ",".join(f"{k}:{v}" for k, v in e["prices"].items()) + "}"),
               ("urls", "{" + ",".join(f"{k}:{js1(v)}" for k, v in e["urls"].items()) + "}"),
@@ -338,7 +348,7 @@ def main():
 
     print("pobieram listę monitorów z Morele…", file=sys.stderr)
     lista = lista_morele()
-    print(f"na liście Morele: {len(lista)} monitorów WQHD {HZ_OD}–{HZ_DO} Hz", file=sys.stderr)
+    print(f"na liście Morele: {len(lista)} monitorów FHD/QHD/4K {HZ_OD}–{HZ_DO} Hz", file=sys.stderr)
 
     nowe, pominiete, nowe_obrazy, nowe_odrzucone = [], [], {}, {}
     for adres, (nazwa_listy, _) in sorted(lista.items()):

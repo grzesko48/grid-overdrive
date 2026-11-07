@@ -234,8 +234,8 @@ bez_ceny_bk = z_kodem.replace('data-testid="product-regular-price"', 'data-x="y"
 odrzucone("kod bez ceny bez kodu", ADRES["legion_amd"], bez_ceny_bk, "nie podaje ceny bez kodu")
 
 # 5. lista
-BAZA_URL = "https://www.morele.net/kategoria/komputery-stacjonarne-672/4500,10000,,,,,,,0,,,,33381O1976356,43184O1607461/1/"
-CHIP = "https://www.morele.net/kategoria/komputery-stacjonarne-672/4500,10000,,,,,,,0,,,,30537O{id},33381O1976356,43184O1607461/{p}/"
+BAZA_URL = "https://www.morele.net/kategoria/komputery-stacjonarne-672/6000,13000,,,,,,,0,,,,33381O1976356,43184O1607461/1/"
+CHIP = "https://www.morele.net/kategoria/komputery-stacjonarne-672/6000,13000,,,,,,,0,,,,30537O{id},33381O1976356,43184O1607461/{p}/"
 STRONY = {BAZA_URL: czytaj("morele_pc_lista_baza"),
           CHIP.format(id=2166453, p=1): czytaj("morele_pc_lista_rtx4060"),
           CHIP.format(id=2257434, p=1): czytaj("morele_pc_lista_rtx5060ti"),
@@ -287,12 +287,13 @@ oczekuj(all(mp.adres_produktu(u) for u in wynik), "lista ma adres, który nie je
 oczekuj(wynik[:1] == [ADRES["quickpc"]], f"pierwszy adres (chipset RTX 4060): {wynik[:1]}")
 # cztery z naszych kart są na zapisanej stronie 1 chipsetu RTX 5060 Ti — i każda z nich naprawdę ma tę kartę
 for k in ("legion_amd", "legion_intel", "artrel", "error"):
-    oczekuj(ADRES[k] in wynik, f"lista RTX 5060 Ti nie zawiera karty {k}")
+    # artrel: fixtura listy podaje cenę poniżej dolnej granicy okna (6000 zł), więc z listy odpada
+    oczekuj((ADRES[k] in wynik) == (k != "artrel"), f"lista RTX 5060 Ti a karta {k}: {ADRES[k] in wynik}")
     oczekuj(k in przyjete and przyjete[k]["gpu"].startswith("NVIDIA GeForce RTX 5060 Ti "),
             f"{k}: karta z listy chipsetu RTX 5060 Ti ma w karcie produktu inną kartę")
 # liczba adresów = oferty z obu fixtur w oknie cen, bez DDR4 — policzona niezależnie od parsera adaptera
 oczekuj_n = sum(1 for _, c in elementy_listy("morele_pc_lista_rtx4060") + elementy_listy("morele_pc_lista_rtx5060ti")
-                if 4500 <= c <= 10000)
+                if 6000 <= c <= 13000)
 oczekuj(len(wynik) == oczekuj_n, f"liczba adresów {len(wynik)} ≠ ofert w oknie cen {oczekuj_n}")
 
 a2 = Atrapa()
@@ -447,6 +448,7 @@ for k in przyjete:
 
 # 8. nakładka zrodla/morele.py (monitory: kod_modelu z mpn, robots.txt w lista_monitorow)
 from zrodla import morele as mm
+mm.nm.CENA_DO = 6000   # zapisana karta monitora kosztowała 2045 zł, ponad dzisiejszy zakres
 import zbieraj_ceny
 
 dm = mm.odczytaj_monitor(

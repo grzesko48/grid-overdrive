@@ -273,8 +273,8 @@ def zloz_pc(d, najnizsza, nazwy):
     """Wpis PC z kandydata adaptera. BrakDanych, gdy czegokolwiek nie da się potwierdzić."""
     cpu, gpu = d["cpu"], d["gpu"]
     ocena_pc.klasa_cpu(cpu)
-    if ocena_pc.klasa_gpu(gpu) > 7:
-        raise BrakDanych(f"karta {gpu!r} spoza skali mocy rankingu (klasa > 7)")
+    if ocena_pc.klasa_gpu(gpu) > ocena_pc.KLASA_GPU_MAKS:
+        raise BrakDanych(f"karta {gpu!r} spoza skali mocy rankingu (klasa > {ocena_pc.KLASA_GPU_MAKS})")
     ocena_pc.pamiec_gpu_gb(gpu)
     ram = d["ram"]
     if not re.search(r"DDR5", ram, re.I):

@@ -41,8 +41,10 @@ JEDNA_PAMIEC_GB = {"rtx 5090": 32, "rtx 5080": 16, "rtx 5070 ti": 16, "rtx 5070"
 # Zakres mocy, względem którego skalujemy ocenę 60-100. Wcześniej min i max brano z
 # aktualnego zbioru, więc dodanie jednego zestawu przestawiało oceny wszystkich —
 # tę samą usterkę usunięto z „Opłacalności" i „Długowieczności". Wartości to końce
-# zakresu z dnia audytu: RTX 5050 + najsłabszy procesor, RTX 5070 Ti + najmocniejszy.
-MOC_MIN, MOC_MAX = 2.44, 6.78
+# zakresu: RTX 5050 + najsłabszy procesor, RTX 5080 + najmocniejszy (decyzja właściciela z 06.11.2026:
+# zakres do 12 tys. zł obejmuje RTX 5080; wcześniej skala kończyła się na RTX 5070 Ti, czyli 6.78).
+MOC_MIN, MOC_MAX = 2.44, 8.34
+KLASA_GPU_MAKS = 9     # 9 = RTX 5080: górny koniec skali MOC_MAX; mocniejsze przycięłoby do 100
 
 
 def znormalizuj_gpu(surowa):

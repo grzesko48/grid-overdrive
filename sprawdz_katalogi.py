@@ -27,8 +27,9 @@ SZABLON_URL = "https://sklep.hard-pc.pl/k530,zestawy-komputery-hard-pc{}.html"
 # ceny BEZ systemu — dopłatę liczymy z tego, co faktycznie płacimy dziś za istniejące wpisy
 # tego sklepu (mediana price-priceBare), a nie ze stałej wpisanej na sztywno — dokładnie ta
 # sama usterka (zamrożone 519 zł zamiast aktualnych 539 zł) kosztowała już jedną erratkę.
-ZAKRES_BEZ_SYSTEMU_OD = 5000
-SUFIT_Z_WINDOWS = 10000
+# DECYZJA WŁAŚCICIELA z 06.11.2026: nabór 7–13 tys. zł (6500 bez systemu ≈ 7000 z Windowsem).
+ZAKRES_BEZ_SYSTEMU_OD = 6500
+SUFIT_Z_WINDOWS = 13000
 
 KARTA = re.compile(
     r'<h2><a href="(p(\d+),[^"]+\.html)"[^>]*>([^<]+)</a></h2>.*?'
