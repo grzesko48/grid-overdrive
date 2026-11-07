@@ -11,12 +11,415 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 0,
+ "przeliczonych": 30,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
   "longevity": 0
  },
  "bez_podstawy": [],
- "zmiany": []
+ "zmiany": [
+  {
+   "nazwa": "Gigabyte GS27Q X",
+   "rodzaj": "monitor",
+   "podstawa": 3.78,
+   "zmiany": {
+    "value": [
+     92,
+     91
+    ]
+   }
+  },
+  {
+   "nazwa": "LG UltraGear 27GS95QE-B",
+   "rodzaj": "monitor",
+   "podstawa": 10.67,
+   "zmiany": {
+    "value": [
+     14,
+     15
+    ],
+    "overall": [
+     55,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQM5F",
+   "rodzaj": "monitor",
+   "podstawa": 4.31,
+   "zmiany": {
+    "value": [
+     86,
+     85
+    ]
+   }
+  },
+  {
+   "nazwa": "Gigabyte Aorus FO27Q5P",
+   "rodzaj": "monitor",
+   "podstawa": 7.36,
+   "zmiany": {
+    "value": [
+     51,
+     52
+    ]
+   }
+  },
+  {
+   "nazwa": "LG 27GS95QX-B",
+   "rodzaj": "monitor",
+   "podstawa": 10.17,
+   "zmiany": {
+    "value": [
+     21,
+     20
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B247YGbmiprx",
+   "rodzaj": "monitor",
+   "podstawa": 4.71,
+   "zmiany": {
+    "value": [
+     82,
+     81
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Nitro VG270P6bmipx",
+   "rodzaj": "monitor",
+   "podstawa": 3.62,
+   "zmiany": {
+    "value": [
+     92,
+     93
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Nitro XV252QLVbmiiprx",
+   "rodzaj": "monitor",
+   "podstawa": 9.79,
+   "zmiany": {
+    "value": [
+     45,
+     25
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer SA322QUEbmiipx",
+   "rodzaj": "monitor",
+   "podstawa": 10.72,
+   "zmiany": {
+    "value": [
+     20,
+     14
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
+   "rodzaj": "monitor",
+   "podstawa": 4.82,
+   "zmiany": {
+    "value": [
+     81,
+     80
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 27B3HA2",
+   "rodzaj": "monitor",
+   "podstawa": 4.52,
+   "zmiany": {
+    "value": [
+     86,
+     83
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q32E4U",
+   "rodzaj": "monitor",
+   "podstawa": 11.05,
+   "zmiany": {
+    "value": [
+     10,
+     11
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA279HG",
+   "rodzaj": "monitor",
+   "podstawa": 4.78,
+   "zmiany": {
+    "value": [
+     79,
+     80
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA27DQFS",
+   "rodzaj": "monitor",
+   "podstawa": 7.72,
+   "zmiany": {
+    "value": [
+     57,
+     48
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VZ279HG",
+   "rodzaj": "monitor",
+   "podstawa": 5.66,
+   "zmiany": {
+    "value": [
+     71,
+     70
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ GW2491P",
+   "rodzaj": "monitor",
+   "podstawa": 3.17,
+   "zmiany": {
+    "value": [
+     99,
+     98
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung LS27FG502SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 8.48,
+   "zmiany": {
+    "value": [
+     41,
+     39
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 133.7,
+   "zmiany": {
+    "value": [
+     6,
+     9
+    ],
+    "overall": [
+     64,
+     65
+    ],
+    "ultra": [
+     75,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 8400F, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 90.11,
+   "zmiany": {
+    "value": [
+     73,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 8400F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 94.35,
+   "zmiany": {
+    "value": [
+     67,
+     65
+    ],
+    "overall": [
+     78,
+     77
+    ],
+    "ultra": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 8400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 102.46,
+   "zmiany": {
+    "value": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 138.19,
+   "zmiany": {
+    "value": [
+     0,
+     3
+    ],
+    "overall": [
+     62,
+     63
+    ],
+    "ultra": [
+     74,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 90.35,
+   "zmiany": {
+    "value": [
+     74,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 97.21,
+   "zmiany": {
+    "value": [
+     65,
+     61
+    ],
+    "overall": [
+     77,
+     76
+    ],
+    "ultra": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 103.6,
+   "zmiany": {
+    "value": [
+     55,
+     52
+    ],
+    "overall": [
+     77,
+     76
+    ],
+    "ultra": [
+     76,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 9800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 130.94,
+   "zmiany": {
+    "value": [
+     11,
+     13
+    ],
+    "overall": [
+     64,
+     65
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 104.46,
+   "zmiany": {
+    "value": [
+     55,
+     51
+    ],
+    "overall": [
+     73,
+     72
+    ],
+    "ultra": [
+     57,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 99.99,
+   "zmiany": {
+    "value": [
+     61,
+     57
+    ],
+    "overall": [
+     76,
+     75
+    ],
+    "ultra": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 97.17,
+   "zmiany": {
+    "value": [
+     65,
+     61
+    ],
+    "overall": [
+     77,
+     76
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 104.93,
+   "zmiany": {
+    "value": [
+     52,
+     50
+    ],
+    "ultra": [
+     75,
+     74
+    ]
+   }
+  }
+ ]
 }
