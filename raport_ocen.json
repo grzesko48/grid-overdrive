@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 11,
+ "przeliczonych": 5,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,123 +20,65 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Gigabyte GS27Q X",
-   "rodzaj": "monitor",
-   "podstawa": 3.75,
-   "zmiany": {
-    "value": [
-     91,
-     92
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer XV270UF3BMIIPRX",
-   "rodzaj": "monitor",
-   "podstawa": 3.49,
-   "zmiany": {
-    "value": [
-     89,
-     95
-    ]
-   }
-  },
-  {
-   "nazwa": "Gigabyte Aorus FO27Q5P",
-   "rodzaj": "monitor",
-   "podstawa": 7.37,
-   "zmiany": {
-    "value": [
-     52,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "LG 27GS95QX-B",
-   "rodzaj": "monitor",
-   "podstawa": 10.54,
-   "zmiany": {
-    "value": [
-     20,
-     16
-    ]
-   }
-  },
-  {
    "nazwa": "MSI MAG 272QPDE QD-OLED X24",
    "rodzaj": "monitor",
-   "podstawa": 8.22,
+   "podstawa": 8.28,
    "zmiany": {
     "value": [
-     40,
-     42
+     42,
+     41
     ]
    }
   },
   {
-   "nazwa": "Acer Nitro XV252QLVbmiiprx",
+   "nazwa": "AOC 27B3HA2",
    "rodzaj": "monitor",
-   "podstawa": 11.83,
+   "podstawa": 4.48,
    "zmiany": {
     "value": [
-     25,
-     2
+     83,
+     84
     ]
    }
   },
   {
-   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
+   "nazwa": "AOC Q27P4U",
    "rodzaj": "monitor",
-   "podstawa": 4.7,
+   "podstawa": 6.53,
    "zmiany": {
     "value": [
-     80,
-     81
+     59,
+     61
     ]
    }
   },
   {
-   "nazwa": "Acer Vero CB2 CB272P6bipr",
+   "nazwa": "Samsung LS27FG502SUXEN",
    "rodzaj": "monitor",
-   "podstawa": 3.86,
+   "podstawa": 8.39,
    "zmiany": {
     "value": [
-     91,
-     90
+     39,
+     40
     ]
    }
   },
   {
-   "nazwa": "AOC Q27B35S3",
-   "rodzaj": "monitor",
-   "podstawa": 4.68,
+   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
+   "rodzaj": "pc",
+   "podstawa": 106.94,
    "zmiany": {
     "value": [
-     84,
-     81
-    ]
-   }
-  },
-  {
-   "nazwa": "Arozzi Nova 32 AZ-NO-32T2K180-BK",
-   "rodzaj": "monitor",
-   "podstawa": 7.55,
-   "zmiany": {
-    "value": [
-     50,
-     49
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27ACSR",
-   "rodzaj": "monitor",
-   "podstawa": 5.27,
-   "zmiany": {
-    "value": [
-     77,
-     75
+     58,
+     47
+    ],
+    "overall": [
+     65,
+     62
+    ],
+    "ultra": [
+     45,
+     43
     ]
    }
   }

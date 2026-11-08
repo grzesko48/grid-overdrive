@@ -1,32 +1,59 @@
 {
  "dopisane_monitory": [
-  "BenQ Mobiuz EX251 9H.LN9LA.TBE",
-  "BenQ Mobiuz EX271 9H.LNALA.TBE",
-  "AOC Monitor AOC LED 27 27B3HA2",
-  "Philips 1000 series24E1N1100A/00"
+  "Acer KA242YP0bi",
+  "Amzfast AMZG27C1Q Pro",
+  "KOORUI G2741L IPS 160 Hz 1ms",
+  "Dell SE2426HG",
+  "iiyama ProLite X2493HSU-B1",
+  "iiyama ProLite XB2493HSU-B1",
+  "iiyama ProLite X2793HSU-B1",
+  "iiyama ProLite XB2793HSU-B1",
+  "iiyama G-Master GB2591HSU-B1 Gold Phoenix"
  ],
  "dopisane_pc": [
-  "Morele | Core i5-14400F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core i5-14400F, RTX 5070 12GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core i5-14400F, RTX 5070 12GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Core i7-12700KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core i7-12700KF, RTX 5070 12GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core i7-12700KF, RX 9070 16GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core i7-12700KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core i7-12700KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core i7-12700KF, RTX 5070 12GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5050 8GB, 16GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 225F, RTX 5050 8GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD"
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 16GB DDR5, 512GB SSD",
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core i7-12700KF, RTX 5070 12GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Core i7-12700KF, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core i7-12700KF, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 7700, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 9700X, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD"
  ],
- "uzupelnione": [],
+ "uzupelnione": [
+  [
+   "ASUS TUF Gaming VG259QMRL5A",
+   "xkom"
+  ],
+  [
+   "AOC 27G4ZRE",
+   "xkom"
+  ],
+  [
+   "AOC 27G4ZR",
+   "xkom"
+  ],
+  [
+   "AOC 24G4ZR",
+   "xkom"
+  ]
+ ],
  "konflikty": [],
  "pominiete": [
   [
@@ -39,7 +66,31 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 589 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 595 adresów w następnych przebiegach"
+  ],
+  [
+   "xkom",
+   "limit pobrań (25 na sklep) — 31 adresów w następnych przebiegach"
+  ],
+  [
+   "ASUS TUF Gaming VG32AQA1A",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 25G4SRE",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 25G4SXU",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC Q27B36X",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 24G4ZRE",
+   "nazwa już istnieje na stronie"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -50,48 +101,132 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
+   "https://www.x-kom.pl/p/1362862-desktop-smx-battlestation-m3a-i5-12400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1362863-desktop-smx-battlestation-m3a-i5-12400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1475166-desktop-polecany-zestaw-i5-12400f-32gb-1tb-rtx5050-w11x-g-master-gb2441hsu-b1.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1509239-desktop-polecany-zestaw-ryzen-7-5700x-32gb-1tb-rx-9070-xt.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3600 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1517591-desktop-smx-battlestation-m7a-i5-14400f-32gb-1tb-rtx5050-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1517592-desktop-smx-battlestation-m8a-i5-14400f-32gb-1tb-rtx5050-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1520622-desktop-smx-battlestation-m7a-i5-14400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1520804-desktop-smx-battlestation-m7a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1520807-desktop-smx-battlestation-m8a-i5-14400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1520810-desktop-smx-battlestation-m8a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1520813-desktop-smx-battlestation-g3a-i5-14400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1520825-desktop-smx-battlestation-g3a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1524118-desktop-smx-battlestation-g2a-i5-14400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1524120-desktop-smx-battlestation-g2a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1540843-desktop-smx-battlestation-m3a-i5-14400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1540865-desktop-smx-battlestation-m3a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1540869-desktop-smx-battlestation-m3a-i5-14400f-16gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '16 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1541931-desktop-smx-battlestation-g2a-r5-5600-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1542050-desktop-smx-battlestation-g2a-i5-12400f-32gb-1tb-rtx5060-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1542052-desktop-smx-battlestation-g2a-i5-12400f-32gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1542346-desktop-smx-battlestation-m1a-i5-12400f-16gb-1tb-rtx5060ti-w11x.html",
+   "pamięć nie jest DDR5: '16 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1579739-desktop-polecany-zestaw-core-i5-12400f-16gb-1tb-rtx5060-ti-16gb.html",
+   "pamięć nie jest DDR5: '16 GB (DIMM DDR4, 3600 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1579742-desktop-polecany-zestaw-core-i5-12400f-16gb-1tb-rtx5070-12gb.html",
+   "pamięć nie jest DDR5: '16 GB (DIMM DDR4, 3600 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1580169-desktop-polecany-zestaw-ryzen-7-5700x-32gb-1tb-rtx5070-12gb.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "https://www.x-kom.pl/p/1580170-desktop-polecany-zestaw-ryzen-7-5700x-32gb-1tb-rx-9070-16gb.html",
+   "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'"
+  ],
+  [
+   "xkom",
+   "limit pobrań (25 na sklep) — 1 adresów w następnych przebiegach"
+  ],
+  [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 790 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 112 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16gb-rtx-5050-2tb-ssd-nvme-windows-11-pg02177-600480924/",
-   "cena 6185 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16gb-rtx-5050-2tb-ssd-nvme-windows-11-pg02219-600480960/",
-   "cena 6190 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16gb-rtx-5050-1tb-ssd-nvme-windows-11-pg01754-600480485/",
-   "cena 6060 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16gb-rtx-5050-1tb-ssd-nvme-windows-11-pg01802-600480524/",
-   "cena 6070 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16gb-rtx-5050-2tb-ssd-nvme-windows-11-pg01659-600480394/",
-   "cena 6405 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16gb-rtx-5050-2tb-ssd-nvme-windows-11-pg01707-600480434/",
-   "cena 6410 zł poniżej progu 6500 zł"
+   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500f-16gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00589-600479304/",
+   "cena 6380 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 926, do sprawdzenia 614"
+   "monitor": "lista 934, do sprawdzenia 620"
   },
   "xkom": {
-   "monitor": "lista 0, do sprawdzenia 0",
-   "pc": "lista 0, do sprawdzenia 0"
+   "monitor": "lista 295, do sprawdzenia 56",
+   "pc": "lista 73, do sprawdzenia 26"
   },
   "mediamarkt": {
-   "monitor": "lista 52, do sprawdzenia 2",
+   "monitor": "lista 53, do sprawdzenia 0",
    "pc": "lista 8, do sprawdzenia 0"
   },
   "plugnplay": {
@@ -101,7 +236,7 @@
    "pc": "lista 5, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 998, do sprawdzenia 815"
+   "pc": "lista 194, do sprawdzenia 137"
   }
  }
 }
