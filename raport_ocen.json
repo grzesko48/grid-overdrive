@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 15,
+ "przeliczonych": 94,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,50 +20,215 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Gigabyte MO27Q2A",
+   "nazwa": "Asus TUF Gaming VG27AQML5A",
    "rodzaj": "monitor",
-   "podstawa": 7.31,
+   "podstawa": 4.15,
    "zmiany": {
     "value": [
-     54,
-     52
-    ],
-    "overall": [
-     71,
-     70
+     86,
+     87
     ]
    }
   },
   {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "nazwa": "Gigabyte GS27Q X",
    "rodzaj": "monitor",
-   "podstawa": 8.18,
+   "podstawa": 3.78,
    "zmiany": {
     "value": [
-     54,
-     42
+     92,
+     91
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 9.88,
+   "zmiany": {
+    "value": [
+     29,
+     24
     ],
     "overall": [
-     68,
-     64
+     54,
+     52
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27G4SDR",
+   "rodzaj": "monitor",
+   "podstawa": 5.41,
+   "zmiany": {
+    "value": [
+     74,
+     73
     ]
    }
   },
   {
    "nazwa": "LG UltraGear 27GX700A-B",
    "rodzaj": "monitor",
-   "podstawa": 7.95,
+   "podstawa": 8.41,
    "zmiany": {
     "value": [
-     47,
-     45
+     45,
+     40
+    ],
+    "overall": [
+     67,
+     65
     ]
    }
   },
   {
-   "nazwa": "Acer X27UF5bmiippruzx",
+   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
    "rodzaj": "monitor",
-   "podstawa": 6.49,
+   "podstawa": 9.07,
+   "zmiany": {
+    "value": [
+     32,
+     33
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "rodzaj": "monitor",
+   "podstawa": 4.69,
+   "zmiany": {
+    "value": [
+     82,
+     81
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 8.57,
+   "zmiany": {
+    "value": [
+     37,
+     38
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B277UGbmiqpruzx",
+   "rodzaj": "monitor",
+   "podstawa": 11.77,
+   "zmiany": {
+    "value": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Nitro VG271UM3",
+   "rodzaj": "monitor",
+   "podstawa": 10.5,
+   "zmiany": {
+    "value": [
+     16,
+     17
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer SA322QUEbmiipx",
+   "rodzaj": "monitor",
+   "podstawa": 10.63,
+   "zmiany": {
+    "value": [
+     14,
+     15
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
+   "rodzaj": "monitor",
+   "podstawa": 4.83,
+   "zmiany": {
+    "value": [
+     81,
+     80
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 24E4U",
+   "rodzaj": "monitor",
+   "podstawa": 4.39,
+   "zmiany": {
+    "value": [
+     84,
+     85
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 24P4CV",
+   "rodzaj": "monitor",
+   "podstawa": 7.88,
+   "zmiany": {
+    "value": [
+     47,
+     46
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 27E4CV",
+   "rodzaj": "monitor",
+   "podstawa": 6.36,
+   "zmiany": {
+    "value": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27G42XE",
+   "rodzaj": "monitor",
+   "podstawa": 3.2,
+   "zmiany": {
+    "value": [
+     100,
+     98
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27G4XF",
+   "rodzaj": "monitor",
+   "podstawa": 3.27,
+   "zmiany": {
+    "value": [
+     95,
+     97
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27P4U",
+   "rodzaj": "monitor",
+   "podstawa": 6.7,
+   "zmiany": {
+    "value": [
+     61,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "ASRock PG32QFT",
+   "rodzaj": "monitor",
+   "podstawa": 6.54,
    "zmiany": {
     "value": [
      60,
@@ -72,135 +237,1091 @@
    }
   },
   {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
+   "nazwa": "ASRock Phantom Gaming PG32QF2B",
    "rodzaj": "monitor",
-   "podstawa": 6.5,
+   "podstawa": 6.22,
    "zmiany": {
     "value": [
-     62,
-     61
+     63,
+     64
     ]
    }
   },
   {
-   "nazwa": "LG 27GS95QX-B",
+   "nazwa": "ASUS Eye Care Gaming VY279HGR",
    "rodzaj": "monitor",
-   "podstawa": 10.09,
+   "podstawa": 4.28,
    "zmiany": {
     "value": [
-     16,
-     21
+     85,
+     86
     ]
    }
   },
   {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "nazwa": "ASUS ROG Strix XG27UCG",
    "rodzaj": "monitor",
-   "podstawa": 8.65,
+   "podstawa": 9.99,
    "zmiany": {
     "value": [
-     41,
-     37
+     20,
+     22
     ]
    }
   },
   {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMES",
+   "nazwa": "ASUS TUF Gaming VG249QE5A",
    "rodzaj": "monitor",
-   "podstawa": 7.91,
+   "podstawa": 2.97,
    "zmiany": {
     "value": [
-     44,
-     45
+     96,
+     100
     ]
    }
   },
   {
-   "nazwa": "AOC Q27E4CV",
+   "nazwa": "ASUS TUF Gaming VG27AQA1A",
    "rodzaj": "monitor",
-   "podstawa": 8.66,
+   "podstawa": 4.96,
+   "zmiany": {
+    "value": [
+     73,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQL3A",
+   "rodzaj": "monitor",
+   "podstawa": 8.43,
    "zmiany": {
     "value": [
      39,
-     37
+     40
     ]
    }
   },
   {
-   "nazwa": "AOC Q32E4U",
+   "nazwa": "ASUS TUF Gaming VG27UQ1A",
    "rodzaj": "monitor",
-   "podstawa": 10.96,
+   "podstawa": 10.06,
    "zmiany": {
     "value": [
-     11,
-     12
+     14,
+     22
     ]
    }
   },
   {
-   "nazwa": "ASUS VA24DQFS",
+   "nazwa": "ASUS TUF Gaming VG27UQEL5A",
    "rodzaj": "monitor",
-   "podstawa": 5.35,
+   "podstawa": 3.36,
    "zmiany": {
     "value": [
-     75,
-     74
+     95,
+     96
     ]
    }
   },
   {
-   "nazwa": "ASUS VZ279HG",
+   "nazwa": "ASUS TUF Gaming VG27VQM",
    "rodzaj": "monitor",
-   "podstawa": 5.65,
+   "podstawa": 3.4,
    "zmiany": {
     "value": [
-     70,
+     95,
+     96
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA279HG",
+   "rodzaj": "monitor",
+   "podstawa": 5.04,
+   "zmiany": {
+    "value": [
+     80,
+     77
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA279QGSE",
+   "rodzaj": "monitor",
+   "podstawa": 8.12,
+   "zmiany": {
+    "value": [
+     54,
+     43
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ BL2490C",
+   "rodzaj": "monitor",
+   "podstawa": 3.26,
+   "zmiany": {
+    "value": [
+     95,
+     97
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ GW2490TC",
+   "rodzaj": "monitor",
+   "podstawa": 4.08,
+   "zmiany": {
+    "value": [
+     89,
+     88
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo L27-45",
+   "rodzaj": "monitor",
+   "podstawa": 3.47,
+   "zmiany": {
+    "value": [
+     100,
+     95
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI PRO MAX 271QPHW E14",
+   "rodzaj": "monitor",
+   "podstawa": 6.24,
+   "zmiany": {
+    "value": [
+     77,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "iiyama G-Master GB2771UHSU-B1 Red Eagle",
+   "rodzaj": "monitor",
+   "podstawa": 4.09,
+   "zmiany": {
+    "value": [
+     85,
+     88
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 127.69,
+   "zmiany": {
+    "value": [
+     22,
+     18
+    ],
+    "overall": [
+     62,
+     61
+    ],
+    "ultra": [
+     50,
+     49
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 119.72,
+   "zmiany": {
+    "value": [
+     31,
+     29
+    ],
+    "overall": [
+     67,
+     66
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Core i7-14700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 137.31,
+   "zmiany": {
+    "value": [
+     12,
+     4
+    ],
+    "overall": [
+     60,
+     57
+    ],
+    "ultra": [
+     49,
+     47
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 103.54,
+   "zmiany": {
+    "value": [
+     53,
+     52
+    ],
+    "overall": [
+     60,
+     59
+    ],
+    "ultra": [
+     42,
+     41
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 99.23,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ],
+    "overall": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 98.59,
+   "zmiany": {
+    "value": [
+     61,
+     59
+    ],
+    "overall": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 7 265KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 109.0,
+   "zmiany": {
+    "value": [
+     46,
+     44
+    ],
+    "overall": [
+     61,
+     60
+    ],
+    "ultra": [
+     43,
+     42
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 130.56,
+   "zmiany": {
+    "value": [
+     21,
+     13
+    ],
+    "overall": [
+     64,
+     62
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 103.06,
+   "zmiany": {
+    "value": [
+     55,
+     53
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 101.53,
+   "zmiany": {
+    "value": [
+     57,
+     55
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 101.53,
+   "zmiany": {
+    "value": [
+     57,
+     55
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 103.06,
+   "zmiany": {
+    "value": [
+     55,
+     53
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "LENOVO Legion T5 30AGB10 (Ryzen 5 7600, RTX 5060 8GB)",
+   "rodzaj": "pc",
+   "podstawa": 103.06,
+   "zmiany": {
+    "value": [
+     0,
+     53
+    ],
+    "overall": [
+     54,
      71
+    ],
+    "ultra": [
+     44,
+     55
     ]
    }
   },
   {
-   "nazwa": "BenQ GW2786TC",
-   "rodzaj": "monitor",
-   "podstawa": 8.53,
+   "nazwa": "x-kom | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 119.04,
    "zmiany": {
     "value": [
-     38,
+     10,
+     30
+    ],
+    "overall": [
+     64,
+     70
+    ],
+    "ultra": [
+     68,
+     72
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 137.08,
+   "zmiany": {
+    "value": [
+     7,
+     4
+    ],
+    "overall": [
+     64,
+     63
+    ],
+    "ultra": [
+     76,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "x-kom | Ryzen 7 9800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 144.05,
+   "zmiany": {
+    "value": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 245KF, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 112.99,
+   "zmiany": {
+    "value": [
+     40,
+     39
+    ],
+    "ultra": [
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 102.31,
+   "zmiany": {
+    "value": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 100.9,
+   "zmiany": {
+    "value": [
+     57,
+     56
+    ],
+    "overall": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 108.31,
+   "zmiany": {
+    "value": [
+     46,
+     45
+    ],
+    "overall": [
+     59,
+     58
+    ],
+    "ultra": [
+     41,
+     40
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 108.31,
+   "zmiany": {
+    "value": [
+     47,
+     45
+    ],
+    "overall": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 103.85,
+   "zmiany": {
+    "value": [
+     53,
+     52
+    ],
+    "overall": [
+     60,
+     59
+    ],
+    "ultra": [
+     42,
+     41
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 109.85,
+   "zmiany": {
+    "value": [
+     44,
+     43
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 100.9,
+   "zmiany": {
+    "value": [
+     57,
+     56
+    ],
+    "overall": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 99.17,
+   "zmiany": {
+    "value": [
+     60,
+     58
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 7 265KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 109.29,
+   "zmiany": {
+    "value": [
+     45,
+     44
+    ],
+    "overall": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 117.69,
+   "zmiany": {
+    "value": [
+     33,
+     32
+    ],
+    "ultra": [
+     52,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 106.94,
+   "zmiany": {
+    "value": [
+     49,
+     47
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 7 265KF, RTX 5060 8GB, 16GB DDR5, 512GB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 107.57,
+   "zmiany": {
+    "value": [
+     47,
+     46
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RTX 5060 8GB, 16GB DDR5, 2TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 106.62,
+   "zmiany": {
+    "value": [
+     49,
+     48
+    ],
+    "overall": [
+     60,
+     59
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 106.62,
+   "zmiany": {
+    "value": [
+     50,
+     48
+    ],
+    "overall": [
+     62,
+     61
+    ],
+    "ultra": [
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 106.34,
+   "zmiany": {
+    "value": [
+     50,
+     48
+    ],
+    "overall": [
+     62,
+     61
+    ],
+    "ultra": [
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 96.9,
+   "zmiany": {
+    "value": [
+     64,
+     62
+    ],
+    "overall": [
+     64,
+     63
+    ],
+    "ultra": [
+     56,
+     55
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 114.62,
+   "zmiany": {
+    "value": [
+     37,
+     36
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 106.67,
+   "zmiany": {
+    "value": [
+     50,
+     48
+    ],
+    "overall": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 97.22,
+   "zmiany": {
+    "value": [
+     63,
+     61
+    ],
+    "overall": [
+     65,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
+   "rodzaj": "pc",
+   "podstawa": 101.25,
+   "zmiany": {
+    "value": [
+     58,
+     55
+    ],
+    "overall": [
+     64,
+     63
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 105.07,
+   "zmiany": {
+    "value": [
+     51,
+     50
+    ],
+    "overall": [
+     62,
+     61
+    ],
+    "ultra": [
+     43,
+     42
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 101.13,
+   "zmiany": {
+    "value": [
+     58,
+     56
+    ],
+    "overall": [
+     63,
+     62
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 100.85,
+   "zmiany": {
+    "value": [
+     58,
+     56
+    ],
+    "overall": [
+     63,
+     62
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 108.31,
+   "zmiany": {
+    "value": [
+     47,
+     45
+    ],
+    "overall": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 108.31,
+   "zmiany": {
+    "value": [
+     47,
+     45
+    ],
+    "overall": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 108.03,
+   "zmiany": {
+    "value": [
+     48,
+     46
+    ],
+    "overall": [
+     61,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 104.08,
+   "zmiany": {
+    "value": [
+     53,
+     51
+    ],
+    "ultra": [
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 100.14,
+   "zmiany": {
+    "value": [
+     59,
+     57
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 101.13,
+   "zmiany": {
+    "value": [
+     58,
+     56
+    ],
+    "overall": [
+     63,
+     62
+    ],
+    "ultra": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-12400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 113.08,
+   "zmiany": {
+    "value": [
+     40,
+     38
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i7-14700F, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 111.19,
+   "zmiany": {
+    "value": [
+     42,
+     41
+    ],
+    "overall": [
+     57,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i7-14700F, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 111.19,
+   "zmiany": {
+    "value": [
+     42,
+     41
+    ],
+    "overall": [
+     57,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i7-14700F, RTX 5060 8GB, 16GB DDR5, 512GB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 112.39,
+   "zmiany": {
+    "value": [
+     41,
+     39
+    ],
+    "ultra": [
+     40,
      39
     ]
    }
   },
   {
-   "nazwa": "Kobold (GoblinPC)",
+   "nazwa": "Morele | Core i7-14700F, RTX 5060 8GB, 16GB DDR5, 512GB SSD (4)",
    "rodzaj": "pc",
-   "podstawa": 143.19,
+   "podstawa": 112.84,
    "zmiany": {
     "value": [
-     1,
-     0
+     40,
+     39
     ],
-    "overall": [
-     59,
-     58
+    "ultra": [
+     40,
+     39
     ]
    }
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+   "nazwa": "Morele | Core Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
    "rodzaj": "pc",
-   "podstawa": 111.1,
+   "podstawa": 100.9,
    "zmiany": {
     "value": [
      57,
-     41
+     56
     ],
     "overall": [
-     78,
-     73
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 102.54,
+   "zmiany": {
+    "value": [
+     55,
+     54
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "podstawa": 106.72,
+   "zmiany": {
+    "value": [
+     49,
+     48
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 104.37,
+   "zmiany": {
+    "value": [
+     53,
+     51
     ],
     "ultra": [
-     80,
-     76
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+   "rodzaj": "pc",
+   "podstawa": 104.37,
+   "zmiany": {
+    "value": [
+     53,
+     51
+    ],
+    "ultra": [
+     54,
+     53
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
+   "rodzaj": "pc",
+   "podstawa": 100.83,
+   "zmiany": {
+    "value": [
+     58,
+     56
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 98.87,
+   "zmiany": {
+    "value": [
+     61,
+     59
+    ],
+    "overall": [
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+   "rodzaj": "pc",
+   "podstawa": 98.89,
+   "zmiany": {
+    "value": [
+     61,
+     59
+    ],
+    "ultra": [
+     56,
+     55
     ]
    }
   }
