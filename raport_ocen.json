@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 5,
+ "przeliczonych": 15,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,65 +20,187 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "nazwa": "Gigabyte MO27Q2A",
    "rodzaj": "monitor",
-   "podstawa": 8.28,
+   "podstawa": 7.31,
    "zmiany": {
     "value": [
-     42,
-     41
+     54,
+     52
+    ],
+    "overall": [
+     71,
+     70
     ]
    }
   },
   {
-   "nazwa": "AOC 27B3HA2",
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
    "rodzaj": "monitor",
-   "podstawa": 4.48,
+   "podstawa": 8.18,
    "zmiany": {
     "value": [
-     83,
-     84
+     54,
+     42
+    ],
+    "overall": [
+     68,
+     64
     ]
    }
   },
   {
-   "nazwa": "AOC Q27P4U",
+   "nazwa": "LG UltraGear 27GX700A-B",
    "rodzaj": "monitor",
-   "podstawa": 6.53,
+   "podstawa": 7.95,
    "zmiany": {
     "value": [
-     59,
+     47,
+     45
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer X27UF5bmiippruzx",
+   "rodzaj": "monitor",
+   "podstawa": 6.49,
+   "zmiany": {
+    "value": [
+     60,
      61
     ]
    }
   },
   {
-   "nazwa": "Samsung LS27FG502SUXEN",
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
    "rodzaj": "monitor",
-   "podstawa": 8.39,
+   "podstawa": 6.5,
    "zmiany": {
     "value": [
-     39,
-     40
+     62,
+     61
     ]
    }
   },
   {
-   "nazwa": "Gigabyte Aorus Prime 3 AP351 (Ryzen 7 9700X, RTX 5060)",
-   "rodzaj": "pc",
-   "podstawa": 106.94,
+   "nazwa": "LG 27GS95QX-B",
+   "rodzaj": "monitor",
+   "podstawa": 10.09,
    "zmiany": {
     "value": [
-     58,
-     47
+     16,
+     21
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 8.65,
+   "zmiany": {
+    "value": [
+     41,
+     37
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMES",
+   "rodzaj": "monitor",
+   "podstawa": 7.91,
+   "zmiany": {
+    "value": [
+     44,
+     45
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27E4CV",
+   "rodzaj": "monitor",
+   "podstawa": 8.66,
+   "zmiany": {
+    "value": [
+     39,
+     37
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q32E4U",
+   "rodzaj": "monitor",
+   "podstawa": 10.96,
+   "zmiany": {
+    "value": [
+     11,
+     12
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA24DQFS",
+   "rodzaj": "monitor",
+   "podstawa": 5.35,
+   "zmiany": {
+    "value": [
+     75,
+     74
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VZ279HG",
+   "rodzaj": "monitor",
+   "podstawa": 5.65,
+   "zmiany": {
+    "value": [
+     70,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ GW2786TC",
+   "rodzaj": "monitor",
+   "podstawa": 8.53,
+   "zmiany": {
+    "value": [
+     38,
+     39
+    ]
+   }
+  },
+  {
+   "nazwa": "Kobold (GoblinPC)",
+   "rodzaj": "pc",
+   "podstawa": 143.19,
+   "zmiany": {
+    "value": [
+     1,
+     0
     ],
     "overall": [
-     65,
-     62
+     59,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "PlugNPlay | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+   "rodzaj": "pc",
+   "podstawa": 111.1,
+   "zmiany": {
+    "value": [
+     57,
+     41
+    ],
+    "overall": [
+     78,
+     73
     ],
     "ultra": [
-     45,
-     43
+     80,
+     76
     ]
    }
   }
