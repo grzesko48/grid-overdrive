@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 96,
+ "przeliczonych": 55,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,381 +20,20 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Asus TUF Gaming VG27AQML5A",
+   "nazwa": "MSI MAG 274QF X24",
    "rodzaj": "monitor",
-   "podstawa": 4.49,
-   "zmiany": {
-    "value": [
-     87,
-     83
-    ],
-    "overall": [
-     74,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27G41ZDF",
-   "rodzaj": "monitor",
-   "podstawa": 5.41,
-   "zmiany": {
-    "value": [
-     71,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QZD2",
-   "rodzaj": "monitor",
-   "podstawa": 6.66,
-   "zmiany": {
-    "value": [
-     55,
-     59
-    ],
-    "overall": [
-     68,
-     70
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion 27QD-10",
-   "rodzaj": "monitor",
-   "podstawa": 3.83,
-   "zmiany": {
-    "value": [
-     90,
-     91
-    ],
-    "overall": [
-     70,
-     71
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
-   "rodzaj": "monitor",
-   "podstawa": 8.16,
-   "zmiany": {
-    "value": [
-     42,
-     43
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QKD2",
-   "rodzaj": "monitor",
-   "podstawa": 5.62,
-   "zmiany": {
-    "value": [
-     77,
-     71
-    ],
-    "overall": [
-     86,
-     84
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 271QP QD-OLED X28",
-   "rodzaj": "monitor",
-   "podstawa": 8.01,
-   "zmiany": {
-    "value": [
-     54,
-     44
-    ],
-    "overall": [
-     70,
-     67
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer X27UF5bmiippruzx",
-   "rodzaj": "monitor",
-   "podstawa": 6.59,
-   "zmiany": {
-    "value": [
-     61,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMESZ",
-   "rodzaj": "monitor",
-   "podstawa": 8.57,
-   "zmiany": {
-    "value": [
-     30,
-     38
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDPG",
-   "rodzaj": "monitor",
-   "podstawa": 6.77,
-   "zmiany": {
-    "value": [
-     61,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQM5F",
-   "rodzaj": "monitor",
-   "podstawa": 4.24,
-   "zmiany": {
-    "value": [
-     85,
-     86
-    ]
-   }
-  },
-  {
-   "nazwa": "Gigabyte Aorus FO27Q5P",
-   "rodzaj": "monitor",
-   "podstawa": 7.35,
-   "zmiany": {
-    "value": [
-     51,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 272QP QD-OLED X50",
-   "rodzaj": "monitor",
-   "podstawa": 5.96,
-   "zmiany": {
-    "value": [
-     68,
-     67
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung OdysseyG60SD",
-   "rodzaj": "monitor",
-   "podstawa": 7.42,
-   "zmiany": {
-    "value": [
-     50,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer B277KLBbmipruzx",
-   "rodzaj": "monitor",
-   "podstawa": 10.08,
-   "zmiany": {
-    "value": [
-     23,
-     21
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer CB272P6bmiprx",
-   "rodzaj": "monitor",
-   "podstawa": 4.3,
-   "zmiany": {
-    "value": [
-     85,
-     86
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
-   "rodzaj": "monitor",
-   "podstawa": 4.9,
-   "zmiany": {
-    "value": [
-     80,
-     79
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC 24E4CV",
-   "rodzaj": "monitor",
-   "podstawa": 6.47,
-   "zmiany": {
-    "value": [
-     65,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC 24P4CV",
-   "rodzaj": "monitor",
-   "podstawa": 7.74,
-   "zmiany": {
-    "value": [
-     46,
-     47
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC G1 24G15N2",
-   "rodzaj": "monitor",
-   "podstawa": 3.02,
-   "zmiany": {
-    "value": [
-     99,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q24G4RE",
-   "rodzaj": "monitor",
-   "podstawa": 3.32,
-   "zmiany": {
-    "value": [
-     98,
-     96
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27P4CV",
-   "rodzaj": "monitor",
-   "podstawa": 9.67,
-   "zmiany": {
-    "value": [
-     25,
-     26
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27P4U",
-   "rodzaj": "monitor",
-   "podstawa": 6.6,
-   "zmiany": {
-    "value": [
-     59,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG249QE5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.4,
-   "zmiany": {
-    "value": [
-     100,
-     96
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG249QML5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.12,
-   "zmiany": {
-    "value": [
-     100,
-     99
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279QE5A",
-   "rodzaj": "monitor",
-   "podstawa": 4.1,
+   "podstawa": 4.16,
    "zmiany": {
     "value": [
      89,
-     88
+     87
     ]
    }
   },
   {
-   "nazwa": "ASUS TUF Gaming VG27UQ1A",
+   "nazwa": "Gigabyte GS27Q X",
    "rodzaj": "monitor",
-   "podstawa": 9.95,
-   "zmiany": {
-    "value": [
-     22,
-     23
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQEL5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.53,
-   "zmiany": {
-    "value": [
-     96,
-     94
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27WQ3B",
-   "rodzaj": "monitor",
-   "podstawa": 4.63,
-   "zmiany": {
-    "value": [
-     87,
-     82
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ GW2490TC",
-   "rodzaj": "monitor",
-   "podstawa": 3.96,
-   "zmiany": {
-    "value": [
-     88,
-     89
-    ]
-   }
-  },
-  {
-   "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
-   "rodzaj": "monitor",
-   "podstawa": 4.58,
-   "zmiany": {
-    "value": [
-     85,
-     82
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung LS27FG502SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 8.35,
-   "zmiany": {
-    "value": [
-     40,
-     41
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Monitor AOC LED 27 27B3HA2",
-   "rodzaj": "monitor",
-   "podstawa": 3.74,
+   "podstawa": 3.75,
    "zmiany": {
     "value": [
      91,
@@ -403,895 +42,601 @@
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 100.15,
+   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 10.35,
    "zmiany": {
     "value": [
-     58,
-     57
-    ],
-    "ultra": [
-     44,
-     43
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 114.62,
-   "zmiany": {
-    "value": [
-     37,
-     36
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 106.15,
-   "zmiany": {
-    "value": [
-     50,
-     48
+     24,
+     18
     ],
     "overall": [
-     58,
-     57
-    ],
-    "ultra": [
-     41,
-     40
+     52,
+     51
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 106.2,
+   "nazwa": "AOC Q27G4ZD",
+   "rodzaj": "monitor",
+   "podstawa": 5.57,
    "zmiany": {
     "value": [
-     50,
-     48
-    ],
-    "ultra": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 106.11,
-   "zmiany": {
-    "value": [
-     51,
-     48
-    ],
-    "overall": [
-     61,
-     60
-    ],
-    "ultra": [
-     54,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 120.82,
-   "zmiany": {
-    "value": [
-     29,
-     27
-    ],
-    "overall": [
      70,
-     69
-    ],
-    "ultra": [
-     72,
      71
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 102.31,
+   "nazwa": "Acer CE270UXwmiipprx",
+   "rodzaj": "monitor",
+   "podstawa": 7.39,
    "zmiany": {
     "value": [
      55,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 104.44,
-   "zmiany": {
-    "value": [
-     53,
      51
     ],
     "overall": [
-     62,
-     61
+     69,
+     68
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 100.85,
+   "nazwa": "MSI MAG 272QP QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 5.83,
    "zmiany": {
     "value": [
-     58,
-     56
+     73,
+     69
     ],
     "overall": [
-     63,
-     62
-    ],
-    "ultra": [
-     55,
-     54
+     74,
+     73
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 105.07,
+   "nazwa": "Philips Evnia 27M2N8500/00",
+   "rodzaj": "monitor",
+   "podstawa": 5.17,
    "zmiany": {
     "value": [
-     52,
-     50
+     72,
+     76
     ],
     "overall": [
+     79,
+     80
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer X27UF5bmiippruzx",
+   "rodzaj": "monitor",
+   "podstawa": 5.56,
+   "zmiany": {
+    "value": [
      60,
-     59
+     72
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 105.07,
+   "nazwa": "Acer XV270UF3BMIIPRX",
+   "rodzaj": "monitor",
+   "podstawa": 2.99,
    "zmiany": {
     "value": [
-     52,
-     50
-    ],
-    "overall": [
-     60,
-     59
+     95,
+     100
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 105.08,
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMESZ",
+   "rodzaj": "monitor",
+   "podstawa": 8.37,
    "zmiany": {
     "value": [
-     51,
-     50
-    ],
-    "ultra": [
-     42,
-     41
+     38,
+     40
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 9700X, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 111.32,
+   "nazwa": "ASUS ROG Strix XG27ACMES",
+   "rodzaj": "monitor",
+   "podstawa": 4.62,
    "zmiany": {
     "value": [
-     42,
-     41
+     81,
+     82
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 9700X, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 107.35,
+   "nazwa": "ASUS TUF Gaming VG27AQME5F",
+   "rodzaj": "monitor",
+   "podstawa": 4.42,
    "zmiany": {
     "value": [
-     48,
-     47
+     83,
+     84
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 115.08,
+   "nazwa": "Dahua Technology LM27-GO34A",
+   "rodzaj": "monitor",
+   "podstawa": 9.79,
    "zmiany": {
     "value": [
-     37,
-     36
+     18,
+     25
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 110.62,
-   "zmiany": {
-    "value": [
-     43,
-     42
-    ],
-    "overall": [
-     57,
-     56
-    ],
-    "ultra": [
-     40,
-     39
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 110.62,
-   "zmiany": {
-    "value": [
-     43,
-     42
-    ],
-    "overall": [
-     57,
-     56
-    ],
-    "ultra": [
-     40,
-     39
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 106.46,
+   "nazwa": "LC-Power LC-M27QO",
+   "rodzaj": "monitor",
+   "podstawa": 8.02,
    "zmiany": {
     "value": [
      49,
-     48
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 1TB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 108.92,
-   "zmiany": {
-    "value": [
-     45,
      44
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 114.92,
+   "nazwa": "MSI MAG 274CQPDF X32",
+   "rodzaj": "monitor",
+   "podstawa": 3.12,
+   "zmiany": {
+    "value": [
+     95,
+     99
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
+   "rodzaj": "monitor",
+   "podstawa": 8.26,
+   "zmiany": {
+    "value": [
+     38,
+     42
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMES",
+   "rodzaj": "monitor",
+   "podstawa": 8.43,
+   "zmiany": {
+    "value": [
+     45,
+     40
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B247YGbmiprx",
+   "rodzaj": "monitor",
+   "podstawa": 4.55,
+   "zmiany": {
+    "value": [
+     81,
+     83
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B277UGbmiqpruzx",
+   "rodzaj": "monitor",
+   "podstawa": 11.79,
+   "zmiany": {
+    "value": [
+     3,
+     2
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer CB272 G UM.HB2EE.G06",
+   "rodzaj": "monitor",
+   "podstawa": 8.26,
+   "zmiany": {
+    "value": [
+     46,
+     42
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer CB272P6bmiprx",
+   "rodzaj": "monitor",
+   "podstawa": 4.31,
+   "zmiany": {
+    "value": [
+     86,
+     85
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer ED270UP0bmiipx",
+   "rodzaj": "monitor",
+   "podstawa": 3.92,
+   "zmiany": {
+    "value": [
+     91,
+     90
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer ED320QUS3BMIIPX",
+   "rodzaj": "monitor",
+   "podstawa": 4.99,
+   "zmiany": {
+    "value": [
+     80,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Predator XB3 XB273KV5bmiiprx",
+   "rodzaj": "monitor",
+   "podstawa": 8.08,
+   "zmiany": {
+    "value": [
+     29,
+     44
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
+   "rodzaj": "monitor",
+   "podstawa": 4.82,
+   "zmiany": {
+    "value": [
+     79,
+     80
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Vero CB2 CB272P6bipr",
+   "rodzaj": "monitor",
+   "podstawa": 3.84,
+   "zmiany": {
+    "value": [
+     90,
+     91
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 24P4U",
+   "rodzaj": "monitor",
+   "podstawa": 5.28,
+   "zmiany": {
+    "value": [
+     74,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 27B3HA2",
+   "rodzaj": "monitor",
+   "podstawa": 4.26,
+   "zmiany": {
+    "value": [
+     84,
+     86
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 27G4HA",
+   "rodzaj": "monitor",
+   "podstawa": 3.43,
+   "zmiany": {
+    "value": [
+     96,
+     95
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC 27G4X",
+   "rodzaj": "monitor",
+   "podstawa": 3.82,
+   "zmiany": {
+    "value": [
+     90,
+     91
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q24G4RE",
+   "rodzaj": "monitor",
+   "podstawa": 3.19,
+   "zmiany": {
+    "value": [
+     96,
+     98
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27B35S3",
+   "rodzaj": "monitor",
+   "podstawa": 4.41,
+   "zmiany": {
+    "value": [
+     81,
+     84
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27E4CV",
+   "rodzaj": "monitor",
+   "podstawa": 8.48,
    "zmiany": {
     "value": [
      37,
-     36
-    ],
-    "overall": [
-     56,
-     55
+     39
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 9700X, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 105.88,
+   "nazwa": "AOC Q27P4CV",
+   "rodzaj": "monitor",
+   "podstawa": 9.57,
    "zmiany": {
     "value": [
-     50,
-     49
-    ],
-    "overall": [
-     61,
-     60
+     26,
+     27
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 106.62,
-   "zmiany": {
-    "value": [
-     49,
-     48
-    ],
-    "overall": [
-     60,
-     59
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 8400F, RTX 5060 8GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 103.69,
-   "zmiany": {
-    "value": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 98.81,
+   "nazwa": "AOC U27G4R",
+   "rodzaj": "monitor",
+   "podstawa": 6.24,
    "zmiany": {
     "value": [
      60,
-     59
-    ],
-    "overall": [
-     64,
-     63
+     64
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 101.11,
+   "nazwa": "ASUS Eye Care Gaming VY279HGR",
+   "rodzaj": "monitor",
+   "podstawa": 4.56,
    "zmiany": {
     "value": [
-     58,
-     56
+     86,
+     83
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 7600X, RTX 5060 8GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 114.62,
+   "nazwa": "ASUS ProArt PA278CGV",
+   "rodzaj": "monitor",
+   "podstawa": 10.32,
    "zmiany": {
     "value": [
-     37,
-     36
-    ],
-    "overall": [
-     56,
-     55
+     5,
+     19
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 103.94,
+   "nazwa": "ASUS ROG Strix XG27UCG",
+   "rodzaj": "monitor",
+   "podstawa": 9.5,
    "zmiany": {
     "value": [
-     54,
-     52
-    ],
-    "overall": [
-     63,
+     22,
+     28
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG279QE5A",
+   "rodzaj": "monitor",
+   "podstawa": 4.17,
+   "zmiany": {
+    "value": [
+     88,
+     87
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQL3A",
+   "rodzaj": "monitor",
+   "podstawa": 7.38,
+   "zmiany": {
+    "value": [
+     40,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA249QGSE",
+   "rodzaj": "monitor",
+   "podstawa": 5.61,
+   "zmiany": {
+    "value": [
+     76,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA27DQFS",
+   "rodzaj": "monitor",
+   "podstawa": 7.47,
+   "zmiany": {
+    "value": [
+     48,
+     50
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ GW2490TC",
+   "rodzaj": "monitor",
+   "podstawa": 4.44,
+   "zmiany": {
+    "value": [
+     89,
+     84
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI G32C4X",
+   "rodzaj": "monitor",
+   "podstawa": 3.6,
+   "zmiany": {
+    "value": [
+     98,
+     93
+    ]
+   }
+  },
+  {
+   "nazwa": "Dell P2425H",
+   "rodzaj": "monitor",
+   "podstawa": 5.79,
+   "zmiany": {
+    "value": [
+     67,
+     69
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI PRO MP245PG",
+   "rodzaj": "monitor",
+   "podstawa": 4.19,
+   "zmiany": {
+    "value": [
+     85,
+     87
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 274CQF",
+   "rodzaj": "monitor",
+   "podstawa": 4.44,
+   "zmiany": {
+    "value": [
+     93,
+     84
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI PRO MP275QPDG",
+   "rodzaj": "monitor",
+   "podstawa": 10.99,
+   "zmiany": {
+    "value": [
+     0,
+     11
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI PRO MP275QPG",
+   "rodzaj": "monitor",
+   "podstawa": 6.39,
+   "zmiany": {
+    "value": [
+     67,
      62
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 94.37,
+   "nazwa": "MSI PRO MP275PG",
+   "rodzaj": "monitor",
+   "podstawa": 4.49,
    "zmiany": {
     "value": [
-     67,
-     65
-    ],
-    "overall": [
-     65,
-     64
+     78,
+     83
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 104.17,
+   "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
+   "rodzaj": "monitor",
+   "podstawa": 4.37,
    "zmiany": {
     "value": [
-     53,
-     51
-    ],
-    "overall": [
-     62,
-     61
+     82,
+     85
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 100.83,
-   "zmiany": {
-    "value": [
-     58,
-     56
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 111.19,
-   "zmiany": {
-    "value": [
-     42,
-     41
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 98.73,
-   "zmiany": {
-    "value": [
-     61,
-     59
-    ],
-    "overall": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 99.86,
-   "zmiany": {
-    "value": [
-     59,
-     57
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 106.62,
-   "zmiany": {
-    "value": [
-     50,
-     48
-    ],
-    "overall": [
-     62,
-     61
-    ],
-    "ultra": [
-     54,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 108.31,
-   "zmiany": {
-    "value": [
-     47,
-     45
-    ],
-    "overall": [
-     61,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 97.22,
-   "zmiany": {
-    "value": [
-     63,
-     61
-    ],
-    "overall": [
-     65,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 105.69,
-   "zmiany": {
-    "value": [
-     51,
-     49
-    ],
-    "overall": [
-     61,
-     60
-    ],
-    "ultra": [
-     54,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 106.11,
-   "zmiany": {
-    "value": [
-     51,
-     48
-    ],
-    "overall": [
-     61,
-     60
-    ],
-    "ultra": [
-     54,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 104.44,
-   "zmiany": {
-    "value": [
-     53,
-     51
-    ],
-    "overall": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (4)",
-   "rodzaj": "pc",
-   "podstawa": 104.44,
-   "zmiany": {
-    "value": [
-     53,
-     51
-    ],
-    "overall": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 117.69,
-   "zmiany": {
-    "value": [
-     33,
-     32
-    ],
-    "ultra": [
-     52,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 117.69,
-   "zmiany": {
-    "value": [
-     33,
-     32
-    ],
-    "ultra": [
-     52,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 112.31,
+   "nazwa": "Samsung LS27FG502SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 9.68,
    "zmiany": {
     "value": [
      41,
-     40
-    ],
-    "ultra": [
-     53,
-     52
+     26
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 110.46,
+   "nazwa": "MSI PRO MP275PHGN E14",
+   "rodzaj": "monitor",
+   "podstawa": 4.16,
    "zmiany": {
     "value": [
-     43,
-     42
+     79,
+     87
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 112.31,
+   "nazwa": "Acer KA272P0bi",
+   "rodzaj": "monitor",
+   "podstawa": 3.31,
    "zmiany": {
     "value": [
-     41,
-     40
-    ],
-    "ultra": [
-     53,
-     52
+     90,
+     97
     ]
    }
   },
   {
-   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
+   "nazwa": "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
    "rodzaj": "pc",
-   "podstawa": 104.63,
+   "podstawa": 120.37,
    "zmiany": {
     "value": [
-     52,
-     51
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 8GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 106.27,
-   "zmiany": {
-    "value": [
-     49,
-     48
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 105.77,
-   "zmiany": {
-    "value": [
-     51,
-     49
-    ],
-    "overall": [
-     62,
-     61
-    ],
-    "ultra": [
-     54,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 108.36,
-   "zmiany": {
-    "value": [
-     46,
-     45
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 1TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 106.57,
-   "zmiany": {
-    "value": [
-     49,
-     48
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 1TB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 106.27,
-   "zmiany": {
-    "value": [
-     49,
-     48
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 112.39,
-   "zmiany": {
-    "value": [
-     41,
-     39
-    ],
-    "ultra": [
-     41,
-     40
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 114.18,
-   "zmiany": {
-    "value": [
-     38,
-     37
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 102.39,
-   "zmiany": {
-    "value": [
-     55,
-     54
-    ],
-    "ultra": [
-     43,
-     42
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 102.09,
-   "zmiany": {
-    "value": [
-     55,
-     54
-    ],
-    "ultra": [
-     43,
-     42
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 8GB, 16GB DDR5, 512GB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 103.88,
-   "zmiany": {
-    "value": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 106.27,
-   "zmiany": {
-    "value": [
-     49,
-     48
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 112.39,
-   "zmiany": {
-    "value": [
-     41,
-     39
-    ],
-    "ultra": [
-     41,
-     40
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 2TB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 112.39,
-   "zmiany": {
-    "value": [
-     41,
-     39
-    ],
-    "ultra": [
-     41,
-     40
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 2TB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 112.09,
-   "zmiany": {
-    "value": [
-     41,
-     40
-    ],
-    "ultra": [
-     41,
-     40
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 102.39,
-   "zmiany": {
-    "value": [
-     55,
-     54
-    ],
-    "ultra": [
-     43,
-     42
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 103.88,
-   "zmiany": {
-    "value": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7700, RTX 5060 8GB, 16GB DDR5, 512GB SSD (3)",
-   "rodzaj": "pc",
-   "podstawa": 104.18,
-   "zmiany": {
-    "value": [
-     52,
-     51
+     29,
+     28
     ]
    }
   }

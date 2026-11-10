@@ -1,57 +1,55 @@
 {
  "dopisane_monitory": [
-  "Acer ED270W0bmiipx",
-  "AOC G4252E",
-  "LG UltraGear G5 27G550B-B",
-  "LG UltraGear G6 32G620B-B"
+  "Acer XB323QKV4bmiiprx",
+  "ViewSonic VX2479A-HD-PRO",
+  "ViewSonic VX2779A-HD-PRO",
+  "Gigabyte M27Q2 QD",
+  "Gigabyte GS32QA",
+  "Gigabyte M27Q2 QD ICE",
+  "Samsung Odyssey G4 S27HG402EUX",
+  "Dell SE2426H",
+  "Dell SE2726H",
+  "Dell Pro P2426H"
  ],
  "dopisane_pc": [
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (5)",
-  "Morele | Core i7-12700KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core i7-12700KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (4)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)"
+  "x-kom | Ryzen 5 7600, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+  "x-kom | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
+  "x-kom | Ryzen 7 9800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 9800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core i7-12700KF, RTX 5070 Ti 16GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core i5-14400F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 8GB, 16GB DDR5, 512GB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 16GB DDR5, 512GB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD (3)",
+  "Morele | Ryzen 5 7500X3D, RTX 5070 Ti 16GB, 32GB DDR5, 512GB SSD (3)",
+  "Morele | Ryzen 7 9800X3D, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (3)"
  ],
  "uzupelnione": [
   [
-   "iiyama G-Master GB2771HSU-B1 Red Eagle",
+   "ASUS VA249HG",
+   "xkom"
+  ],
+  [
+   "Acer Predator XB3 XB273KV4bmiiprx",
    "mediamarkt"
   ],
   [
-   "iiyama G-Master G2771HS-B1 Red Eagle",
-   "mediamarkt"
-  ],
-  [
-   "iiyama G-Master GB2471HS-B1 Red Eagle",
-   "mediamarkt"
-  ],
-  [
-   "BenQ Mobiuz EX271Q",
-   "morele"
-  ],
-  [
-   "AOC 27B36X",
-   "mediamarkt"
+   "Acer Predator XB253QF3bmiiprx",
+   "xkom"
   ]
  ],
  "konflikty": [],
@@ -66,11 +64,43 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 592 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 591 adresów w następnych przebiegach"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_monitor-hyperx-armada-27-qhd-ips-1ms-1476225.html",
-   "tytuł karty nie jest nazwą modelu: 'Monitor HYPERX Armada 27 QHD IPS 1ms'"
+   "xkom",
+   "limit pobrań (25 na sklep) — 25 adresów w następnych przebiegach"
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_monitor-tcl-24g645-szary-187585252.html",
+   "brak częstotliwości odświeżania"
+  ],
+  [
+   "ASUS TUF Gaming VG32AQA1A",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 25G4SRE",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 25G4SXU",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC Q27B36X",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 24G4ZRE",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "Dell Pro P2726H",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "MSI MAG 321CQF E18",
+   "limit przebiegu — dopisane w następnym"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -82,33 +112,45 @@
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 34 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 1777 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
+  ],
+  [
+   "https://www.morele.net/komputer-artrel-ryzen-5-7500f-32gb-rx-7600-1tb-m-2-pcie-windows-11-pro-600481127/",
+   "cena 6199 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-225f-16gb-rtx-5070-ti-512gb-ssd-nvme-windows-11-pg01777-600480505/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-225f-32gb-rtx-5060-ti-1tb-ssd-nvme-windows-11-600575615/",
+   "limit przebiegu — dopisane w następnym"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 930, do sprawdzenia 617"
+   "monitor": "lista 929, do sprawdzenia 616"
   },
   "xkom": {
-   "monitor": "lista 0, do sprawdzenia 0",
-   "pc": "lista 0, do sprawdzenia 0"
+   "monitor": "lista 291, do sprawdzenia 50",
+   "pc": "lista 48, do sprawdzenia 3"
   },
   "mediamarkt": {
-   "monitor": "lista 56, do sprawdzenia 8",
+   "monitor": "lista 56, do sprawdzenia 3",
    "pc": "lista 10, do sprawdzenia 0"
   },
   "plugnplay": {
-   "pc": "lista niedostępna: lista PlugNPlay: niedostępne kafelki produktów — zmienił się układ strony (adapter do poprawy)"
+   "pc": "lista 78, do sprawdzenia 0"
   },
   "goblinpc": {
    "pc": "lista 5, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 59, do sprawdzenia 59"
+   "pc": "lista 1972, do sprawdzenia 1802"
   }
  }
 }
