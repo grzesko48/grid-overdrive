@@ -1,37 +1,59 @@
 {
  "dopisane_monitory": [
-  "Acer KA272P0bi",
-  "BenQ Mobiuz EX2710S",
-  "iiyama G-Master GB2771UHSU-B1 Red Eagle",
-  "iiyama G-Master GB3261UHSCP-B1 RedEagle"
+  "Acer ED270W0bmiipx",
+  "AOC G4252E",
+  "LG UltraGear G5 27G550B-B",
+  "LG UltraGear G6 32G620B-B"
  ],
  "dopisane_pc": [
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (5)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (5)",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (4)",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core i5-14400F, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD (3)"
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (5)",
+  "Morele | Core i7-12700KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core i7-12700KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (4)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)"
  ],
- "uzupelnione": [],
+ "uzupelnione": [
+  [
+   "iiyama G-Master GB2771HSU-B1 Red Eagle",
+   "mediamarkt"
+  ],
+  [
+   "iiyama G-Master G2771HS-B1 Red Eagle",
+   "mediamarkt"
+  ],
+  [
+   "iiyama G-Master GB2471HS-B1 Red Eagle",
+   "mediamarkt"
+  ],
+  [
+   "BenQ Mobiuz EX271Q",
+   "morele"
+  ],
+  [
+   "AOC 27B36X",
+   "mediamarkt"
+  ]
+ ],
  "konflikty": [],
  "pominiete": [
   [
@@ -44,7 +66,11 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 595 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 592 adresów w następnych przebiegach"
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_monitor-hyperx-armada-27-qhd-ips-1ms-1476225.html",
+   "tytuł karty nie jest nazwą modelu: 'Monitor HYPERX Armada 27 QHD IPS 1ms'"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -56,37 +82,33 @@
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 150 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 34 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-core-i5-14400f-16gb-radeon-rx-9060-xt-8gb-2tb-ssd-nvme-windows-11-pg02243-600480997/",
-   "BŁĄD TECHNICZNY: URLError: <urlopen error [Errno 104] Connection reset by peer>"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 933, do sprawdzenia 620"
+   "monitor": "lista 930, do sprawdzenia 617"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 51, do sprawdzenia 2",
-   "pc": "lista 9, do sprawdzenia 0"
+   "monitor": "lista 56, do sprawdzenia 8",
+   "pc": "lista 10, do sprawdzenia 0"
   },
   "plugnplay": {
-   "pc": "lista 78, do sprawdzenia 0"
+   "pc": "lista niedostępna: lista PlugNPlay: niedostępne kafelki produktów — zmienił się układ strony (adapter do poprawy)"
   },
   "goblinpc": {
    "pc": "lista 5, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 180, do sprawdzenia 175"
+   "pc": "lista 59, do sprawdzenia 59"
   }
  }
 }
