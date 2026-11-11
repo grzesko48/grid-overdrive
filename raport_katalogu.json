@@ -77,7 +77,7 @@
   {
    "id": "20334",
    "nazwa": "Zestaw | Ryzen 7 7700, RTX 5070 Ti 16GB, 32GB DDR5, 1TB, 850W, Exo ARGB",
-   "cena": 11749,
+   "cena": 11949,
    "url": "https://sklep.hard-pc.pl/p20334,zestaw-ryzen-7-7700-rtx-5070-ti-16gb-32gb-ddr5-1tb-850w-exo-argb.html"
   },
   {
@@ -85,12 +85,6 @@
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
    "cena": 10289,
    "url": "https://sklep.hard-pc.pl/p20835,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-ssd-pano-130r-pz-argb-black.html"
-  },
-  {
-   "id": "21156",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 TI 16GB, 32GB DDR5, 1TB SSD, Stellar 5F ARGB WHITE",
-   "cena": 12339,
-   "url": "https://sklep.hard-pc.pl/p21156,zestaw-ryzen-7-7800x3d-rtx-5070-ti-16gb-32gb-ddr5-1tb-ssd-stellar-5f-argb-white.html"
   },
   {
    "id": "21396",
@@ -179,7 +173,7 @@
   {
    "id": "25992",
    "nazwa": "Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
-   "cena": 12239,
+   "cena": 12439,
    "url": "https://sklep.hard-pc.pl/p25992,zestaw-redragon-ryzen-7-7800x3d-rtx-5070-ti-16gb-32gb-ddr5-1tb-ssd-850w-gc-623-argb.html"
   },
   {
@@ -187,12 +181,6 @@
    "nazwa": "Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
    "cena": 10589,
    "url": "https://sklep.hard-pc.pl/p25995,zestaw-redragon-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-ssd-850w-gc-625-argb.html"
-  },
-  {
-   "id": "26000",
-   "nazwa": "Zestaw Redragon | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
-   "cena": 12279,
-   "url": "https://sklep.hard-pc.pl/p26000,zestaw-redragon-ryzen-7-7800x3d-rtx-5070-ti-16gb-32gb-ddr5-1tb-ssd-850w-gc-625-argb.html"
   },
   {
    "id": "26035",
@@ -205,6 +193,12 @@
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR, 1TB SSD, 850W, Aquarius 8000",
    "cena": 9799,
    "url": "https://sklep.hard-pc.pl/p26508,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr-1tb-ssd-850w-aquarius-8000.html"
+  },
+  {
+   "id": "26777",
+   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Define 7 Compact",
+   "cena": 11019,
+   "url": "https://sklep.hard-pc.pl/p26777,zestaw-ryzen-7-7700-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-850w-define-7-compact.html"
   }
  ]
 }
