@@ -1,34 +1,40 @@
 {
  "dopisane_monitory": [
-  "LG 27GS60F",
-  "MSI MAG 321CQF E18"
+  "ASUS BE249QFK"
  ],
  "dopisane_pc": [
-  "Morele | Ryzen 7 9800X3D, RTX 5070 12GB, 64GB DDR5, 1TB SSD",
-  "Morele | Core i7-12700KF, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 7 265KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 7 265KF, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Core Ultra 5 245KF, RTX 5050 8GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 7 265KF, RTX 5050 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 7 265KF, RTX 5050 8GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Core i7-12700KF, RTX 5050 8GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core i7-12700KF, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core i7-12700KF, RTX 5070 Ti 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (4)",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (5)",
-  "Morele | Core Ultra 5 245KF, RX 9070 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 512GB SSD"
+  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 64GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 512GB SSD (3)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 16GB DDR5, 512GB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 512GB SSD (3)",
+  "Morele | Core Ultra 7 265KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 7 265KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 7 265KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD (3)"
  ],
- "uzupelnione": [],
+ "uzupelnione": [
+  [
+   "ASUS TUF Gaming VG27WQ3B",
+   "mediamarkt"
+  ]
+ ],
  "konflikty": [],
  "pominiete": [
   [
@@ -41,11 +47,11 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 589 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 595 adresów w następnych przebiegach"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_gaming-monitor-hp-omen-by-omen-by-hp-27-inch-fhd-240hz-gaming-monitor-omen-27s-czarny-107509740.html",
-   "tytuł karty nie jest nazwą modelu: 'Gaming-monitor HP OMEN by HP 27 inch FHD 240Hz Gaming Monito'"
+   "https://mediamarkt.pl/pl/product/_monitor-lg-ultrafine-27u730a-b-27-uhd-4k-ips-hdr10-usb-c-pd90w-czarny-1502954.html",
+   "60 Hz poza zakresem 100–500 Hz"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -57,32 +63,24 @@
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 1163 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 756 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
-  ],
-  [
-   "https://www.morele.net/komputer-artrel-sirius-mini-argb-ryzen-5-7500f-32gb-rtx-5050-1tb-m-2-pcie-windows-11-pro-600481156/",
-   "cena 6099 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-core-ultra-5-225f-16gb-rtx-5060-ti-512gb-m-2-pcie-windows-11-600480544/",
-   "cena 6460 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 929, do sprawdzenia 614"
+   "monitor": "lista 936, do sprawdzenia 620"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 55, do sprawdzenia 3",
-   "pc": "lista 14, do sprawdzenia 0"
+   "monitor": "lista 55, do sprawdzenia 2",
+   "pc": "lista 13, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
@@ -91,7 +89,7 @@
    "pc": "lista 5, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 1469, do sprawdzenia 1188"
+   "pc": "lista 995, do sprawdzenia 781"
   }
  }
 }
