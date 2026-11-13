@@ -1,57 +1,40 @@
 {
  "dopisane_monitory": [
-  "MSI MAG 325CQPF E18",
-  "Dell Pro P2726H",
-  "Dell Pro P2426HE",
-  "iiyama ProLite X2491H-B1",
-  "iiyama G-Master GC2784HSU-B1 Red Eagle",
-  "iiyama G-Master GCB2784HSU-B1 Red Eagle",
-  "Gigabyte G27Q20",
-  "Dell Pro E2426HB"
+  "LG 24G411B-B",
+  "Samsung Odyssey G4 LS27HG402EUXEN"
  ],
  "dopisane_pc": [
-  "x-kom | Ryzen 5 7600, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
-  "x-kom | Core i5-14400F, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
-  "x-kom | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
-  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 2TB SSD",
-  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 2TB SSD (2)",
-  "x-kom | Ryzen 7 8700F, RTX 5060 8GB, 24GB DDR5, 1TB SSD (3)",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 16GB DDR5, 1TB SSD (4)",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (4)",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 2TB SSD (2)",
-  "x-kom | Core i5-14400F, RTX 5060 8GB, 24GB DDR5, 1TB SSD (3)",
-  "x-kom | Ryzen 7 8700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (3)",
-  "x-kom | Ryzen 7 8700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (3)",
-  "x-kom | Ryzen 7 8700F, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD (3)",
-  "x-kom | Ryzen 7 8700F, RTX 5060 Ti 8GB, 24GB DDR5, 1TB SSD (3)",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (3)",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (5)",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD (3)",
-  "x-kom | Core i5-14400F, RTX 5060 Ti 8GB, 24GB DDR5, 1TB SSD (3)",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 24GB DDR5, 1TB SSD",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (2)",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (3)",
-  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD (2)"
+  "Morele | Core i5-14400F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (6)",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD (5)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (6)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)"
  ],
  "uzupelnione": [
   [
-   "iiyama G-Master GB3290QSU-B1 Gold Phoenix",
+   "BenQ EX271QMZ",
    "mediamarkt"
-  ],
-  [
-   "Acer Vero CB2 CB242YP6bipr",
-   "xkom"
   ]
  ],
- "konflikty": [
-  [
-   "Gigabyte MO27Q2A ICE",
-   "kilka istniejących wpisów pasuje do tego modelu"
-  ]
- ],
+ "konflikty": [],
  "pominiete": [
   [
    "https://www.morele.net/monitor-acer-vg270kl1bmiipx-um-hv0ee-111-15784959/",
@@ -66,28 +49,8 @@
    "limit pobrań (25 na sklep) — 593 adresów w następnych przebiegach"
   ],
   [
-   "xkom",
-   "limit pobrań (25 na sklep) — 14 adresów w następnych przebiegach"
-  ],
-  [
-   "ASUS TUF Gaming VG32AQA1A",
-   "nazwa już istnieje na stronie"
-  ],
-  [
-   "AOC 25G4SRE",
-   "nazwa już istnieje na stronie"
-  ],
-  [
-   "AOC 25G4SXU",
-   "nazwa już istnieje na stronie"
-  ],
-  [
-   "AOC Q27B36X",
-   "nazwa już istnieje na stronie"
-  ],
-  [
-   "AOC 24G4ZRE",
-   "nazwa już istnieje na stronie"
+   "https://mediamarkt.pl/pl/product/_monitor-przenosny-elcostar-a1-czarny-185256065.html",
+   "przekątna 15.6\" poza zakresem 23.8–32\""
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -98,129 +61,33 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "xkom",
-   "limit pobrań (25 na sklep) — 7 adresów w następnych przebiegach"
-  ],
-  [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 83 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 126 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-5-7500x3d-16gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00775-600479477/",
-   "limit przebiegu — dopisane w następnym"
+   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-core-i5-14400f-16gb-radeon-rx-9060-xt-8gb-512gb-ssd-nvme-windows-11-pg02241-600480995/",
+   "cena 6280 zł poniżej progu 6500 zł"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-16gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01214-600479945/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-32gb-rx-9060xt-1tb-ssd-nvme-windows-11-pg01215-600479948/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9700x-32gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01216-600479950/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9800x3d-16gb-rx-9060xt-1tb-ssd-nvme-windows-11-pg01321-600480055/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9800x3d-16gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01322-600480047/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-7-9800x3d-32gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01324-600480069/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-9-7900x-16gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01430-600480169/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-9-7900x-32gb-rx-9060xt-1tb-ssd-nvme-windows-11-pg01431-600480179/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-ryzen-9-7900x-32gb-rx-9060xt-2tb-ssd-nvme-windows-11-pg01432-600480178/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-exo-u5-225f-16gb-rx-9060xt-1tb-ssd-nvme-windows-11-pg01832-600480561/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-core-ultra-5-225f-16gb-radeon-rx-9060-xt-8gb-512gb-ssd-nvme-windows-11-pg01735-600480476/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-core-ultra-5-225f-32gb-radeon-rx-9060-xt-8gb-1tb-ssd-nvme-windows-11-pg01739-600480455/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-core-ultra-5-225f-32gb-radeon-rx-9060-xt-8gb-512gb-ssd-nvme-windows-11-pg01738-600480469/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-rx-9060xt-8gb-1tb-ssd-windows-11-pg00518-600479224/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-rx-9060xt-8gb-2tb-ssd-windows-11-pg00519-600479223/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00517-600479215/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-32gb-rx-9060xt-8gb-1tb-ssd-windows-11-pg00521-600479226/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-32gb-rx-9060xt-8gb-2tb-ssd-windows-11-pg00522-600479227/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-32gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00520-600479222/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500x3d-16gb-rx-9060xt-8gb-1tb-ssd-windows-11-pg00680-600479384/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500x3d-16gb-rx-9060xt-8gb-2tb-ssd-windows-11-pg00681-600479387/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500x3d-32gb-rx-9060xt-8gb-1tb-ssd-windows-11-pg00683-600479392/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500x3d-32gb-rx-9060xt-8gb-2tb-ssd-nvme-windows-11-pg00684-600479399/",
-   "limit przebiegu — dopisane w następnym"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500x3d-32gb-rx-9060xt-8gb-512gb-ssd-nvme-windows-11-pg00682-600479385/",
-   "limit przebiegu — dopisane w następnym"
+   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-radeon-rx-9060-xt-512gb-ssd-nvme-windows-11-pg02511-600575322/",
+   "cena 6470 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 937, do sprawdzenia 618"
+   "monitor": "lista 933, do sprawdzenia 618"
   },
   "xkom": {
-   "monitor": "lista 290, do sprawdzenia 39",
-   "pc": "lista 124, do sprawdzenia 32"
+   "monitor": "lista 0, do sprawdzenia 0",
+   "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 55, do sprawdzenia 1",
-   "pc": "lista 14, do sprawdzenia 0"
+   "monitor": "lista 58, do sprawdzenia 5",
+   "pc": "lista 13, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
@@ -229,7 +96,7 @@
    "pc": "lista 5, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 181, do sprawdzenia 108"
+   "pc": "lista 180, do sprawdzenia 151"
   }
  }
 }
