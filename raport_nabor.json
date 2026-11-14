@@ -1,38 +1,54 @@
 {
- "dopisane_monitory": [],
+ "dopisane_monitory": [
+  "MSI MAG 27CQ6F",
+  "Lenovo R27s",
+  "Acer ProDesigner PE270KL1SMIQPRUZX",
+  "Lenovo LOQ 27-10",
+  "Lenovo LOQ 24-10"
+ ],
  "dopisane_pc": [
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (5)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (5)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (4)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (4)",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (5)",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core i7-12700KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD"
+  "x-kom | Ryzen 7 7700X, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+  "x-kom | Core i5-14400F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
+  "x-kom | Core i5-14400F, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "x-kom | Core i7-14700F, RTX 5060 Ti 8GB, 24GB DDR5, 1TB SSD (2)",
+  "x-kom | Core Ultra 5 225F, RTX 5060 8GB, 24GB DDR5, 512GB SSD",
+  "x-kom | Core Ultra 5 225F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
+  "x-kom | Core Ultra 5 225F, RTX 5060 8GB, 16GB DDR5, 1TB SSD",
+  "x-kom | Core Ultra 5 225F, RTX 5060 8GB, 24GB DDR5, 1TB SSD",
+  "x-kom | Core Ultra 5 225F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 9800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 16GB DDR5, 512GB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 7 265KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Core i7-12700KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core i7-12700KF, RTX 5060 Ti 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5070 Ti 16GB, 16GB DDR5, 512GB SSD (4)",
+  "Morele | Core Ultra 5 225F, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core Ultra 5 225F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 225F, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Core Ultra 5 225F, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 5 225F, RTX 5070 Ti 16GB, 32GB DDR5, 512GB SSD (4)"
  ],
  "uzupelnione": [
   [
-   "iiyama G-Master GB2591HSU-B1 Gold Phoenix",
-   "mediamarkt"
+   "Samsung Odyssey G4 LS25HG402EUXEN",
+   "xkom"
+  ],
+  [
+   "Acer XB253QFbmiiprx",
+   "xkom"
   ]
  ],
- "konflikty": [],
+ "konflikty": [
+  [
+   "Gigabyte MO27Q2A ICE",
+   "kilka istniejących wpisów pasuje do tego modelu"
+  ]
+ ],
  "pominiete": [
   [
    "https://www.morele.net/monitor-acer-vg270kl1bmiipx-um-hv0ee-111-15784959/",
@@ -44,7 +60,39 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 601 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 602 adresów w następnych przebiegach"
+  ],
+  [
+   "https://www.x-kom.pl/p/1527842-monitor-led-27-265-284-acer-predator-xb273ux2bmiiprx.html",
+   "Hz z podkręcenia (OC) bez wartości natywnej"
+  ],
+  [
+   "xkom",
+   "limit pobrań (25 na sklep) — 9 adresów w następnych przebiegach"
+  ],
+  [
+   "ASUS TUF Gaming VG32AQA1A",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 25G4SRE",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 25G4SXU",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC Q27B36X",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "AOC 24G4ZRE",
+   "nazwa już istnieje na stronie"
+  ],
+  [
+   "ASUS ProArt PA278CGRV",
+   "nazwa już istnieje na stronie"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -56,27 +104,63 @@
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 8 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 1770 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-pg02927-core-i5-14400f-16gb-radeon-rx-9060-xt-512gb-m-2-pcie-windows-11-600575722/",
-   "cena 6475 zł poniżej progu 6500 zł"
+   "https://www.x-kom.pl/p/1594699-desktop-hp-omen-35l-ryzen-7-9800x3d-16gb-1tb-rtx5070ti.html",
+   "cena z systemem 13499 zł powyżej progu 13000 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-artrel-ryzen-5-8400f-32gb-rtx-5050-1tb-m-2-pcie-windows-11-pro-600025612/",
+   "cena 6349 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-artrel-ryzen-7-8700f-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-600025607/",
+   "cena 6099 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-600480589/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-16gb-rtx-5070-ti-1tb-ssd-nvme-windows-11-pg01874-600480600/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-16gb-rtx-5070-ti-2tb-ssd-nvme-windows-11-pg01875-600480599/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-16gb-rtx-5070-ti-512gb-ssd-nvme-windows-11-pg01873-600480616/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-32gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-600480583/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-32gb-rtx-5070-ti-1tb-ssd-nvme-windows-11-pg01877-600480602/",
+   "limit przebiegu — dopisane w następnym"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-modecom-breeze-argb-core-ultra-5-245kf-32gb-rtx-5070-ti-2tb-ssd-nvme-windows-11-pg01878-600480606/",
+   "limit przebiegu — dopisane w następnym"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 938, do sprawdzenia 626"
+   "monitor": "lista 938, do sprawdzenia 627"
   },
   "xkom": {
-   "monitor": "lista 0, do sprawdzenia 0",
-   "pc": "lista 0, do sprawdzenia 0"
+   "monitor": "lista 295, do sprawdzenia 34",
+   "pc": "lista 125, do sprawdzenia 10"
   },
   "mediamarkt": {
-   "monitor": "lista 53, do sprawdzenia 1",
+   "monitor": "lista 53, do sprawdzenia 0",
    "pc": "lista 12, do sprawdzenia 0"
   },
   "plugnplay": {
@@ -86,7 +170,7 @@
    "pc": "lista 6, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 65, do sprawdzenia 33"
+   "pc": "lista 1981, do sprawdzenia 1795"
   }
  }
 }

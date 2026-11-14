@@ -375,7 +375,9 @@
  "morele_pc|https://www.morele.net/komputer-altreo-gamingowy-ryzen-7-8700f-16gb-rtx-5060-512gb-m-2-pcie-windows-11-pro-altreo-13394-600297008/": "cena 6290 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-altreo-gamingowy-ryzen-7-8700f-16gb-rtx-5060-512gb-m-2-pcie-windows-11-pro-altreo-13395-600297023/": "cena 6290 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-artrel-ryzen-5-7500f-32gb-rx-7600-1tb-m-2-pcie-windows-11-pro-600481127/": "cena 6199 zł poniżej progu 6500 zł",
+ "morele_pc|https://www.morele.net/komputer-artrel-ryzen-5-8400f-32gb-rtx-5050-1tb-m-2-pcie-windows-11-pro-600025612/": "cena 6349 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-artrel-ryzen-5-8400f-32gb-rtx-5060-1tb-m-2-pcie-windows-11-pro-600025623/": "cena 6399 zł poniżej progu 6500 zł",
+ "morele_pc|https://www.morele.net/komputer-artrel-ryzen-7-8700f-16gb-rtx-5060-ti-1tb-m-2-pcie-windows-11-pro-600025607/": "cena 6099 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-artrel-ryzen-7-8700f-32gb-rtx-5050-1tb-m-2-pcie-windows-11-pro-600025613/": "cena 6199 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-artrel-ryzen-7-8700f-32gb-rtx-5060-1tb-m-2-pcie-windows-11-pro-600025580/": "cena 6499 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-artrel-ryzen-7-8700f-32gb-rx-7600-1tb-m-2-pcie-windows-11-pro-600481131/": "cena 6099 zł poniżej progu 6500 zł",
@@ -463,6 +465,7 @@
  "xkom|https://www.x-kom.pl/p/1520825-desktop-smx-battlestation-g3a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1524118-desktop-smx-battlestation-g2a-i5-14400f-32gb-1tb-rtx5060-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1524120-desktop-smx-battlestation-g2a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
+ "xkom|https://www.x-kom.pl/p/1527842-monitor-led-27-265-284-acer-predator-xb273ux2bmiiprx.html": "Hz z podkręcenia (OC) bez wartości natywnej",
  "xkom|https://www.x-kom.pl/p/1540843-desktop-smx-battlestation-m3a-i5-14400f-32gb-1tb-rtx5060-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1540865-desktop-smx-battlestation-m3a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1540869-desktop-smx-battlestation-m3a-i5-14400f-16gb-1tb-rtx5060-w11x.html": "pamięć nie jest DDR5: '16 GB (DIMM DDR4, 3200 MHz)'",
@@ -500,6 +503,7 @@
  "xkom|https://www.x-kom.pl/p/1580337-desktop-polecany-zestaw-ryzen-7-7700-32gb-1tb-rx9070-xt-16gb.html": "pole „Sprawność zasilacza” ma kilka wartości ['80 Plus Bronze', 'Cybenetics Silver'] — niejednoznaczne",
  "xkom|https://www.x-kom.pl/p/1580339-desktop-polecany-zestaw-ryzen-7-7800x3d-32gb-1tb-rx9070-xt-16gb.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu z Windowsem",
  "xkom|https://www.x-kom.pl/p/1594633-desktop-hp-omen-35l-i5-14400f-32gb-2tb-rtx5060.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł",
+ "xkom|https://www.x-kom.pl/p/1594699-desktop-hp-omen-35l-ryzen-7-9800x3d-16gb-1tb-rtx5070ti.html": "cena z systemem 13499 zł powyżej progu 13000 zł",
  "xkom|https://www.x-kom.pl/p/1607666-monitor-led-27-265-284-viewsonic-vx2738-2k.html": "brak natywnej częstotliwości odświeżania (same wartości OC): None",
  "xkom|https://www.x-kom.pl/p/1609828-desktop-smx-battlestation-m6a-r7-7800x3d-32gb-1tb-rx9070.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu z Windowsem"
 }
