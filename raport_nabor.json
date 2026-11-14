@@ -1,36 +1,34 @@
 {
- "dopisane_monitory": [
-  "LG 24G411B-B",
-  "Samsung Odyssey G4 LS27HG402EUXEN"
- ],
+ "dopisane_monitory": [],
  "dopisane_pc": [
-  "Morele | Core i5-14400F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (3)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (6)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (4)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 225F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD (5)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (4)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 8GB, 32GB DDR5, 512GB SSD (6)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)"
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD (5)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (5)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Core Ultra 7 265KF, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (4)",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (4)",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (5)",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 512GB SSD (2)",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Core i7-12700KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD"
  ],
  "uzupelnione": [
   [
-   "BenQ EX271QMZ",
+   "iiyama G-Master GB2591HSU-B1 Gold Phoenix",
    "mediamarkt"
   ]
  ],
@@ -46,11 +44,7 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 593 adresów w następnych przebiegach"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-przenosny-elcostar-a1-czarny-185256065.html",
-   "przekątna 15.6\" poza zakresem 23.8–32\""
+   "limit pobrań (25 na sklep) — 601 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -62,41 +56,37 @@
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 126 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 8 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-core-i5-14400f-16gb-radeon-rx-9060-xt-8gb-512gb-ssd-nvme-windows-11-pg02241-600480995/",
-   "cena 6280 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-radeon-rx-9060-xt-512gb-ssd-nvme-windows-11-pg02511-600575322/",
-   "cena 6470 zł poniżej progu 6500 zł"
+   "https://www.morele.net/komputer-error-gaming-pc-pg02927-core-i5-14400f-16gb-radeon-rx-9060-xt-512gb-m-2-pcie-windows-11-600575722/",
+   "cena 6475 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 933, do sprawdzenia 618"
+   "monitor": "lista 938, do sprawdzenia 626"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 58, do sprawdzenia 5",
-   "pc": "lista 13, do sprawdzenia 0"
+   "monitor": "lista 53, do sprawdzenia 1",
+   "pc": "lista 12, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
   },
   "goblinpc": {
-   "pc": "lista 5, do sprawdzenia 3"
+   "pc": "lista 6, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 180, do sprawdzenia 151"
+   "pc": "lista 65, do sprawdzenia 33"
   }
  }
 }
