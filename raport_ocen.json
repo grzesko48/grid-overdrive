@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 29,
+ "przeliczonych": 9,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -22,363 +22,107 @@
   {
    "nazwa": "Gigabyte GS27Q X",
    "rodzaj": "monitor",
-   "podstawa": 3.78,
+   "podstawa": 3.89,
    "zmiany": {
     "value": [
-     90,
-     91
+     91,
+     90
     ]
    }
   },
   {
-   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
    "rodzaj": "monitor",
-   "podstawa": 7.35,
-   "zmiany": {
-    "value": [
-     51,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
-   "rodzaj": "monitor",
-   "podstawa": 6.4,
-   "zmiany": {
-    "value": [
-     63,
-     62
-    ],
-    "overall": [
-     65,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Philips Evnia 27M2N8500/00",
-   "rodzaj": "monitor",
-   "podstawa": 5.55,
-   "zmiany": {
-    "value": [
-     76,
-     72
-    ],
-    "overall": [
-     80,
-     79
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix Pulsar XG27AQNGV",
-   "rodzaj": "monitor",
-   "podstawa": 6.81,
-   "zmiany": {
-    "value": [
-     36,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27ACMES",
-   "rodzaj": "monitor",
-   "podstawa": 4.64,
-   "zmiany": {
-    "value": [
-     81,
-     82
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 272QPW QD-OLED X28",
-   "rodzaj": "monitor",
-   "podstawa": 8.04,
-   "zmiany": {
-    "value": [
-     54,
-     44
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 6.62,
+   "podstawa": 7.37,
    "zmiany": {
     "value": [
      59,
-     60
+     51
+    ],
+    "overall": [
+     68,
+     66
     ]
    }
   },
   {
-   "nazwa": "LG 27GS95QX-B",
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
    "rodzaj": "monitor",
-   "podstawa": 10.23,
+   "podstawa": 5.83,
    "zmiany": {
     "value": [
-     19,
-     20
+     64,
+     69
+    ],
+    "overall": [
+     70,
+     72
     ]
    }
   },
   {
    "nazwa": "Lenovo 27Q-10 26.5 2xHDMI, DP",
    "rodzaj": "monitor",
-   "podstawa": 9.25,
+   "podstawa": 9.29,
    "zmiany": {
     "value": [
-     30,
-     31
+     31,
+     30
     ]
    }
   },
   {
-   "nazwa": "Acer B277KLBbmiiprzx",
+   "nazwa": "AOC U27G4R",
    "rodzaj": "monitor",
-   "podstawa": 8.93,
+   "podstawa": 6.87,
    "zmiany": {
     "value": [
-     35,
-     34
+     58,
+     57
     ]
    }
   },
   {
-   "nazwa": "Acer CB272 G UM.HB2EE.G06",
+   "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
    "rodzaj": "monitor",
-   "podstawa": 8.29,
+   "podstawa": 4.58,
    "zmiany": {
     "value": [
-     42,
-     41
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27P4U",
-   "rodzaj": "monitor",
-   "podstawa": 6.36,
-   "zmiany": {
-    "value": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC U27G4XM",
-   "rodzaj": "monitor",
-   "podstawa": 9.52,
-   "zmiany": {
-    "value": [
-     27,
-     28
-    ]
-   }
-  },
-  {
-   "nazwa": "Arozzi Nova 32 AZ-NO-32T2K180-BK",
-   "rodzaj": "monitor",
-   "podstawa": 7.58,
-   "zmiany": {
-    "value": [
-     50,
-     49
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Business BE27ACGN",
-   "rodzaj": "monitor",
-   "podstawa": 11.64,
-   "zmiany": {
-    "value": [
-     0,
-     4
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY249HGR",
-   "rodzaj": "monitor",
-   "podstawa": 3.22,
-   "zmiany": {
-    "value": [
-     97,
-     98
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQ1A",
-   "rodzaj": "monitor",
-   "podstawa": 9.05,
-   "zmiany": {
-    "value": [
-     26,
-     33
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS VY249HF-W",
-   "rodzaj": "monitor",
-   "podstawa": 5.11,
-   "zmiany": {
-    "value": [
-     78,
-     77
-    ]
-   }
-  },
-  {
-   "nazwa": "Dell Pro Plus P2425DE",
-   "rodzaj": "monitor",
-   "podstawa": 10.79,
-   "zmiany": {
-    "value": [
-     22,
-     13
+     85,
+     82
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master GB2771QSU-B1 Red Eagle",
    "rodzaj": "monitor",
-   "podstawa": 4.0,
+   "podstawa": 3.79,
    "zmiany": {
     "value": [
-     91,
-     89
+     89,
+     91
     ]
    }
   },
   {
-   "nazwa": "Samsung LS27FG502SUXEN",
+   "nazwa": "AOC G4CQ32VE",
    "rodzaj": "monitor",
-   "podstawa": 8.48,
+   "podstawa": 5.87,
    "zmiany": {
     "value": [
-     41,
-     39
+     70,
+     68
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master GB2771UHSU-B1 Red Eagle",
    "rodzaj": "monitor",
-   "podstawa": 4.09,
+   "podstawa": 4.37,
    "zmiany": {
     "value": [
-     85,
-     88
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 321CQF E18",
-   "rodzaj": "monitor",
-   "podstawa": 7.52,
-   "zmiany": {
-    "value": [
-     49,
-     50
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MPG Trident AS AI (Ultra 5-225F, RTX 5060)",
-   "rodzaj": "pc",
-   "podstawa": 82.07,
-   "zmiany": {
-    "value": [
-     72,
-     83
-    ],
-    "overall": [
-     68,
-     72
-    ],
-    "ultra": [
-     47,
-     49
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MPG Trident AS AI (Ultra 7-265F, RTX 5060 Ti 8GB)",
-   "rodzaj": "pc",
-   "podstawa": 93.32,
-   "zmiany": {
-    "value": [
-     57,
-     67
-    ],
-    "overall": [
-     65,
-     68
-    ],
-    "ultra": [
-     50,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "x-kom | Core i5-14400, RTX 5060 8GB, 24GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 101.52,
-   "zmiany": {
-    "value": [
-     59,
-     55
-    ],
-    "overall": [
-     60,
-     59
-    ],
-    "ultra": [
-     42,
-     41
-    ]
-   }
-  },
-  {
-   "nazwa": "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD",
-   "rodzaj": "pc",
-   "podstawa": 127.68,
-   "zmiany": {
-    "value": [
-     22,
-     18
-    ],
-    "overall": [
-     60,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "x-kom | Core i5-14400F, RTX 5060 8GB, 32GB DDR5, 512GB SSD (2)",
-   "rodzaj": "pc",
-   "podstawa": 126.14,
-   "zmiany": {
-    "value": [
-     24,
-     20
-    ],
-    "overall": [
-     60,
-     59
-    ],
-    "ultra": [
-     49,
-     48
+     88,
+     85
     ]
    }
   }
