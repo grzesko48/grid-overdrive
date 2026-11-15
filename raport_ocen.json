@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 9,
+ "przeliczonych": 12,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,109 +20,138 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Gigabyte GS27Q X",
+   "nazwa": "AOC Q27G4ZD",
    "rodzaj": "monitor",
-   "podstawa": 3.89,
+   "podstawa": 5.57,
    "zmiany": {
     "value": [
-     91,
-     90
+     72,
+     71
     ]
    }
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
    "rodzaj": "monitor",
-   "podstawa": 7.37,
+   "podstawa": 7.31,
    "zmiany": {
     "value": [
-     59,
-     51
+     51,
+     52
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27G4SDR",
+   "rodzaj": "monitor",
+   "podstawa": 5.33,
+   "zmiany": {
+    "value": [
+     75,
+     74
     ],
     "overall": [
-     68,
-     66
+     80,
+     79
     ]
    }
   },
   {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "nazwa": "Acer XV270UF3BMIIPRX",
    "rodzaj": "monitor",
-   "podstawa": 5.83,
+   "podstawa": 3.07,
    "zmiany": {
     "value": [
-     64,
-     69
-    ],
-    "overall": [
-     70,
-     72
+     88,
+     99
     ]
    }
   },
   {
-   "nazwa": "Lenovo 27Q-10 26.5 2xHDMI, DP",
+   "nazwa": "ASUS ROG Strix XG27ACMEG",
    "rodzaj": "monitor",
-   "podstawa": 9.29,
+   "podstawa": 4.81,
    "zmiany": {
     "value": [
-     31,
-     30
+     82,
+     80
     ]
    }
   },
   {
-   "nazwa": "AOC U27G4R",
+   "nazwa": "AOC Q27P4U",
    "rodzaj": "monitor",
-   "podstawa": 6.87,
+   "podstawa": 6.46,
    "zmiany": {
     "value": [
-     58,
-     57
+     63,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC U27G4XM",
+   "rodzaj": "monitor",
+   "podstawa": 9.53,
+   "zmiany": {
+    "value": [
+     28,
+     27
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
    "rodzaj": "monitor",
-   "podstawa": 4.58,
+   "podstawa": 4.37,
    "zmiany": {
     "value": [
-     85,
-     82
+     82,
+     85
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master GB2771QSU-B1 Red Eagle",
    "rodzaj": "monitor",
-   "podstawa": 3.79,
+   "podstawa": 4.0,
    "zmiany": {
     "value": [
-     89,
-     91
+     91,
+     89
     ]
    }
   },
   {
-   "nazwa": "AOC G4CQ32VE",
+   "nazwa": "Samsung LS27FG502SUXEN",
    "rodzaj": "monitor",
-   "podstawa": 5.87,
+   "podstawa": 8.41,
    "zmiany": {
     "value": [
-     70,
-     68
+     39,
+     40
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master GB2771UHSU-B1 Red Eagle",
    "rodzaj": "monitor",
-   "podstawa": 4.37,
+   "podstawa": 4.09,
    "zmiany": {
     "value": [
-     88,
-     85
+     85,
+     88
+    ]
+   }
+  },
+  {
+   "nazwa": "MSI MAG 321CQF E18",
+   "rodzaj": "monitor",
+   "podstawa": 7.63,
+   "zmiany": {
+    "value": [
+     50,
+     49
     ]
    }
   }
