@@ -1,15 +1,15 @@
 {
- "data": "15 listopada 2026",
+ "data": "16 listopada 2026",
  "pobrano": {
-  "ok": 2165,
+  "ok": 1757,
   "brak_ceny": 0,
-  "wycofany": 29,
+  "wycofany": 28,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 26
+  "blad": 460
  },
- "pokrycie_proc": 98,
- "zmian_cen": 29,
+ "pokrycie_proc": 78,
+ "zmian_cen": 0,
  "do_przejrzenia": [
   {
    "nazwa": "AOC Q27G4ZDR",
@@ -36,15 +36,8 @@
    "nazwa": "Acer Vero B8 B278UGbemiqprcuzx",
    "sklep": "morele",
    "stara": 1069,
-   "nowa": 1689,
+   "nowa": 1688,
    "zmiana_proc": 58
-  },
-  {
-   "nazwa": "MSI MAG 325CQRF QD E2",
-   "sklep": "xkom",
-   "stara": 1849,
-   "nowa": 799,
-   "zmiana_proc": -57
   },
   {
    "nazwa": "Philips 1000 series24E1N1100A/00",
@@ -61,25 +54,9 @@
    "zmiana_proc": 93
   }
  ],
- "zmiany_dostepnosci": [
-  {
-   "nazwa": "Lenovo 27Q-10 26.5 2xHDMI, DP",
-   "bylo": [],
-   "jest": [
-    "mediamarkt"
-   ]
-  }
- ],
+ "zmiany_dostepnosci": [],
  "doplaty_systemu": [],
- "ukryte": [
-  {
-   "nazwa": "Lenovo 27Q-10 26.5 2xHDMI, DP",
-   "rodzaj": "monitor",
-   "sklepy": [
-    "mediamarkt"
-   ]
-  }
- ],
+ "ukryte": [],
  "przywrocone": [],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
@@ -89,362 +66,9 @@
    "na_stronie": "Monitor SAMSUNG LS24HG302EUXEN Czarny"
   }
  ],
- "zmiany": [
-  {
-   "nazwa": "Philips Evnia 27M2N3501PA/00",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1387,
-   "nowa": 1388,
-   "roznica": 1
-  },
-  {
-   "nazwa": "Gigabyte MO27Q2A",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2575,
-   "nowa": 2462,
-   "roznica": -113
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQM5A",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1630,
-   "nowa": 1631,
-   "roznica": 1
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1841,
-   "nowa": 1958,
-   "roznica": 117
-  },
-  {
-   "nazwa": "AOC Q27G41ZDF",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2634,
-   "nowa": 2635,
-   "roznica": 1
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QZD2",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3542,
-   "nowa": 3543,
-   "roznica": 1
-  },
-  {
-   "nazwa": "AOC Q27G4ZD",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1549,
-   "nowa": 1560,
-   "roznica": 11,
-   "naglowek": 1560
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1769,
-   "nowa": 1754,
-   "roznica": -15,
-   "naglowek": 1754
-  },
-  {
-   "nazwa": "AOC Q27G4SDR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1899,
-   "nowa": 1917,
-   "roznica": 18,
-   "naglowek": 1917
-  },
-  {
-   "nazwa": "Philips Evnia 27M2N6501L/00",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2391,
-   "nowa": 2392,
-   "roznica": 1
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27AQDMG",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2211,
-   "nowa": 2210,
-   "roznica": -1
-  },
-  {
-   "nazwa": "Philips Evnia 27M2N8500/00",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3342,
-   "nowa": 3344,
-   "roznica": 2
-  },
-  {
-   "nazwa": "Acer XV270UF3BMIIPRX",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1294,
-   "nowa": 983,
-   "roznica": -311,
-   "naglowek": 983
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27ACDNG",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3591,
-   "nowa": 3593,
-   "roznica": 2
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDNG",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3119,
-   "nowa": 3187,
-   "roznica": 68
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27ACMEG",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1249,
-   "nowa": 1300,
-   "roznica": 51,
-   "naglowek": 1300
-  },
-  {
-   "nazwa": "Dell Alienware AW2725DF QD-OLED",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2249,
-   "nowa": 2279,
-   "roznica": 30
-  },
-  {
-   "nazwa": "LG 27GS95QX-B",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2455,
-   "nowa": 2457,
-   "roznica": 2,
-   "naglowek": 2457
-  },
-  {
-   "nazwa": "MSI MAG 272QP QD-OLED X50",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2943,
-   "nowa": 2957,
-   "roznica": 14,
-   "naglowek": 2957
-  },
-  {
-   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1967,
-   "nowa": 1972,
-   "roznica": 5,
-   "naglowek": 1972
-  },
-  {
-   "nazwa": "AOC Q27P4U",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 763,
-   "nowa": 775,
-   "roznica": 12,
-   "naglowek": 775
-  },
-  {
-   "nazwa": "AOC U27G4XM",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1523,
-   "nowa": 1525,
-   "roznica": 2,
-   "naglowek": 1525
-  },
-  {
-   "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 659,
-   "nowa": 629,
-   "roznica": -30,
-   "naglowek": 629
-  },
-  {
-   "nazwa": "iiyama G-Master GB2771QSU-B1 Red Eagle",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 759,
-   "nowa": 799,
-   "roznica": 40,
-   "naglowek": 799
-  },
-  {
-   "nazwa": "Samsung LS27FG502SUXEN",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1525,
-   "nowa": 1514,
-   "roznica": -11,
-   "naglowek": 1514
-  },
-  {
-   "nazwa": "LG UltraGear 24GS60F-B",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 579,
-   "nowa": 569,
-   "roznica": -10,
-   "naglowek": 569
-  },
-  {
-   "nazwa": "iiyama G-Master GB2771UHSU-B1 Red Eagle",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1259,
-   "nowa": 1179,
-   "roznica": -80,
-   "naglowek": 1179
-  },
-  {
-   "nazwa": "LG 27GS60F",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 579,
-   "nowa": 569,
-   "roznica": -10,
-   "naglowek": 569
-  },
-  {
-   "nazwa": "MSI MAG 321CQF E18",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1354,
-   "nowa": 1373,
-   "roznica": 19,
-   "naglowek": 1373
-  }
- ],
+ "zmiany": [],
  "pros_cen_zsynchronizowane": [],
- "zmiany_sprzedawcow": [
-  {
-   "nazwa": "AOC Q27G4ZDR",
-   "sprzedawcy": {
-    "mediamarkt": "Digital Bay PL"
-   }
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD (4)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 16GB DDR5, 2TB SSD",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 16GB DDR5, 2TB SSD (2)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 16GB DDR5, 2TB SSD (3)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 1TB SSD",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 1TB SSD (2)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 1TB SSD (3)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 2TB SSD",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 2TB SSD (2)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 2TB SSD (3)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 7 265KF, RX 9070 16GB, 32GB DDR5, 2TB SSD (4)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 512GB SSD (4)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 1TB SSD",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 2TB SSD",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 512GB SSD (5)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (2)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 2TB SSD (2)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 512GB SSD (6)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (3)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 2TB SSD (3)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 512GB SSD (7)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (4)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 225F, RTX 5050 8GB, 32GB DDR5, 2TB SSD (4)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Core Ultra 5 245KF, RTX 5050 8GB, 16GB DDR5, 2TB SSD (2)",
-   "sprzedawcy": {}
-  }
- ],
+ "zmiany_sprzedawcow": [],
  "doplaty_ram_wariantow": [],
  "wg_sklepu": {
   "goblinpc": {
@@ -464,8 +88,8 @@
    "adresow": 131
   },
   "morele": {
-   "ok": 1035,
-   "adresow": 1035
+   "ok": 1060,
+   "adresow": 1060
   },
   "plugnplay": {
    "ok": 78,
@@ -476,7 +100,7 @@
    "adresow": 6
   },
   "xkom": {
-   "ok": 434,
+   "ok": 0,
    "adresow": 434
   }
  }
