@@ -402,6 +402,8 @@
  "morele_pc|https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-radeon-rx-9060-xt-512gb-ssd-nvme-windows-11-pg02511-600575322/": "cena 6470 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-rtx-5060-ti-1tb-ssd-windows-11-pg00506-600479198/": "cena 6370 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-error-gaming-pc-krux-vako-ryzen-5-7500f-16gb-rtx-5060-ti-512gb-ssd-windows-11-pg00505-600479195/": "cena 6120 zł poniżej progu 6500 zł",
+ "morele_pc|https://www.morele.net/komputer-error-gaming-pc-logic-aramis-argb-mini-core-i5-14400f-16gb-radeon-rx-9060-xt-8gb-512gb-ssd-nvme-windows-11-pg02199-600480913/": "cena 6275 zł poniżej progu 6500 zł",
+ "morele_pc|https://www.morele.net/komputer-error-gaming-pc-logic-aramis-argb-mini-ryzen-5-7500f-16gb-radeon-rx-9060-xt-512gb-ssd-nvme-windows-11-pg02499-600575299/": "cena 6465 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-error-gaming-pc-logic-aramis-argb-mini-ryzen-5-7500f-16gb-rtx-5060-ti-1tb-ssd-windows-11-pg00470-600479183/": "cena 6365 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-error-gaming-pc-logic-aramis-argb-mini-ryzen-5-7500f-16gb-rtx-5060-ti-512gb-ssd-windows-11-pg00469-600479168/": "cena 6115 zł poniżej progu 6500 zł",
  "morele_pc|https://www.morele.net/komputer-error-gaming-pc-logic-aramis-argb-mini-ryzen-5-7500f-16gb-rx-9060xt-8gb-512gb-ssd-windows-11-pg00481-600479182/": "cena 6265 zł poniżej progu 6500 zł",
@@ -469,6 +471,7 @@
  "xkom|https://www.x-kom.pl/p/1524118-desktop-smx-battlestation-g2a-i5-14400f-32gb-1tb-rtx5060-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1524120-desktop-smx-battlestation-g2a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1527842-monitor-led-27-265-284-acer-predator-xb273ux2bmiiprx.html": "Hz z podkręcenia (OC) bez wartości natywnej",
+ "xkom|https://www.x-kom.pl/p/1540807-monitor-led-27-265-284-xiaomi-mini-led-g-pro-27qi-2026.html": "typ matrycy „Mini-LED, Fast IPS” spoza zakresu (IPS/VA/OLED/QD-OLED)",
  "xkom|https://www.x-kom.pl/p/1540843-desktop-smx-battlestation-m3a-i5-14400f-32gb-1tb-rtx5060-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1540865-desktop-smx-battlestation-m3a-i5-14400f-32gb-1tb-rtx5060ti-w11x.html": "pamięć nie jest DDR5: '32 GB (DIMM DDR4, 3200 MHz)'",
  "xkom|https://www.x-kom.pl/p/1540869-desktop-smx-battlestation-m3a-i5-14400f-16gb-1tb-rtx5060-w11x.html": "pamięć nie jest DDR5: '16 GB (DIMM DDR4, 3200 MHz)'",
@@ -508,5 +511,6 @@
  "xkom|https://www.x-kom.pl/p/1594633-desktop-hp-omen-35l-i5-14400f-32gb-2tb-rtx5060.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu 10 000 zł",
  "xkom|https://www.x-kom.pl/p/1594699-desktop-hp-omen-35l-ryzen-7-9800x3d-16gb-1tb-rtx5070ti.html": "cena z systemem 13499 zł powyżej progu 13000 zł",
  "xkom|https://www.x-kom.pl/p/1607666-monitor-led-27-265-284-viewsonic-vx2738-2k.html": "brak natywnej częstotliwości odświeżania (same wartości OC): None",
- "xkom|https://www.x-kom.pl/p/1609828-desktop-smx-battlestation-m6a-r7-7800x3d-32gb-1tb-rx9070.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu z Windowsem"
+ "xkom|https://www.x-kom.pl/p/1609828-desktop-smx-battlestation-m6a-r7-7800x3d-32gb-1tb-rx9070.html": "karta bez systemu: brak dopłaty do Windows 11 Home — nieweryfikowalne względem progu z Windowsem",
+ "xkom|https://www.x-kom.pl/p/597739-monitor-led-27-265-284-asus-proart-pa279cv.html": "brak natywnej częstotliwości odświeżania (same wartości OC): None"
 }
