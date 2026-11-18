@@ -2774,5 +2774,99 @@
     "adresow": 438
    }
   }
+ },
+ {
+  "data": "18 listopada 2026",
+  "pobrano": {
+   "ok": 1816,
+   "brak_ceny": 0,
+   "wycofany": 30,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 464
+  },
+  "pokrycie_proc": 79,
+  "zmian_cen": 186,
+  "wg_sklepu": {
+   "goblinpc": {
+    "ok": 3,
+    "adresow": 3
+   },
+   "hardpc": {
+    "ok": 517,
+    "adresow": 517
+   },
+   "mediaexpert": {
+    "ok": 0,
+    "adresow": 19
+   },
+   "mediamarkt": {
+    "ok": 132,
+    "adresow": 133
+   },
+   "morele": {
+    "ok": 1116,
+    "adresow": 1116
+   },
+   "plugnplay": {
+    "ok": 78,
+    "adresow": 78
+   },
+   "rtveuroagd": {
+    "ok": 0,
+    "adresow": 6
+   },
+   "xkom": {
+    "ok": 0,
+    "adresow": 438
+   }
+  }
+ },
+ {
+  "data": "18 listopada 2026",
+  "pobrano": {
+   "ok": 1816,
+   "brak_ceny": 0,
+   "wycofany": 30,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 464
+  },
+  "pokrycie_proc": 79,
+  "zmian_cen": 0,
+  "wg_sklepu": {
+   "goblinpc": {
+    "ok": 3,
+    "adresow": 3
+   },
+   "hardpc": {
+    "ok": 517,
+    "adresow": 517
+   },
+   "mediaexpert": {
+    "ok": 0,
+    "adresow": 19
+   },
+   "mediamarkt": {
+    "ok": 132,
+    "adresow": 133
+   },
+   "morele": {
+    "ok": 1116,
+    "adresow": 1116
+   },
+   "plugnplay": {
+    "ok": 78,
+    "adresow": 78
+   },
+   "rtveuroagd": {
+    "ok": 0,
+    "adresow": 6
+   },
+   "xkom": {
+    "ok": 0,
+    "adresow": 438
+   }
+  }
  }
 ]

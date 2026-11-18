@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 910,
+ "katalog_pozycji": 912,
  "nasze_identyfikatory": 517,
  "zniknely": [
   {
@@ -199,6 +199,12 @@
    "nazwa": "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Define 7 Compact",
    "cena": 11019,
    "url": "https://sklep.hard-pc.pl/p26777,zestaw-ryzen-7-7700-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-850w-define-7-compact.html"
+  },
+  {
+   "id": "26818",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "cena": 6959,
+   "url": "https://sklep.hard-pc.pl/p26818,zestaw-ryzen-5-7500f-rtx-5060-8gb-32gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
   }
  ]
 }
