@@ -114,6 +114,8 @@
  "mediamarkt|https://mediamarkt.pl/pl/product/_pc-gaming-nitropc-pack-nitro-plus-bialy-159651093.html": "komputer z wbudowanym ekranem (All-in-One)",
  "mediamarkt|https://mediamarkt.pl/pl/product/_pc-gaming-nitropc-zaawansowany-czarny-174360801.html": "pamięć nie jest DDR5: 'DDR4'",
  "mediamarkt|https://mediamarkt.pl/pl/product/_stacjonarne-komputery-dla-graczy-beelink-ser10-max-hx470-szary-172612816.html": "zbyt ogólna nazwa procesora (brak modelu): 'Ryzen AI 9 HX 470 (12C/24T, 3.3 GHz tot 5,2 GHz), 24 MB L3 cache'",
+ "morele_pc|https://www.morele.net/komputer-actina-endorfy-ryzen-7-7700-32gb-radeon-rx-9070-xt-2tb-m-2-pcie-14929060/": "procesor w specyfikacji (Core i7-7700) różni się od procesora w tytule (Ryzen 7 7700)",
+ "morele_pc|https://www.morele.net/komputer-actina-pc-amd-ryzen-5-9500-32-gb-ddr5-sdram-1-tb-ssd-amd-radeon-rx-9060-xt-mini-tower-czarny-15614443/": "brak pola „Model procesora” w specyfikacji",
  "morele_pc|https://www.morele.net/komputer-adronix-ryzen-5-rx-7700-xt-monitor-27-600560445/": "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 7700 XT): dane oferty są sprzeczne",
  "morele_pc|https://www.morele.net/komputer-altreo-chieftec-visio-core-i7-14700f-16gb-ddr5-rx-9060-512gb-m-2-pcie-600288533/": "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne",
  "morele_pc|https://www.morele.net/komputer-altreo-chieftec-visio-core-ultra-5-245kf-16gb-rx-9060-512gb-m-2-pcie-600291657/": "karta w specyfikacji (Radeon RX 9060 XT) różni się od karty w tytule (AMD Radeon RX 9060): dane oferty są sprzeczne",

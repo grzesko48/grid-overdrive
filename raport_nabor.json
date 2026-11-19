@@ -1,42 +1,33 @@
 {
  "dopisane_monitory": [
-  "AOC 24G4XE"
+  "AOC B324HA2/75"
  ],
  "dopisane_pc": [
-  "Morele | Core i7-12700KF, RTX 5060 Ti 16GB, 32GB DDR5, 512GB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 16GB, 16GB DDR5, 512GB SSD",
-  "Morele | Ryzen 5 9600X, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 9700X, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 16GB DDR5, 512GB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RX 9060 XT 8GB, 16GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core i5-14400F, RTX 5070 12GB, 16GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 7 9700X, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 9 7900X, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD",
-  "Morele | Ryzen 9 7900X, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Core Ultra 5 225F, RTX 5060 Ti 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 Ti 16GB, 16GB DDR5, 2TB SSD (3)"
+  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7600, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9070 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 7 8700F, RX 9070 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 7 9800X3D, RX 9070 16GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (5)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (5)",
+  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (5)",
+  "Morele | Ryzen 5 8400F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD"
  ],
- "uzupelnione": [
-  [
-   "iiyama G-Master GB3295QSU-B1 Gold Phoenix",
-   "mediamarkt"
-  ],
-  [
-   "Acer ED320QW0bmiipx",
-   "morele"
-  ]
- ],
+ "uzupelnione": [],
  "konflikty": [],
  "pominiete": [
   [
@@ -49,15 +40,7 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 598 adresów w następnych przebiegach"
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-asus-mq16fc-zenscreen-oled-czarnysrebrny-175451207.html",
-   "przekątna 16\" poza zakresem 23.8–32\""
-  ],
-  [
-   "https://mediamarkt.pl/pl/product/_monitor-lg-ultrafine-u7-27u730b-b-27-ips-4k-hdr10-flicker-safe-czarny-1508690.html",
-   "60 Hz poza zakresem 100–500 Hz"
+   "limit pobrań (25 na sklep) — 596 adresów w następnych przebiegach"
   ],
   [
    "ASUS TUF Gaming VG249QE5A",
@@ -72,32 +55,32 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
+   "https://www.morele.net/komputer-actina-endorfy-ryzen-7-7700-32gb-radeon-rx-9070-xt-2tb-m-2-pcie-14929060/",
+   "procesor w specyfikacji (Core i7-7700) różni się od procesora w tytule (Ryzen 7 7700)"
+  ],
+  [
+   "https://www.morele.net/komputer-actina-pc-amd-ryzen-5-9500-32-gb-ddr5-sdram-1-tb-ssd-amd-radeon-rx-9060-xt-mini-tower-czarny-15614443/",
+   "brak pola „Model procesora” w specyfikacji"
+  ],
+  [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 1748 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 1210 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/minotaur",
    "robots.txt nie pozwala pobrać zdjęcia"
-  ],
-  [
-   "https://www.morele.net/komputer-artrel-ryzen-5-8400f-32gb-rx-7600-1tb-m-2-pcie-windows-11-pro-600481142/",
-   "cena 6189 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-logic-aramis-argb-mini-core-i5-14400f-16gb-ddr5-rtx-5060-1tb-ssd-nvme-windows-11-pg02182-600480933/",
-   "cena 6125 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 931, do sprawdzenia 623"
+   "monitor": "lista 926, do sprawdzenia 621"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 56, do sprawdzenia 4",
+   "monitor": "lista 55, do sprawdzenia 2",
    "pc": "lista 12, do sprawdzenia 0"
   },
   "plugnplay": {
@@ -107,7 +90,7 @@
    "pc": "lista 6, do sprawdzenia 3"
   },
   "morele_pc": {
-   "pc": "lista 1977, do sprawdzenia 1773"
+   "pc": "lista 1487, do sprawdzenia 1235"
   }
  }
 }

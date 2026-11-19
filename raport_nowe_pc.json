@@ -1,7 +1,7 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 7 7500F, RX 9070 GRE 12GB, 16GB DDR5, 1TB SSD, 750W, ARX 700 ARGB",
-  "Zestaw | Ryzen 5 7500X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD, 850W, Hunter 3"
+  "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+  "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)"
  ],
  "pominiete": [
   [
@@ -354,6 +354,10 @@
   ],
   [
    "Zestaw | Ryzen 7 7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Define 7 Compact",
+   "towar niedostępny"
+  ],
+  [
+   "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
    "towar niedostępny"
   ]
  ]
