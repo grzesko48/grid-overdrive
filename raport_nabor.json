@@ -1,31 +1,28 @@
 {
- "dopisane_monitory": [
-  "AOC B324HA2/75"
- ],
+ "dopisane_monitory": [],
  "dopisane_pc": [
-  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 5 7600, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7800X3D, RX 9070 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 7 8700F, RX 9070 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 7 9800X3D, RX 9070 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (5)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (5)",
-  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (5)",
-  "Morele | Ryzen 5 8400F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD"
+  "Morele | Core i7-14700KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+  "Morele | Core i7-7700, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 9 9900X, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 5 7600, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
+  "Morele | Ryzen 7 9700X, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7600X, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 9600X, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7600X, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Core Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Core i5-14400F, RTX 5060 12GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (5)"
  ],
  "uzupelnione": [],
  "konflikty": [],
@@ -40,7 +37,11 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 596 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 591 adresów w następnych przebiegach"
+  ],
+  [
+   "https://mediamarkt.pl/pl/product/_monitor-hyperx-omen-24-g2-fhd-ips-180hz-czarny-1508797.html",
+   "tytuł karty nie jest nazwą modelu: 'Monitor HYPERX OMEN 24 G2 FHD IPS 180Hz Czarny'"
   ],
   [
    "ASUS TUF Gaming VG249QE5A",
@@ -55,42 +56,42 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.morele.net/komputer-actina-endorfy-ryzen-7-7700-32gb-radeon-rx-9070-xt-2tb-m-2-pcie-14929060/",
-   "procesor w specyfikacji (Core i7-7700) różni się od procesora w tytule (Ryzen 7 7700)"
-  ],
-  [
-   "https://www.morele.net/komputer-actina-pc-amd-ryzen-5-9500-32-gb-ddr5-sdram-1-tb-ssd-amd-radeon-rx-9060-xt-mini-tower-czarny-15614443/",
+   "https://www.morele.net/komputer-actina-selection-core-ultra-5-250k-32gb-rtx-5070-1tb-m-2-pcie-komacngip0627-15910630/",
    "brak pola „Model procesora” w specyfikacji"
   ],
   [
-   "morele_pc",
-   "limit pobrań (25 na sklep) — 1210 adresów w następnych przebiegach"
+   "https://www.morele.net/komputer-actina-selection-core-ultra-5-250k-32gb-rtx-5070-1tb-m-2-pcie-komacngip0653-600139629/",
+   "brak pola „Model procesora” w specyfikacji"
   ],
   [
-   "https://goblinpc.pl/product/minotaur",
-   "robots.txt nie pozwala pobrać zdjęcia"
+   "https://www.morele.net/komputer-actina-selection-core-ultra-5-250kf-32gb-rtx-5070-1tb-m-2-pcie-15910629/",
+   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
+  ],
+  [
+   "morele_pc",
+   "limit pobrań (25 na sklep) — 952 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 926, do sprawdzenia 621"
+   "monitor": "lista 921, do sprawdzenia 616"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 55, do sprawdzenia 2",
-   "pc": "lista 12, do sprawdzenia 0"
+   "monitor": "lista 57, do sprawdzenia 2",
+   "pc": "lista 11, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
   },
   "goblinpc": {
-   "pc": "lista 6, do sprawdzenia 3"
+   "pc": "lista 5, do sprawdzenia 2"
   },
   "morele_pc": {
-   "pc": "lista 1487, do sprawdzenia 1235"
+   "pc": "lista 985, do sprawdzenia 977"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
- "katalog_pozycji": 915,
- "nasze_identyfikatory": 518,
+ "katalog_pozycji": 919,
+ "nasze_identyfikatory": 529,
  "zniknely": [
   {
    "id": "19716",
@@ -75,54 +75,6 @@
  ],
  "nowi_kandydaci": [
   {
-   "id": "20334",
-   "nazwa": "Zestaw | Ryzen 7 7700, RTX 5070 Ti 16GB, 32GB DDR5, 1TB, 850W, Exo ARGB",
-   "cena": 11949,
-   "url": "https://sklep.hard-pc.pl/p20334,zestaw-ryzen-7-7700-rtx-5070-ti-16gb-32gb-ddr5-1tb-850w-exo-argb.html"
-  },
-  {
-   "id": "20835",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
-   "cena": 10289,
-   "url": "https://sklep.hard-pc.pl/p20835,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-ssd-pano-130r-pz-argb-black.html"
-  },
-  {
-   "id": "21396",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD, PANO 130R PZ ARGB Black",
-   "cena": 11069,
-   "url": "https://sklep.hard-pc.pl/p21396,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-2tb-ssd-pano-130r-pz-argb-black.html"
-  },
-  {
-   "id": "21412",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
-   "cena": 10699,
-   "url": "https://sklep.hard-pc.pl/p21412,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-32gb-ddr5-1tb-ssd-pano-130r-pz-argb-black.html"
-  },
-  {
-   "id": "22437",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1,5TB SSD, Stellar Plus 5F ARGB Black",
-   "cena": 11059,
-   "url": "https://sklep.hard-pc.pl/p22437,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1-5tb-ssd-stellar-plus-5f-argb-black.html"
-  },
-  {
-   "id": "22539",
-   "nazwa": "Zestaw | Ryzen 7 7700X, RTX 5070 12GB, 32GB DDR5, 1TB SSD 850W, PANO 130R PZ ARGB Black",
-   "cena": 10089,
-   "url": "https://sklep.hard-pc.pl/p22539,zestaw-ryzen-7-7700x-rtx-5070-12gb-32gb-ddr5-1tb-ssd-850w-pano-130r-pz-argb-black.html"
-  },
-  {
-   "id": "22545",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB. Vector V100 ARGB White",
-   "cena": 10349,
-   "url": "https://sklep.hard-pc.pl/p22545,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-vector-v100-argb-white.html"
-  },
-  {
-   "id": "22615",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB. Vector V100 ARGB White",
-   "cena": 11249,
-   "url": "https://sklep.hard-pc.pl/p22615,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-vector-v100-argb-white.html"
-  },
-  {
    "id": "22648",
    "nazwa": "Zestaw Powered by MSI | Ryzen 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
    "cena": 9869,
@@ -141,12 +93,6 @@
    "url": "https://sklep.hard-pc.pl/p22650,zestaw-powered-by-msi-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-ssd-850w-pano-130r-pz.html"
   },
   {
-   "id": "22693",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB, Vector V100 ARGB White",
-   "cena": 10569,
-   "url": "https://sklep.hard-pc.pl/p22693,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-32gb-ddr5-1tb-vector-v100-argb-white.html"
-  },
-  {
    "id": "22886",
    "nazwa": "Zestaw Powered by MSI | Ryzen 7 9800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, 850W, Pano 130R PZ",
    "cena": 12139,
@@ -157,12 +103,6 @@
    "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 850W, Aquarius 8000",
    "cena": 8229,
    "url": "https://sklep.hard-pc.pl/p25528,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-1tb-ssd-850w-aquarius-8000.html"
-  },
-  {
-   "id": "25983",
-   "nazwa": "Zestaw | Ryzen 9 9900X, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
-   "cena": 10849,
-   "url": "https://sklep.hard-pc.pl/p25983,zestaw-ryzen-9-9900x-rtx-5070-12gb-32gb-ddr5-1tb-ssd-pano-130r-pz-argb-black.html"
   },
   {
    "id": "25987",

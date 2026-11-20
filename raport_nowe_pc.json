@@ -1,7 +1,16 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-  "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)"
+  "Zestaw | Ryzen 7 7700, RTX 5070 Ti 16GB, 32GB DDR5, 1TB, 850W, Exo ARGB",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD, PANO 130R PZ ARGB Black",
+  "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1,5TB SSD, Stellar Plus 5F ARGB Black",
+  "Zestaw | Ryzen 7 7700X, RTX 5070 12GB, 32GB DDR5, 1TB SSD 850W, PANO 130R PZ ARGB Black",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB. Vector V100 ARGB White",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB. Vector V100 ARGB White (2)",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB, Vector V100 ARGB White",
+  "Zestaw | Ryzen 9 9900X, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
+  "Zestaw | Ryzen 7 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter"
  ],
  "pominiete": [
   [
@@ -273,48 +282,12 @@
    "cena poza progiem: 12949 zł bez systemu, 13488 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7700, RTX 5070 Ti 16GB, 32GB DDR5, 1TB, 850W, Exo ARGB",
-   "brak danych o dysku ani w tytule, ani w specyfikacji"
-  ],
-  [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
    "cena poza progiem: 12689 zł bez systemu, 13228 z Windowsem"
   ],
   [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
-   "brak mocy zasilacza"
-  ],
-  [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 TI 16GB, 32GB DDR5, 1TB SSD, Stellar 5F ARGB WHITE",
-   "brak mocy zasilacza"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD, PANO 130R PZ ARGB Black",
-   "brak mocy zasilacza"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
-   "brak mocy zasilacza"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1,5TB SSD, Stellar Plus 5F ARGB Black",
-   "brak mocy zasilacza"
-  ],
-  [
-   "Zestaw | Ryzen 7 7700X, RTX 5070 12GB, 32GB DDR5, 1TB SSD 850W, PANO 130R PZ ARGB Black",
-   "brak mocy zasilacza"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB. Vector V100 ARGB White",
-   "brak danych o dysku ani w tytule, ani w specyfikacji"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB. Vector V100 ARGB White",
-   "brak danych o dysku ani w tytule, ani w specyfikacji"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB, Vector V100 ARGB White",
-   "brak danych o dysku ani w tytule, ani w specyfikacji"
+   "cena poza progiem: 12539 zł bez systemu, 13078 z Windowsem"
   ],
   [
    "Zestaw | Intel Ultra 7 270K Plus, RTX 5070 Ti 16GB, 1TB SSD, 32GB DDR5, 850W, Pano 130 ARGB",
@@ -327,10 +300,6 @@
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
    "cena poza progiem: 12729 zł bez systemu, 13268 z Windowsem"
-  ],
-  [
-   "Zestaw | Ryzen 9 9900X, RTX 5070 12GB, 32GB DDR5, 1TB SSD, PANO 130R PZ ARGB Black",
-   "brak mocy zasilacza"
   ],
   [
    "Zestaw | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD, 850W, Fishtank 6000 Corona",
