@@ -1,28 +1,9 @@
 {
- "dopisane_monitory": [],
+ "dopisane_monitory": [
+  "Acer VG240YW3bmiipx"
+ ],
  "dopisane_pc": [
-  "Morele | Core i7-14700KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
-  "Morele | Core i7-7700, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 9 9900X, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 5 7600, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 9700X, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7600X, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 9600X, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 5 7600X, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Core Ultra 5 245KF, RTX 5060 8GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 16GB DDR5, 1TB SSD",
-  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Core i5-14400F, RTX 5060 12GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (5)"
+  "Morele | Core Ultra 7 265F, RTX 5060 8GB, 32GB DDR5, 1TB SSD"
  ],
  "uzupelnione": [],
  "konflikty": [],
@@ -37,15 +18,15 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 591 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 587 adresów w następnych przebiegach"
   ],
   [
-   "https://mediamarkt.pl/pl/product/_monitor-hyperx-omen-24-g2-fhd-ips-180hz-czarny-1508797.html",
-   "tytuł karty nie jest nazwą modelu: 'Monitor HYPERX OMEN 24 G2 FHD IPS 180Hz Czarny'"
+   "https://mediamarkt.pl/pl/product/_gaming-monitor-gigabyte-gs25f2-czarny-154839890.html",
+   "typ matrycy „brak” spoza zakresu (IPS/VA/OLED/QD-OLED)"
   ],
   [
-   "ASUS TUF Gaming VG249QE5A",
-   "nazwa już istnieje na stronie"
+   "https://mediamarkt.pl/pl/product/_monitor-philips-v-line-241v8aw00-bialy-142681194.html",
+   "75 Hz poza zakresem 100–500 Hz"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -56,25 +37,109 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.morele.net/komputer-actina-selection-core-ultra-5-250k-32gb-rtx-5070-1tb-m-2-pcie-komacngip0627-15910630/",
-   "brak pola „Model procesora” w specyfikacji"
+   "https://www.morele.net/komputer-actina-pbm-7500f-16gb-500gb-rtx5060-750w-600754982/",
+   "pamięć RAM w tytule (500 GB) różni się od specyfikacji (16 GB)"
   ],
   [
-   "https://www.morele.net/komputer-actina-selection-core-ultra-5-250k-32gb-rtx-5070-1tb-m-2-pcie-komacngip0653-600139629/",
-   "brak pola „Model procesora” w specyfikacji"
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296252/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
   ],
   [
-   "https://www.morele.net/komputer-actina-selection-core-ultra-5-250kf-32gb-rtx-5070-1tb-m-2-pcie-15910629/",
-   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296253/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296256/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296257/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297681/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297695/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297761/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297763/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297767/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296182/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296194/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296197/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296199/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296201/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296148/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296150/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296152/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296585/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296588/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296590/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296724/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600297676/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296267/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 952 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 485 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 921, do sprawdzenia 616"
+   "monitor": "lista 917, do sprawdzenia 612"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
@@ -91,7 +156,7 @@
    "pc": "lista 5, do sprawdzenia 2"
   },
   "morele_pc": {
-   "pc": "lista 985, do sprawdzenia 977"
+   "pc": "lista 510, do sprawdzenia 510"
   }
  }
 }
