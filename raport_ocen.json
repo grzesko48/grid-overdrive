@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 67,
+ "przeliczonych": 33,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,28 +20,94 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Philips Evnia 27M2N3501PA/00",
+   "nazwa": "Gigabyte MO27Q2A",
    "rodzaj": "monitor",
-   "podstawa": 3.38,
+   "podstawa": 7.12,
    "zmiany": {
     "value": [
-     99,
-     96
-    ],
-    "overall": [
-     73,
-     72
+     55,
+     54
     ]
    }
   },
   {
-   "nazwa": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
+   "nazwa": "AOC Q27G4ZD",
    "rodzaj": "monitor",
-   "podstawa": 3.23,
+   "podstawa": 5.58,
    "zmiany": {
     "value": [
-     95,
-     98
+     66,
+     71
+    ],
+    "overall": [
+     76,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "Gigabyte GO27Q24G",
+   "rodzaj": "monitor",
+   "podstawa": 6.62,
+   "zmiany": {
+    "value": [
+     59,
+     60
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo Legion Pro 27Q-10",
+   "rodzaj": "monitor",
+   "podstawa": 7.41,
+   "zmiany": {
+    "value": [
+     52,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
+   "rodzaj": "monitor",
+   "podstawa": 6.78,
+   "zmiany": {
+    "value": [
+     59,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer CE270UXwmiipprx",
+   "rodzaj": "monitor",
+   "podstawa": 7.38,
+   "zmiany": {
+    "value": [
+     52,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC AGON PRO AG276QKD2",
+   "rodzaj": "monitor",
+   "podstawa": 5.62,
+   "zmiany": {
+    "value": [
+     69,
+     71
+    ]
+   }
+  },
+  {
+   "nazwa": "Philips Evnia 27M2N8500/00",
+   "rodzaj": "monitor",
+   "podstawa": 5.23,
+   "zmiany": {
+    "value": [
+     72,
+     75
     ],
     "overall": [
      79,
@@ -50,264 +116,53 @@
    }
   },
   {
-   "nazwa": "Gigabyte MO27Q2A",
+   "nazwa": "ASUS ROG Strix XG27ACMES",
    "rodzaj": "monitor",
-   "podstawa": 7.03,
+   "podstawa": 4.72,
    "zmiany": {
     "value": [
-     58,
-     55
-    ],
-    "overall": [
-     72,
-     71
+     82,
+     81
     ]
    }
   },
   {
-   "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
+   "nazwa": "Samsung Odyssey G6 OLED LS27DG610SUXEN",
    "rodzaj": "monitor",
-   "podstawa": 11.63,
+   "podstawa": 9.58,
    "zmiany": {
     "value": [
-     5,
-     4
-    ],
-    "overall": [
-     47,
-     46
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
-   "rodzaj": "monitor",
-   "podstawa": 6.42,
-   "zmiany": {
-    "value": [
-     63,
-     62
-    ],
-    "overall": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion 27Q-10 OLED",
-   "rodzaj": "monitor",
-   "podstawa": 5.62,
-   "zmiany": {
-    "value": [
-     69,
-     71
-    ],
-    "overall": [
-     72,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer CE270UXwmiipprx",
-   "rodzaj": "monitor",
-   "podstawa": 7.36,
-   "zmiany": {
-    "value": [
-     56,
-     52
-    ],
-    "overall": [
-     69,
-     68
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QKD2",
-   "rodzaj": "monitor",
-   "podstawa": 5.76,
-   "zmiany": {
-    "value": [
-     71,
-     69
-    ]
-   }
-  },
-  {
-   "nazwa": "LG UltraGear 27GS95QE-B",
-   "rodzaj": "monitor",
-   "podstawa": 10.68,
-   "zmiany": {
-    "value": [
-     14,
-     15
-    ],
-    "overall": [
-     55,
-     56
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer Predator XB273UF5bmiiprzx",
-   "rodzaj": "monitor",
-   "podstawa": 7.51,
-   "zmiany": {
-    "value": [
-     51,
-     50
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer XV270UF3BMIIPRX",
-   "rodzaj": "monitor",
-   "podstawa": 2.79,
-   "zmiany": {
-    "value": [
-     99,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
-   "rodzaj": "monitor",
-   "podstawa": 9.36,
-   "zmiany": {
-    "value": [
-     30,
-     29
-    ]
-   }
-  },
-  {
-   "nazwa": "ASRock Phantom Gaming PGO27QFS",
-   "rodzaj": "monitor",
-   "podstawa": 7.5,
-   "zmiany": {
-    "value": [
-     62,
-     50
-    ]
-   }
-  },
-  {
-   "nazwa": "Cooler Master GM27QPA",
-   "rodzaj": "monitor",
-   "podstawa": 3.61,
-   "zmiany": {
-    "value": [
-     94,
-     93
-    ]
-   }
-  },
-  {
-   "nazwa": "Dahua Technology LM27-E341AY",
-   "rodzaj": "monitor",
-   "podstawa": 2.87,
-   "zmiany": {
-    "value": [
-     99,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "Minifire MFG27F4Q Pro",
-   "rodzaj": "monitor",
-   "podstawa": 3.77,
-   "zmiany": {
-    "value": [
-     92,
-     91
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI 272QRF X36 Pulsar",
-   "rodzaj": "monitor",
-   "podstawa": 9.41,
-   "zmiany": {
-    "value": [
-     30,
-     29
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 6.66,
-   "zmiany": {
-    "value": [
-     60,
-     59
+     23,
+     27
     ]
    }
   },
   {
    "nazwa": "LG 27GS95QX-B",
    "rodzaj": "monitor",
-   "podstawa": 10.11,
+   "podstawa": 10.28,
    "zmiany": {
     "value": [
-     17,
-     21
+     21,
+     19
     ]
    }
   },
   {
-   "nazwa": "Acer B247YGbemiqpruzx",
+   "nazwa": "MSI MAG 272QP QD-OLED X50",
    "rodzaj": "monitor",
-   "podstawa": 7.35,
+   "podstawa": 5.88,
    "zmiany": {
     "value": [
-     50,
-     52
+     67,
+     68
     ]
    }
   },
   {
-   "nazwa": "Acer B277Gbmiqprzx",
+   "nazwa": "Acer B247YGbmiprx",
    "rodzaj": "monitor",
-   "podstawa": 7.61,
-   "zmiany": {
-    "value": [
-     50,
-     49
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer B277UGbmiiqprx",
-   "rodzaj": "monitor",
-   "podstawa": 8.62,
-   "zmiany": {
-    "value": [
-     37,
-     38
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer KA272UGbmiipx",
-   "rodzaj": "monitor",
-   "podstawa": 6.33,
-   "zmiany": {
-    "value": [
-     61,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
-   "rodzaj": "monitor",
-   "podstawa": 5.08,
+   "podstawa": 5.09,
    "zmiany": {
     "value": [
      78,
@@ -316,40 +171,51 @@
    }
   },
   {
-   "nazwa": "Acer Vero B7 B277Gbmiprzx",
+   "nazwa": "Acer B248YEbemiqprcuzx",
    "rodzaj": "monitor",
-   "podstawa": 6.12,
+   "podstawa": 10.31,
    "zmiany": {
     "value": [
-     66,
-     65
+     20,
+     19
     ]
    }
   },
   {
-   "nazwa": "Acer Vero CB2 CB272P6bipr",
+   "nazwa": "Acer B277KLBbmipruzx",
    "rodzaj": "monitor",
-   "podstawa": 3.8,
+   "podstawa": 10.22,
    "zmiany": {
     "value": [
-     92,
-     91
+     21,
+     20
     ]
    }
   },
   {
-   "nazwa": "AOC 24B3CF2",
+   "nazwa": "Acer CB2 CB272UGbmiiprx",
    "rodzaj": "monitor",
    "podstawa": 5.38,
    "zmiany": {
     "value": [
-     75,
+     73,
      74
     ]
    }
   },
   {
-   "nazwa": "AOC 24E4CV",
+   "nazwa": "Acer CB272 G UM.HB2EE.G06",
+   "rodzaj": "monitor",
+   "podstawa": 8.38,
+   "zmiany": {
+    "value": [
+     41,
+     40
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer Nitro XV252QLVbmiiprx",
    "rodzaj": "monitor",
    "podstawa": 6.56,
    "zmiany": {
@@ -360,86 +226,108 @@
    }
   },
   {
-   "nazwa": "AOC 27B3HA2",
+   "nazwa": "Acer Vero B7 B277UGbmiiprzx",
    "rodzaj": "monitor",
-   "podstawa": 4.31,
+   "podstawa": 7.07,
    "zmiany": {
     "value": [
-     86,
-     85
+     56,
+     55
     ]
    }
   },
   {
    "nazwa": "AOC 27E4CV",
    "rodzaj": "monitor",
-   "podstawa": 6.37,
+   "podstawa": 6.39,
    "zmiany": {
     "value": [
-     62,
-     63
+     63,
+     62
     ]
    }
   },
   {
    "nazwa": "AOC 27E4U",
    "rodzaj": "monitor",
-   "podstawa": 5.12,
+   "podstawa": 5.07,
    "zmiany": {
     "value": [
-     77,
-     76
+     76,
+     77
     ]
    }
   },
   {
-   "nazwa": "AOC 27G4HA",
+   "nazwa": "AOC Q27E4CV",
    "rodzaj": "monitor",
-   "podstawa": 3.38,
+   "podstawa": 9.38,
    "zmiany": {
     "value": [
-     98,
-     96
+     30,
+     29
     ]
    }
   },
   {
-   "nazwa": "AOC 27G4X",
+   "nazwa": "AOC Q27E4U",
    "rodzaj": "monitor",
-   "podstawa": 3.96,
+   "podstawa": 6.17,
    "zmiany": {
     "value": [
-     90,
-     89
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27G42XE",
-   "rodzaj": "monitor",
-   "podstawa": 3.31,
-   "zmiany": {
-    "value": [
-     100,
-     97
+     64,
+     65
     ]
    }
   },
   {
    "nazwa": "AOC Q27P4U",
    "rodzaj": "monitor",
-   "podstawa": 6.27,
+   "podstawa": 6.53,
    "zmiany": {
     "value": [
-     62,
-     64
+     64,
+     61
     ]
    }
   },
   {
-   "nazwa": "Arozzi Nova 32 AZ-NO-32T2K180-BK",
+   "nazwa": "ASUS ROG Strix XG27ACS-W Gen2",
    "rodzaj": "monitor",
-   "podstawa": 7.83,
+   "podstawa": 6.09,
+   "zmiany": {
+    "value": [
+     67,
+     66
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG32WCS",
+   "rodzaj": "monitor",
+   "podstawa": 7.88,
+   "zmiany": {
+    "value": [
+     59,
+     46
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27WQ3B",
+   "rodzaj": "monitor",
+   "podstawa": 4.64,
+   "zmiany": {
+    "value": [
+     83,
+     82
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA27DQFS",
+   "rodzaj": "monitor",
+   "podstawa": 7.86,
    "zmiany": {
     "value": [
      47,
@@ -448,355 +336,57 @@
    }
   },
   {
-   "nazwa": "ASUS BE27AQG",
+   "nazwa": "BenQ BL2490C",
    "rodzaj": "monitor",
-   "podstawa": 9.22,
+   "podstawa": 3.44,
    "zmiany": {
     "value": [
-     30,
-     31
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Business BE27ACGN",
-   "rodzaj": "monitor",
-   "podstawa": 10.0,
-   "zmiany": {
-    "value": [
-     1,
-     22
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY279HGR",
-   "rodzaj": "monitor",
-   "podstawa": 4.78,
-   "zmiany": {
-    "value": [
-     81,
-     80
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG249QM1A",
-   "rodzaj": "monitor",
-   "podstawa": 4.22,
-   "zmiany": {
-    "value": [
-     87,
-     86
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279Q3R",
-   "rodzaj": "monitor",
-   "podstawa": 3.32,
-   "zmiany": {
-    "value": [
-     95,
-     96
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279QE5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.97,
-   "zmiany": {
-    "value": [
-     88,
-     89
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQA1A",
-   "rodzaj": "monitor",
-   "podstawa": 4.69,
-   "zmiany": {
-    "value": [
-     82,
-     81
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQ1A",
-   "rodzaj": "monitor",
-   "podstawa": 11.09,
-   "zmiany": {
-    "value": [
-     33,
-     10
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27VQM",
-   "rodzaj": "monitor",
-   "podstawa": 3.16,
-   "zmiany": {
-    "value": [
-     99,
-     98
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27WQ3B",
-   "rodzaj": "monitor",
-   "podstawa": 4.49,
-   "zmiany": {
-    "value": [
-     84,
-     83
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS VA24DQFS",
-   "rodzaj": "monitor",
-   "podstawa": 5.37,
-   "zmiany": {
-    "value": [
-     75,
-     74
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS VA279QGSE",
-   "rodzaj": "monitor",
-   "podstawa": 6.18,
-   "zmiany": {
-    "value": [
-     61,
-     65
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS VY249HF-W",
-   "rodzaj": "monitor",
-   "podstawa": 5.15,
-   "zmiany": {
-    "value": [
-     77,
-     76
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ BL2490TC",
-   "rodzaj": "monitor",
-   "podstawa": 4.17,
-   "zmiany": {
-    "value": [
-     82,
-     87
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ BL2786TC",
-   "rodzaj": "monitor",
-   "podstawa": 6.5,
-   "zmiany": {
-    "value": [
-     56,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ BL2790C",
-   "rodzaj": "monitor",
-   "podstawa": 3.61,
-   "zmiany": {
-    "value": [
-     89,
-     93
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ BL2790TC",
-   "rodzaj": "monitor",
-   "podstawa": 5.74,
-   "zmiany": {
-    "value": [
-     71,
-     70
+     96,
+     95
     ]
    }
   },
   {
    "nazwa": "BenQ GW2486TC",
    "rodzaj": "monitor",
-   "podstawa": 7.59,
+   "podstawa": 7.45,
    "zmiany": {
     "value": [
-     51,
-     49
+     49,
+     51
     ]
    }
   },
   {
-   "nazwa": "BenQ GW2490P",
+   "nazwa": "iiyama G-Master GB2771QSU-B1 Red Eagle",
    "rodzaj": "monitor",
-   "podstawa": 3.42,
+   "podstawa": 3.79,
    "zmiany": {
     "value": [
-     94,
-     95
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ GW2786TC",
-   "rodzaj": "monitor",
-   "podstawa": 8.82,
-   "zmiany": {
-    "value": [
-     36,
-     35
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ GW2790C",
-   "rodzaj": "monitor",
-   "podstawa": 2.92,
-   "zmiany": {
-    "value": [
-     98,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
-   "rodzaj": "monitor",
-   "podstawa": 4.37,
-   "zmiany": {
-    "value": [
-     82,
-     85
+     89,
+     91
     ]
    }
   },
   {
    "nazwa": "Samsung LS32CG552EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 5.45,
+   "podstawa": 5.15,
    "zmiany": {
     "value": [
-     77,
-     73
+     73,
+     76
     ]
    }
   },
   {
-   "nazwa": "AOC G4CQ32VE",
+   "nazwa": "Amzfast AMZG27C1Q Pro",
    "rodzaj": "monitor",
-   "podstawa": 4.5,
-   "zmiany": {
-    "value": [
-     84,
-     83
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX271 9H.LNALA.TBE",
-   "rodzaj": "monitor",
-   "podstawa": 3.28,
-   "zmiany": {
-    "value": [
-     96,
-     97
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX2710S",
-   "rodzaj": "monitor",
-   "podstawa": 4.73,
+   "podstawa": 5.79,
    "zmiany": {
     "value": [
      78,
-     81
-    ]
-   }
-  },
-  {
-   "nazwa": "iiyama G-Master GB2771UHSU-B1 Red Eagle",
-   "rodzaj": "monitor",
-   "podstawa": 4.09,
-   "zmiany": {
-    "value": [
-     85,
-     88
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC G4252E",
-   "rodzaj": "monitor",
-   "podstawa": 3.09,
-   "zmiany": {
-    "value": [
-     100,
-     99
-    ]
-   }
-  },
-  {
-   "nazwa": "Acer XB323QKV4bmiiprx",
-   "rodzaj": "monitor",
-   "podstawa": 12.73,
-   "zmiany": {
-    "value": [
-     1,
-     0
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo LOQ Tower 26ADR10 (Ryzen 7 8745HX, RTX 5050)",
-   "rodzaj": "pc",
-   "podstawa": 104.75,
-   "zmiany": {
-    "value": [
-     44,
-     50
-    ],
-    "overall": [
-     67,
      69
-    ],
-    "ultra": [
-     49,
-     50
-    ]
-   }
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "podstawa": 116.65,
-   "zmiany": {
-    "value": [
-     30,
-     33
-    ],
-    "overall": [
-     70,
-     71
     ]
    }
   }
