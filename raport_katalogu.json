@@ -1,10 +1,60 @@
 {
- "katalog_pozycji": 922,
- "nasze_identyfikatory": 532,
+ "katalog_pozycji": 855,
+ "nasze_identyfikatory": 533,
  "zniknely": [
   {
    "id": "19716",
    "nazwa": "Zestaw | Ryzen 7 7700, RX 7700 XT 12GB, 32GB DDR5, 2TB SSD, 850W, Ventum 200 Solid",
+   "wpisow": 1
+  },
+  {
+   "id": "20256",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (2)",
+   "wpisow": 1
+  },
+  {
+   "id": "20261",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB (2)",
+   "wpisow": 1
+  },
+  {
+   "id": "20267",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20458",
+   "nazwa": "Zestaw | Ryzen 7500f, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Exo ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20497",
+   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20665",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB , 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20666",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20746",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20750",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2TB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "20762",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Night Hunter",
    "wpisow": 1
   },
   {
@@ -13,8 +63,88 @@
    "wpisow": 1
   },
   {
+   "id": "20870",
+   "nazwa": "Zestaw | Intel I5 14600KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, PANO 130R PZ ARGB Black",
+   "wpisow": 1
+  },
+  {
+   "id": "20895",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB (3)",
+   "wpisow": 1
+  },
+  {
+   "id": "21023",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Stellar 5F ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "21045",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "21078",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (3)",
+   "wpisow": 1
+  },
+  {
+   "id": "21176",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Nadir",
+   "wpisow": 1
+  },
+  {
+   "id": "21200",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Diaxid 605F",
+   "wpisow": 1
+  },
+  {
+   "id": "21252",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "22452",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 1TB SSD, 32GB DDR5, 650W, AG400 WH",
+   "wpisow": 1
+  },
+  {
    "id": "22593",
    "nazwa": "Zestaw | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1000GB SSD, 650W, Stellar 5F ARGB White (2)",
+   "wpisow": 1
+  },
+  {
+   "id": "22618",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "22619",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "22623",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "22625",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "22635",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, Pano 130R PZ, 850W",
+   "wpisow": 1
+  },
+  {
+   "id": "22639",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
+   "wpisow": 1
+  },
+  {
+   "id": "22859",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
    "wpisow": 1
   },
   {
@@ -23,9 +153,29 @@
    "wpisow": 2
   },
   {
+   "id": "25211",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Pano 130 ARGB",
+   "wpisow": 1
+  },
+  {
    "id": "25239",
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5050 8GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
    "wpisow": 2
+  },
+  {
+   "id": "25275",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Hunter 2",
+   "wpisow": 1
+  },
+  {
+   "id": "25433",
+   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 850W, Vako",
+   "wpisow": 1
+  },
+  {
+   "id": "25437",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1000GB SSD, 750W, Hunter",
+   "wpisow": 1
   },
   {
    "id": "25439",
@@ -35,6 +185,11 @@
   {
    "id": "25457",
    "nazwa": "Zestaw | Ryzen 5 9500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 650W, P30 ARGB",
+   "wpisow": 2
+  },
+  {
+   "id": "25495",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Exo ARGB",
    "wpisow": 2
   },
   {
@@ -48,8 +203,38 @@
    "wpisow": 1
   },
   {
+   "id": "26065",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26074",
+   "nazwa": "Zestaw | Ryzen 5 9500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26088",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Signum 300 ARGB (3)",
+   "wpisow": 1
+  },
+  {
+   "id": "26157",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Night hunter",
+   "wpisow": 1
+  },
+  {
    "id": "26173",
    "nazwa": "Zestaw | Ryzen 7 9800X3D, RTX 5060 Ti 8GB. 32GB DDR5, 1TB SSD, 850W, Night Hunter",
+   "wpisow": 1
+  },
+  {
+   "id": "26189",
+   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB , 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (2)",
+   "wpisow": 1
+  },
+  {
+   "id": "26196",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Stellar",
    "wpisow": 1
   },
   {
@@ -58,8 +243,33 @@
    "wpisow": 1
   },
   {
+   "id": "26326",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "wpisow": 1
+  },
+  {
+   "id": "26331",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 2.5TB SSD, 750W, Night Hunter",
+   "wpisow": 1
+  },
+  {
+   "id": "26347",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Hunter 3",
+   "wpisow": 1
+  },
+  {
+   "id": "26365",
+   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
    "id": "26399",
    "nazwa": "Zestaw | Ryzen 7 7700, RX 9070 XT 16GB, 32GB DDR5, 850W, M30 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26419",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (4)",
    "wpisow": 1
   },
   {
@@ -68,8 +278,33 @@
    "wpisow": 1
   },
   {
+   "id": "26431",
+   "nazwa": "Zestaw | Intel Ultra 270K, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
+   "wpisow": 1
+  },
+  {
+   "id": "26437",
+   "nazwa": "Zestaw | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter (2)",
+   "wpisow": 1
+  },
+  {
    "id": "26485",
    "nazwa": "Zestaw | Ryzen 5 9600X, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "wpisow": 1
+  },
+  {
+   "id": "26620",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Ventum 200 AIR",
+   "wpisow": 1
+  },
+  {
+   "id": "26639",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (5)",
+   "wpisow": 1
+  },
+  {
+   "id": "26767",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
    "wpisow": 1
   }
  ],
@@ -145,6 +380,18 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
    "cena": 6959,
    "url": "https://sklep.hard-pc.pl/p26818,zestaw-ryzen-5-7500f-rtx-5060-8gb-32gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26837",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB, 850W, Vector V100 ARGB",
+   "cena": 9189,
+   "url": "https://sklep.hard-pc.pl/p26837,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-16gb-ddr5-500gb-850w-vector-v100-argb.html"
+  },
+  {
+   "id": "26838",
+   "nazwa": "Zestaw | Ryzen 7 5700X, RTX 3050 6GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "cena": 6869,
+   "url": "https://sklep.hard-pc.pl/p26838,zestaw-ryzen-7-5700x-rtx-3050-6gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
   }
  ]
 }

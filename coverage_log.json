@@ -3103,5 +3103,52 @@
     "adresow": 438
    }
   }
+ },
+ {
+  "data": "24 listopada 2026",
+  "pobrano": {
+   "ok": 1881,
+   "brak_ceny": 0,
+   "wycofany": 51,
+   "zablokowane": 0,
+   "robots": 0,
+   "blad": 465
+  },
+  "pokrycie_proc": 78,
+  "zmian_cen": 213,
+  "wg_sklepu": {
+   "goblinpc": {
+    "ok": 3,
+    "adresow": 3
+   },
+   "hardpc": {
+    "ok": 533,
+    "adresow": 533
+   },
+   "mediaexpert": {
+    "ok": 0,
+    "adresow": 19
+   },
+   "mediamarkt": {
+    "ok": 132,
+    "adresow": 134
+   },
+   "morele": {
+    "ok": 1186,
+    "adresow": 1186
+   },
+   "plugnplay": {
+    "ok": 78,
+    "adresow": 78
+   },
+   "rtveuroagd": {
+    "ok": 0,
+    "adresow": 6
+   },
+   "xkom": {
+    "ok": 0,
+    "adresow": 438
+   }
+  }
  }
 ]

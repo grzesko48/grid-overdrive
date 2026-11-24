@@ -1,8 +1,29 @@
 {
- "dopisane_monitory": [
-  "AG Neovo ME-2701 ME2710B1E0000"
+ "dopisane_monitory": [],
+ "dopisane_pc": [
+  "Morele | Core i7-7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD (3)",
+  "Morele | Ryzen 5 7500F, RX 7600 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 9600X, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core i7-7700, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (5)",
+  "Morele | Ryzen 7 8700F, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 7 8700F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (3)",
+  "Morele | Core i5-14400F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 9600X, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Core i7-7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 5 8400F, RX 7600 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 8700F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 500GB SSD",
+  "Morele | Ryzen 5 8400F, RX 7600 8GB, 16GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (5)",
+  "Morele | Ryzen 5 7600X, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD"
  ],
- "dopisane_pc": [],
  "uzupelnione": [],
  "konflikty": [],
  "pominiete": [
@@ -16,7 +37,7 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 589 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 594 adresów w następnych przebiegach"
   ],
   [
    "https://mediamarkt.pl/pl/product/_monitor-samsung-odyssey-g5-ls27hg552euxen-27-qhd-va-1ms-180hz-freesync-eye-saver-czarny-1508833.html",
@@ -31,121 +52,33 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575729/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+   "https://www.morele.net/komputer-actina-view-core-ultra-5-250kf-16gb-radeon-rx-7600-1tb-m-2-pcie-16224592/",
+   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
   ],
   [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575754/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575727/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575739/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575722/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575756/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575731/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575753/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575725/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i5-14400f-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575752/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575761/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575765/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575777/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575764/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575772/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575762/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575775/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575759/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575763/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-i7-12700kf-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600575781/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575612/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575639/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575645/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600575646/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
-  ],
-  [
-   "https://www.morele.net/komputer-error-gaming-pc-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600575614/",
-   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+   "https://www.morele.net/komputer-actina-view-core-ultra-5-250kf-16gb-rtx-5060-ti-1tb-m-2-pcie-16224593/",
+   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 85 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 1912 adresów w następnych przebiegach"
+  ],
+  [
+   "https://www.morele.net/komputer-actina-view-ryzen-5-7500f-16gb-radeon-rx-9060-xt-500gb-m-2-pcie-600552298/",
+   "cena 6360 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 917, do sprawdzenia 614"
+   "monitor": "lista 916, do sprawdzenia 619"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 55, do sprawdzenia 1",
-   "pc": "lista 12, do sprawdzenia 0"
+   "monitor": "lista 54, do sprawdzenia 2",
+   "pc": "lista 22, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
@@ -154,7 +87,7 @@
    "pc": "lista 5, do sprawdzenia 2"
   },
   "morele_pc": {
-   "pc": "lista 110, do sprawdzenia 110"
+   "pc": "lista 1966, do sprawdzenia 1937"
   }
  }
 }

@@ -1,8 +1,6 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
-  "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3 (2)",
-  "Zestaw | Ryzen 7 7700, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD, 850W, V100 ARGB"
+  "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, PANO 130R ARGB"
  ],
  "pominiete": [
   [
@@ -262,6 +260,10 @@
    "w tytule nie ma pola ram: 'Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR, 1TB SSD, 850W, Aquarius 8000'"
   ],
   [
+   "Zestaw | Ryzen 7 5700X, RTX 3050 6GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
+   "karta spoza słownika klas: 'RTX 3050 6GB' — dopisz ją do KLASA_GPU z klasą ustaloną na podstawie testów albo pomiń zestaw"
+  ],
+  [
    "Zestaw | Intel Ultra 9 285K, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD, 850W, ARX 700 ARGB",
    "cena poza progiem: 12889 zł bez systemu, 13428 z Windowsem"
   ],
@@ -320,6 +322,10 @@
   [
    "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
    "towar niedostępny"
+  ],
+  [
+   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB, 850W, Vector V100 ARGB",
+   "brak danych o dysku ani w tytule, ani w specyfikacji"
   ]
  ]
 }
