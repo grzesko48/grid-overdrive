@@ -11,7 +11,7 @@
    "najgorszy": 140.0
   }
  },
- "przeliczonych": 125,
+ "przeliczonych": 62,
  "par_sprzecznych": {
   "monitor": 0,
   "pc": 0,
@@ -20,536 +20,384 @@
  "bez_podstawy": [],
  "zmiany": [
   {
-   "nazwa": "Samsung Odyssey G6 LS27FG602EUXEN",
+   "nazwa": "Philips Evnia 27M2N3501PA/00",
    "rodzaj": "monitor",
-   "podstawa": 3.37,
+   "podstawa": 3.2,
    "zmiany": {
     "value": [
-     98,
-     96
+     96,
+     98
     ],
     "overall": [
-     79,
-     78
+     72,
+     73
     ]
    }
   },
   {
-   "nazwa": "iiyama G-Master GB2791QSU-B1 Gold Phoenix",
+   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
-   "podstawa": 2.97,
-   "zmiany": {
-    "value": [
-     98,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "Lenovo Legion 27Q-10",
-   "rodzaj": "monitor",
-   "podstawa": 2.83,
-   "zmiany": {
-    "value": [
-     99,
-     100
-    ]
-   }
-  },
-  {
-   "nazwa": "Gigabyte GS27Q X",
-   "rodzaj": "monitor",
-   "podstawa": 4.33,
-   "zmiany": {
-    "value": [
-     90,
-     85
-    ],
-    "overall": [
-     73,
-     71
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27G4ZD",
-   "rodzaj": "monitor",
-   "podstawa": 5.53,
-   "zmiany": {
-    "value": [
-     71,
-     72
-    ]
-   }
-  },
-  {
-   "nazwa": "Gigabyte GO27Q24G",
-   "rodzaj": "monitor",
-   "podstawa": 6.45,
-   "zmiany": {
-    "value": [
-     60,
-     62
-    ],
-    "overall": [
-     68,
-     69
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC Q27G4SDR",
-   "rodzaj": "monitor",
-   "podstawa": 5.28,
-   "zmiany": {
-    "value": [
-     74,
-     75
-    ],
-    "overall": [
-     79,
-     80
-    ]
-   }
-  },
-  {
-   "nazwa": "Philips Evnia 27M2N6501L/00",
-   "rodzaj": "monitor",
-   "podstawa": 6.37,
+   "podstawa": 6.28,
    "zmiany": {
     "value": [
      62,
-     63
+     64
     ],
     "overall": [
+     63,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "Lenovo Legion 27Q-10 OLED",
+   "rodzaj": "monitor",
+   "podstawa": 5.41,
+   "zmiany": {
+    "value": [
      71,
-     72
+     73
     ]
    }
   },
   {
-   "nazwa": "Acer CE270UXwmiipprx",
+   "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
-   "podstawa": 7.36,
+   "podstawa": 10.89,
    "zmiany": {
     "value": [
-     51,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "AOC AGON PRO AG276QKD2",
-   "rodzaj": "monitor",
-   "podstawa": 5.8,
-   "zmiany": {
-    "value": [
-     73,
-     69
+     15,
+     12
     ],
     "overall": [
-     85,
-     84
+     56,
+     55
     ]
    }
   },
   {
-   "nazwa": "LG UltraGear 27GX700A-B",
+   "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
    "rodzaj": "monitor",
-   "podstawa": 8.21,
+   "podstawa": 9.53,
    "zmiany": {
     "value": [
-     37,
+     22,
+     27
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix Tandem OLED XG27AQWMG",
+   "rodzaj": "monitor",
+   "podstawa": 8.25,
+   "zmiany": {
+    "value": [
+     52,
      42
-    ],
-    "overall": [
-     64,
-     66
     ]
    }
   },
   {
-   "nazwa": "Philips Evnia 27M2N8500/00",
+   "nazwa": "ASUS ROG Strix XG27ACMEG",
    "rodzaj": "monitor",
-   "podstawa": 5.55,
+   "podstawa": 4.98,
    "zmiany": {
     "value": [
-     75,
-     72
-    ],
-    "overall": [
      80,
-     79
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMESZ",
-   "rodzaj": "monitor",
-   "podstawa": 8.37,
-   "zmiany": {
-    "value": [
-     41,
-     40
+     78
     ]
    }
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQM5F",
    "rodzaj": "monitor",
-   "podstawa": 3.99,
+   "podstawa": 3.85,
    "zmiany": {
     "value": [
-     88,
-     89
+     89,
+     91
     ]
    }
   },
   {
-   "nazwa": "BenQ EX271QMZ",
+   "nazwa": "BenQ Mobiuz EX271QZ",
    "rodzaj": "monitor",
-   "podstawa": 7.69,
+   "podstawa": 6.83,
    "zmiany": {
     "value": [
-     47,
-     48
+     58,
+     57
     ]
    }
   },
   {
-   "nazwa": "LC-Power LC-M27QO",
+   "nazwa": "Samsung Odyssey G6 LS27FG606EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 7.55,
+   "podstawa": 3.0,
    "zmiany": {
     "value": [
-     50,
-     49
+     98,
+     100
     ]
    }
   },
   {
-   "nazwa": "LG UltraGear OLED 27GX790A-B",
+   "nazwa": "Samsung Odyssey OLED G6 G60SF LS27FG604SUXEN",
    "rodzaj": "monitor",
-   "podstawa": 5.31,
+   "podstawa": 5.2,
    "zmiany": {
     "value": [
      75,
-     74
-    ]
-   }
-  },
-  {
-   "nazwa": "MSI MAG 272QPW QD-OLED X28",
-   "rodzaj": "monitor",
-   "podstawa": 7.71,
-   "zmiany": {
-    "value": [
-     34,
-     48
-    ]
-   }
-  },
-  {
-   "nazwa": "LG 27GS95QX-B",
-   "rodzaj": "monitor",
-   "podstawa": 10.05,
-   "zmiany": {
-    "value": [
-     23,
-     22
+     76
     ]
    }
   },
   {
    "nazwa": "MSI MAG 272QP QD-OLED X50",
    "rodzaj": "monitor",
-   "podstawa": 5.97,
+   "podstawa": 5.92,
    "zmiany": {
     "value": [
-     68,
-     67
+     67,
+     68
     ]
    }
   },
   {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMES",
+   "nazwa": "MSI MAG 272QPDE QD-OLED X24",
    "rodzaj": "monitor",
-   "podstawa": 8.37,
+   "podstawa": 9.26,
+   "zmiany": {
+    "value": [
+     2,
+     30
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B247YGbemiqpruzx",
+   "rodzaj": "monitor",
+   "podstawa": 7.37,
+   "zmiany": {
+    "value": [
+     52,
+     51
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B247YGbmiprx",
+   "rodzaj": "monitor",
+   "podstawa": 5.0,
+   "zmiany": {
+    "value": [
+     77,
+     78
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer B247YGbmiqpruzx",
+   "rodzaj": "monitor",
+   "podstawa": 8.55,
    "zmiany": {
     "value": [
      41,
-     40
+     38
     ]
    }
   },
   {
-   "nazwa": "Acer B277Gbmiqprx",
+   "nazwa": "Acer B277KLBbmiiprzx",
    "rodzaj": "monitor",
-   "podstawa": 5.96,
+   "podstawa": 8.9,
    "zmiany": {
     "value": [
-     68,
-     67
+     35,
+     34
     ]
    }
   },
   {
-   "nazwa": "Acer B277UGbemiqpruzx",
+   "nazwa": "Acer B277KLBbmipruzx",
    "rodzaj": "monitor",
-   "podstawa": 11.31,
+   "podstawa": 10.88,
    "zmiany": {
     "value": [
-     9,
-     8
+     19,
+     12
     ]
    }
   },
   {
-   "nazwa": "Acer B277UGbmiqpruzx",
+   "nazwa": "Acer B277UGbmiiqprx",
    "rodzaj": "monitor",
-   "podstawa": 11.82,
+   "podstawa": 7.73,
    "zmiany": {
     "value": [
-     1,
-     2
+     38,
+     47
     ]
    }
   },
   {
-   "nazwa": "Acer Predator XB3 XB273KV5bmiiprx",
+   "nazwa": "Acer Predator XB3 XB273KV4bmiiprx",
    "rodzaj": "monitor",
-   "podstawa": 9.98,
+   "podstawa": 3.64,
    "zmiany": {
     "value": [
-     28,
-     22
+     92,
+     93
     ]
    }
   },
   {
-   "nazwa": "Acer Vero B7 B247YGbmiprzx",
+   "nazwa": "Acer Vero B7 B277Gbmiprzx",
    "rodzaj": "monitor",
-   "podstawa": 3.38,
+   "podstawa": 6.42,
    "zmiany": {
     "value": [
-     95,
-     96
+     65,
+     62
+    ]
+   }
+  },
+  {
+   "nazwa": "Acer XB253QFbmiiprx",
+   "rodzaj": "monitor",
+   "podstawa": 3.09,
+   "zmiany": {
+    "value": [
+     100,
+     99
     ]
    }
   },
   {
    "nazwa": "Acer XB273UX2BMIIPRX",
    "rodzaj": "monitor",
-   "podstawa": 2.61,
+   "podstawa": 3.36,
    "zmiany": {
     "value": [
-     97,
-     100
+     100,
+     96
     ]
    }
   },
   {
-   "nazwa": "AOC 24E4CV",
+   "nazwa": "AG Neovo LH-2404",
    "rodzaj": "monitor",
-   "podstawa": 6.39,
+   "podstawa": 3.36,
    "zmiany": {
     "value": [
-     61,
-     62
+     95,
+     96
     ]
    }
   },
   {
-   "nazwa": "AOC 24P4U",
+   "nazwa": "AOC 27E4CV",
    "rodzaj": "monitor",
-   "podstawa": 4.92,
+   "podstawa": 6.37,
    "zmiany": {
     "value": [
-     77,
-     79
+     62,
+     63
     ]
    }
   },
   {
-   "nazwa": "AOC 27B3HA2",
+   "nazwa": "AOC 27G4HA",
    "rodzaj": "monitor",
-   "podstawa": 4.29,
+   "podstawa": 3.42,
    "zmiany": {
     "value": [
-     85,
-     86
+     96,
+     95
     ]
    }
   },
   {
-   "nazwa": "AOC 27G4X",
+   "nazwa": "AOC Q27B36X",
    "rodzaj": "monitor",
-   "podstawa": 3.94,
+   "podstawa": 3.67,
    "zmiany": {
     "value": [
      89,
-     90
+     93
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27G42XE",
+   "rodzaj": "monitor",
+   "podstawa": 3.48,
+   "zmiany": {
+    "value": [
+     97,
+     95
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC Q27P4U",
+   "rodzaj": "monitor",
+   "podstawa": 6.26,
+   "zmiany": {
+    "value": [
+     61,
+     64
     ]
    }
   },
   {
    "nazwa": "AOC Q32E4U",
    "rodzaj": "monitor",
-   "podstawa": 10.69,
+   "podstawa": 10.59,
    "zmiany": {
     "value": [
-     14,
-     15
+     15,
+     16
+    ]
+   }
+  },
+  {
+   "nazwa": "AOC U27G4R",
+   "rodzaj": "monitor",
+   "podstawa": 9.21,
+   "zmiany": {
+    "value": [
+     57,
+     31
     ]
    }
   },
   {
    "nazwa": "Arozzi Nova 32 AZ-NO-32T2K180-BK",
    "rodzaj": "monitor",
-   "podstawa": 7.81,
+   "podstawa": 7.83,
    "zmiany": {
     "value": [
-     46,
-     47
+     47,
+     46
     ]
    }
   },
   {
    "nazwa": "ASRock PG32QFT",
    "rodzaj": "monitor",
-   "podstawa": 6.69,
+   "podstawa": 6.74,
    "zmiany": {
     "value": [
-     60,
-     59
+     59,
+     58
     ]
    }
   },
   {
-   "nazwa": "ASUS BE27AQG",
+   "nazwa": "ASRock Phantom Gaming PG27QFT2A",
    "rodzaj": "monitor",
-   "podstawa": 9.12,
-   "zmiany": {
-    "value": [
-     31,
-     32
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Business VB279QG",
-   "rodzaj": "monitor",
-   "podstawa": 5.39,
-   "zmiany": {
-    "value": [
-     74,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY249HGR",
-   "rodzaj": "monitor",
-   "podstawa": 3.32,
-   "zmiany": {
-    "value": [
-     97,
-     96
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY279HGR",
-   "rodzaj": "monitor",
-   "podstawa": 4.4,
-   "zmiany": {
-    "value": [
-     80,
-     84
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279Q3R",
-   "rodzaj": "monitor",
-   "podstawa": 3.3,
-   "zmiany": {
-    "value": [
-     96,
-     97
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279Q5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.6,
-   "zmiany": {
-    "value": [
-     94,
-     93
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279QE5A",
-   "rodzaj": "monitor",
-   "podstawa": 4.14,
-   "zmiany": {
-    "value": [
-     89,
-     87
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQA1A",
-   "rodzaj": "monitor",
-   "podstawa": 4.65,
-   "zmiany": {
-    "value": [
-     81,
-     82
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQL5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.52,
-   "zmiany": {
-    "value": [
-     95,
-     94
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQ1A",
-   "rodzaj": "monitor",
-   "podstawa": 10.22,
-   "zmiany": {
-    "value": [
-     10,
-     20
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQEL5A",
-   "rodzaj": "monitor",
-   "podstawa": 3.3,
-   "zmiany": {
-    "value": [
-     86,
-     97
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27VQ3B",
-   "rodzaj": "monitor",
-   "podstawa": 3.56,
+   "podstawa": 3.57,
    "zmiany": {
     "value": [
      93,
@@ -558,1295 +406,318 @@
    }
   },
   {
-   "nazwa": "ASUS TUF Gaming VG27WQ3B",
+   "nazwa": "ASUS Business BE27ACGN",
    "rodzaj": "monitor",
-   "podstawa": 4.61,
+   "podstawa": 10.15,
    "zmiany": {
     "value": [
-     83,
-     82
+     22,
+     21
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ProArt PA249CGV",
+   "rodzaj": "monitor",
+   "podstawa": 6.8,
+   "zmiany": {
+    "value": [
+     52,
+     58
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ProArt PA278CGV",
+   "rodzaj": "monitor",
+   "podstawa": 11.26,
+   "zmiany": {
+    "value": [
+     13,
+     8
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27ACS-W Gen2",
+   "rodzaj": "monitor",
+   "podstawa": 6.2,
+   "zmiany": {
+    "value": [
+     66,
+     64
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCS",
+   "rodzaj": "monitor",
+   "podstawa": 5.23,
+   "zmiany": {
+    "value": [
+     74,
+     75
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG32WCMS",
+   "rodzaj": "monitor",
+   "podstawa": 5.89,
+   "zmiany": {
+    "value": [
+     70,
+     68
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG279Q3R",
+   "rodzaj": "monitor",
+   "podstawa": 4.09,
+   "zmiany": {
+    "value": [
+     97,
+     88
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQA1A",
+   "rodzaj": "monitor",
+   "podstawa": 4.67,
+   "zmiany": {
+    "value": [
+     82,
+     81
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQL5A",
+   "rodzaj": "monitor",
+   "podstawa": 3.47,
+   "zmiany": {
+    "value": [
+     94,
+     95
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27UQ1A",
+   "rodzaj": "monitor",
+   "podstawa": 11.11,
+   "zmiany": {
+    "value": [
+     20,
+     10
     ]
    }
   },
   {
    "nazwa": "ASUS VA249HG",
    "rodzaj": "monitor",
-   "podstawa": 4.27,
+   "podstawa": 3.48,
    "zmiany": {
     "value": [
-     87,
-     86
+     86,
+     95
     ]
    }
   },
   {
    "nazwa": "ASUS VA249QGS",
    "rodzaj": "monitor",
-   "podstawa": 5.18,
+   "podstawa": 5.67,
    "zmiany": {
     "value": [
-     70,
-     76
+     76,
+     70
     ]
    }
   },
   {
    "nazwa": "ASUS VA24DQFS",
    "rodzaj": "monitor",
-   "podstawa": 5.52,
+   "podstawa": 5.42,
    "zmiany": {
     "value": [
-     73,
-     72
+     72,
+     73
+    ]
+   }
+  },
+  {
+   "nazwa": "ASUS VA259HGA",
+   "rodzaj": "monitor",
+   "podstawa": 5.12,
+   "zmiany": {
+    "value": [
+     77,
+     76
     ]
    }
   },
   {
    "nazwa": "ASUS VA279HG",
    "rodzaj": "monitor",
-   "podstawa": 4.06,
+   "podstawa": 4.02,
    "zmiany": {
     "value": [
-     77,
-     88
-    ]
-   }
-  },
-  {
-   "nazwa": "ASUS VA279QGSE",
-   "rodzaj": "monitor",
-   "podstawa": 5.87,
-   "zmiany": {
-    "value": [
-     65,
-     68
+     88,
+     89
     ]
    }
   },
   {
    "nazwa": "ASUS VU249CFE-G",
    "rodzaj": "monitor",
-   "podstawa": 8.35,
+   "podstawa": 8.93,
    "zmiany": {
     "value": [
-     47,
-     41
+     41,
+     34
     ]
    }
   },
   {
    "nazwa": "ASUS VY249HF-W",
    "rodzaj": "monitor",
-   "podstawa": 5.09,
+   "podstawa": 5.16,
    "zmiany": {
     "value": [
-     76,
-     77
+     77,
+     76
     ]
    }
   },
   {
-   "nazwa": "ASUS VZ279HG",
+   "nazwa": "BenQ BL2490C",
    "rodzaj": "monitor",
-   "podstawa": 6.13,
+   "podstawa": 3.32,
    "zmiany": {
     "value": [
-     70,
-     65
+     95,
+     96
+    ]
+   }
+  },
+  {
+   "nazwa": "BenQ BL2491P",
+   "rodzaj": "monitor",
+   "podstawa": 3.48,
+   "zmiany": {
+    "value": [
+     94,
+     95
     ]
    }
   },
   {
    "nazwa": "BenQ BL2790TC",
    "rodzaj": "monitor",
-   "podstawa": 5.55,
+   "podstawa": 5.45,
    "zmiany": {
     "value": [
-     70,
-     72
+     72,
+     73
     ]
    }
   },
   {
-   "nazwa": "BenQ GW2486TC",
+   "nazwa": "BenQ GW2490T",
    "rodzaj": "monitor",
-   "podstawa": 7.47,
+   "podstawa": 6.84,
    "zmiany": {
     "value": [
-     51,
-     50
+     59,
+     57
     ]
    }
   },
   {
-   "nazwa": "BenQ GW2786TC",
+   "nazwa": "BenQ GW2490TC",
    "rodzaj": "monitor",
-   "podstawa": 8.68,
+   "podstawa": 4.88,
    "zmiany": {
     "value": [
-     35,
-     37
+     84,
+     79
+    ]
+   }
+  },
+  {
+   "nazwa": "Samsung Odyssey G5 S27FG500SUX G50SF",
+   "rodzaj": "monitor",
+   "podstawa": 6.11,
+   "zmiany": {
+    "value": [
+     47,
+     65
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
    "rodzaj": "monitor",
-   "podstawa": 4.37,
+   "podstawa": 4.58,
    "zmiany": {
     "value": [
-     82,
-     85
-    ]
-   }
-  },
-  {
-   "nazwa": "iiyama G-Master GB2741QSU-B1 Black Hawk",
-   "rodzaj": "monitor",
-   "podstawa": 4.85,
-   "zmiany": {
-    "value": [
-     82,
-     79
-    ]
-   }
-  },
-  {
-   "nazwa": "iiyama G-Master GB2771QSU-B1 Red Eagle",
-   "rodzaj": "monitor",
-   "podstawa": 3.79,
-   "zmiany": {
-    "value": [
-     90,
-     91
-    ]
-   }
-  },
-  {
-   "nazwa": "Samsung LS27FG502SUXEN",
-   "rodzaj": "monitor",
-   "podstawa": 8.36,
-   "zmiany": {
-    "value": [
-     41,
-     40
+     85,
+     82
     ]
    }
   },
   {
    "nazwa": "Samsung LS32CG552EUXEN",
    "rodzaj": "monitor",
-   "podstawa": 5.45,
+   "podstawa": 5.08,
    "zmiany": {
     "value": [
-     76,
-     73
-    ]
-   }
-  },
-  {
-   "nazwa": "BenQ Mobiuz EX271 9H.LNALA.TBE",
-   "rodzaj": "monitor",
-   "podstawa": 3.39,
-   "zmiany": {
-    "value": [
-     97,
-     96
+     73,
+     77
     ]
    }
   },
   {
    "nazwa": "iiyama G-Master GB3261UHSCP-B1 RedEagle",
    "rodzaj": "monitor",
-   "podstawa": 9.51,
-   "zmiany": {
-    "value": [
-     25,
-     28
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 96.73,
-   "zmiany": {
-    "value": [
-     57,
-     62
-    ],
-    "overall": [
-     60,
-     62
-    ],
-    "ultra": [
-     54,
-     55
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 113.62,
-   "zmiany": {
-    "value": [
-     33,
-     38
-    ],
-    "overall": [
-     64,
-     66
-    ],
-    "ultra": [
-     63,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 98.7,
-   "zmiany": {
-    "value": [
-     55,
-     59
-    ],
-    "overall": [
-     60,
-     61
-    ],
-    "ultra": [
-     53,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 600W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 115.59,
-   "zmiany": {
-    "value": [
-     31,
-     35
-    ],
-    "overall": [
-     64,
-     65
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron",
-   "rodzaj": "pc",
-   "podstawa": 106.73,
-   "zmiany": {
-    "value": [
-     54,
-     48
-    ],
-    "overall": [
-     59,
-     58
-    ],
-    "ultra": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 123.62,
-   "zmiany": {
-    "value": [
-     29,
-     23
-    ],
-    "overall": [
-     63,
-     61
-    ],
-    "ultra": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 105.39,
-   "zmiany": {
-    "value": [
-     53,
-     49
-    ],
-    "overall": [
-     62,
-     60
-    ],
-    "ultra": [
-     54,
-     53
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 512GB SSD, 650W, Hunter 2 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 122.04,
-   "zmiany": {
-    "value": [
-     29,
-     26
-    ],
-    "overall": [
-     66,
-     65
-    ],
-    "ultra": [
-     63,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron",
-   "rodzaj": "pc",
-   "podstawa": 108.0,
-   "zmiany": {
-    "value": [
-     51,
-     46
-    ],
-    "overall": [
-     59,
-     57
-    ],
-    "ultra": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 124.89,
-   "zmiany": {
-    "value": [
-     26,
-     22
-    ],
-    "overall": [
-     62,
-     61
-    ],
-    "ultra": [
-     61,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron (2)",
-   "rodzaj": "pc",
-   "podstawa": 108.0,
-   "zmiany": {
-    "value": [
-     50,
-     46
-    ],
-    "overall": [
-     58,
-     57
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Atron (2) (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 124.89,
-   "zmiany": {
-    "value": [
-     26,
-     22
-    ],
-    "overall": [
-     62,
-     61
-    ],
-    "ultra": [
-     61,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Night hunter",
-   "rodzaj": "pc",
-   "podstawa": 103.77,
-   "zmiany": {
-    "value": [
-     48,
-     52
-    ],
-    "overall": [
-     60,
-     61
-    ],
-    "ultra": [
-     53,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 103.62,
-   "zmiany": {
-    "value": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 110.53,
-   "zmiany": {
-    "value": [
-     46,
-     42
-    ],
-    "overall": [
-     59,
-     58
-    ],
-    "ultra": [
-     53,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Intel Ultra 5 250KF Plus, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 850W, Pano 130 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 127.18,
-   "zmiany": {
-    "value": [
-     22,
-     18
-    ],
-    "overall": [
-     63,
-     62
-    ],
-    "ultra": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 102.33,
-   "zmiany": {
-    "value": [
-     45,
-     54
-    ],
-    "overall": [
-     58,
-     61
-    ],
-    "ultra": [
-     52,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 118.99,
-   "zmiany": {
-    "value": [
-     21,
-     30
-    ],
-    "overall": [
-     62,
-     65
-    ],
-    "ultra": [
-     61,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "podstawa": 114.2,
-   "zmiany": {
-    "value": [
-     29,
-     37
-    ],
-    "overall": [
-     63,
-     66
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 118.28,
-   "zmiany": {
-    "value": [
-     34,
-     31
-    ],
-    "overall": [
-     68,
-     67
-    ],
-    "ultra": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 107.0,
-   "zmiany": {
-    "value": [
-     45,
-     47
-    ],
-    "ultra": [
-     53,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Signum 300 ARGB (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 123.2,
-   "zmiany": {
-    "value": [
-     22,
-     24
-    ],
-    "overall": [
-     64,
-     65
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB , 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 113.49,
-   "zmiany": {
-    "value": [
-     31,
-     38
-    ],
-    "overall": [
-     66,
-     68
-    ],
-    "ultra": [
-     63,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw Redragon | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, GC 623 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 124.06,
+   "podstawa": 9.72,
    "zmiany": {
     "value": [
      28,
-     23
-    ],
-    "overall": [
-     66,
-     64
-    ],
-    "ultra": [
-     63,
-     62
+     25
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, EXO ARGB",
-   "rodzaj": "pc",
-   "podstawa": 118.85,
+   "nazwa": "MSI MAG 321CQF E18",
+   "rodzaj": "monitor",
+   "podstawa": 7.41,
    "zmiany": {
     "value": [
-     28,
-     30
+     53,
+     51
     ]
    }
   },
   {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB , 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (2)",
+   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9070 XT 16GB, 2TB SSD, 32GB DDR5, 850W, PANO 130R PZ ARGB Black",
    "rodzaj": "pc",
-   "podstawa": 115.32,
-   "zmiany": {
-    "value": [
-     28,
-     35
-    ],
-    "overall": [
-     65,
-     67
-    ],
-    "ultra": [
-     62,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw Redragon | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, GC 625 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 124.06,
-   "zmiany": {
-    "value": [
-     27,
-     23
-    ],
-    "overall": [
-     66,
-     64
-    ],
-    "ultra": [
-     63,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, CC560 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 124.48,
-   "zmiany": {
-    "value": [
-     27,
-     22
-    ],
-    "overall": [
-     66,
-     64
-    ],
-    "ultra": [
-     63,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 115.32,
-   "zmiany": {
-    "value": [
-     27,
-     35
-    ],
-    "overall": [
-     65,
-     67
-    ],
-    "ultra": [
-     62,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 117.44,
-   "zmiany": {
-    "value": [
-     24,
-     32
-    ],
-    "overall": [
-     64,
-     66
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Signum 300 ARGB (2)",
-   "rodzaj": "pc",
-   "podstawa": 118.85,
-   "zmiany": {
-    "value": [
-     25,
-     30
-    ],
-    "overall": [
-     65,
-     66
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 8400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (2)",
-   "rodzaj": "pc",
-   "podstawa": 116.45,
-   "zmiany": {
-    "value": [
-     25,
-     34
-    ],
-    "overall": [
-     64,
-     67
-    ],
-    "ultra": [
-     62,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Signum 300 ARGB (3)",
-   "rodzaj": "pc",
-   "podstawa": 117.72,
-   "zmiany": {
-    "value": [
-     24,
-     32
-    ],
-    "overall": [
-     65,
-     67
-    ],
-    "ultra": [
-     62,
-     64
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (3)",
-   "rodzaj": "pc",
-   "podstawa": 117.3,
-   "zmiany": {
-    "value": [
-     24,
-     32
-    ],
-    "overall": [
-     64,
-     66
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 120.39,
-   "zmiany": {
-    "value": [
-     23,
-     28
-    ],
-    "overall": [
-     63,
-     65
-    ],
-    "ultra": [
-     61,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB",
-   "rodzaj": "pc",
-   "podstawa": 118.85,
-   "zmiany": {
-    "value": [
-     22,
-     30
-    ],
-    "overall": [
-     63,
-     66
-    ],
-    "ultra": [
-     61,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Night Hunter",
-   "rodzaj": "pc",
-   "podstawa": 123.17,
-   "zmiany": {
-    "value": [
-     25,
-     24
-    ],
-    "ultra": [
-     63,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB (2)",
-   "rodzaj": "pc",
-   "podstawa": 120.25,
-   "zmiany": {
-    "value": [
-     20,
-     28
-    ],
-    "overall": [
-     63,
-     65
-    ],
-    "ultra": [
-     61,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Stellar 5F ARGB",
-   "rodzaj": "pc",
-   "podstawa": 124.2,
-   "zmiany": {
-    "value": [
-     20,
-     23
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7700, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Nadir",
-   "rodzaj": "pc",
-   "podstawa": 118.31,
-   "zmiany": {
-    "value": [
-     21,
-     31
-    ],
-    "overall": [
-     62,
-     65
-    ],
-    "ultra": [
-     61,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Diaxid 605F",
-   "rodzaj": "pc",
-   "podstawa": 120.68,
-   "zmiany": {
-    "value": [
-     17,
-     28
-    ],
-    "overall": [
-     62,
-     65
-    ],
-    "ultra": [
-     60,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7500f, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Exo ARGB",
-   "rodzaj": "pc",
-   "podstawa": 119.97,
-   "zmiany": {
-    "value": [
-     19,
-     29
-    ],
-    "overall": [
-     64,
-     67
-    ],
-    "ultra": [
-     61,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 120.51,
-   "zmiany": {
-    "value": [
-     23,
-     28
-    ],
-    "overall": [
-     64,
-     66
-    ],
-    "ultra": [
-     62,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 850W, Stellar 5F",
-   "rodzaj": "pc",
-   "podstawa": 128.72,
-   "zmiany": {
-    "value": [
-     18,
-     16
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 500GB SSD, 650W, XT Pro Ultra ARGB",
-   "rodzaj": "pc",
-   "podstawa": 127.81,
-   "zmiany": {
-    "value": [
-     22,
-     17
-    ],
-    "overall": [
-     64,
-     62
-    ],
-    "ultra": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1000GB SSD, 850W, Hunter",
-   "rodzaj": "pc",
-   "podstawa": 129.57,
-   "zmiany": {
-    "value": [
-     20,
-     15
-    ],
-    "overall": [
-     64,
-     63
-    ],
-    "ultra": [
-     62,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, ARX 700 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 125.61,
+   "podstawa": 136.61,
    "zmiany": {
     "value": [
      9,
-     21
-    ],
-    "overall": [
-     59,
-     63
-    ],
-    "ultra": [
-     59,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Hunter 3",
-   "rodzaj": "pc",
-   "podstawa": 126.46,
-   "zmiany": {
-    "value": [
-     14,
-     19
-    ],
-    "overall": [
-     62,
-     64
-    ],
-    "ultra": [
-     61,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, Pano 130R PZ, 850W",
-   "rodzaj": "pc",
-   "podstawa": 129.57,
-   "zmiany": {
-    "value": [
-     8,
-     15
-    ],
-    "overall": [
-     61,
-     63
-    ],
-    "ultra": [
-     60,
-     61
-    ]
-   }
-  },
-  {
-   "nazwa": "Goblin (GoblinPC)",
-   "rodzaj": "pc",
-   "podstawa": 135.22,
-   "zmiany": {
-    "value": [
-     8,
-     7
-    ],
-    "overall": [
-     60,
-     59
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (2)",
-   "rodzaj": "pc",
-   "podstawa": 121.86,
-   "zmiany": {
-    "value": [
-     49,
-     26
-    ],
-    "overall": [
-     61,
-     54
-    ],
-    "ultra": [
-     54,
-     49
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9060 XT 16GB, 16GB DDR5, 500GB SSD, 650W, Hunter 2 (2) (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 138.07,
-   "zmiany": {
-    "value": [
-     26,
-     3
+     5
     ],
     "overall": [
      65,
-     58
+     64
     ],
     "ultra": [
-     63,
-     58
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB (2)",
-   "rodzaj": "pc",
-   "podstawa": 120.25,
-   "zmiany": {
-    "value": [
-     30,
-     28
-    ],
-    "overall": [
-     66,
-     65
-    ],
-    "ultra": [
-     63,
-     62
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2",
-   "rodzaj": "pc",
-   "podstawa": 101.52,
-   "zmiany": {
-    "value": [
-     59,
-     55
-    ],
-    "overall": [
-     63,
-     62
-    ],
-    "ultra": [
-     55,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Hunter 2 (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 118.41,
-   "zmiany": {
-    "value": [
-     35,
-     31
-    ],
-    "overall": [
-     67,
-     66
-    ],
-    "ultra": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Pano 130R",
-   "rodzaj": "pc",
-   "podstawa": 102.37,
-   "zmiany": {
-    "value": [
-     58,
-     54
-    ],
-    "overall": [
-     63,
-     62
-    ],
-    "ultra": [
-     55,
-     54
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 650W, Pano 130R (custom: 32GB RAM)",
-   "rodzaj": "pc",
-   "podstawa": 119.25,
-   "zmiany": {
-    "value": [
-     34,
-     30
-    ],
-    "overall": [
-     67,
-     66
-    ],
-    "ultra": [
-     64,
-     63
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
-   "rodzaj": "pc",
-   "podstawa": 116.73,
-   "zmiany": {
-    "value": [
-     30,
-     33
-    ],
-    "overall": [
-     58,
-     59
-    ],
-    "ultra": [
-     51,
-     52
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 9800X3D, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 650W, Exo ARGB",
-   "rodzaj": "pc",
-   "podstawa": 131.86,
-   "zmiany": {
-    "value": [
-     0,
-     12
-    ],
-    "overall": [
-     57,
-     61
-    ],
-    "ultra": [
-     58,
-     60
-    ]
-   }
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD, 750W, Night Hunter",
-   "rodzaj": "pc",
-   "podstawa": 116.78,
-   "zmiany": {
-    "value": [
-     34,
-     33
+     76,
+     75
     ]
    }
   }
