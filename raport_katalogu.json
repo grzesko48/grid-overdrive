@@ -1,6 +1,6 @@
 {
- "katalog_pozycji": 857,
- "nasze_identyfikatory": 535,
+ "katalog_pozycji": 861,
+ "nasze_identyfikatory": 539,
  "zniknely": [
   {
    "id": "19716",
@@ -376,22 +376,16 @@
    "url": "https://sklep.hard-pc.pl/p26777,zestaw-ryzen-7-7700-rtx-5060-ti-16gb-32gb-ddr5-1tb-ssd-850w-define-7-compact.html"
   },
   {
-   "id": "26818",
-   "nazwa": "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
-   "cena": 6959,
-   "url": "https://sklep.hard-pc.pl/p26818,zestaw-ryzen-5-7500f-rtx-5060-8gb-32gb-ddr5-500gb-ssd-650w-signum-300-argb.html"
-  },
-  {
-   "id": "26837",
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB, 850W, Vector V100 ARGB",
-   "cena": 9189,
-   "url": "https://sklep.hard-pc.pl/p26837,zestaw-ryzen-7-7800x3d-rtx-5070-12gb-16gb-ddr5-500gb-850w-vector-v100-argb.html"
-  },
-  {
    "id": "26838",
    "nazwa": "Zestaw | Ryzen 7 5700X, RTX 3050 6GB, 32GB DDR5, 1TB SSD, 650W, Signum 300 ARGB",
    "cena": 6869,
    "url": "https://sklep.hard-pc.pl/p26838,zestaw-ryzen-7-5700x-rtx-3050-6gb-32gb-ddr5-1tb-ssd-650w-signum-300-argb.html"
+  },
+  {
+   "id": "26848",
+   "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 GRE 12GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
+   "cena": 6719,
+   "url": "https://sklep.hard-pc.pl/p26848,zestaw-ryzen-5-7500f-rx-9070-gre-12gb-16gb-ddr5-1tb-ssd-750w-signum-300-argb.html"
   }
  ]
 }

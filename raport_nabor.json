@@ -1,37 +1,31 @@
 {
- "dopisane_monitory": [
-  "Acer Vero CB243Y Ebemipruzxv",
-  "ASUS TUF Gaming VG27AQL5F",
-  "Samsung Odyssey G5 LS27HG552EUXEN"
- ],
+ "dopisane_monitory": [],
  "dopisane_pc": [
-  "Morele | Core i7-7700, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD",
-  "Morele | Ryzen 7 7800X3D, RX 9070 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 7 8700F, RX 9070 16GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 7 8700F, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 16GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 5 8400F, RTX 5050 8GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Core Ultra 5 245KF, RTX 5070 12GB, 32GB DDR5, 1TB SSD (5)",
-  "Morele | Ryzen 7 7700X, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Core i7-7700, RX 9070 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RX 9070 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 5 7600, RX 9070 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (5)",
-  "Morele | Ryzen 7 8700F, RX 9070 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 8700F, RX 9070 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 9 9900X, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 9700X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 7800X3D, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (5)"
+  "Morele | Core i7-14700KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD (2)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (6)",
+  "Morele | Core Ultra 5 250KF Plus, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (5)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (6)",
+  "Morele | Core i7-7700, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (6)",
+  "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (6)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (6)",
+  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core i7-7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
+  "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (6)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (7)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (8)",
+  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD (3)",
+  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (6)",
+  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (7)",
+  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (8)",
+  "Morele | Ryzen 5 7600, RTX 5070 12GB, 32GB DDR5, 1TB SSD"
  ],
- "uzupelnione": [
-  [
-   "Acer Nitro VG270UP6bmiipx",
-   "morele"
-  ]
- ],
+ "uzupelnione": [],
  "konflikty": [],
  "pominiete": [
   [
@@ -44,7 +38,7 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 598 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 599 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -55,41 +49,29 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.morele.net/komputer-actina-selection-core-ultra-5-245kf-32gb-rx-9070-xt-1tb-m-2-pcie-15910637/",
-   "pamięć RAM w tytule (32 GB) różni się od specyfikacji (16 GB)"
+   "https://www.morele.net/komputer-actina-view-core-ultra-5-250kf-16gb-radeon-rx-9060-xt-1tb-m-2-pcie-600078164/",
+   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
   ],
   [
-   "https://www.morele.net/komputer-actina-view-core-ultra-7-270k-32gb-radeon-rx-9070-1tb-m-2-pcie-16222907/",
-   "procesor w specyfikacji (Core Ultra 7 270K Plus) różni się od procesora w tytule (Core Ultra 7 270K)"
-  ],
-  [
-   "https://www.morele.net/komputer-actina-view-core-ultra-7-270k-32gb-radeon-rx-9070-xt-1tb-m-2-pcie-16222913/",
-   "procesor w specyfikacji (Core Ultra 7 270K Plus) różni się od procesora w tytule (Core Ultra 7 270K)"
-  ],
-  [
-   "https://www.morele.net/komputer-actina-view-core-ultra-7-270k-32gb-rtx-5070-1tb-m-2-pcie-16224596/",
-   "procesor w specyfikacji (Core Ultra 7 270K Plus) różni się od procesora w tytule (Core Ultra 7 270K)"
-  ],
-  [
-   "https://www.morele.net/komputer-actina-view-ryzen-5-7600x3d-32gb-radeon-rx-9070-1tb-m-2-pcie-15599457/",
-   "brak pola „Model procesora” w specyfikacji"
+   "https://www.morele.net/komputer-actina-view-core-ultra-5-250kf-16gb-rtx-5060-1tb-m-2-pcie-16224591/",
+   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 1594 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 1101 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 921, do sprawdzenia 623"
+   "monitor": "lista 926, do sprawdzenia 624"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 57, do sprawdzenia 1",
-   "pc": "lista 12, do sprawdzenia 0"
+   "monitor": "lista 54, do sprawdzenia 0",
+   "pc": "lista 10, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
@@ -98,7 +80,7 @@
    "pc": "lista 5, do sprawdzenia 2"
   },
   "morele_pc": {
-   "pc": "lista 1644, do sprawdzenia 1619"
+   "pc": "lista 1144, do sprawdzenia 1126"
   }
  }
 }

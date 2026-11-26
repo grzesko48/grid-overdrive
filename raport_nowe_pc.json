@@ -1,7 +1,10 @@
 {
  "dopisane": [
-  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 1TB SSD, 16GB DDR5, 850W",
-  "Zestaw | Ryzen 7 9800X3D, RX 9070 XT 16GB, 2TB SSD, 32GB DDR5, 850W, PANO 130R PZ ARGB Black (3)"
+  "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB, 850W, Vector V100 ARGB",
+  "Zestaw | Ryzen 7 7800X3D, RX 9070 16GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB",
+  "Zestaw | Ryzen 7 7800X3D, RX 9070 16GB, 16GB DDR5, 500GB SSD, 850W, Signum 300 ARGB (custom: 32GB RAM)",
+  "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
+  "Zestaw | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3"
  ],
  "pominiete": [
   [
@@ -321,12 +324,8 @@
    "towar niedostępny"
   ],
   [
-   "Zestaw | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 500GB SSD, 650W, Signum 300 ARGB",
+   "Zestaw | Ryzen 5 7500F, RX 9070 GRE 12GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
    "towar niedostępny"
-  ],
-  [
-   "Zestaw | Ryzen 7 7800X3D, RTX 5070 12GB, 16GB DDR5, 500GB, 850W, Vector V100 ARGB",
-   "brak danych o dysku ani w tytule, ani w specyfikacji"
   ]
  ]
 }
