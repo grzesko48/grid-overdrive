@@ -1,31 +1,23 @@
 {
- "dopisane_monitory": [],
- "dopisane_pc": [
-  "Morele | Core i7-14700KF, RTX 5070 12GB, 32GB DDR5, 2TB SSD (2)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (6)",
-  "Morele | Core Ultra 5 250KF Plus, RX 9070 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (5)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (6)",
-  "Morele | Core i7-7700, RTX 5060 8GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 5 7500F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (6)",
-  "Morele | Ryzen 5 8400F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 7 8700F, RTX 5060 8GB, 32GB DDR5, 1TB SSD (6)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (6)",
-  "Morele | Core i5-14400F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core i7-7700, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD",
-  "Morele | Ryzen 7 8700F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Core Ultra 5 245KF, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (6)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (7)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (8)",
-  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD (3)",
-  "Morele | Ryzen 5 7500F, RTX 5060 12GB, 32GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (6)",
-  "Morele | Ryzen 5 9600X, RX 9060 XT 16GB, 32GB DDR5, 1TB SSD (2)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (7)",
-  "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (8)",
-  "Morele | Ryzen 5 7600, RTX 5070 12GB, 32GB DDR5, 1TB SSD"
+ "dopisane_monitory": [
+  "ASUS TUF Gaming VG27AQMEL5F"
  ],
- "uzupelnione": [],
+ "dopisane_pc": [
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (6)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (7)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (8)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (5)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (9)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (6)",
+  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD"
+ ],
+ "uzupelnione": [
+  [
+   "Gigabyte G27Q20",
+   "mediamarkt"
+  ]
+ ],
  "konflikty": [],
  "pominiete": [
   [
@@ -38,7 +30,7 @@
   ],
   [
    "morele",
-   "limit pobrań (25 na sklep) — 599 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 604 adresów w następnych przebiegach"
   ],
   [
    "https://goblinpc.pl/product/mimic",
@@ -49,29 +41,89 @@
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.morele.net/komputer-actina-view-core-ultra-5-250kf-16gb-radeon-rx-9060-xt-1tb-m-2-pcie-600078164/",
-   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600292796/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
   ],
   [
-   "https://www.morele.net/komputer-actina-view-core-ultra-5-250kf-16gb-rtx-5060-1tb-m-2-pcie-16224591/",
-   "procesor w specyfikacji (Core Ultra 5 250KF Plus) różni się od procesora w tytule (Core Ultra 5 250KF)"
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600292801/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296108/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296109/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296013/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296017/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296020/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296014/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296018/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296160/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296164/",
+   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 1101 adresów w następnych przebiegach"
+   "limit pobrań (25 na sklep) — 673 adresów w następnych przebiegach"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296142/",
+   "cena 6320 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296157/",
+   "cena 6320 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297796/",
+   "cena 6300 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297797/",
+   "cena 6320 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296232/",
+   "cena 6360 zł poniżej progu 6500 zł"
+  ],
+  [
+   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296236/",
+   "cena 6440 zł poniżej progu 6500 zł"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 926, do sprawdzenia 624"
+   "monitor": "lista 934, do sprawdzenia 629"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 54, do sprawdzenia 0",
-   "pc": "lista 10, do sprawdzenia 0"
+   "monitor": "lista 54, do sprawdzenia 1",
+   "pc": "lista 9, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
@@ -80,7 +132,7 @@
    "pc": "lista 5, do sprawdzenia 2"
   },
   "morele_pc": {
-   "pc": "lista 1144, do sprawdzenia 1126"
+   "pc": "lista 720, do sprawdzenia 698"
   }
  }
 }
