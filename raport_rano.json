@@ -1,15 +1,15 @@
 {
- "data": "27 listopada 2026",
+ "data": "28 listopada 2026",
  "pobrano": {
-  "ok": 1954,
-  "brak_ceny": 0,
-  "wycofany": 45,
+  "ok": 1956,
+  "brak_ceny": 2,
+  "wycofany": 43,
   "zablokowane": 0,
   "robots": 0,
-  "blad": 464
+  "blad": 465
  },
  "pokrycie_proc": 79,
- "zmian_cen": 197,
+ "zmian_cen": 210,
  "do_przejrzenia": [
   {
    "nazwa": "AOC Q27G4SDR",
@@ -29,8 +29,8 @@
    "nazwa": "Acer Vero B8 B278UGbemiqprcuzx",
    "sklep": "morele",
    "stara": 1069,
-   "nowa": 1698,
-   "zmiana_proc": 59
+   "nowa": 1681,
+   "zmiana_proc": 57
   },
   {
    "nazwa": "AOC C27G42E",
@@ -47,75 +47,79 @@
    "zmiana_proc": 202
   },
   {
-   "nazwa": "ASUS TUF Gaming VG259QMR5A",
+   "nazwa": "AOC G4252E",
    "sklep": "mediamarkt",
-   "stara": 639,
-   "nowa": 1062,
-   "zmiana_proc": 66
+   "stara": 557,
+   "nowa": 820,
+   "zmiana_proc": 47
   }
  ],
  "zmiany_dostepnosci": [
   {
-   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
+   "nazwa": "MSI MAG 274QP QD-OLED X24",
    "bylo": [
     "mediamarkt"
    ],
-   "jest": []
+   "jest": [
+    "mediamarkt",
+    "morele"
+   ]
   },
   {
-   "nazwa": "HP OMEN 27qs",
+   "nazwa": "Acer Predator XB3 XB273KV5bmiiprx",
    "bylo": [],
    "jest": [
     "morele"
    ]
   },
   {
-   "nazwa": "BenQ EX271QMZ",
+   "nazwa": "Acer VG270W3bmiipx",
    "bylo": [
-    "mediamarkt"
+    "morele"
    ],
    "jest": []
   },
   {
-   "nazwa": "MSI MPG 271QR QD-OLED X50",
+   "nazwa": "AOC 24G2U/BK",
    "bylo": [],
    "jest": [
     "morele"
    ]
   },
   {
-   "nazwa": "ASUS Eye Care Gaming VY279HGR",
-   "bylo": [
-    "morele"
-   ],
-   "jest": []
-  },
-  {
-   "nazwa": "Acer ED320QW0bmiipx",
-   "bylo": [
-    "morele"
-   ],
-   "jest": []
-  },
-  {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
+   "nazwa": "iiyama G-Master G2471HS-B1 Red Eagle",
    "bylo": [],
    "jest": [
-    "hardpc"
+    "mediamarkt"
    ]
   }
  ],
  "doplaty_systemu": [],
  "ukryte": [
   {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 GRE 12GB, 32GB DDR5, 1TB SSD, 850W, Signum 300 ARGB",
-   "rodzaj": "pc",
+   "nazwa": "Acer Predator XB3 XB273KV5bmiiprx",
+   "rodzaj": "monitor",
    "sklepy": [
-    "hardpc"
+    "morele"
+   ]
+  },
+  {
+   "nazwa": "AOC 24G2U/BK",
+   "rodzaj": "monitor",
+   "sklepy": [
+    "morele"
    ]
   }
  ],
- "przywrocone": [],
+ "przywrocone": [
+  {
+   "nazwa": "Acer VG270W3bmiipx",
+   "rodzaj": "monitor",
+   "sklepy": [
+    "morele"
+   ]
+  }
+ ],
  "warianty_bez_bazy": [],
  "inny_produkt_pod_adresem": [
   {
@@ -3959,6 +3963,11 @@
    "na_stronie": "Komputer Actina PBM Powered by MSI, Ryzen 5 8400F, 32 GB, RTX 5060, 1 TB M.2 PCIe Brak systemu"
   },
   {
+   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
+   "sklep": "morele",
+   "na_stronie": "Komputer Actina PBM Powered by MSI, Ryzen 7 7800X3D, 32 GB, RTX 5070, 1 TB M.2 PCIe Brak systemu"
+  },
+  {
    "nazwa": "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (3)",
    "sklep": "morele",
    "na_stronie": "Komputer Actina PBM PBM, Ryzen 7 8700F, 32 GB, RTX 5070, 1 TB M.2 PCIe Brak systemu"
@@ -3979,9 +3988,19 @@
    "na_stronie": "Komputer Actina Endorfy, Core i7-7700, 32 GB, RTX 5060 Ti, 1 TB M.2 PCIe Brak systemu"
   },
   {
+   "nazwa": "Morele | Ryzen 5 9600X, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
+   "sklep": "morele",
+   "na_stronie": "Komputer Actina PBA PBA, Ryzen 5 9600X, 32 GB, RTX 5060 Ti, 1 TB M.2 PCIe Brak systemu"
+  },
+  {
    "nazwa": "Morele | Core i7-7700, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
    "sklep": "morele",
    "na_stronie": "Komputer Actina PBM PBM, Core i7-7700, 32 GB, RTX 5060 Ti, 1 TB M.2 PCIe Brak systemu"
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 7500X3D, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (3)",
+   "sklep": "morele",
+   "na_stronie": "Komputer Actina PBM PBM, Ryzen 5 7500X3D, 32 GB, RTX 5060 Ti, 1 TB M.2 PCIe Brak systemu"
   },
   {
    "nazwa": "Morele | Core i7-7700, RTX 5060 Ti 16GB, 32GB DDR5, 1TB SSD (2)",
@@ -4024,824 +4043,1396 @@
    "nazwa": "Philips Evnia 27M2N3501PA/00",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1066,
-   "nowa": 1060,
-   "roznica": -6
+   "stara": 1060,
+   "nowa": 1056,
+   "roznica": -4
+  },
+  {
+   "nazwa": "Philips Evnia 27M2N3501PA/00",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 834,
+   "nowa": 836,
+   "roznica": 2,
+   "naglowek": 836
+  },
+  {
+   "nazwa": "AOC Q27G42ZE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 739,
+   "nowa": 719,
+   "roznica": -20
   },
   {
    "nazwa": "AOC Q27G4ZR",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 755,
-   "nowa": 759,
-   "roznica": 4,
-   "naglowek": 759
+   "stara": 759,
+   "nowa": 758,
+   "roznica": -1,
+   "naglowek": 758
   },
   {
    "nazwa": "Gigabyte MO27Q2A",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2399,
-   "nowa": 2406,
-   "roznica": 7
+   "stara": 2406,
+   "nowa": 2467,
+   "roznica": 61
   },
   {
    "nazwa": "Gigabyte MO27Q2A",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2061,
-   "nowa": 2070,
-   "roznica": 9,
-   "naglowek": 2070
+   "stara": 2070,
+   "nowa": 2069,
+   "roznica": -1,
+   "naglowek": 2069
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQM5A",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1584,
-   "nowa": 1589,
-   "roznica": 5
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQM5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 998,
-   "nowa": 989,
-   "roznica": -9,
-   "naglowek": 989
+   "stara": 1589,
+   "nowa": 1593,
+   "roznica": 4
   },
   {
    "nazwa": "Samsung Odyssey G6 LS27BG650EUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2995,
-   "nowa": 3199,
-   "roznica": 204,
-   "naglowek": 3199
+   "stara": 3199,
+   "nowa": 3405,
+   "roznica": 206,
+   "naglowek": 3405
   },
   {
    "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1740,
-   "nowa": 1947,
-   "roznica": 207
+   "stara": 1947,
+   "nowa": 1878,
+   "roznica": -69
   },
   {
-   "nazwa": "Gigabyte GO27Q24A",
+   "nazwa": "ASUS TUF Gaming VG27AQML1A-W",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 2084,
-   "nowa": 1722,
-   "roznica": -362
+   "sklep": "morele",
+   "stara": 1640,
+   "nowa": 1635,
+   "roznica": -5,
+   "naglowek": 1635
   },
   {
    "nazwa": "AOC Q27G41ZDF",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1902,
-   "nowa": 1866,
-   "roznica": -36
+   "stara": 1866,
+   "nowa": 2056,
+   "roznica": 190
   },
   {
    "nazwa": "AOC Q27G41ZDF",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1399,
-   "nowa": 1400,
+   "stara": 1400,
+   "nowa": 1401,
    "roznica": 1,
-   "naglowek": 1400
+   "naglowek": 1401
   },
   {
    "nazwa": "AOC Q27G4ZDR",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1764,
-   "nowa": 1761,
-   "roznica": -3
-  },
-  {
-   "nazwa": "AOC Q27G4ZDR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1439,
-   "nowa": 1399,
-   "roznica": -40,
-   "naglowek": 1399
+   "stara": 1761,
+   "nowa": 2326,
+   "roznica": 565
   },
   {
    "nazwa": "LG UltraGear 27GX704A-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1497,
-   "nowa": 1764,
-   "roznica": 267
+   "stara": 1764,
+   "nowa": 1499,
+   "roznica": -265
   },
   {
    "nazwa": "MSI MAG 274QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1499,
-   "nowa": 1569,
-   "roznica": 70,
-   "naglowek": 1569
+   "stara": 1569,
+   "nowa": 1499,
+   "roznica": -70,
+   "naglowek": 1499
   },
   {
    "nazwa": "AOC Q27G4SRU",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1221,
-   "nowa": 1255,
-   "roznica": 34
+   "stara": 1255,
+   "nowa": 1303,
+   "roznica": 48
   },
   {
    "nazwa": "AOC Q27G4SRU",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 998,
-   "nowa": 1024,
-   "roznica": 26,
-   "naglowek": 1024
+   "stara": 1024,
+   "nowa": 1138,
+   "roznica": 114,
+   "naglowek": 1138
   },
   {
    "nazwa": "AOC AGON PRO AG276QZD2",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 3577,
-   "nowa": 3589,
-   "roznica": 12
+   "stara": 3589,
+   "nowa": 3599,
+   "roznica": 10
   },
   {
-   "nazwa": "AOC Q27G4ZD",
+   "nazwa": "AOC AGON PRO AG276QZD2",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1549,
-   "nowa": 1648,
-   "roznica": 99,
-   "naglowek": 1648
-  },
-  {
-   "nazwa": "Gigabyte GO27Q24G",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1831,
-   "nowa": 1757,
-   "roznica": -74
+   "stara": 1599,
+   "nowa": 1549,
+   "roznica": -50,
+   "naglowek": 1549
   },
   {
    "nazwa": "Lenovo Legion Pro 27Q-10",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2080,
-   "nowa": 1880,
-   "roznica": -200,
-   "naglowek": 1880
+   "stara": 1880,
+   "nowa": 2088,
+   "roznica": 208,
+   "naglowek": 2088
+  },
+  {
+   "nazwa": "Samsung Odyssey G6 LS27HG612SUXEN",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 1599,
+   "nowa": 1799,
+   "roznica": 200
   },
   {
    "nazwa": "Gigabyte MO27Q2A Ice",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1908,
-   "nowa": 2517,
-   "roznica": 609
+   "stara": 2517,
+   "nowa": 2389,
+   "roznica": -128
   },
   {
    "nazwa": "Gigabyte MO27Q2A Ice",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2027,
-   "nowa": 2131,
-   "roznica": 104
+   "stara": 2131,
+   "nowa": 1894,
+   "roznica": -237
   },
   {
-   "nazwa": "ASUS ROG Strix XG27WCMS",
+   "nazwa": "Lenovo Legion 27QD-10",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 1579,
-   "nowa": 1549,
-   "roznica": -30,
-   "naglowek": 1549
+   "sklep": "morele",
+   "stara": 838,
+   "nowa": 927,
+   "roznica": 89
   },
   {
    "nazwa": "Philips Evnia 27M2N6501L/00",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2415,
-   "nowa": 2423,
-   "roznica": 8
+   "stara": 2423,
+   "nowa": 2429,
+   "roznica": 6
   },
   {
    "nazwa": "Acer CE270UXwmiipprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1774,
-   "nowa": 1746,
-   "roznica": -28,
-   "naglowek": 1746
+   "stara": 1746,
+   "nowa": 1755,
+   "roznica": 9,
+   "naglowek": 1755
   },
   {
    "nazwa": "HP OMEN 27qs G2 QHD 280Hz Gaming",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1858,
-   "nowa": 1866,
-   "roznica": 8
+   "stara": 1866,
+   "nowa": 1865,
+   "roznica": -1
   },
   {
    "nazwa": "MSI MAG 272QP QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1957,
-   "nowa": 1963,
+   "stara": 1963,
+   "nowa": 1969,
    "roznica": 6
+  },
+  {
+   "nazwa": "AOC AGON PRO AG276QKD2",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2806,
+   "nowa": 2885,
+   "roznica": 79,
+   "naglowek": 2885
   },
   {
    "nazwa": "ASUS ROG Strix XG27AQDMG",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2353,
-   "nowa": 2387,
-   "roznica": 34
-  },
-  {
-   "nazwa": "MSI MPG 271QRX QD-OLED",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 2400,
-   "nowa": 2399,
-   "roznica": -1
+   "stara": 2387,
+   "nowa": 2635,
+   "roznica": 248
   },
   {
    "nazwa": "Gigabyte MO27Q3",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2766,
-   "nowa": 2751,
-   "roznica": -15
+   "stara": 2751,
+   "nowa": 2753,
+   "roznica": 2
   },
   {
-   "nazwa": "LG UltraGear 27GX700A-B",
+   "nazwa": "LG UltraGear 27GS95QE-B",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2187,
-   "nowa": 2179,
-   "roznica": -8,
-   "naglowek": 2179
+   "stara": 2606,
+   "nowa": 2617,
+   "roznica": 11,
+   "naglowek": 2617
   },
   {
    "nazwa": "Philips Evnia 27M2N8500/00",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2518,
-   "nowa": 2502,
-   "roznica": -16
+   "stara": 2502,
+   "nowa": 2483,
+   "roznica": -19
   },
   {
    "nazwa": "Acer Predator XB273UF5bmiiprzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2719,
-   "nowa": 1899,
-   "roznica": -820,
-   "naglowek": 1899
+   "stara": 1899,
+   "nowa": 1879,
+   "roznica": -20,
+   "naglowek": 1879
+  },
+  {
+   "nazwa": "Acer X27UF5bmiippruzx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2874,
+   "nowa": 2866,
+   "roznica": -8,
+   "naglowek": 2866
   },
   {
    "nazwa": "Acer XV270UF3BMIIPRX",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 893,
-   "nowa": 849,
-   "roznica": -44,
-   "naglowek": 849
+   "stara": 849,
+   "nowa": 995,
+   "roznica": 146,
+   "naglowek": 995
   },
   {
    "nazwa": "AOC Agon Pro AG276QSG2 Pulsar",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3600,
-   "nowa": 3601,
-   "roznica": 1,
-   "naglowek": 3601
+   "stara": 3601,
+   "nowa": 3549,
+   "roznica": -52,
+   "naglowek": 3549
   },
   {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27ACDNG",
+   "nazwa": "ASRock Phantom Gaming PGO27QFS",
    "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 3627,
-   "nowa": 2849,
-   "roznica": -778
+   "sklep": "morele",
+   "stara": 1810,
+   "nowa": 1805,
+   "roznica": -5,
+   "naglowek": 1805
   },
   {
    "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMESZ",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2012,
-   "nowa": 1899,
-   "roznica": -113,
-   "naglowek": 1899
+   "stara": 1899,
+   "nowa": 1897,
+   "roznica": -2,
+   "naglowek": 1897
   },
   {
    "nazwa": "ASUS ROG Strix QD-OLED XG27AQDNG",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 3511,
-   "nowa": 3522,
-   "roznica": 11
+   "stara": 3522,
+   "nowa": 3532,
+   "roznica": 10
   },
   {
    "nazwa": "ASUS ROG Strix XG27ACMEG",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1342,
-   "nowa": 1346,
-   "roznica": 4,
-   "naglowek": 1346
+   "stara": 1346,
+   "nowa": 1224,
+   "roznica": -122,
+   "naglowek": 1224
   },
   {
    "nazwa": "ASUS ROG Strix XG27ACMES",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1209,
-   "nowa": 1040,
-   "roznica": -169,
-   "naglowek": 1040
+   "stara": 1040,
+   "nowa": 1037,
+   "roznica": -3,
+   "naglowek": 1037
   },
   {
-   "nazwa": "ASUS TUF Gaming VG27AQM5F",
+   "nazwa": "ASUS TUF Gaming VG27AQME5F",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1232,
-   "nowa": 1233,
-   "roznica": 1,
-   "naglowek": 1233
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQML5F",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1326,
-   "nowa": 1327,
-   "roznica": 1,
-   "naglowek": 1327
+   "stara": 1099,
+   "nowa": 1089,
+   "roznica": -10,
+   "naglowek": 1089
   },
   {
    "nazwa": "BenQ EX271QMZ",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1805,
-   "nowa": 2093,
-   "roznica": 288
-  },
-  {
-   "nazwa": "BenQ EX271QMZ",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1844,
-   "nowa": 1863,
-   "roznica": 19,
-   "naglowek": 1863
+   "stara": 2093,
+   "nowa": 2130,
+   "roznica": 37
   },
   {
    "nazwa": "BenQ Mobiuz EX271QZ",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3416,
-   "nowa": 3428,
-   "roznica": 12,
-   "naglowek": 3428
+   "stara": 3428,
+   "nowa": 3438,
+   "roznica": 10,
+   "naglowek": 3438
+  },
+  {
+   "nazwa": "Cooler Master GM27QPA",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 869,
+   "nowa": 867,
+   "roznica": -2,
+   "naglowek": 867
   },
   {
    "nazwa": "Gigabyte Aorus FO27Q5P",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3325,
-   "nowa": 3327,
-   "roznica": 2,
-   "naglowek": 3327
-  },
-  {
-   "nazwa": "LC-Power LC-M27QO",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1815,
-   "nowa": 1822,
-   "roznica": 7,
-   "naglowek": 1822
+   "stara": 3327,
+   "nowa": 3317,
+   "roznica": -10,
+   "naglowek": 3317
   },
   {
    "nazwa": "Minifire MFG27F4Q Pro",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 979,
-   "nowa": 1119,
-   "roznica": 140,
-   "naglowek": 1119
+   "stara": 1119,
+   "nowa": 1329,
+   "roznica": 210,
+   "naglowek": 1329
   },
   {
    "nazwa": "MSI 272QRF X36 Pulsar",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 3401,
-   "nowa": 3403,
-   "roznica": 2,
-   "naglowek": 3403
-  },
-  {
-   "nazwa": "MSI MPG 271QR QD-OLED X50",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 3458,
-   "nowa": 2999,
-   "roznica": -459,
-   "naglowek": 2999
+   "stara": 3403,
+   "nowa": 3392,
+   "roznica": -11,
+   "naglowek": 3392
   },
   {
    "nazwa": "Philips Evnia 27M2N3500PF/00",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 751,
-   "nowa": 754,
-   "roznica": 3,
-   "naglowek": 754
+   "stara": 754,
+   "nowa": 755,
+   "roznica": 1,
+   "naglowek": 755
   },
   {
    "nazwa": "Samsung Odyssey G6 OLED LS27DG600SUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2408,
-   "nowa": 2485,
-   "roznica": 77,
-   "naglowek": 2485
+   "stara": 2485,
+   "nowa": 2483,
+   "roznica": -2,
+   "naglowek": 2483
   },
   {
    "nazwa": "Samsung Odyssey G6 OLED LS27DG610SUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2300,
-   "nowa": 2299,
-   "roznica": -1
+   "stara": 2299,
+   "nowa": 2298,
+   "roznica": -1,
+   "naglowek": 2298
   },
   {
    "nazwa": "Samsung Odyssey OLED G6 G60SF LS27FG604SUXEN",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2603,
-   "nowa": 2611,
-   "roznica": 8,
-   "naglowek": 2611
+   "stara": 2611,
+   "nowa": 2564,
+   "roznica": -47,
+   "naglowek": 2564
+  },
+  {
+   "nazwa": "ViewSonic VX2738-2K",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1099,
+   "nowa": 1019,
+   "roznica": -80,
+   "naglowek": 1019
+  },
+  {
+   "nazwa": "ViewSonic VX27G32A-2K",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 849,
+   "nowa": 789,
+   "roznica": -60,
+   "naglowek": 789
+  },
+  {
+   "nazwa": "ViewSonic XG272-2K-OLED",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 4910,
+   "nowa": 4938,
+   "roznica": 28,
+   "naglowek": 4938
+  },
+  {
+   "nazwa": "MSI MAG 274QPF X32",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 789,
+   "nowa": 769,
+   "roznica": -20,
+   "naglowek": 769
+  },
+  {
+   "nazwa": "Gigabyte MO27Q28G OLED",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 2239,
+   "nowa": 2249,
+   "roznica": 10,
+   "naglowek": 2249
   },
   {
    "nazwa": "HP Omen 27qs G2 AW3V0E9#ABB",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1858,
-   "nowa": 1866,
-   "roznica": 8,
-   "naglowek": 1866
+   "stara": 1866,
+   "nowa": 1865,
+   "roznica": -1,
+   "naglowek": 1865
   },
   {
    "nazwa": "LG 27GS95QX-B",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2428,
-   "nowa": 2400,
-   "roznica": -28,
-   "naglowek": 2400
+   "stara": 2400,
+   "nowa": 2407,
+   "roznica": 7,
+   "naglowek": 2407
   },
   {
    "nazwa": "MSI MAG 272QP QD-OLED X50",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2951,
-   "nowa": 2982,
-   "roznica": 31,
-   "naglowek": 2982
+   "stara": 2982,
+   "nowa": 2961,
+   "roznica": -21,
+   "naglowek": 2961
+  },
+  {
+   "nazwa": "Acer XF270UF3",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 935,
+   "nowa": 919,
+   "roznica": -16,
+   "naglowek": 919
+  },
+  {
+   "nazwa": "Samsung OdysseyG60SD",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 2701,
+   "nowa": 2702,
+   "roznica": 1,
+   "naglowek": 2702
   },
   {
    "nazwa": "MSI MAG 272QPDE QD-OLED X24",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 2306,
-   "nowa": 2176,
-   "roznica": -130,
-   "naglowek": 2176
+   "stara": 2176,
+   "nowa": 2165,
+   "roznica": -11,
+   "naglowek": 2165
   },
   {
    "nazwa": "ASUS ROG Strix QD-OLED XG27AQDMES",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2012,
-   "nowa": 1790,
-   "roznica": -222,
-   "naglowek": 1790
+   "stara": 1790,
+   "nowa": 1785,
+   "roznica": -5,
+   "naglowek": 1785
+  },
+  {
+   "nazwa": "Acer B247YD3bmiqprcuzxv",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 823,
+   "nowa": 883,
+   "roznica": 60,
+   "naglowek": 883
+  },
+  {
+   "nazwa": "Acer B247YGbemiqpruzx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 887,
+   "nowa": 884,
+   "roznica": -3,
+   "naglowek": 884
   },
   {
    "nazwa": "Acer B247YGbmiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 500,
-   "nowa": 502,
-   "roznica": 2,
-   "naglowek": 502
+   "stara": 502,
+   "nowa": 503,
+   "roznica": 1,
+   "naglowek": 503
+  },
+  {
+   "nazwa": "Acer B247YGbmiqpruzx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1026,
+   "nowa": 1017,
+   "roznica": -9,
+   "naglowek": 1017
   },
   {
    "nazwa": "Acer B248YEbemiqprcuzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1033,
-   "nowa": 1012,
-   "roznica": -21,
-   "naglowek": 1012
+   "stara": 1012,
+   "nowa": 1013,
+   "roznica": 1,
+   "naglowek": 1013
   },
   {
    "nazwa": "Acer B277Gbmiqprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 716,
-   "nowa": 719,
-   "roznica": 3,
-   "naglowek": 719
+   "stara": 719,
+   "nowa": 720,
+   "roznica": 1,
+   "naglowek": 720
+  },
+  {
+   "nazwa": "Acer B277Gbmiqprzx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 918,
+   "nowa": 915,
+   "roznica": -3,
+   "naglowek": 915
   },
   {
    "nazwa": "Acer B277KLBbmipruzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1568,
-   "nowa": 1571,
-   "roznica": 3,
-   "naglowek": 1571
+   "stara": 1571,
+   "nowa": 1331,
+   "roznica": -240,
+   "naglowek": 1331
   },
   {
    "nazwa": "Acer B277UGbemiqpruzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1440,
-   "nowa": 1442,
-   "roznica": 2,
-   "naglowek": 1442
+   "stara": 1442,
+   "nowa": 1425,
+   "roznica": -17,
+   "naglowek": 1425
+  },
+  {
+   "nazwa": "Acer B277UGbmiiqprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 931,
+   "nowa": 929,
+   "roznica": -2,
+   "naglowek": 929
   },
   {
    "nazwa": "Acer B278UEbemiqprcuzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1858,
-   "nowa": 1861,
-   "roznica": 3,
-   "naglowek": 1861
+   "stara": 1861,
+   "nowa": 1843,
+   "roznica": -18,
+   "naglowek": 1843
   },
   {
    "nazwa": "Acer CB2 CB272UGbmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 644,
-   "nowa": 643,
-   "roznica": -1,
-   "naglowek": 643
+   "stara": 643,
+   "nowa": 649,
+   "roznica": 6,
+   "naglowek": 649
   },
   {
-   "nazwa": "Acer CB272 G UM.HB2EE.G06",
+   "nazwa": "Acer ED320QUS3BMIIPX",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 960,
-   "nowa": 966,
-   "roznica": 6,
-   "naglowek": 966
+   "stara": 879,
+   "nowa": 877,
+   "roznica": -2,
+   "naglowek": 877
+  },
+  {
+   "nazwa": "Acer KA242YP6b",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 334,
+   "nowa": 333,
+   "roznica": -1,
+   "naglowek": 333
+  },
+  {
+   "nazwa": "Acer KA272UGbmiipx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 755,
+   "nowa": 751,
+   "roznica": -4,
+   "naglowek": 751
+  },
+  {
+   "nazwa": "Acer Nitro VG240YP6BMIPX",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 440,
+   "nowa": 448,
+   "roznica": 8,
+   "naglowek": 448
   },
   {
    "nazwa": "Acer Nitro VG270P6bmipx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 522,
-   "nowa": 535,
-   "roznica": 13,
-   "naglowek": 535
+   "stara": 535,
+   "nowa": 532,
+   "roznica": -3,
+   "naglowek": 532
   },
   {
    "nazwa": "Acer Nitro XV240YW3bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 449,
-   "nowa": 429,
-   "roznica": -20,
-   "naglowek": 429
-  },
-  {
-   "nazwa": "Acer Nitro XV252QLVbmiiprx",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1084,
-   "nowa": 1090,
-   "roznica": 6,
-   "naglowek": 1090
+   "stara": 429,
+   "nowa": 421,
+   "roznica": -8,
+   "naglowek": 421
   },
   {
    "nazwa": "Acer Predator XB253QF3bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 740,
-   "nowa": 739,
-   "roznica": -1,
-   "naglowek": 739
+   "stara": 739,
+   "nowa": 737,
+   "roznica": -2,
+   "naglowek": 737
   },
   {
    "nazwa": "Acer Predator XB3 XB273KV4bmiiprx",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1529,
-   "nowa": 1596,
-   "roznica": 67
+   "stara": 1596,
+   "nowa": 1542,
+   "roznica": -54
   },
   {
    "nazwa": "Acer Predator XB3 XB273KV4bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1187,
-   "nowa": 1112,
-   "roznica": -75,
-   "naglowek": 1112
+   "stara": 1112,
+   "nowa": 1098,
+   "roznica": -14,
+   "naglowek": 1098
+  },
+  {
+   "nazwa": "Acer Predator XB3 XB273KV5bmiiprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1671,
+   "nowa": 1729,
+   "roznica": 58,
+   "naglowek": 1729
+  },
+  {
+   "nazwa": "Acer SA273P1bip",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 359,
+   "nowa": 358,
+   "roznica": -1,
+   "naglowek": 358
   },
   {
    "nazwa": "Acer Vero B7 B247YGbmiprzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 527,
-   "nowa": 595,
-   "roznica": 68,
-   "naglowek": 595
+   "stara": 595,
+   "nowa": 593,
+   "roznica": -2,
+   "naglowek": 593
+  },
+  {
+   "nazwa": "Acer Vero B7 B247YGbmiqprzx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 608,
+   "nowa": 616,
+   "roznica": 8,
+   "naglowek": 616
   },
   {
    "nazwa": "Acer Vero B7 B277Gbmiprzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 773,
-   "nowa": 776,
-   "roznica": 3,
-   "naglowek": 776
-  },
-  {
-   "nazwa": "Acer Vero CB2 CB272P6bipr",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 552,
-   "nowa": 539,
-   "roznica": -13,
-   "naglowek": 539
-  },
-  {
-   "nazwa": "Acer XB273UX2BMIIPRX",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 716,
-   "nowa": 705,
-   "roznica": -11,
-   "naglowek": 705
-  },
-  {
-   "nazwa": "AG Neovo LA-2403",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 332,
-   "nowa": 333,
+   "stara": 776,
+   "nowa": 777,
    "roznica": 1,
-   "naglowek": 333
+   "naglowek": 777
   },
   {
-   "nazwa": "AG Neovo LH-2404",
+   "nazwa": "Acer Vero B7 B277UGbmiiprzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 403,
-   "nowa": 404,
-   "roznica": 1,
-   "naglowek": 404
+   "stara": 852,
+   "nowa": 850,
+   "roznica": -2,
+   "naglowek": 850
   },
   {
-   "nazwa": "AOC 24B3HA2",
+   "nazwa": "Acer Vero B7 B277UGbmiiqprzx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 343,
-   "nowa": 344,
-   "roznica": 1,
-   "naglowek": 344
+   "stara": 828,
+   "nowa": 852,
+   "roznica": 24,
+   "naglowek": 852
   },
   {
-   "nazwa": "AOC 24E4CV",
+   "nazwa": "Acer VG270W3bmiipx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 769,
-   "nowa": 770,
-   "roznica": 1,
-   "naglowek": 770
+   "stara": 479,
+   "nowa": 521,
+   "roznica": 42,
+   "naglowek": 521
+  },
+  {
+   "nazwa": "Acer XV270W3bmiiprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 733,
+   "nowa": 643,
+   "roznica": -90
+  },
+  {
+   "nazwa": "Acer XV272UX1bmiiprx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 594,
+   "nowa": 574,
+   "roznica": -20
+  },
+  {
+   "nazwa": "AOC 24B3CF2",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 536,
+   "nowa": 521,
+   "roznica": -15,
+   "naglowek": 521
+  },
+  {
+   "nazwa": "AOC 24E4U",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 517,
+   "nowa": 515,
+   "roznica": -2,
+   "naglowek": 515
+  },
+  {
+   "nazwa": "AOC 24G2U/BK",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1584,
+   "nowa": 1569,
+   "roznica": -15,
+   "naglowek": 1569
   },
   {
    "nazwa": "AOC 24G42E",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 454,
-   "nowa": 451,
-   "roznica": -3,
-   "naglowek": 451
+   "stara": 451,
+   "nowa": 458,
+   "roznica": 7,
+   "naglowek": 458
   },
   {
    "nazwa": "AOC 24G4ZR",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 569,
-   "nowa": 573,
-   "roznica": 4,
-   "naglowek": 573
-  },
-  {
-   "nazwa": "AOC 24G4ZRE",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 398,
-   "nowa": 399,
-   "roznica": 1,
-   "naglowek": 399
-  },
-  {
-   "nazwa": "AOC 24P4CV",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 947,
-   "nowa": 967,
-   "roznica": 20,
-   "naglowek": 967
+   "stara": 573,
+   "nowa": 569,
+   "roznica": -4,
+   "naglowek": 569
   },
   {
    "nazwa": "AOC 24P4U",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 581,
-   "nowa": 583,
-   "roznica": 2,
-   "naglowek": 583
+   "stara": 583,
+   "nowa": 581,
+   "roznica": -2,
+   "naglowek": 581
   },
   {
    "nazwa": "AOC 25G3ZM/BK",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 575,
-   "nowa": 574,
-   "roznica": -1,
-   "naglowek": 574
-  },
-  {
-   "nazwa": "AOC 25G42E",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 379,
-   "nowa": 454,
-   "roznica": 75,
-   "naglowek": 454
-  },
-  {
-   "nazwa": "AOC 27B36X",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 429,
-   "nowa": 399,
-   "roznica": -30,
-   "naglowek": 399
+   "stara": 574,
+   "nowa": 580,
+   "roznica": 6,
+   "naglowek": 580
   },
   {
    "nazwa": "AOC 27B3CA2",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 576,
-   "nowa": 561,
-   "roznica": -15
-  },
-  {
-   "nazwa": "AOC 27B3HA2",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 439,
-   "nowa": 421,
-   "roznica": -18,
-   "naglowek": 421
+   "stara": 561,
+   "nowa": 567,
+   "roznica": 6
   },
   {
    "nazwa": "AOC 27E4CV",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 778,
-   "nowa": 808,
-   "roznica": 30,
-   "naglowek": 808
+   "stara": 808,
+   "nowa": 806,
+   "roznica": -2,
+   "naglowek": 806
   },
   {
    "nazwa": "AOC 27E4U",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 710,
-   "nowa": 706,
-   "roznica": -4,
-   "naglowek": 706
+   "stara": 706,
+   "nowa": 714,
+   "roznica": 8,
+   "naglowek": 714
   },
   {
-   "nazwa": "AOC 27G42E",
+   "nazwa": "AOC 27G4HRE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 489,
+   "nowa": 469,
+   "roznica": -20,
+   "naglowek": 469
+  },
+  {
+   "nazwa": "AOC 27G4X",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 693,
+   "nowa": 725,
+   "roznica": 32,
+   "naglowek": 725
+  },
+  {
+   "nazwa": "AOC C27G42FE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 465,
+   "nowa": 556,
+   "roznica": 91,
+   "naglowek": 556
+  },
+  {
+   "nazwa": "AOC CQ32G4VE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 699,
+   "nowa": 787,
+   "roznica": 88,
+   "naglowek": 787
+  },
+  {
+   "nazwa": "AOC Q27E4CV",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1132,
+   "nowa": 1037,
+   "roznica": -95,
+   "naglowek": 1037
+  },
+  {
+   "nazwa": "AOC Q27G42XE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 720,
+   "nowa": 569,
+   "roznica": -151,
+   "naglowek": 569
+  },
+  {
+   "nazwa": "AOC Q27G4XF",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 629,
+   "nowa": 569,
+   "roznica": -60,
+   "naglowek": 569
+  },
+  {
+   "nazwa": "AOC Q27P4U",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 810,
+   "nowa": 816,
+   "roznica": 6,
+   "naglowek": 816
+  },
+  {
+   "nazwa": "AOC Q32E4U",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1115,
+   "nowa": 1120,
+   "roznica": 5,
+   "naglowek": 1120
+  },
+  {
+   "nazwa": "AOC U27G4R",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1099,
+   "nowa": 1175,
+   "roznica": 76,
+   "naglowek": 1175
+  },
+  {
+   "nazwa": "Arozzi Nova 24 AZ-NO-24T1K200-BK",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 832,
+   "nowa": 831,
+   "roznica": -1
+  },
+  {
+   "nazwa": "Arozzi Nova 27 AZ-NO-27T2K180-BK",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1172,
+   "nowa": 1171,
+   "roznica": -1
+  },
+  {
+   "nazwa": "Arozzi Nova 32 AZ-NO-32T2K180-BK",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1413,
+   "nowa": 1412,
+   "roznica": -1,
+   "naglowek": 1412
+  },
+  {
+   "nazwa": "ASRock CL25FFAE",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 329,
+   "nowa": 333,
+   "roznica": 4,
+   "naglowek": 333
+  },
+  {
+   "nazwa": "ASRock PG27FFS1A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 438,
+   "nowa": 436,
+   "roznica": -2,
+   "naglowek": 436
+  },
+  {
+   "nazwa": "ASRock PG27FFS2E",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 700,
+   "nowa": 699,
+   "roznica": -1,
+   "naglowek": 699
+  },
+  {
+   "nazwa": "ASRock PG32QFT",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1212,
+   "nowa": 1211,
+   "roznica": -1,
+   "naglowek": 1211
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PG27F15RS1A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 877,
+   "nowa": 876,
+   "roznica": -1,
+   "naglowek": 876
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PG27QFT1B",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 749,
+   "nowa": 747,
+   "roznica": -2,
+   "naglowek": 747
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PG27QFT2A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 641,
+   "nowa": 614,
+   "roznica": -27,
+   "naglowek": 614
+  },
+  {
+   "nazwa": "ASRock Phantom Gaming PG32QF2B",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1036,
+   "nowa": 1035,
+   "roznica": -1,
+   "naglowek": 1035
+  },
+  {
+   "nazwa": "ASUS Business BE249QG",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 756,
+   "nowa": 755,
+   "roznica": -1,
+   "naglowek": 755
+  },
+  {
+   "nazwa": "ASUS Business VB279QG",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 650,
+   "nowa": 682,
+   "roznica": 32,
+   "naglowek": 682
+  },
+  {
+   "nazwa": "ASUS Eye Care Gaming VY249HG2",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 402,
+   "nowa": 401,
+   "roznica": -1,
+   "naglowek": 401
+  },
+  {
+   "nazwa": "ASUS Eye Care Gaming VY249HGR",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 555,
+   "nowa": 554,
+   "roznica": -1,
+   "naglowek": 554
+  },
+  {
+   "nazwa": "ASUS Eye Care Gaming VY279HGR",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 623,
+   "nowa": 621,
+   "roznica": -2,
+   "naglowek": 621
+  },
+  {
+   "nazwa": "ASUS ProArt PA278CGV",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1622,
+   "nowa": 1554,
+   "roznica": -68,
+   "naglowek": 1554
+  },
+  {
+   "nazwa": "ASUS ProArt PA278QGV",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1056,
+   "nowa": 1050,
+   "roznica": -6,
+   "naglowek": 1050
+  },
+  {
+   "nazwa": "ASUS Przenośny ZenScreen MB27ACF",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1849,
+   "nowa": 1786,
+   "roznica": -63,
+   "naglowek": 1786
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG259QNS",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1730,
+   "nowa": 1725,
+   "roznica": -5,
+   "naglowek": 1725
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27ACS-W Gen2",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1347,
+   "nowa": 1336,
+   "roznica": -11,
+   "naglowek": 1336
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG27WCS",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 942,
+   "nowa": 910,
+   "roznica": -32,
+   "naglowek": 910
+  },
+  {
+   "nazwa": "ASUS ROG Strix XG32WCMS",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1599,
+   "nowa": 1519,
+   "roznica": -80,
+   "naglowek": 1519
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG249Q5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 484,
+   "nowa": 528,
+   "roznica": 44,
+   "naglowek": 528
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG249QE5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 490,
+   "nowa": 484,
+   "roznica": -6,
+   "naglowek": 484
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG249QM1A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1146,
+   "nowa": 1143,
+   "roznica": -3,
+   "naglowek": 1143
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG249QM5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 584,
+   "nowa": 580,
+   "roznica": -4,
+   "naglowek": 580
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG259Q5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 523,
+   "nowa": 578,
+   "roznica": 55,
+   "naglowek": 578
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG259QMR5A",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 639,
+   "nowa": 619,
+   "roznica": -20
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG279Q3R",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 740,
+   "nowa": 738,
+   "roznica": -2,
+   "naglowek": 738
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG279Q5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 723,
+   "nowa": 722,
+   "roznica": -1,
+   "naglowek": 722
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG279QM5F",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 730,
+   "nowa": 719,
+   "roznica": -11,
+   "naglowek": 719
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQ5A",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 799,
+   "nowa": 819,
+   "roznica": 20
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQA1A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 801,
+   "nowa": 723,
+   "roznica": -78,
+   "naglowek": 723
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQL3A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1542,
+   "nowa": 1543,
+   "roznica": 1,
+   "naglowek": 1543
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27AQL5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 729,
+   "nowa": 794,
+   "roznica": 65,
+   "naglowek": 794
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27UQ1A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1716,
+   "nowa": 1782,
+   "roznica": 66,
+   "naglowek": 1782
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27UQEL5A",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1027,
+   "nowa": 1026,
+   "roznica": -1,
+   "naglowek": 1026
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27VQ3B",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 640,
+   "nowa": 639,
+   "roznica": -1,
+   "naglowek": 639
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27VQM",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 764,
+   "nowa": 829,
+   "roznica": 65,
+   "naglowek": 829
+  },
+  {
+   "nazwa": "ASUS TUF Gaming VG27WQ3B",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 840,
+   "nowa": 749,
+   "roznica": -91,
+   "naglowek": 749
+  },
+  {
+   "nazwa": "ASUS VA249HG",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 418,
+   "nowa": 453,
+   "roznica": 35,
+   "naglowek": 453
+  },
+  {
+   "nazwa": "ASUS VA249QG",
    "rodzaj": "monitor",
    "sklep": "morele",
    "stara": 499,
@@ -4850,986 +5441,509 @@
    "naglowek": 489
   },
   {
-   "nazwa": "AOC 27G4X",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 710,
-   "nowa": 693,
-   "roznica": -17,
-   "naglowek": 693
-  },
-  {
-   "nazwa": "AOC C27G4Z2",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 579,
-   "nowa": 659,
-   "roznica": 80,
-   "naglowek": 659
-  },
-  {
-   "nazwa": "AOC CQ32G4VE",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 720,
-   "nowa": 699,
-   "roznica": -21,
-   "naglowek": 699
-  },
-  {
-   "nazwa": "AOC Q27E4CV",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1128,
-   "nowa": 1132,
-   "roznica": 4,
-   "naglowek": 1132
-  },
-  {
-   "nazwa": "AOC Q27E4U",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 731,
-   "nowa": 730,
-   "roznica": -1,
-   "naglowek": 730
-  },
-  {
-   "nazwa": "AOC Q27G42XE",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 717,
-   "nowa": 720,
-   "roznica": 3,
-   "naglowek": 720
-  },
-  {
-   "nazwa": "AOC Q27P4U",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 790,
-   "nowa": 810,
-   "roznica": 20,
-   "naglowek": 810
-  },
-  {
-   "nazwa": "AOC Q32E4U",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1061,
-   "nowa": 1115,
-   "roznica": 54,
-   "naglowek": 1115
-  },
-  {
-   "nazwa": "Arozzi Nova 24 AZ-NO-24T1K200-BK",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 830,
-   "nowa": 832,
-   "roznica": 2
-  },
-  {
-   "nazwa": "Arozzi Nova 27 AZ-NO-27T2K180-BK",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1169,
-   "nowa": 1172,
-   "roznica": 3
-  },
-  {
-   "nazwa": "Arozzi Nova 32 AZ-NO-32T2K180-BK",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1411,
-   "nowa": 1413,
-   "roznica": 2,
-   "naglowek": 1413
-  },
-  {
-   "nazwa": "ASRock CL25FFAE",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 333,
-   "nowa": 329,
-   "roznica": -4,
-   "naglowek": 329
-  },
-  {
-   "nazwa": "ASRock PG27FFS1A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 436,
-   "nowa": 438,
-   "roznica": 2,
-   "naglowek": 438
-  },
-  {
-   "nazwa": "ASRock PG27FFS2E",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 701,
-   "nowa": 700,
-   "roznica": -1,
-   "naglowek": 700
-  },
-  {
-   "nazwa": "ASRock PG32QFT",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1214,
-   "nowa": 1212,
-   "roznica": -2,
-   "naglowek": 1212
-  },
-  {
-   "nazwa": "ASRock Phantom Gaming PG27F15RS1A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 875,
-   "nowa": 877,
-   "roznica": 2,
-   "naglowek": 877
-  },
-  {
-   "nazwa": "ASRock Phantom Gaming PG27QFT1B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 764,
-   "nowa": 749,
-   "roznica": -15,
-   "naglowek": 749
-  },
-  {
-   "nazwa": "ASRock Phantom Gaming PG27QFT2A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 638,
-   "nowa": 641,
-   "roznica": 3,
-   "naglowek": 641
-  },
-  {
-   "nazwa": "ASRock Phantom Gaming PG32QF2B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1033,
-   "nowa": 1036,
-   "roznica": 3,
-   "naglowek": 1036
-  },
-  {
-   "nazwa": "ASUS BE27AQG",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1089,
-   "nowa": 1087,
-   "roznica": -2,
-   "naglowek": 1087
-  },
-  {
-   "nazwa": "ASUS Business BE249QG",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 753,
-   "nowa": 756,
-   "roznica": 3,
-   "naglowek": 756
-  },
-  {
-   "nazwa": "ASUS Business BE27ACGN",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1222,
-   "nowa": 1225,
-   "roznica": 3,
-   "naglowek": 1225
-  },
-  {
-   "nazwa": "ASUS Business VB279QG",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 647,
-   "nowa": 650,
-   "roznica": 3,
-   "naglowek": 650
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY249HG2",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 400,
-   "nowa": 402,
-   "roznica": 2,
-   "naglowek": 402
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY249HGR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 398,
-   "nowa": 555,
-   "roznica": 157,
-   "naglowek": 555
-  },
-  {
-   "nazwa": "ASUS Eye Care Gaming VY279HGR",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 528,
-   "nowa": 623,
-   "roznica": 95,
-   "naglowek": 623
-  },
-  {
-   "nazwa": "ASUS ProArt PA278CGRV",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1249,
-   "nowa": 1199,
-   "roznica": -50,
-   "naglowek": 1199
-  },
-  {
-   "nazwa": "ASUS ProArt PA278QGV",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1063,
-   "nowa": 1056,
-   "roznica": -7,
-   "naglowek": 1056
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG27ACS-W Gen2",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1348,
-   "nowa": 1347,
-   "roznica": -1,
-   "naglowek": 1347
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG32WCMS",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1884,
-   "nowa": 1599,
-   "roznica": -285,
-   "naglowek": 1599
-  },
-  {
-   "nazwa": "ASUS ROG Strix XG32WCS",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1422,
-   "nowa": 1426,
-   "roznica": 4,
-   "naglowek": 1426
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG249QE5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 488,
-   "nowa": 490,
-   "roznica": 2,
-   "naglowek": 490
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG259Q5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 577,
-   "nowa": 523,
-   "roznica": -54,
-   "naglowek": 523
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG259QL5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 570,
-   "nowa": 572,
-   "roznica": 2,
-   "naglowek": 572
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG259QM5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 639,
-   "nowa": 619,
-   "roznica": -20,
-   "naglowek": 619
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG259QMRL5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 834,
-   "nowa": 867,
-   "roznica": 33,
-   "naglowek": 867
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279Q5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 720,
-   "nowa": 723,
-   "roznica": 3,
-   "naglowek": 723
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279QE5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 597,
-   "nowa": 599,
-   "roznica": 2,
-   "naglowek": 599
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG279QM5F",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 766,
-   "nowa": 730,
-   "roznica": -36,
-   "naglowek": 730
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQA1A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 797,
-   "nowa": 801,
-   "roznica": 4,
-   "naglowek": 801
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQL3A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1537,
-   "nowa": 1542,
-   "roznica": 5,
-   "naglowek": 1542
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27AQL5A",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 739,
-   "nowa": 729,
-   "roznica": -10,
-   "naglowek": 729
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQ1A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1697,
-   "nowa": 1716,
-   "roznica": 19,
-   "naglowek": 1716
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27UQEL5A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1023,
-   "nowa": 1027,
-   "roznica": 4,
-   "naglowek": 1027
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27VQM",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 762,
-   "nowa": 764,
-   "roznica": 2,
-   "naglowek": 764
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG27WQ3B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 749,
-   "nowa": 840,
-   "roznica": 91,
-   "naglowek": 840
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG32AQA1A",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 1186,
-   "nowa": 1199,
-   "roznica": 13,
-   "naglowek": 1199
-  },
-  {
-   "nazwa": "ASUS TUF Gaming VG32VQM5B",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 979,
-   "nowa": 978,
-   "roznica": -1,
-   "naglowek": 978
-  },
-  {
-   "nazwa": "ASUS VA249QGS",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 631,
-   "nowa": 633,
-   "roznica": 2,
-   "naglowek": 633
-  },
-  {
    "nazwa": "ASUS VA249QGSE",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 626,
-   "nowa": 627,
-   "roznica": 1,
-   "naglowek": 627
+   "stara": 627,
+   "nowa": 625,
+   "roznica": -2,
+   "naglowek": 625
   },
   {
    "nazwa": "ASUS VA24DQFS",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 544,
-   "nowa": 541,
-   "roznica": -3,
-   "naglowek": 541
+   "stara": 541,
+   "nowa": 535,
+   "roznica": -6,
+   "naglowek": 535
   },
   {
-   "nazwa": "ASUS VA279HG",
+   "nazwa": "ASUS VA27DQFS",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 485,
-   "nowa": 487,
-   "roznica": 2,
-   "naglowek": 487
-  },
-  {
-   "nazwa": "ASUS VA279QGSE",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 705,
-   "nowa": 706,
-   "roznica": 1,
-   "naglowek": 706
+   "stara": 819,
+   "nowa": 699,
+   "roznica": -120,
+   "naglowek": 699
   },
   {
    "nazwa": "ASUS VU249CFE-G",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 906,
-   "nowa": 910,
-   "roznica": 4,
-   "naglowek": 910
+   "stara": 910,
+   "nowa": 908,
+   "roznica": -2,
+   "naglowek": 908
+  },
+  {
+   "nazwa": "ASUS VU249HFI-W",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 639,
+   "nowa": 615,
+   "roznica": -24,
+   "naglowek": 615
+  },
+  {
+   "nazwa": "ASUS VU279CFE-B",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 1001,
+   "nowa": 1006,
+   "roznica": 5
   },
   {
    "nazwa": "ASUS VY249HF-W",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 542,
-   "nowa": 540,
-   "roznica": -2,
-   "naglowek": 540
+   "stara": 540,
+   "nowa": 537,
+   "roznica": -3,
+   "naglowek": 537
   },
   {
    "nazwa": "ASUS VZ249HG",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 457,
-   "nowa": 456,
-   "roznica": -1,
-   "naglowek": 456
-  },
-  {
-   "nazwa": "ASUS VZ279HG",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 778,
-   "nowa": 632,
-   "roznica": -146,
-   "naglowek": 632
-  },
-  {
-   "nazwa": "BenQ BL2491P",
-   "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 387,
-   "nowa": 390,
-   "roznica": 3,
-   "naglowek": 390
+   "stara": 456,
+   "nowa": 454,
+   "roznica": -2,
+   "naglowek": 454
   },
   {
    "nazwa": "BenQ BL2790",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 508,
-   "nowa": 506,
+   "stara": 506,
+   "nowa": 504,
    "roznica": -2
   },
   {
    "nazwa": "BenQ BL2790TC",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 788,
-   "nowa": 785,
-   "roznica": -3,
-   "naglowek": 785
+   "stara": 785,
+   "nowa": 801,
+   "roznica": 16,
+   "naglowek": 801
+  },
+  {
+   "nazwa": "BenQ GW2486TC",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 747,
+   "nowa": 749,
+   "roznica": 2,
+   "naglowek": 749
   },
   {
    "nazwa": "BenQ GW2490T",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 684,
-   "nowa": 680,
-   "roznica": -4,
-   "naglowek": 680
+   "stara": 680,
+   "nowa": 669,
+   "roznica": -11,
+   "naglowek": 669
+  },
+  {
+   "nazwa": "BenQ GW2490TC",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 705,
+   "nowa": 703,
+   "roznica": -2,
+   "naglowek": 703
+  },
+  {
+   "nazwa": "BenQ GW2786TC",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 864,
+   "nowa": 869,
+   "roznica": 5,
+   "naglowek": 869
+  },
+  {
+   "nazwa": "BenQ GW2790P",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 503,
+   "nowa": 505,
+   "roznica": 2,
+   "naglowek": 505
   },
   {
    "nazwa": "BenQ GW2790TC",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 634,
-   "nowa": 637,
-   "roznica": 3,
-   "naglowek": 637
+   "stara": 637,
+   "nowa": 636,
+   "roznica": -1,
+   "naglowek": 636
+  },
+  {
+   "nazwa": "BenQ GW2791",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 489,
+   "nowa": 490,
+   "roznica": 1
   },
   {
    "nazwa": "Acer Nitro VG270UP6bmiipx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 844,
-   "nowa": 703,
-   "roznica": -141
+   "stara": 703,
+   "nowa": 674,
+   "roznica": -29
   },
   {
    "nazwa": "iiyama G-Master GB3290QSU-B1 Gold Phoenix",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1486,
-   "nowa": 1513,
-   "roznica": 27
+   "stara": 1513,
+   "nowa": 1520,
+   "roznica": 7
   },
   {
    "nazwa": "Acer ED320QW0bmiipx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 774,
-   "nowa": 997,
-   "roznica": 223
+   "stara": 997,
+   "nowa": 995,
+   "roznica": -2
   },
   {
    "nazwa": "iiyama G-Master G2471HS-B1 Red Eagle",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 629,
-   "nowa": 721,
-   "roznica": 92
+   "stara": 721,
+   "nowa": 470,
+   "roznica": -251
+  },
+  {
+   "nazwa": "iiyama G-Master G2741QSU-B1 Black Hawk",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 659,
+   "nowa": 629,
+   "roznica": -30,
+   "naglowek": 629
+  },
+  {
+   "nazwa": "iiyama G-Master GB2771QSU-B1 Red Eagle",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 759,
+   "nowa": 799,
+   "roznica": 40,
+   "naglowek": 799
   },
   {
    "nazwa": "Samsung LS27FG502SUXEN",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1496,
-   "nowa": 1491,
-   "roznica": -5,
-   "naglowek": 1491
+   "stara": 1491,
+   "nowa": 1742,
+   "roznica": 251,
+   "naglowek": 1742
   },
   {
    "nazwa": "Samsung LS32CG552EUXEN",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 849,
-   "nowa": 899,
-   "roznica": 50,
-   "naglowek": 899
+   "stara": 899,
+   "nowa": 869,
+   "roznica": -30,
+   "naglowek": 869
   },
   {
-   "nazwa": "Samsung Odyssey G5 LS27CG552EUXEN",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 649,
-   "nowa": 699,
-   "roznica": 50,
-   "naglowek": 699
-  },
-  {
-   "nazwa": "Amzfast AMZG27C1Q Pro",
+   "nazwa": "Acer KA242YP0bi",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1389,
-   "nowa": 1399,
+   "stara": 249,
+   "nowa": 259,
    "roznica": 10,
-   "naglowek": 1399
+   "naglowek": 259
   },
   {
-   "nazwa": "iiyama G-Master GB2771UHSU-B1 Red Eagle",
+   "nazwa": "iiyama G-Master GB2591HSU-B1 Gold Phoenix",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1179,
-   "nowa": 1259,
-   "roznica": 80,
-   "naglowek": 1259
+   "stara": 615,
+   "nowa": 745,
+   "roznica": 130,
+   "naglowek": 745
   },
   {
    "nazwa": "iiyama G-Master GB3261UHSCP-B1 RedEagle",
    "rodzaj": "monitor",
    "sklep": "mediamarkt",
-   "stara": 1871,
-   "nowa": 1856,
-   "roznica": -15,
-   "naglowek": 1856
-  },
-  {
-   "nazwa": "AOC G4252E",
-   "rodzaj": "monitor",
-   "sklep": "mediamarkt",
-   "stara": 559,
-   "nowa": 557,
-   "roznica": -2,
-   "naglowek": 557
+   "stara": 1856,
+   "nowa": 1869,
+   "roznica": 13,
+   "naglowek": 1869
   },
   {
    "nazwa": "Acer XB323QKV4bmiiprx",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 2212,
-   "nowa": 2101,
-   "roznica": -111,
-   "naglowek": 2101
+   "stara": 2101,
+   "nowa": 2095,
+   "roznica": -6,
+   "naglowek": 2095
   },
   {
-   "nazwa": "AG Neovo ME-2701 ME2710B1E0000",
+   "nazwa": "ASUS BE249QFK",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 1910,
-   "nowa": 1918,
-   "roznica": 8,
-   "naglowek": 1918
+   "stara": 891,
+   "nowa": 939,
+   "roznica": 48,
+   "naglowek": 939
+  },
+  {
+   "nazwa": "LG 24G411B-B",
+   "rodzaj": "monitor",
+   "sklep": "mediamarkt",
+   "stara": 430,
+   "nowa": 412,
+   "roznica": -18,
+   "naglowek": 412
+  },
+  {
+   "nazwa": "Acer VG240YW3bmiipx",
+   "rodzaj": "monitor",
+   "sklep": "morele",
+   "stara": 646,
+   "nowa": 596,
+   "roznica": -50,
+   "naglowek": 596
   },
   {
    "nazwa": "Acer Vero CB243Y Ebemipruzxv",
    "rodzaj": "monitor",
    "sklep": "morele",
-   "stara": 787,
-   "nowa": 790,
-   "roznica": 3,
-   "naglowek": 790
+   "stara": 790,
+   "nowa": 791,
+   "roznica": 1,
+   "naglowek": 791
   },
   {
-   "nazwa": "ASUS TUF Gaming VG27AQL5F",
+   "nazwa": "Samsung Odyssey G5 LS27HG552EUXEN",
    "rodzaj": "monitor",
-   "sklep": "morele",
-   "stara": 998,
-   "nowa": 1007,
-   "roznica": 9,
-   "naglowek": 1007
+   "sklep": "mediamarkt",
+   "stara": 669,
+   "nowa": 699,
+   "roznica": 30,
+   "naglowek": 699
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO",
+   "nazwa": "Utopiec (GoblinPC)",
    "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8299,
-   "nowa": 7799,
-   "roznica": -500,
-   "naglowek": 7799
+   "sklep": "goblinpc",
+   "stara": 6670,
+   "nowa": 7040,
+   "roznica": 370,
+   "naglowek": 7040
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Zalman Z10",
+   "nazwa": "Utopiec (custom: 32GB RAM) (GoblinPC)",
    "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8299,
-   "nowa": 7799,
-   "roznica": -500,
-   "naglowek": 7799
+   "sklep": "goblinpc",
+   "stara": 7777,
+   "nowa": 8147,
+   "roznica": 370,
+   "naglowek": 8147
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB (2)",
+   "nazwa": "Goblin (GoblinPC)",
    "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7799,
-   "nowa": 7299,
-   "roznica": -500,
-   "naglowek": 7299
+   "sklep": "goblinpc",
+   "stara": 9060,
+   "nowa": 9330,
+   "roznica": 270,
+   "naglowek": 9330
   },
   {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB Biały",
+   "nazwa": "Kobold (GoblinPC)",
    "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8399,
-   "nowa": 7899,
-   "roznica": -500,
-   "naglowek": 7899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, KRUX EXO Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8699,
-   "nowa": 8199,
-   "roznica": -500,
-   "naglowek": 8199
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI MAG Pano M100R PZ ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8799,
-   "nowa": 8299,
-   "roznica": -500,
-   "naglowek": 8299
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8399,
-   "nowa": 7899,
-   "roznica": -500,
-   "naglowek": 7899
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8799,
-   "nowa": 8299,
-   "roznica": -500,
-   "naglowek": 8299
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, ENDORFY ARX 700 Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9099,
-   "nowa": 8599,
-   "roznica": -500,
-   "naglowek": 8599
-  },
-  {
-   "nazwa": "PlugNPlay | Core Ultra 5 245KF, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Krux Tano + 3 wentylatory reverse",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 9499,
-   "nowa": 8999,
-   "roznica": -500,
-   "naglowek": 8999
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Fractal Design North Biały",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8099,
-   "nowa": 7599,
-   "roznica": -500,
-   "naglowek": 7599
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, MSI M100R ARGB",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 7999,
-   "nowa": 7499,
-   "roznica": -500,
-   "naglowek": 7499
-  },
-  {
-   "nazwa": "PlugNPlay | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD NVMe, Thermalright A70 ARGB FAN",
-   "rodzaj": "pc",
-   "sklep": "plugnplay",
-   "stara": 8399,
-   "nowa": 7899,
-   "roznica": -500,
-   "naglowek": 7899
+   "sklep": "goblinpc",
+   "stara": 10490,
+   "nowa": 10610,
+   "roznica": 120,
+   "naglowek": 10610
   },
   {
    "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 10449,
-   "nowa": 10349,
-   "roznica": -100,
-   "naglowek": 10349
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 1TB SSD",
-   "rodzaj": "pc",
-   "sklep": "morele",
-   "stara": 12649,
-   "nowa": 12549,
-   "roznica": -100,
-   "naglowek": 12549
+   "stara": 10349,
+   "nowa": 10449,
+   "roznica": 100,
+   "naglowek": 10449
   },
   {
    "nazwa": "Morele | Ryzen 7 9800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 11449,
-   "nowa": 11149,
-   "roznica": -300,
-   "naglowek": 11149
+   "stara": 11149,
+   "nowa": 11449,
+   "roznica": 300,
+   "naglowek": 11449
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD (2)",
+   "rodzaj": "pc",
+   "sklep": "morele",
+   "stara": 7449,
+   "nowa": 7549,
+   "roznica": 100,
+   "naglowek": 7549
+  },
+  {
+   "nazwa": "Morele | Ryzen 5 7500F, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD",
+   "rodzaj": "pc",
+   "sklep": "morele",
+   "stara": 7149,
+   "nowa": 7249,
+   "roznica": 100,
+   "naglowek": 7249
   },
   {
    "nazwa": "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 8849,
-   "nowa": 8349,
-   "roznica": -500,
-   "naglowek": 8349
-  },
-  {
-   "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 32GB DDR5, 2TB SSD",
-   "rodzaj": "pc",
-   "sklep": "morele",
-   "stara": 10849,
-   "nowa": 10949,
-   "roznica": 100,
-   "naglowek": 10949
+   "stara": 8349,
+   "nowa": 8849,
+   "roznica": 500,
+   "naglowek": 8849
   },
   {
    "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 64GB DDR5, 1TB SSD",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 12849,
-   "nowa": 12649,
-   "roznica": -200,
-   "naglowek": 12649
+   "stara": 12649,
+   "nowa": 12849,
+   "roznica": 200,
+   "naglowek": 12849
   },
   {
    "nazwa": "Morele | Ryzen 7 9800X3D, RTX 5070 12GB, 64GB DDR5, 2TB SSD",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 13749,
-   "nowa": 13649,
-   "roznica": -100,
-   "naglowek": 13649
+   "stara": 13649,
+   "nowa": 13849,
+   "roznica": 200,
+   "naglowek": 13849
   },
   {
    "nazwa": "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (2)",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 9049,
-   "nowa": 8949,
-   "roznica": -100,
-   "naglowek": 8949
+   "stara": 8949,
+   "nowa": 9049,
+   "roznica": 100,
+   "naglowek": 9049
+  },
+  {
+   "nazwa": "Morele | Ryzen 7 9800X3D, RTX 5070 Ti 16GB, 32GB DDR5, 2TB SSD",
+   "rodzaj": "pc",
+   "sklep": "morele",
+   "stara": 13549,
+   "nowa": 13649,
+   "roznica": 100,
+   "naglowek": 13649
   },
   {
    "nazwa": "Morele | Ryzen 7 9800X3D, RTX 5070 12GB, 64GB DDR5, 1TB SSD",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 13349,
-   "nowa": 13149,
-   "roznica": -200,
-   "naglowek": 13149
+   "stara": 13149,
+   "nowa": 13349,
+   "roznica": 200,
+   "naglowek": 13349
   },
   {
    "nazwa": "Morele | Ryzen 7 7800X3D, RTX 5070 12GB, 64GB DDR5, 2TB SSD",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 13249,
-   "nowa": 13149,
-   "roznica": -100,
-   "naglowek": 13149
+   "stara": 13149,
+   "nowa": 13349,
+   "roznica": 200,
+   "naglowek": 13349
   },
   {
-   "nazwa": "Morele | Ryzen 5 7500X3D, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
+   "nazwa": "Morele | Ryzen 5 7500F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (6)",
    "rodzaj": "pc",
    "sklep": "morele",
-   "stara": 7235,
-   "nowa": 7290,
-   "roznica": 55,
-   "naglowek": 7290
+   "stara": 9747,
+   "nowa": 9534,
+   "roznica": -213,
+   "naglowek": 9534
   },
   {
-   "nazwa": "Zestaw | Ryzen 7 7800X3D, RTX 5060 Ti 8GB, 32GB DDR5, 1TB SSD, 850W, Hunter 3",
+   "nazwa": "Morele | Ryzen 7 8700F, RTX 5070 12GB, 32GB DDR5, 1TB SSD (7)",
    "rodzaj": "pc",
-   "sklep": "hardpc",
-   "stara": 8379,
-   "nowa": 8459,
-   "roznica": 80,
-   "naglowek": 8998
+   "sklep": "morele",
+   "stara": 10032,
+   "nowa": 9813,
+   "roznica": -219,
+   "naglowek": 9813
   }
  ],
- "pros_cen_zsynchronizowane": [],
+ "pros_cen_zsynchronizowane": [
+  {
+   "nazwa": "Utopiec (GoblinPC)",
+   "bylo": "6670",
+   "jest": "7040"
+  }
+ ],
  "zmiany_sprzedawcow": [
   {
-   "nazwa": "Gigabyte GO27Q24A",
+   "nazwa": "Samsung OdysseyG60SD",
    "sprzedawcy": {
     "mediamarkt": "Action S.A. PL"
    }
   },
   {
-   "nazwa": "Gigabyte MO27Q2A Ice",
-   "sprzedawcy": {
-    "mediamarkt": "Electronic Shops PL"
-   }
+   "nazwa": "ASUS TUF Gaming VG259QMR5A",
+   "sprzedawcy": {}
   },
   {
-   "nazwa": "ASUS ROG Strix QD-OLED XG27ACDNG",
+   "nazwa": "Gigabyte GS27FC2",
    "sprzedawcy": {
     "mediamarkt": "Action S.A. PL"
    }
   },
   {
-   "nazwa": "BenQ EX271QMZ",
+   "nazwa": "iiyama G-Master G2471HS-B1 Red Eagle",
+   "sprzedawcy": {}
+  },
+  {
+   "nazwa": "iiyama G-Master GB2591HSU-B1 Gold Phoenix",
    "sprzedawcy": {
-    "mediamarkt": "Electronic Shops PL"
+    "mediamarkt": "Action S.A. PL"
    }
   },
   {
    "nazwa": "AOC G4252E",
    "sprzedawcy": {
+    "mediamarkt": "Digital Bay PL"
+   }
+  },
+  {
+   "nazwa": "LG 24G411B-B",
+   "sprzedawcy": {
     "mediamarkt": "Electronic Shops PL"
    }
   },
   {
-   "nazwa": "Gigabyte G27Q20",
+   "nazwa": "LG UltraGear 27GS75Q-B",
    "sprzedawcy": {
-    "mediamarkt": "Action S.A. PL"
+    "mediamarkt": "Senetic PL"
    }
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (6)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (7)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (8)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (5)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (9)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (6)",
-   "sprzedawcy": {}
-  },
-  {
-   "nazwa": "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD",
-   "sprzedawcy": {}
   }
  ],
  "doplaty_ram_wariantow": [],
@@ -5839,7 +5953,7 @@
    "adresow": 3
   },
   "hardpc": {
-   "ok": 542,
+   "ok": 540,
    "adresow": 542
   },
   "mediaexpert": {
@@ -5847,8 +5961,8 @@
    "adresow": 19
   },
   "mediamarkt": {
-   "ok": 135,
-   "adresow": 136
+   "ok": 137,
+   "adresow": 139
   },
   "morele": {
    "ok": 1241,

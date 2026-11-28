@@ -1,20 +1,12 @@
 {
  "dopisane_monitory": [
-  "ASUS TUF Gaming VG27AQMEL5F"
+  "LG UltraGear 27GS75Q-B",
+  "Samsung Odyssey G5 LS32HG550EUXEN"
  ],
- "dopisane_pc": [
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 1TB SSD (4)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (6)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (7)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (8)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (5)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 16GB, 16GB DDR5, 2TB SSD (9)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 2TB SSD (6)",
-  "Morele | Ryzen 5 7500F, RX 9060 XT 8GB, 16GB DDR5, 512GB SSD"
- ],
+ "dopisane_pc": [],
  "uzupelnione": [
   [
-   "Gigabyte G27Q20",
+   "Gigabyte GS27FC2",
    "mediamarkt"
   ]
  ],
@@ -33,106 +25,134 @@
    "limit pobrań (25 na sklep) — 604 adresów w następnych przebiegach"
   ],
   [
-   "https://goblinpc.pl/product/mimic",
-   "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
-  ],
-  [
    "https://goblinpc.pl/product/widmo",
    "brak zdjęcia do pobrania zgodnie z robots.txt (adresów: 4, wszystkie zabronione)"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600292796/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480520/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600292801/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480561/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296108/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480418/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296109/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480462/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296013/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480516/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296017/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480563/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296020/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480413/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296014/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480476/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296018/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480527/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296160/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-16-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480557/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
-   "https://www.morele.net/komputer-altreo-game-gaming-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-windows-11-pro-600296164/",
-   "brak pola „Model procesora” w specyfikacji (sklep podaje: 'Brak danych')"
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480425/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480455/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480523/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480569/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480430/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480457/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480525/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-2-tb-ssd-windows-11-600480567/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480426/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480469/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480518/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-225f-32-gb-radeon-rx-9060-xt-512-gb-m-2-pcie-512-gb-ssd-windows-11-600480565/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-245kf-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480626/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-245kf-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480662/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
+  ],
+  [
+   "https://www.morele.net/komputer-error-gaming-pc-gaming-core-ultra-5-245kf-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-1-tb-ssd-windows-11-600480696/",
+   "kilka pól dysku bez jednoznacznej pojemności w tytule — nie wiem, ile jest dysków"
   ],
   [
    "morele_pc",
-   "limit pobrań (25 na sklep) — 673 adresów w następnych przebiegach"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296142/",
-   "cena 6320 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600296157/",
-   "cena 6320 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297796/",
-   "cena 6300 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-1-tb-m-2-pcie-windows-11-pro-600297797/",
-   "cena 6320 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296232/",
-   "cena 6360 zł poniżej progu 6500 zł"
-  ],
-  [
-   "https://www.morele.net/komputer-altreo-game-gaming-ryzen-5-7500f-16-gb-radeon-rx-9060-xt-2-tb-m-2-pcie-windows-11-pro-600296236/",
-   "cena 6440 zł poniżej progu 6500 zł"
+   "limit pobrań (25 na sklep) — 161 adresów w następnych przebiegach"
   ]
  ],
  "sklepy": {
   "morele": {
-   "monitor": "lista 934, do sprawdzenia 629"
+   "monitor": "lista 933, do sprawdzenia 629"
   },
   "xkom": {
    "monitor": "lista 0, do sprawdzenia 0",
    "pc": "lista 0, do sprawdzenia 0"
   },
   "mediamarkt": {
-   "monitor": "lista 54, do sprawdzenia 1",
-   "pc": "lista 9, do sprawdzenia 0"
+   "monitor": "lista 58, do sprawdzenia 3",
+   "pc": "lista 11, do sprawdzenia 0"
   },
   "plugnplay": {
    "pc": "lista 78, do sprawdzenia 0"
   },
   "goblinpc": {
-   "pc": "lista 5, do sprawdzenia 2"
+   "pc": "lista 4, do sprawdzenia 1"
   },
   "morele_pc": {
-   "pc": "lista 720, do sprawdzenia 698"
+   "pc": "lista 209, do sprawdzenia 186"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "katalog_pozycji": 864,
+ "katalog_pozycji": 868,
  "nasze_identyfikatory": 542,
  "zniknely": [
   {
@@ -386,6 +386,18 @@
    "nazwa": "Zestaw | Ryzen 5 7500F, RX 9070 GRE 12GB, 16GB DDR5, 1TB SSD, 750W, Signum 300 ARGB",
    "cena": 6719,
    "url": "https://sklep.hard-pc.pl/p26848,zestaw-ryzen-5-7500f-rx-9070-gre-12gb-16gb-ddr5-1tb-ssd-750w-signum-300-argb.html"
+  },
+  {
+   "id": "26872",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 32GB DDR5, 2TB SSD, 850W, ARX 700 ARGB",
+   "cena": 11239,
+   "url": "https://sklep.hard-pc.pl/p26872,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-32gb-ddr5-2tb-ssd-850w-arx-700-argb.html"
+  },
+  {
+   "id": "26874",
+   "nazwa": "Zestaw | Ryzen 7 7800X3D, RX 9070 XT 16GB, 16GB DDR5, 1TB SSD, 850W, Pano 130",
+   "cena": 9089,
+   "url": "https://sklep.hard-pc.pl/p26874,zestaw-ryzen-7-7800x3d-rx-9070-xt-16gb-16gb-ddr5-1tb-ssd-850w-pano-130.html"
   }
  ]
 }
